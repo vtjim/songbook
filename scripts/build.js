@@ -334,6 +334,7 @@ ${a.facts.map((f) => `    <li>${esc(f)}</li>`).join('\n')}
 <div class="note">
   Chords verified against Rukind.com and Ultimate Guitar tab archives — not generated from memory. Nashville numbers included; capital numerals (II, III7, VI7) mark a chord borrowed from outside the home key, usually a secondary dominant. Lyrics links follow each site's standard URL pattern — if a link 404s, search the site directly by title.
 </div>
+${a.sourceNote ? `\n<div class="note">\n  ${esc(a.sourceNote)}\n</div>\n` : ''}
 
 <div class="key-note">Key shown per song · numbers relative to that key</div>
 

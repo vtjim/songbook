@@ -1,0 +1,277 @@
+{
+  "slug": "in-the-dark",
+  "title": "In the Dark",
+  "artist": "Grateful Dead",
+  "year": 1987,
+  "type": "studio",
+  "page": "in-the-dark.html",
+  "facts": [
+    "Released July 6, 1987 on Arista, produced by Jerry Garcia and John Cutler",
+    "Peaked at #6 on the Billboard 200 — the band's only top-ten album — and went double platinum",
+    "Basic tracks were cut January 6–13, 1987 with the band playing on stage at the Marin Veterans' Memorial Auditorium, in a darkened empty theater with no audience, for a live feel at studio fidelity",
+    "Garcia on the venue: \"There's something about the formal atmosphere in there that makes us work.\"",
+    "'Touch of Grey' hit #9 on the Hot 100 — their only top-forty single — went #1 on Mainstream Rock, and its video became an MTV staple",
+    "'Tons of Steel' is Brent Mydland's sole writing credit here; 'Hell in a Bucket' is Weir/Mydland/Barlow"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Touch of Grey",
+      "instrumental": false,
+      "key": "B",
+      "chords": [
+        "B",
+        "F#",
+        "E",
+        "A",
+        "C#m",
+        "C#7",
+        "G#m",
+        "D#",
+        "C#m7",
+        "B7",
+        "E7"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "4",
+        "b7",
+        "2m",
+        "II7",
+        "6m",
+        "III",
+        "2m",
+        "1(7)",
+        "4(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/touchofgrey.html",
+        "genius": "https://genius.com/Grateful-dead-touch-of-grey-lyrics",
+        "deadnet": "https://www.dead.net/song/touch-grey",
+        "rukind": "https://www.rukind.com/html/music/gdtunes/Tchgrey.htm"
+      },
+      "chordSource": "https://web.archive.org/web/2010id_/http://www.rukind.com/html/music/gdtunes/Tchgrey.htm",
+      "bass": {
+        "note": "The one human-authored bass tab of the seven here — fingerstyle, standard tuning, rated 4/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-touch-of-grey-bass-tab-s545430",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verses move B–F#–E–A; bridge runs C#m–C#7–F#–B / G#m–D#–C#m7–F#–B7–E7–F#. Rukind marks a 'Jerry's Chorus Riff' section in tab"
+    },
+    {
+      "num": 2,
+      "title": "Hell in a Bucket",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "Em",
+        "B",
+        "A",
+        "Bb",
+        "F#",
+        "D",
+        "C#"
+      ],
+      "numbers": [
+        "1",
+        "1m",
+        "5",
+        "4",
+        "#IV",
+        "II",
+        "b7",
+        "VI"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/hellinabucket.html",
+        "genius": "https://genius.com/Grateful-dead-hell-in-a-bucket-lyrics",
+        "deadnet": "https://www.dead.net/song/hell-bucket",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/hell-in-a-bucket"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/hell-in-a-bucket",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5 — AI-generated, so verify by ear.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-hell-in-a-bucket-bass-tab-s1695337",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The signature verse move is the E–Em–B major/minor slide; chorus enters on F# then A–D–A. Bridge F#–C#–E"
+    },
+    {
+      "num": 3,
+      "title": "When Push Comes to Shove",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "A",
+        "G",
+        "B7",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "4",
+        "VI7",
+        "II"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/whenpushcomestoshove.html",
+        "genius": "https://genius.com/Grateful-dead-when-push-comes-to-shove-lyrics",
+        "deadnet": "https://www.dead.net/song/when-push-comes-shove",
+        "rukind": "https://www.rukind.com/html/music/gdtunes/Whenpush.htm"
+      },
+      "chordSource": "https://web.archive.org/web/2010id_/http://www.rukind.com/html/music/gdtunes/Whenpush.htm",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5 — AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-when-push-comes-to-shove-bass-tab-s4091536",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The album's simplest chart — verses D–G–A–D–G, tag on D–A–D, bridge walking G–A / D–B7 / E / A–D"
+    },
+    {
+      "num": 4,
+      "title": "West L.A. Fadeaway",
+      "instrumental": false,
+      "key": "Am",
+      "chords": [
+        "Am",
+        "B",
+        "E",
+        "D",
+        "C",
+        "F9",
+        "Em7"
+      ],
+      "numbers": [
+        "1m",
+        "II",
+        "V",
+        "IV",
+        "b3",
+        "b6",
+        "5m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/westlafadeaway.html",
+        "genius": "https://genius.com/Grateful-dead-west-la-fadeaway-lyrics",
+        "deadnet": "https://www.dead.net/song/west-l-fadeaway",
+        "rukind": "https://www.rukind.com/html/music/gdtunes/Westla.htm"
+      },
+      "chordSource": "https://web.archive.org/web/2010id_/http://www.rukind.com/html/music/gdtunes/Westla.htm",
+      "bass": {
+        "note": "Fingerstyle bass rated 2/5 — AI-generated (a separate Songsterr entry is even titled 'West L.A. Fadeaway AI').",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-west-la-fadeaway-bass-tab-s1635076",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "A minor blues — verses vamp on Am with B and E at the turnaround; chorus Am–D–C twice, then B, then F9–Em7–Am. Rukind gives fingerings for the F9 and Em7 voicings"
+    },
+    {
+      "num": 5,
+      "title": "Tons of Steel",
+      "instrumental": false,
+      "key": "F",
+      "chords": [
+        "F",
+        "Bb",
+        "C",
+        "Eb",
+        "Gm"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "b7",
+        "2m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/tonsofsteel.html",
+        "genius": "https://genius.com/Grateful-dead-tons-of-steel-lyrics",
+        "deadnet": "https://www.dead.net/song/tons-steel",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/tons-of-steel-chords-4234087"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/tons-of-steel-chords-4234087",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5 — AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-tons-of-steel-bass-tab-s4091550",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Mydland's song, and the only track with no Rukind chart at all, so this is the Ultimate Guitar chart: verses F–Bb / F–C, chorus Bb–C / Eb–Bb–C / Gm–Bb–C"
+    },
+    {
+      "num": 6,
+      "title": "Throwing Stones",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "Bm",
+        "A",
+        "E",
+        "G",
+        "C#m"
+      ],
+      "numbers": [
+        "5m",
+        "4",
+        "1",
+        "b3",
+        "6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/throwingstones.html",
+        "genius": "https://genius.com/Grateful-dead-throwing-stones-lyrics",
+        "deadnet": "https://www.dead.net/song/throwing-stones",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/throwin-stones"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/throwin-stones",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5 — AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-throwing-stones-bass-tab-s194113",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "B-minor-centered verses resolving to E: Bm–A–E–A / Bm–G–A / E–A–E / Bm–A. The 'ashes, ashes' refrain sits on a sustained E; the 'Commissars' verse starts on C#m"
+    },
+    {
+      "num": 7,
+      "title": "Black Muddy River",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "E",
+        "D",
+        "F#m",
+        "Bm",
+        "A/G#",
+        "G#",
+        "A#"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "4",
+        "6m",
+        "2m",
+        "1/7",
+        "VII",
+        "bII"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/blackmuddyriver.html",
+        "genius": "https://genius.com/Grateful-dead-black-muddy-river-lyrics",
+        "deadnet": "https://www.dead.net/song/black-muddy-river",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/black-muddy-river"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/black-muddy-river",
+      "bass": {
+        "note": "Rukind's own chart calls out a bass walkdown (C#–B–G#–E) under the fourth verse line; Songsterr's fingerstyle track is rated 2/5 but AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-black-muddy-river-bass-tab-s1726840",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verses cycle A–E–A–D with F#m–E–D at the fourth line; refrain E–A–D–A. A short A–G#–A–A# figure links sections"
+    }
+  ]
+}

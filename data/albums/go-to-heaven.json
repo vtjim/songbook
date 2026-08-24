@@ -1,0 +1,344 @@
+{
+  "slug": "go-to-heaven",
+  "title": "Go to Heaven",
+  "artist": "Grateful Dead",
+  "year": 1980,
+  "type": "studio",
+  "page": "go-to-heaven.html",
+  "facts": [
+    "The band's eleventh studio album, released April 28, 1980 on Arista, produced by Gary Lyons",
+    "Peaked at #23 on the Billboard Pop Albums chart",
+    "The first Dead album with Brent Mydland, who sings and co-writes two songs ('Far from Me' and 'Easy to Love You')",
+    "Their last studio album for seven years, until In the Dark (1987)",
+    "Nine tracks in about 38 minutes, including 'Antwerp's Placebo', a 38-second Hart/Kreutzmann percussion interlude"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Alabama Getaway",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A7",
+        "E",
+        "D",
+        "C",
+        "A"
+      ],
+      "numbers": [
+        "1(7)",
+        "5",
+        "4",
+        "b3",
+        "1"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/alabamagetaway.html",
+        "genius": "https://genius.com/Grateful-dead-alabama-getaway-lyrics",
+        "deadnet": "https://www.dead.net/song/alabama-getaway",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/alabama-getaway"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/alabama-getaway",
+      "bass": {
+        "note": "A 1979-12-26 Oakland live transcription with a fingerstyle bass track — AI-generated, as is the only alternative.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-alabama-getaway-19791226-oakland-ca-bass-tab-s5940700",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Mixolydian feel — verses on A7 moving to E and D with a C–A turnaround; chorus A7–D–E–D"
+    },
+    {
+      "num": 2,
+      "title": "Far from Me",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "G",
+        "A",
+        "Bm",
+        "Bm/A",
+        "Em",
+        "F#5",
+        "F#7",
+        "F#",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "6m",
+        "6m/5",
+        "2m",
+        "III",
+        "III7",
+        "III",
+        "II"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/farfromme.html",
+        "genius": "https://genius.com/Grateful-dead-far-from-me-lyrics",
+        "deadnet": "https://www.dead.net/song/far-me",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/far-from-me"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/far-from-me",
+      "bass": {
+        "note": "Rukind's own chart notates a Bm bass line; Songsterr's fingerstyle track is rated 4/5 but AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-far-from-me-bass-tab-s4091643",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Mydland's song. Intro D / G–A / D, verse D–A–D–A, with an F#5 to F#7 (no 3rd) move under 'You are so far from me'"
+    },
+    {
+      "num": 3,
+      "title": "Althea",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "Bm",
+        "A",
+        "E",
+        "C#m",
+        "D",
+        "G"
+      ],
+      "numbers": [
+        "2m",
+        "1",
+        "5",
+        "3m",
+        "4",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/althea.html",
+        "genius": "https://genius.com/Grateful-dead-althea-lyrics",
+        "deadnet": "https://www.dead.net/song/althea",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/althea"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/althea",
+      "bass": {
+        "note": "Rukind notates the walking bass fills (F–G#–A–A#–B); Songsterr's is the most-viewed Althea bass track but all five transcriptions there are AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-althea-bass-tab-s194111",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verse cycles Bm–A–E; bridge A–C#m–D–A–C#m–E, with the 'things you can replace' section on D–G–E"
+    },
+    {
+      "num": 4,
+      "title": "Feel Like a Stranger",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "G",
+        "C#m",
+        "B",
+        "D",
+        "E",
+        "F#m",
+        "G/D"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "3m",
+        "II",
+        "4",
+        "5",
+        "6m",
+        "b7/4"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/feellikeastranger.html",
+        "genius": "https://genius.com/Grateful-dead-feel-like-a-stranger-lyrics",
+        "deadnet": "https://www.dead.net/song/feel-stranger",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/feel-like-a-stranger"
+      },
+      "chordSource": "https://web.archive.org/web/20250216224710/https://www.rukind.com/gdpedia/titles/tab/feel-like-a-stranger",
+      "bass": {
+        "note": "Both Songsterr options — the full-band tab and the bass-only 'Feel Like A Stranger Bass' — are AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-feel-like-a-stranger-bass-tab-s4091667",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "A-mixolydian verse vamp (A–G); chorus sits on C#m–B"
+    },
+    {
+      "num": 5,
+      "title": "Lost Sailor",
+      "instrumental": false,
+      "key": "F#m",
+      "chords": [
+        "F#m",
+        "Gmaj7",
+        "Em",
+        "A",
+        "D",
+        "Bm",
+        "A/G",
+        "E",
+        "Dsus2",
+        "G#m",
+        "B",
+        "F#",
+        "G"
+      ],
+      "numbers": [
+        "1m",
+        "bIImaj7",
+        "b7m",
+        "b3",
+        "b6",
+        "4m",
+        "b3/b2",
+        "b7",
+        "b6",
+        "2m",
+        "IV",
+        "I*",
+        "bII"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/lostsailor.html",
+        "genius": "https://genius.com/Grateful-dead-lost-sailor-lyrics",
+        "deadnet": "https://www.dead.net/song/lost-sailor",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/lost-sailor"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/lost-sailor",
+      "bass": {
+        "note": "Fingerstyle bass track — AI-generated, as are both alternates.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-lost-sailor-bass-tab-s194088",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Weir/Barlow. Verses alternate F#m–Gmaj7; A–D–Em–A on 'you're a lost sailor'; the 'Driftin'' outro rides A–A/G–F#m–G"
+    },
+    {
+      "num": 6,
+      "title": "Saint of Circumstance",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "G",
+        "D",
+        "C",
+        "Bm",
+        "Bb",
+        "E",
+        "F#m",
+        "B",
+        "C#",
+        "A/G"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "b3",
+        "2m",
+        "bII",
+        "5",
+        "6m",
+        "II",
+        "III",
+        "1/b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/saintofcircumstance.html",
+        "genius": "https://genius.com/Grateful-dead-saint-of-circumstance-lyrics",
+        "deadnet": "https://www.dead.net/song/saint-circumstance",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/saint-of-circumstance"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/saint-of-circumstance",
+      "bass": {
+        "note": "The only Songsterr transcription of this song with a bass track — AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-saint-of-circumstance-bass-tab-s925292",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Weir/Barlow, the Lost Sailor pairing. A–G–D intro/turnaround, verse A–C–Bm–Bb, bridge E–D–A–B resolving through D–C#–B–A–Bb"
+    },
+    {
+      "num": 7,
+      "title": "Antwerp's Placebo (The Plumber)",
+      "instrumental": true,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": {
+        "deadnet": "https://www.dead.net/song/antwerps-placebo-plumber"
+      },
+      "chordSource": null,
+      "notes": "38-second Hart/Kreutzmann percussion interlude — no chord content, and no chart on Rukind. Songsterr's entry has a drums track only"
+    },
+    {
+      "num": 8,
+      "title": "Easy to Love You",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "C",
+        "G",
+        "D",
+        "Em",
+        "Dsus4",
+        "Bm",
+        "Ab"
+      ],
+      "numbers": [
+        "4",
+        "1",
+        "5",
+        "6m",
+        "5",
+        "3m",
+        "bII"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/easytoloveyou.html",
+        "genius": "https://genius.com/Grateful-dead-easy-to-love-you-lyrics",
+        "deadnet": "https://www.dead.net/song/easy-love-you",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/easy-to-love-you"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/easy-to-love-you-chords-1862681",
+      "bass": {
+        "note": "One of only two human-authored bass tabs on this album — fingerstyle, not AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-easy-to-love-you-bass-tab-s2419266",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Mydland's song. Rukind's page has no archived snapshot, so this is the Ultimate Guitar chart: verses C–G–D–Em / C–G–D–Dsus4–D, plus an Ab–C move in the intro"
+    },
+    {
+      "num": 9,
+      "title": "Don't Ease Me In",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "B",
+        "A/G#",
+        "A/F#"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "4/3",
+        "4/2"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/donteasemein.html",
+        "genius": "https://genius.com/Grateful-dead-dont-ease-me-in-lyrics",
+        "deadnet": "https://www.dead.net/song/dont-ease-me",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/don't-ease-me-in"
+      },
+      "chordSource": "https://web.archive.org/web/2016id_/http://www.rukind.com/html/music/gdtunes/Dontease.htm",
+      "bass": {
+        "note": "The other human-authored bass tab here — a pick-bass track on the '73 transcription; the studio-order alternative is AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-dont-ease-me-in-73-bass-tab-s6581242",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Traditional. Chorus E–B with A–A/G#–A/F# under 'been all night long comin' home'. Read from Rukind's legacy archive, since the modern page has no snapshot"
+    }
+  ]
+}

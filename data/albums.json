@@ -101,6 +101,33 @@
       "cardBlurb": "16 tracks, verified chords, Nashville numbers, and lyric links for the Dead's acoustic live double album."
     },
     {
+      "slug": "go-to-heaven",
+      "title": "Go to Heaven",
+      "year": 1980,
+      "releaseDate": "1980-04-28",
+      "type": "studio",
+      "page": "go-to-heaven.html",
+      "cardBlurb": "Brent Mydland's debut — Althea, Alabama Getaway, and the Lost Sailor → Saint of Circumstance pairing."
+    },
+    {
+      "slug": "in-the-dark",
+      "title": "In the Dark",
+      "year": 1987,
+      "releaseDate": "1987-07-06",
+      "type": "studio",
+      "page": "in-the-dark.html",
+      "cardBlurb": "The comeback record — Touch of Grey, Hell in a Bucket, Black Muddy River, cut live on an empty stage."
+    },
+    {
+      "slug": "built-to-last",
+      "title": "Built to Last",
+      "year": 1989,
+      "releaseDate": "1989-10-31",
+      "type": "studio",
+      "page": "built-to-last.html",
+      "cardBlurb": "The final studio album — Foolish Heart, Standing on the Moon, and Victim or the Crime."
+    },
+    {
       "slug": "dead-set",
       "title": "Dead Set",
       "year": 1981,

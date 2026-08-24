@@ -1,0 +1,388 @@
+{
+  "slug": "built-to-last",
+  "title": "Built to Last",
+  "artist": "Grateful Dead",
+  "year": 1989,
+  "type": "studio",
+  "descriptor": "Final Studio Album",
+  "page": "built-to-last.html",
+  "sourceNote": "Rukind was unreachable while this page was built (the site blocks automated readers and the Internet Archive was offline), so every chart here comes from Ultimate Guitar instead. All the Songsterr bass tabs for this album are AI-generated — useful as a map, but verify by ear.",
+  "facts": [
+    "The band's thirteenth and final studio album, released October 31, 1989 on Arista",
+    "Recorded February–October 1989 at Club Front and Skywalker Ranch (San Rafael) and Studio X (Petaluma); produced by John Cutler and Jerry Garcia",
+    "Peaked at #27 on the Billboard 200 and was certified Gold in January 1990; the single 'Foolish Heart' reached #8 on Mainstream Rock",
+    "Features more Brent Mydland songs than any other Dead album — four, all co-written with John Perry Barlow — and was the last released in his lifetime; he died a year later",
+    "The LP dropped 'We Can Run' entirely; it is a CD-only track"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Foolish Heart",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "D",
+        "Amaj7",
+        "Bm",
+        "F#m",
+        "E",
+        "Gmaj7",
+        "Bm7/A",
+        "Bsus4",
+        "B",
+        "G#m",
+        "C#m7b5",
+        "F#7sus4",
+        "F#7",
+        "D/E"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "1maj7",
+        "2m",
+        "6m",
+        "5",
+        "b7maj7",
+        "2m/1",
+        "II",
+        "II",
+        "7m",
+        "3ø",
+        "VI7",
+        "VI7",
+        "4/5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/foolishheart.html",
+        "genius": "https://genius.com/Grateful-dead-foolish-heart-lyrics",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/foolish-heart-chords-12329"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/foolish-heart-chords-12329",
+      "bass": {
+        "note": "Fingerstyle bass track rated 2/5 — AI-generated, so treat it as a starting point.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-foolish-heart-tab-s194096",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Garcia/Hunter, the album's lead single. Opens on an A–D vamp, verse moves Bm–D–F#m, bridge shifts to a B/G#m/C#m7b5/F#7 area"
+    },
+    {
+      "num": 2,
+      "title": "Just a Little Light",
+      "instrumental": false,
+      "key": "Am",
+      "chords": [
+        "Am",
+        "Em",
+        "Dm",
+        "F",
+        "C",
+        "G",
+        "D",
+        "E"
+      ],
+      "numbers": [
+        "1m",
+        "5m",
+        "4m",
+        "b6",
+        "b3",
+        "b7",
+        "IV",
+        "V"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/justalittlelight.html",
+        "genius": "https://genius.com/Grateful-dead-just-a-little-light-lyrics",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/just-a-little-light-chords-2976077"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/just-a-little-light-chords-2976077",
+      "bass": {
+        "note": "Fingerstyle bass track alongside two guitars, drums and a vocal line — AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-just-a-little-light-tab-s4091474",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Mydland/Barlow, Mydland vocal. Built on a repeating Am–Dm–Em figure"
+    },
+    {
+      "num": 3,
+      "title": "Built to Last",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "G",
+        "G#",
+        "A",
+        "F",
+        "C",
+        "Am",
+        "Dm",
+        "Em",
+        "Bb"
+      ],
+      "numbers": [
+        "5",
+        "b6",
+        "VI",
+        "4",
+        "1",
+        "6m",
+        "2m",
+        "3m",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/builttolast.html",
+        "genius": "https://genius.com/Grateful-dead-built-to-last-lyrics",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/built-to-last-chords-282102"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/built-to-last-chords-282102",
+      "bass": {
+        "note": "Fingerstyle bass under an overdriven guitar and acoustic steel, rated 2/5 — AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-built-to-last-tab-s194101",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Garcia/Hunter title track. Opens with a chromatic G–G#–A move into the F–C–G verse"
+    },
+    {
+      "num": 4,
+      "title": "Blow Away",
+      "instrumental": false,
+      "key": "Bb",
+      "chords": [
+        "Fsus4",
+        "F",
+        "Eb",
+        "Bb",
+        "Ab",
+        "Bbsus4",
+        "Cm",
+        "Dm",
+        "Gm"
+      ],
+      "numbers": [
+        "5",
+        "5",
+        "4",
+        "1",
+        "b7",
+        "1",
+        "2m",
+        "3m",
+        "6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/blowaway.html",
+        "genius": "https://genius.com/Grateful-dead-blow-away-lyrics",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/blow-away-chords-3153497"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/blow-away-chords-3153497",
+      "bass": {
+        "note": "Fingerstyle bass track — AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-blow-away-tab-s3013207",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Mydland/Barlow, Mydland vocal. Opens on Fsus4–F, then Eb–Bb–Ab; the flat-seventh Ab is a recurring color"
+    },
+    {
+      "num": 5,
+      "title": "Victim or the Crime",
+      "instrumental": false,
+      "key": "B",
+      "chords": [
+        "B5",
+        "Bsus2",
+        "Bm",
+        "G/B",
+        "E7",
+        "B",
+        "Esus4",
+        "E5",
+        "E6",
+        "C",
+        "Csus2",
+        "A9",
+        "A/G#",
+        "A",
+        "Asus2",
+        "Am",
+        "B/A",
+        "F/A",
+        "D",
+        "C#m",
+        "F#m"
+      ],
+      "numbers": [
+        "1",
+        "1",
+        "1m",
+        "b6/1",
+        "4(7)",
+        "1",
+        "4",
+        "4",
+        "4",
+        "bII",
+        "bII",
+        "b7",
+        "b7/6",
+        "b7",
+        "b7",
+        "b7m",
+        "1/b7",
+        "#IV/b7",
+        "b3",
+        "2m",
+        "5m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/victimorthecrime.html",
+        "genius": "https://genius.com/Grateful-dead-victim-or-the-crime-lyrics",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/victim-or-the-crime-chords-12377"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/victim-or-the-crime-chords-12377",
+      "bass": {
+        "note": "Fingerstyle bass rated 2/5, the album's second-most-viewed bass track — AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-victim-or-the-crime-tab-s194018",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Weir/Graham, the longest and most harmonically dense track here — a long B5 pedal working through sus2/sus4/6 alterations and slash voicings rather than plain triads"
+    },
+    {
+      "num": 6,
+      "title": "We Can Run",
+      "titleNote": "CD-only track",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "E",
+        "F#m",
+        "D",
+        "Bm",
+        "C#m"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "6m",
+        "4",
+        "2m",
+        "3m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/wecanrun.html",
+        "genius": "https://genius.com/Grateful-dead-we-can-run-lyrics",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/we-can-run-chords-518600"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/we-can-run-chords-518600",
+      "bass": {
+        "note": "Fingerstyle bass track with no recorded views — AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-we-can-run-tab-s194105",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Mydland/Barlow. The album's simplest chart — six diatonic chords in A, settling into a repeating A–E–D–E–Bm figure"
+    },
+    {
+      "num": 7,
+      "title": "Standing on the Moon",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "C",
+        "D",
+        "Am",
+        "Bm",
+        "F",
+        "F#",
+        "B"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "2m",
+        "3m",
+        "b7",
+        "VII",
+        "III"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/standingonthemoon.html",
+        "genius": "https://genius.com/Grateful-dead-standing-on-the-moon-lyrics",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/standing-on-the-moon-chords-2485794"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/standing-on-the-moon-chords-2485794",
+      "bass": {
+        "note": "Fingerstyle bass rated 2/5 and the most-viewed bass tab on the album — AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-standing-on-the-moon-tab-s194087",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Garcia/Hunter. The one chart here that declares its own key; verse cycles G–G–G–C then D–D–D–C"
+    },
+    {
+      "num": 8,
+      "title": "Picasso Moon",
+      "instrumental": false,
+      "key": "F#m",
+      "chords": [
+        "C#7",
+        "B",
+        "F#m",
+        "A",
+        "D",
+        "F#m/E",
+        "E"
+      ],
+      "numbers": [
+        "V7",
+        "IV",
+        "1m",
+        "b3",
+        "b6",
+        "1m/b7",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/picassomoon.html",
+        "genius": "https://genius.com/Grateful-dead-picasso-moon-lyrics"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/jerry-garcia-band/picasso-moon-chords-4603193",
+      "bass": {
+        "note": "Fingerstyle bass track — AI-generated; a second AI entry transcribes the 10/16/1989 live version.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-picasso-moon-tab-s3161985",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Weir/Bralove/Barlow, Weir vocal. Least-corroborated entry on this page: the only chart available is misfiled under Jerry Garcia Band and carries no votes, though its chords fit the song. Cycles C#7–B–F#m–A–B"
+    },
+    {
+      "num": 9,
+      "title": "I Will Take You Home",
+      "instrumental": false,
+      "key": "B",
+      "chords": [
+        "B",
+        "F#",
+        "E",
+        "G#m",
+        "F#sus4"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "4",
+        "6m",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/iwilltakeyouhome.html",
+        "genius": "https://genius.com/Grateful-dead-i-will-take-you-home-lyrics",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/i-will-take-you-home-chords-848573"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/i-will-take-you-home-chords-848573",
+      "notes": "Mydland/Barlow — the closer, and the album's shortest track. Five chords, B–F#–E–F#–G#m with an F#sus4 suspension. No bass tab exists anywhere reachable"
+    }
+  ]
+}
