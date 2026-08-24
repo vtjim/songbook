@@ -1,0 +1,206 @@
+{
+  "slug": "anthem-of-the-sun",
+  "title": "Anthem of the Sun",
+  "artist": "Grateful Dead",
+  "year": 1968,
+  "type": "studio",
+  "page": "anthem-of-the-sun.html",
+  "facts": [
+    "Released July 18, 1968 on Warner Bros.–Seven Arts — the band's second album",
+    "Built as a studio/live collage: Garcia, Lesh, and soundman Dan Healy interlaced 1967–68 concert tapes with studio takes, sometimes layered simultaneously",
+    "Peaked at #87 on the Billboard Top LPs chart",
+    "A Phil Lesh–supervised remix issued in the early 1970s has circulated alongside the original 1968 mix ever since",
+    "Ranked #288 on Rolling Stone's 500 Greatest Albums of All Time (2003 and 2012 lists)"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "That's It for the Other One",
+      "titleNote": "four-part suite",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "G",
+        "Em",
+        "D",
+        "C",
+        "B",
+        "Am",
+        "Am/G",
+        "Dm/F",
+        "D/F#",
+        "Em/G",
+        "G#°",
+        "F#7/A#",
+        "B7"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "b3",
+        "1m",
+        "b7",
+        "b6",
+        "5",
+        "4m",
+        "4m/b3",
+        "b7m/b2",
+        "b7/2",
+        "1m/b3",
+        "III°",
+        "II7/#4",
+        "5(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/thatsitfortheotherone.html",
+        "genius": "https://genius.com/Grateful-dead-thats-it-for-the-other-one-lyrics",
+        "deadnet": "https://www.dead.net/song/other-one",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/the-other-one"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/the-other-one",
+      "notes": "Suite: I. Cryptical Envelopment, II. Quadlibet for Tenderfeet, III. The Faster We Go, the Rounder We Get ('The Other One', E–D vamp), IV. We Leave the Castle (musique concrète, no chords). Several chords played without 3rds per Rukind's chart"
+    },
+    {
+      "num": 2,
+      "title": "New Potato Caboose",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D7",
+        "F",
+        "G",
+        "F/A",
+        "C",
+        "C#m",
+        "A",
+        "Bb",
+        "Gm",
+        "D/A",
+        "G9",
+        "D",
+        "E7",
+        "D7sus4",
+        "G/D"
+      ],
+      "numbers": [
+        "1(7)",
+        "b3",
+        "4",
+        "b3/5",
+        "b7",
+        "7m",
+        "5",
+        "b6",
+        "4m",
+        "1/5",
+        "4",
+        "1",
+        "II7",
+        "1(7)",
+        "4/1"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/newpotatocaboose.html",
+        "genius": "https://genius.com/Grateful-dead-new-potato-caboose-lyrics",
+        "deadnet": "https://www.dead.net/song/new-potato-caboose",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/new-potato-caboose"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/new-potato-caboose",
+      "notes": "Modal — Rukind's chart notes two sharps but 'not really in D'. Verses vamp on D7"
+    },
+    {
+      "num": 3,
+      "title": "Born Cross-Eyed",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "C",
+        "A",
+        "E",
+        "Badd C",
+        "E7",
+        "Dm/F"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "5",
+        "II",
+        "VI",
+        "II7",
+        "1m/b3"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/borncrosseyed.html",
+        "genius": "https://genius.com/Grateful-dead-born-cross-eyed-lyrics",
+        "deadnet": "https://www.dead.net/song/born-cross-eyed",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/born-cross-eyed"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/born-cross-eyed",
+      "notes": "Modal, shifting toward E; several chords played without 3rds per Rukind. Also the B-side of the 'Dark Star' single"
+    },
+    {
+      "num": 4,
+      "title": "Alligator",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C",
+        "F",
+        "Am",
+        "G",
+        "A",
+        "C7",
+        "Dm",
+        "G7",
+        "E",
+        "D",
+        "Em"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "6m",
+        "5",
+        "VI",
+        "1(7)",
+        "2m",
+        "5(7)",
+        "III",
+        "II",
+        "3m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/alligator.html",
+        "genius": "https://genius.com/Grateful-dead-alligator-lyrics",
+        "deadnet": "https://www.dead.net/song/alligator",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/alligator"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/alligator",
+      "notes": "Verses in C (C–F–Am); the second-half jam vamps A–E, ending E–D–Em–E"
+    },
+    {
+      "num": 5,
+      "title": "Caution (Do Not Stop on Tracks)",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E"
+      ],
+      "numbers": [
+        "1"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/cautiondonotstopontracks.html",
+        "genius": "https://genius.com/Grateful-dead-caution-do-not-stop-on-tracks-lyrics",
+        "deadnet": "https://www.dead.net/song/caution-do-not-stop-tracks",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/caution-do-not-stop-on-tracks"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://tabs.ultimate-guitar.com/tab/grateful-dead/caution-do-not-step-on-tracks-tabs-2409379",
+      "notes": "One-chord Pigpen E blues/boogie vamp — no full chart names further chords; the only Ultimate Guitar entry is a lead tab without chord names"
+    }
+  ]
+}

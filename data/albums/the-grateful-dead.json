@@ -1,0 +1,262 @@
+{
+  "slug": "the-grateful-dead",
+  "title": "The Grateful Dead",
+  "artist": "Grateful Dead",
+  "year": 1967,
+  "type": "studio",
+  "descriptor": "Debut Studio Album",
+  "page": "the-grateful-dead.html",
+  "facts": [
+    "Released March 17, 1967 on Warner Bros. — the band's debut studio album",
+    "Recorded in about four days in January 1967 at RCA's Studio A in Hollywood, produced by David Hassinger — San Francisco studios lacked modern equipment",
+    "Peaked at #73 on the Billboard 200",
+    "Group compositions were credited to the pseudonym 'McGannahan Skjellyfetti' — a Kenneth Patchen character crossed with the name of Bill Kreutzmann's cat",
+    "Only two originals — 'The Golden Road' (the single) and Garcia's 'Cream Puff War' (its B-side); the other seven are folk/blues covers"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "The Golden Road (To Unlimited Devotion)",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "C6",
+        "G",
+        "F",
+        "C"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "b3",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/thegoldenroadtounlimiteddevotion.html",
+        "genius": "https://genius.com/Grateful-dead-the-golden-road-to-unlimited-devotion-lyrics",
+        "deadnet": "https://www.dead.net/song/golden-road-unlimited-devotion",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/165"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/165",
+      "notes": "Verse D–C6–G–D; pre-turnaround F–C–G–D"
+    },
+    {
+      "num": 2,
+      "title": "Beat It on Down the Line",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C",
+        "F",
+        "G",
+        "A",
+        "D",
+        "C7"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "VI",
+        "II",
+        "1(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/beatitondowntheline.html",
+        "genius": "https://genius.com/Grateful-dead-beat-it-on-down-the-line-lyrics",
+        "deadnet": "https://www.dead.net/song/beat-it-down-line",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/31"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/31",
+      "notes": "Jesse Fuller cover; turnaround A–D–G–C–F–C"
+    },
+    {
+      "num": 3,
+      "title": "Good Morning, Little School Girl",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A7",
+        "D",
+        "E"
+      ],
+      "numbers": [
+        "1(7)",
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/goodmorninglittleschoolgirl.html",
+        "genius": "https://genius.com/Grateful-dead-good-morning-little-school-girl-lyrics",
+        "deadnet": "https://www.dead.net/song/good-morning-little-schoolgirl",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/168"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/168",
+      "notes": "Pigpen vocal/harmonica blues; verses alternate A7–D"
+    },
+    {
+      "num": 4,
+      "title": "Cold Rain and Snow",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "D",
+        "E"
+      ],
+      "numbers": [
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/coldrainandsnow.html",
+        "genius": "https://genius.com/Grateful-dead-cold-rain-and-snow-lyrics",
+        "deadnet": "https://www.dead.net/song/cold-rain-and-snow",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/cold-rain-and-snow"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/cold-rain-and-snow",
+      "notes": "Two-chord D–E vamp (4–5 against A) throughout; Rukind's chart follows the Steal Your Face arrangement"
+    },
+    {
+      "num": 5,
+      "title": "Sitting on Top of the World",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "D",
+        "E",
+        "C",
+        "F7",
+        "G",
+        "A7"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "b3",
+        "bVI7",
+        "b7",
+        "1(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/sittingontopoftheworld.html",
+        "genius": "https://genius.com/Grateful-dead-sitting-on-top-of-the-world-lyrics",
+        "deadnet": "https://www.dead.net/song/sittin-top-world",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/391"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/sittin-on-top-of-the-world-chords-3254204",
+      "notes": "Rukind's page exists but its chart is empty, so chords are from Ultimate Guitar's transcription of the 1967 album take"
+    },
+    {
+      "num": 6,
+      "title": "Cream Puff War",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "G",
+        "D",
+        "C",
+        "Em",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "b3",
+        "5m",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/creampuffwar.html",
+        "genius": "https://genius.com/Grateful-dead-cream-puff-war-lyrics",
+        "deadnet": "https://www.dead.net/song/cream-puff-war",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/cream-puff-war"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/cream-puff-war",
+      "notes": "Garcia's only solo writing credit on the album; main cycle A–G–D–C–Em–A"
+    },
+    {
+      "num": 7,
+      "title": "Morning Dew",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "C",
+        "G",
+        "F",
+        "Em"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "b3",
+        "2m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/morningdew.html",
+        "genius": "https://genius.com/Grateful-dead-morning-dew-lyrics",
+        "deadnet": "https://www.dead.net/song/morning-dew",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/morning-dew"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/morning-dew",
+      "notes": "Bonnie Dobson cover; Rukind's chart follows the Europe '72 arrangement"
+    },
+    {
+      "num": 8,
+      "title": "New, New Minglewood Blues",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "F",
+        "D",
+        "A"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "5",
+        "II"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/newnewminglewoodblues.html",
+        "genius": "https://genius.com/Grateful-dead-new-new-minglewood-blues-lyrics",
+        "deadnet": "https://www.dead.net/song/new-minglewood-blues",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/317"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/317",
+      "notes": "Per Rukind, the 1967 album version runs the later E arrangement a full step down — G, F, D with A turnaround (the 80s Dead Set-era version is in E)"
+    },
+    {
+      "num": 9,
+      "title": "Viola Lee Blues",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "C",
+        "F"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/violaleeblues.html",
+        "genius": "https://genius.com/Grateful-dead-viola-lee-blues-lyrics",
+        "deadnet": "https://www.dead.net/song/viola-lee-blues",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/viola-lee-blues"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/viola-lee-blues",
+      "notes": "Blues in G — verses G–C–G with an F–C–G cadence; the album take runs ~10 minutes"
+    }
+  ]
+}

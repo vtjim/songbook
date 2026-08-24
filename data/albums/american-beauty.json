@@ -1,0 +1,378 @@
+{
+  "slug": "american-beauty",
+  "title": "American Beauty",
+  "artist": "Grateful Dead",
+  "year": 1970,
+  "type": "studio",
+  "page": "american-beauty.html",
+  "footnotes": [
+    "†borrowed from the parallel minor (modal mixture)"
+  ],
+  "facts": [
+    "Released November 1970 on Warner Bros. — the band's second studio album of that year, after Workingman's Dead",
+    "Recorded August–September 1970 at Wally Heider Studios, San Francisco, produced by the band with Stephen Barncard",
+    "Peaked at #30 on the Billboard 200; certified 2× Platinum. The 'Truckin'' single reached #64",
+    "David Grisman plays mandolin on several tracks — he'd met Garcia at a baseball game",
+    "'Truckin'' was recognized by the Library of Congress in 1997 as a national treasure"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Box of Rain",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "Am",
+        "Em",
+        "C",
+        "G",
+        "A",
+        "Bm",
+        "Bm7",
+        "Asus4"
+      ],
+      "numbers": [
+        "1",
+        "5m",
+        "2m",
+        "b7",
+        "4",
+        "5",
+        "6m",
+        "6m",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/boxofrain.html",
+        "genius": "https://genius.com/Grateful-dead-box-of-rain-lyrics",
+        "deadnet": "https://www.dead.net/song/box-rain",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/box-of-rain"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/box-of-rain",
+      "notes": "Phil Lesh lead vocal; intro A–Bm7–A into D-major verses"
+    },
+    {
+      "num": 2,
+      "title": "Friend of the Devil",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "C",
+        "D",
+        "Am",
+        "C#"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "2m",
+        "#4"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/friendofthedevil.html",
+        "genius": "https://genius.com/Grateful-dead-friend-of-the-devil-lyrics",
+        "deadnet": "https://www.dead.net/song/friend-devil",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/friend-of-the-devil"
+      },
+      "chordSource": "https://web.archive.org/web/20240718023144/https://www.rukind.com/gdpedia/titles/tab/friend-of-the-devil",
+      "notes": "C# is a passing chord in the bridge"
+    },
+    {
+      "num": 3,
+      "title": "Sugar Magnolia",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "D",
+        "G",
+        "E",
+        "C#m",
+        "F#m",
+        "B",
+        "F#"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "b7",
+        "5",
+        "3m",
+        "6m",
+        "II",
+        "VI"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/sugarmagnolia.html",
+        "genius": "https://genius.com/Grateful-dead-sugar-magnolia-lyrics",
+        "deadnet": "https://www.dead.net/song/sugar-magnolia",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/sugar-magnolia"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/sugar-magnolia",
+      "notes": "The 'Sunshine Daydream' coda modulates to B (B–E–F#)"
+    },
+    {
+      "num": 4,
+      "title": "Operator",
+      "instrumental": false,
+      "key": "F",
+      "chords": [
+        "F",
+        "C",
+        "A",
+        "Dm",
+        "Bb",
+        "F#",
+        "G",
+        "A7"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "III",
+        "6m",
+        "4",
+        "bII",
+        "II",
+        "III7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/operator.html",
+        "genius": "https://genius.com/Grateful-dead-operator-lyrics",
+        "deadnet": "https://www.dead.net/song/operator",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/operator"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/operator",
+      "notes": "Pigpen's only solo composition on the album; F# is a passing chord"
+    },
+    {
+      "num": 5,
+      "title": "Candyman",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C",
+        "Gm",
+        "F",
+        "G",
+        "Dm",
+        "Bb",
+        "Am"
+      ],
+      "numbers": [
+        "1",
+        "5m†",
+        "4",
+        "5",
+        "2m",
+        "b7",
+        "6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/candyman.html",
+        "genius": "https://genius.com/Grateful-dead-candyman-lyrics",
+        "deadnet": "https://www.dead.net/song/candyman",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/candyman"
+      },
+      "chordSource": "https://web.archive.org/web/20251231105616/https://www.rukind.com/gdpedia/titles/tab/candyman",
+      "notes": "Mixolydian flavor — intro vamps Bb–F–C"
+    },
+    {
+      "num": 6,
+      "title": "Ripple",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "Am",
+        "D",
+        "G",
+        "C",
+        "A7"
+      ],
+      "numbers": [
+        "2m",
+        "5",
+        "1",
+        "4",
+        "II7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ripple.html",
+        "genius": "https://genius.com/Grateful-dead-ripple-lyrics",
+        "deadnet": "https://www.dead.net/song/ripple",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/ripple"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/ripple",
+      "notes": null
+    },
+    {
+      "num": 7,
+      "title": "Brokedown Palace",
+      "instrumental": false,
+      "key": "F",
+      "chords": [
+        "G",
+        "Am",
+        "Bb",
+        "F",
+        "C",
+        "Dm",
+        "A"
+      ],
+      "numbers": [
+        "II",
+        "3m",
+        "4",
+        "1",
+        "5",
+        "6m",
+        "III"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/brokedownpalace.html",
+        "genius": "https://genius.com/Grateful-dead-brokedown-palace-lyrics",
+        "deadnet": "https://www.dead.net/song/brokedown-palace",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/brokedown-palace"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/brokedown-palace",
+      "notes": "Chart opens in G before settling in F"
+    },
+    {
+      "num": 8,
+      "title": "Till the Morning Comes",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "E",
+        "G",
+        "D",
+        "E7#9",
+        "A7",
+        "B7",
+        "E7",
+        "C#",
+        "Dm",
+        "Am",
+        "B7#5",
+        "E9",
+        "Am7",
+        "Bm7",
+        "Bm"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "b7",
+        "4",
+        "5(7)",
+        "1(7)",
+        "II7",
+        "5(7)",
+        "III",
+        "4m",
+        "1m",
+        "II7",
+        "5",
+        "1m",
+        "2m",
+        "2m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/tillthemorningcomes.html",
+        "genius": "https://genius.com/Grateful-dead-till-the-morning-comes-lyrics",
+        "deadnet": "https://www.dead.net/song/till-morning-comes",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/466"
+      },
+      "chordSource": "https://web.archive.org/web/20180329203840/https://www.rukind.com/gdpedia/titles/view/466",
+      "notes": "Altered chords are from the GD published sheet music via Rukind; the chart suggests E7/E9 and plain B7 as easier substitutes"
+    },
+    {
+      "num": 9,
+      "title": "Attics of My Life",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "Esus4",
+        "B7",
+        "A",
+        "B",
+        "G#",
+        "F#m7",
+        "F#",
+        "D",
+        "E7sus4",
+        "E7",
+        "Asus4",
+        "Bsus4",
+        "B9",
+        "Dm"
+      ],
+      "numbers": [
+        "1",
+        "1",
+        "5(7)",
+        "4",
+        "5",
+        "III",
+        "2m",
+        "II",
+        "b7",
+        "1(7)",
+        "1(7)",
+        "4",
+        "5",
+        "5",
+        "b7m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/atticsofmylife.html",
+        "genius": "https://genius.com/Grateful-dead-attics-of-my-life-lyrics",
+        "deadnet": "https://www.dead.net/song/attics-my-life",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/attics-of-my-life"
+      },
+      "chordSource": "https://web.archive.org/web/20180322032302/https://www.rukind.com/gdpedia/titles/view/21",
+      "notes": "Full-band harmony piece; bridge moves through B–A–D–A"
+    },
+    {
+      "num": 10,
+      "title": "Truckin'",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "B",
+        "Bsus4",
+        "G",
+        "D",
+        "F#",
+        "F#sus4",
+        "Amaj7"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "5",
+        "b3",
+        "b7",
+        "II",
+        "II",
+        "4maj7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/truckin.html",
+        "genius": "https://genius.com/Grateful-dead-truckin-lyrics",
+        "deadnet": "https://www.dead.net/song/truckin",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/truckin"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/truckin",
+      "notes": "Verses vamp on E; intro/outro walk a chord shape down fret by fret"
+    }
+  ]
+}

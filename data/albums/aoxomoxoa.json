@@ -1,0 +1,283 @@
+{
+  "slug": "aoxomoxoa",
+  "title": "Aoxomoxoa",
+  "artist": "Grateful Dead",
+  "year": 1969,
+  "type": "studio",
+  "page": "aoxomoxoa.html",
+  "facts": [
+    "Released June 20, 1969 on Warner Bros.–Seven Arts — the band's third studio album; #73 on the Billboard 200",
+    "Recorded Sept 1968 – March 1969 at Pacific Recording (San Mateo) and Pacific High (SF) — one of the first albums made on then-new 16-track technology",
+    "Garcia and Lesh remixed it in 1971, stripping experimental elements; the remix was the standard version for decades",
+    "The title is a meaningless palindrome devised by cover artist Rick Griffin and Robert Hunter",
+    "Eight months of 16-track experimentation ran the cost to about $180,000 — the band's most expensive studio project to that point"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "St. Stephen",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "D",
+        "A",
+        "B"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ststephen.html",
+        "genius": "https://genius.com/Grateful-dead-st-stephen-lyrics",
+        "deadnet": "https://www.dead.net/song/saint-stephen",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/saint-stephen"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/saint-stephen",
+      "notes": "Verses E–D–A–E with a B-lick turnaround"
+    },
+    {
+      "num": 2,
+      "title": "Dupree's Diamond Blues",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "E7",
+        "Am",
+        "D",
+        "G",
+        "Am7",
+        "C"
+      ],
+      "numbers": [
+        "VI7",
+        "2m",
+        "5",
+        "1",
+        "2m",
+        "4"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/dupreesdiamondblues.html",
+        "genius": "https://genius.com/Grateful-dead-duprees-diamond-blues-lyrics",
+        "deadnet": "https://www.dead.net/song/duprees-diamond-blues",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/duprees-diamond-blues"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/duprees-diamond-blues",
+      "notes": "Rukind's chart follows the early-80s live revival in G and notes the original album key was D; verse E7–Am–D–G"
+    },
+    {
+      "num": 3,
+      "title": "Rosemary",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "D",
+        "A",
+        "Bm",
+        "B"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "5m",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/rosemary.html",
+        "genius": "https://genius.com/Grateful-dead-rosemary-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/rosemary"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/rosemary",
+      "notes": "Solo acoustic Garcia with filtered vocal; verses E–D–A–Bm–A. No dedicated Dead.net song page found"
+    },
+    {
+      "num": 4,
+      "title": "Doin' That Rag",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "C",
+        "D",
+        "F",
+        "Eb",
+        "A",
+        "Am",
+        "Em",
+        "Bm",
+        "C#",
+        "F#",
+        "B",
+        "E",
+        "C#m",
+        "G#m",
+        "D#m"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "b7",
+        "b6",
+        "II",
+        "2m",
+        "6m",
+        "3m",
+        "#IV",
+        "VII",
+        "III",
+        "VI",
+        "#4m",
+        "b2m",
+        "b6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/dointhatrag.html",
+        "genius": "https://genius.com/Grateful-dead-doin-that-rag-lyrics",
+        "deadnet": "https://www.dead.net/song/doin-rag",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/doin-that-rag"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/120",
+      "notes": "The 'Hipsters, tripsters' final section modulates the whole form up to B (hence the C#m/G#m/D#m chords)"
+    },
+    {
+      "num": 5,
+      "title": "Mountains of the Moon",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "Gsus2",
+        "G",
+        "F/G",
+        "Dm/G",
+        "F",
+        "Dm",
+        "C",
+        "Dm7",
+        "G/B",
+        "Am",
+        "D/F#",
+        "C/G",
+        "G/F",
+        "Em"
+      ],
+      "numbers": [
+        "1",
+        "1",
+        "b7/1",
+        "5m/1",
+        "b7",
+        "5m",
+        "4",
+        "5m",
+        "1/3",
+        "2m",
+        "5/7",
+        "4/1",
+        "1/b7",
+        "6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/mountainsofthemoon.html",
+        "genius": "https://genius.com/Grateful-dead-mountains-of-the-moon-lyrics",
+        "deadnet": "https://www.dead.net/song/mountains-moon",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/mountains-of-the-moon"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/mountains-of-the-moon",
+      "notes": "Modal — F and Dm borrowed throughout; verses G–F–Dm–G"
+    },
+    {
+      "num": 6,
+      "title": "China Cat Sunflower",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "F",
+        "D",
+        "C",
+        "E",
+        "B",
+        "A"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "5",
+        "4",
+        "VI",
+        "III",
+        "II"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/chinacatsunflower.html",
+        "genius": "https://genius.com/Grateful-dead-china-cat-sunflower-lyrics",
+        "deadnet": "https://www.dead.net/song/china-cat-sunflower",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/china-cat-sunflower"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/china-cat-sunflower",
+      "notes": "G–F verse vamp; the bridge shifts the same shape up to E–B–A–B"
+    },
+    {
+      "num": 7,
+      "title": "What's Become of the Baby",
+      "instrumental": false,
+      "key": "C→G→D",
+      "chords": [],
+      "numbers": [],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/whatsbecomeofthebaby.html",
+        "genius": "https://genius.com/Grateful-dead-whats-become-of-the-baby-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/whats-become-of-the-baby"
+      },
+      "chordSource": "https://whitegum.com/songfile/WHATSBEC.HTM",
+      "notes": "Essentially an unaccompanied processed Garcia vocal — no verifiable chord chart exists. Per Hunter it starts in C, steps to G, then D. Never played live by the Dead (only at Fare Thee Well, 2015)"
+    },
+    {
+      "num": 8,
+      "title": "Cosmic Charlie",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "G",
+        "D",
+        "A7",
+        "E",
+        "Em",
+        "C#m",
+        "F#m",
+        "B",
+        "Bm",
+        "E7"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "1(7)",
+        "5",
+        "5m",
+        "3m",
+        "6m",
+        "II",
+        "2m",
+        "5(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/cosmiccharlie.html",
+        "genius": "https://genius.com/Grateful-dead-cosmic-charlie-lyrics",
+        "deadnet": "https://www.dead.net/song/cosmic-charley",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/cosmic-charlie"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/cosmic-charlie",
+      "notes": "A–G verse vamp; Dead.net spells it 'Cosmic Charley' (Hunter's spelling)"
+    }
+  ]
+}

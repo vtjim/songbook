@@ -226,6 +226,10 @@ const PAGE_STYLE = `<style>
   .chords { color: var(--birch-dim); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
   .numbers { color: var(--moss); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
   .instrumental { color: var(--birch-dim); font-style: italic; font-size: 0.85rem; }
+  .bass { color: var(--birch-dim); font-size: 0.8rem; }
+  .bass div { margin-bottom: 4px; }
+  .bass a { color: var(--lake); text-decoration: none; white-space: nowrap; font-size: 0.82rem; }
+  .bass a:hover { color: var(--moss); text-decoration: underline; }
   .links a {
     color: var(--lake);
     text-decoration: none;
@@ -266,13 +270,24 @@ const THEME_SCRIPT = `<script>
 
 const LINK_LABELS = { azlyrics: 'AZLyrics', genius: 'Genius', deadnet: 'Dead.net', rukind: 'Rukind', ultimateguitar: 'Ult. Guitar' };
 
+function bassCell(t) {
+  if (!t.bass) return '<td class="bass">—</td>';
+  const note = t.bass.note ? `<div>${esc(t.bass.note)}</div>` : '';
+  const link = t.bass.tabUrl
+    ? `<a href="${esc(t.bass.tabUrl)}">${esc(t.bass.tabLabel || 'Bass tab')}</a>`
+    : '';
+  return `<td class="bass">${note}${link}</td>`;
+}
+
 function trackRow(t) {
   const noteSpan = t.titleNote ? ` <span class="song-note">(${esc(t.titleNote)})</span>` : '';
   if (t.instrumental) {
     return `<tr><td class="track-num">${t.num}</td><td class="song-title">${esc(t.title)}${noteSpan}</td><td>—</td><td class="instrumental" colspan="2">${esc(t.notes || 'Instrumental — no chords')}</td>
+${bassCell(t)}
 <td class="links">${linkSet(t.links)}</td></tr>`;
   }
   return `<tr><td class="track-num">${t.num}</td><td class="song-title">${esc(t.title)}${noteSpan}</td><td><span class="key-badge">${esc(t.key)}</span></td><td class="chords">${t.chords.map(esc).join(', ')}</td><td class="numbers">${t.numbers.map(esc).join(', ')}</td>
+${bassCell(t)}
 <td class="links">${linkSet(t.links)}</td></tr>`;
 }
 
@@ -321,7 +336,7 @@ ${a.facts.map((f) => `    <li>${esc(f)}</li>`).join('\n')}
 <caption>${esc(a.title)} — Track Order, Verified Chords, Numbers &amp; Links</caption>
 <thead>
 <tr>
-  <th>#</th><th>Song</th><th>Key</th><th>Chords</th><th>Numbers</th><th>Sources</th>
+  <th>#</th><th>Song</th><th>Key</th><th>Chords</th><th>Numbers</th><th>Bass</th><th>Sources</th>
 </tr>
 </thead>
 <tbody>
@@ -346,10 +361,9 @@ ${THEME_SCRIPT}
 }
 
 function indexCards(albums) {
-  const byType = { studio: [], live: [] };
-  for (const a of albums) byType[a.type].push(a);
-  byType.studio.sort((x, y) => x.year - y.year);
-  byType.live.sort((x, y) => x.year - y.year);
+  const sorted = [...albums].sort((x, y) =>
+    String(x.releaseDate || x.year).localeCompare(String(y.releaseDate || y.year))
+  );
 
   const card = (a) => `    <a class="card" href="${esc(a.page)}">
       <div class="tag">${a.year} · ${a.type === 'live' ? 'Live' : 'Studio'}</div>
@@ -358,12 +372,7 @@ function indexCards(albums) {
       <span class="arrow">Open sheet →</span>
     </a>`;
 
-  const section = (label, list) =>
-    list.length
-      ? `  <div class="section-label">${label}</div>\n  <div class="grid">\n\n${list.map(card).join('\n\n')}\n\n  </div>\n`
-      : '';
-
-  return section('Studio Albums', byType.studio) + '\n' + section('Live Albums', byType.live);
+  return `  <div class="section-label">Albums · by release date</div>\n  <div class="grid">\n\n${sorted.map(card).join('\n\n')}\n\n  </div>\n`;
 }
 
 function main() {

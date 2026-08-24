@@ -1,0 +1,304 @@
+{
+  "slug": "workingmans-dead",
+  "title": "Workingman's Dead",
+  "artist": "Grateful Dead",
+  "year": 1970,
+  "type": "studio",
+  "page": "workingmans-dead.html",
+  "footnotes": [
+    "VI7 etc. = secondary dominants (capital numerals mark chords borrowed from outside the home key)"
+  ],
+  "facts": [
+    "The band's fourth studio album — 8 tracks, released June 14, 1970 on Warner Bros.",
+    "Recorded in February 1970 at Pacific High Recording, San Francisco, produced by Bob Matthews, Betty Cantor, and the band",
+    "Peaked at #27 on the Billboard 200; RIAA-certified Platinum",
+    "The stylistic pivot to acoustic country/folk with CSN-influenced harmonies; Rolling Stone ranked it #262 on the 2003 '500 Greatest Albums' list",
+    "'New Speedway Boogie' answers the December 1969 Altamont disaster; 'Cumberland Blues' has Garcia's only banjo part on a Dead studio song"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Uncle John's Band",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "C",
+        "D",
+        "Am",
+        "Em"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "2m",
+        "6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/unclejohnsband.html",
+        "genius": "https://genius.com/Grateful-dead-uncle-johns-band-lyrics",
+        "deadnet": "https://www.dead.net/song/uncle-johns-band",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/uncle-johns-band"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/uncle-johns-band",
+      "notes": "Chorus G–C–Am–G–D; the 7/4 'how does the song go' tag rides D–C–G"
+    },
+    {
+      "num": 2,
+      "title": "High Time",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "D",
+        "C#m",
+        "G#",
+        "G#sus4",
+        "A",
+        "F#",
+        "Asus4",
+        "B",
+        "E",
+        "G",
+        "F",
+        "F#m",
+        "Esus4"
+      ],
+      "numbers": [
+        "4",
+        "3m",
+        "VII",
+        "VII",
+        "1",
+        "VI",
+        "1",
+        "II",
+        "5",
+        "b7",
+        "b6",
+        "6m",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/hightime.html",
+        "genius": "https://genius.com/Grateful-dead-high-time-lyrics",
+        "deadnet": "https://www.dead.net/song/high-time",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/high-time"
+      },
+      "chordSource": "https://web.archive.org/web/20180118152415/http://www.rukind.com/gdpedia/titles/view/195",
+      "notes": "Famously ambiguous harmony (chart centers on A/E; opens D–C#m, chorus B–E–B–A). Rukind writes the G# chords as Ab"
+    },
+    {
+      "num": 3,
+      "title": "Dire Wolf",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "Bb",
+        "F",
+        "C",
+        "E7",
+        "Am"
+      ],
+      "numbers": [
+        "1",
+        "b3",
+        "b7",
+        "4",
+        "VI7",
+        "2m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/direwolf.html",
+        "genius": "https://genius.com/Grateful-dead-dire-wolf-lyrics",
+        "deadnet": "https://www.dead.net/song/dire-wolf",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/dire-wolf"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/dire-wolf",
+      "notes": null
+    },
+    {
+      "num": 4,
+      "title": "New Speedway Boogie",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "E7",
+        "G",
+        "D",
+        "A"
+      ],
+      "numbers": [
+        "1",
+        "1(7)",
+        "b3",
+        "b7",
+        "4"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/newspeedwayboogie.html",
+        "genius": "https://genius.com/Grateful-dead-new-speedway-boogie-lyrics",
+        "deadnet": "https://www.dead.net/song/new-speedway-boogie",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/new-speedway-boogie"
+      },
+      "chordSource": "https://web.archive.org/web/20180118220042/http://www.rukind.com/gdpedia/titles/view/320",
+      "notes": "Mostly an E/E7 vamp; refrain lines move G–D–A"
+    },
+    {
+      "num": 5,
+      "title": "Cumberland Blues",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "F#",
+        "Bb",
+        "B",
+        "A",
+        "Ab",
+        "C",
+        "D",
+        "F",
+        "Am7",
+        "C7",
+        "Em"
+      ],
+      "numbers": [
+        "1",
+        "VII",
+        "b3",
+        "III",
+        "II",
+        "bII",
+        "4",
+        "5",
+        "b7",
+        "2m",
+        "4(7)",
+        "6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/cumberlandblues.html",
+        "genius": "https://genius.com/Grateful-dead-cumberland-blues-lyrics",
+        "deadnet": "https://www.dead.net/song/cumberland-blues",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/cumberland-blues"
+      },
+      "chordSource": "https://web.archive.org/web/20240621171944/https://www.rukind.com/gdpedia/titles/tab/cumberland-blues",
+      "notes": "The 'gotta get down' turnaround walks chromatically F#–Bb–B then Bb–A–Ab–G; bridge sections in C"
+    },
+    {
+      "num": 6,
+      "title": "Black Peter",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A7",
+        "D7",
+        "Em",
+        "Bm",
+        "A",
+        "G",
+        "F#m",
+        "D",
+        "C",
+        "Dm",
+        "Am",
+        "F"
+      ],
+      "numbers": [
+        "1(7)",
+        "4(7)",
+        "5m",
+        "2m",
+        "1",
+        "b7",
+        "6m",
+        "4",
+        "b3",
+        "4m",
+        "1m",
+        "b6"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/blackpeter.html",
+        "genius": "https://genius.com/Grateful-dead-black-peter-lyrics",
+        "deadnet": "https://www.dead.net/song/black-peter",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/black-peter"
+      },
+      "chordSource": "https://web.archive.org/web/20240621182222/https://www.rukind.com/gdpedia/titles/tab/black-peter",
+      "notes": "Mixolydian-leaning A7/D7 vamp; Rukind's chart states no explicit key"
+    },
+    {
+      "num": 7,
+      "title": "Easy Wind",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E7",
+        "A7",
+        "B",
+        "A",
+        "C",
+        "E"
+      ],
+      "numbers": [
+        "1(7)",
+        "4(7)",
+        "5",
+        "4",
+        "b6",
+        "1"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/easywind.html",
+        "genius": "https://genius.com/Grateful-dead-easy-wind-lyrics",
+        "deadnet": "https://www.dead.net/song/easy-wind",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/132"
+      },
+      "chordSource": "https://web.archive.org/web/20180115191741/http://rukind.com/gdpedia/titles/view/132",
+      "notes": "Pigpen vocal — Hunter's first solo-written Dead lyric; verses vamp E7–A7"
+    },
+    {
+      "num": 8,
+      "title": "Casey Jones",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C",
+        "F",
+        "D",
+        "G",
+        "C#",
+        "E7",
+        "Am",
+        "G7",
+        "Bb",
+        "A7",
+        "D7"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "II",
+        "5",
+        "bII",
+        "III7",
+        "6m",
+        "5(7)",
+        "b7",
+        "VI7",
+        "II7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/caseyjones.html",
+        "genius": "https://genius.com/Grateful-dead-casey-jones-lyrics",
+        "deadnet": "https://www.dead.net/song/casey-jones",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/casey-jones"
+      },
+      "chordSource": "https://web.archive.org/web/20241213183529/https://www.rukind.com/gdpedia/titles/tab/casey-jones",
+      "notes": "Chorus uses a C–C#–D chromatic walk-up; ending tag A7–D7–G7–C"
+    }
+  ]
+}

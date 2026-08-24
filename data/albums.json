@@ -2,9 +2,55 @@
   "site": "Green Mountain Songbook",
   "albums": [
     {
+      "slug": "the-grateful-dead",
+      "title": "The Grateful Dead",
+      "year": 1967,
+      "releaseDate": "1967-03-17",
+      "type": "studio",
+      "page": "the-grateful-dead.html",
+      "cardBlurb": "The four-day debut — two originals and seven electrified folk/blues covers, from Golden Road to Viola Lee Blues."
+    },
+    {
+      "slug": "anthem-of-the-sun",
+      "title": "Anthem of the Sun",
+      "year": 1968,
+      "releaseDate": "1968-07-18",
+      "type": "studio",
+      "page": "anthem-of-the-sun.html",
+      "cardBlurb": "The studio/live collage — That's It for the Other One suite, Alligator, and Caution, chords verified where charts exist."
+    },
+    {
+      "slug": "aoxomoxoa",
+      "title": "Aoxomoxoa",
+      "year": 1969,
+      "releaseDate": "1969-06-20",
+      "type": "studio",
+      "page": "aoxomoxoa.html",
+      "cardBlurb": "St. Stephen, China Cat Sunflower, Cosmic Charlie — the 16-track experiment, chords verified."
+    },
+    {
+      "slug": "workingmans-dead",
+      "title": "Workingman's Dead",
+      "year": 1970,
+      "releaseDate": "1970-06-14",
+      "type": "studio",
+      "page": "workingmans-dead.html",
+      "cardBlurb": "The acoustic pivot — Uncle John's Band, Casey Jones, Dire Wolf, and the rest, verified chords and numbers."
+    },
+    {
+      "slug": "american-beauty",
+      "title": "American Beauty",
+      "year": 1970,
+      "releaseDate": "1970-11-01",
+      "type": "studio",
+      "page": "american-beauty.html",
+      "cardBlurb": "Box of Rain through Truckin' — all ten tracks with verified chords, numbers, and links."
+    },
+    {
       "slug": "reckoning",
       "title": "Reckoning",
       "year": 1981,
+      "releaseDate": "1981-04-01",
       "type": "live",
       "page": "reckoning.html",
       "cardBlurb": "16 tracks, verified chords, Nashville numbers, and lyric links for the Dead's acoustic live double album."
@@ -13,6 +59,7 @@
       "slug": "dead-set",
       "title": "Dead Set",
       "year": 1981,
+      "releaseDate": "1981-08-26",
       "type": "live",
       "page": "dead-set.html",
       "cardBlurb": "Reckoning's electric twin — 13 songs plus Drums/Space, with verified chords, numbers, and links."
