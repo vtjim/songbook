@@ -1,0 +1,367 @@
+{
+  "slug": "shakedown-street",
+  "title": "Shakedown Street",
+  "artist": "Grateful Dead",
+  "year": 1978,
+  "type": "studio",
+  "page": "shakedown-street.html",
+  "facts": [
+    "Released November 8, 1978 on Arista, produced by Lowell George (with John Kahn uncredited)",
+    "Peaked at #41 on the Billboard Pop Albums chart — their first studio album since Aoxomoxoa to miss the Top 40 — though certified Gold in 1987",
+    "The final Dead studio album with Keith and Donna Jean Godchaux, who left the band a few months after release",
+    "Mickey Hart took three co-composition credits and pushed the record's disco/polyrhythmic direction",
+    "Ten tracks, including the Hart/Kreutzmann percussion instrumental 'Serengetti'"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Good Lovin'",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C",
+        "F",
+        "G"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/goodlovin.html",
+        "genius": "https://genius.com/Grateful-dead-good-lovin-lyrics",
+        "deadnet": "https://www.dead.net/song/good-lovin",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/good-lovin"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/good-lovin",
+      "bass": {
+        "note": "Fingerstyle bass part rated 2/5 — the easiest part in the arrangement, sitting under the two guitars on the C–F–G vamp (AI-generated tab).",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-good-lovin-2013-remaster-bass-tab-s1482118",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Young Rascals cover. Rukind charts only the intros, not the verses, so this is the verified intro vocabulary"
+    },
+    {
+      "num": 2,
+      "title": "France",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "Em",
+        "C#m7",
+        "Dm7",
+        "G7",
+        "F#m7",
+        "F#7",
+        "Bm",
+        "A",
+        "D",
+        "C",
+        "Am",
+        "C#7"
+      ],
+      "numbers": [
+        "1",
+        "6m",
+        "#4m",
+        "5m",
+        "1(7)",
+        "7m",
+        "VII7",
+        "3m",
+        "II",
+        "5",
+        "4",
+        "2m",
+        "#IV7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/france.html",
+        "genius": "https://genius.com/Grateful-dead-france-lyrics"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/france-chords-3064023",
+      "bass": {
+        "note": "Rated 4/5 — the hardest track in the transcription alongside the lead guitar, matching the song's busy funk/disco line (AI-generated tab).",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-france-bass-tab-s4091858",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Weir/Hart/Barlow. Rukind has no chart for this song, only forum threads asking for one; solo section is C–Am–Bm–D"
+    },
+    {
+      "num": 3,
+      "title": "Shakedown Street",
+      "instrumental": false,
+      "key": "Dm",
+      "chords": [
+        "Dm",
+        "C/D",
+        "C",
+        "G",
+        "C/G",
+        "F",
+        "C9",
+        "Fmaj7",
+        "Em7",
+        "Ebm7",
+        "Dm7",
+        "C7sus4",
+        "C7",
+        "C#7"
+      ],
+      "numbers": [
+        "1m",
+        "b7/1",
+        "b7",
+        "IV",
+        "b7/4",
+        "b3",
+        "b7",
+        "b3maj7",
+        "2m",
+        "b2m",
+        "1m",
+        "b7(7)",
+        "b7(7)",
+        "VII7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/shakedownstreet.html",
+        "genius": "https://genius.com/Grateful-dead-shakedown-street-lyrics",
+        "deadnet": "https://www.dead.net/song/shakedown-street",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/shakedown-street"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/shakedown-street",
+      "bass": {
+        "note": "Human-authored transcription — bass is Track 3, fingerstyle, rated above the clean-guitar tracks, matching Lesh's active disco-funk line.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-shakedown-street-bass-tab-s70816",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "D Dorian; bridge Fmaj7–Em7–Ebm7–Dm7, chorus C7sus4–C7 with a C#7 turnaround"
+    },
+    {
+      "num": 4,
+      "title": "Serengetti",
+      "instrumental": true,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": null,
+      "chordSource": null,
+      "notes": "Instrumental Hart/Kreutzmann percussion piece — no chord chart exists on Rukind or Ultimate Guitar, and Songsterr's transcription has a drums track only"
+    },
+    {
+      "num": 5,
+      "title": "Fire on the Mountain",
+      "instrumental": false,
+      "key": "B",
+      "chords": [
+        "B",
+        "A"
+      ],
+      "numbers": [
+        "1",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/fireonthemountain.html",
+        "genius": "https://genius.com/Grateful-dead-fire-on-the-mountain-lyrics",
+        "deadnet": "https://www.dead.net/song/fire-mountain",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/fire-on-the-mountain"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/fire-on-the-mountain",
+      "bass": {
+        "note": "Human-authored transcription that names its parts after the players — 'Phil Lesh Bass' is a pick-bass track rated 2/5, alongside 'Lead Jerry Garcia' and 'Rhythm Bob Weir'.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-fire-on-the-mountain-guitar-bass-tab-s1018878",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Entire song is a B→A vamp (B Mixolydian)"
+    },
+    {
+      "num": 6,
+      "title": "I Need a Miracle",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E7",
+        "A",
+        "B"
+      ],
+      "numbers": [
+        "1(7)",
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ineedamiracle.html",
+        "genius": "https://genius.com/Grateful-dead-i-need-a-miracle-lyrics",
+        "deadnet": "https://www.dead.net/song/i-need-miracle",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/i-need-a-miracle"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/i-need-a-miracle",
+      "bass": {
+        "note": "Human-authored nine-track transcription credits players individually — 'Phil Lesh - Bass' is fingerstyle, rated 2/5; the chart even breaks out Keith Godchaux's left and right hands.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-i-need-a-miracle-bass-tab-s194057",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "E Mixolydian/blues — verses ride on E7; refrain A–E7–B–E7, outro alternates A and E7"
+    },
+    {
+      "num": 7,
+      "title": "From the Heart of Me",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "A7",
+        "E",
+        "E7",
+        "B",
+        "D",
+        "C#m",
+        "F#m"
+      ],
+      "numbers": [
+        "1",
+        "1(7)",
+        "5",
+        "5(7)",
+        "II",
+        "4",
+        "3m",
+        "6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/fromtheheartofme.html",
+        "genius": "https://genius.com/Grateful-dead-from-the-heart-of-me-lyrics",
+        "deadnet": "https://www.dead.net/song/heart-me",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/154"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/from-the-heart-of-me-chords-2479604",
+      "bass": {
+        "note": "Rated 4/5 — the top difficulty among that transcription's five tracks.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-from-the-heart-of-me-bass-tab-s4091869",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Donna Jean Godchaux's song. Rukind lists the title but its chart is empty, so this is the UG chart: intro A7–E7–A7 ×4, verses E–A / B–A7 / D–E, bridge C#m–F#m–B"
+    },
+    {
+      "num": 8,
+      "title": "Stagger Lee",
+      "instrumental": false,
+      "key": "F",
+      "chords": [
+        "F",
+        "C",
+        "Bb",
+        "G",
+        "A",
+        "D",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "4",
+        "II",
+        "III",
+        "VI",
+        "VII"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/staggerlee.html",
+        "genius": "https://genius.com/Grateful-dead-stagger-lee-lyrics",
+        "deadnet": "https://www.dead.net/song/stagger-lee",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/stagger-lee"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/stagger-lee",
+      "bass": {
+        "note": "Rated 4/5 — the hardest of the transcription's four tracks, above both clean-guitar parts (AI-generated tab).",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-stagger-lee-bass-tab-s194124",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verses in F with a G-to-A turnaround and a descending fill; the riff/chorus section centers on G"
+    },
+    {
+      "num": 9,
+      "title": "All New Minglewood Blues",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "B",
+        "G"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "b3"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/newminglewoodblues.html",
+        "genius": "https://genius.com/Grateful-dead-new-minglewood-blues-lyrics",
+        "deadnet": "https://www.dead.net/song/new-minglewood-blues",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/317"
+      },
+      "chordSource": "https://web.archive.org/web/20240309065801/https://www.rukind.com/gdpedia/titles/view/317",
+      "bass": {
+        "note": "Human-authored six-track transcription (lead, two ear-panned rhythm guitars, harmonica solo, drums) with the fingerstyle bass rated 3/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-all-new-minglewood-blues-bass-tab-s938720",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The E arrangement that carried through to the 1980 Dead Set version"
+    },
+    {
+      "num": 10,
+      "title": "If I Had the World to Give",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C",
+        "F",
+        "C/E",
+        "Dm",
+        "G",
+        "E",
+        "Am",
+        "G7",
+        "C7",
+        "Fmaj7",
+        "Bbmaj9",
+        "Abmaj7/C",
+        "Bb"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "1/3",
+        "2m",
+        "5",
+        "III",
+        "6m",
+        "5(7)",
+        "1(7)",
+        "4maj7",
+        "b7",
+        "b6maj7/1",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ifihadtheworldtogive.html",
+        "genius": "https://genius.com/Grateful-dead-if-i-had-the-world-to-give-lyrics",
+        "deadnet": "https://www.dead.net/song/if-i-had-world-give",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/217"
+      },
+      "chordSource": "https://web.archive.org/web/20180407234108id_/http://www.rukind.com/gdpedia/titles/view/217",
+      "bass": {
+        "note": "Sparse three-track transcription (one overdriven guitar, bass, drums) with the fingerstyle bass rated 3/5, equal to the guitar (AI-generated tab).",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-if-i-had-the-world-to-give-bass-tab-s194042",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Chorus Fmaj7–Bbmaj9 (×3) into Abmaj7/C–Bb–C; Rukind supplies fingerings for the unusual Abmaj7/C, C/E and Bbmaj9 shapes"
+    }
+  ]
+}

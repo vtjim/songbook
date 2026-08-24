@@ -1,0 +1,320 @@
+{
+  "slug": "from-the-mars-hotel",
+  "title": "From the Mars Hotel",
+  "artist": "Grateful Dead",
+  "year": 1974,
+  "type": "studio",
+  "page": "from-the-mars-hotel.html",
+  "facts": [
+    "The band's seventh studio album, released June 27, 1974 on their own Grateful Dead Records label",
+    "Peaked at #16 on the Billboard Pop Albums chart — mainly recorded April 1974 at CBS Studios, San Francisco, chosen for the room's more 'live' sound",
+    "Cover art by Kelley/Mouse (Stanley Mouse and Alton Kelley), who also designed American Beauty and Europe '72",
+    "The final studio album before the band's indefinite touring hiatus, which began in October 1974",
+    "Lesh/Petersen wrote 'Unbroken Chain' and 'Pride of Cucamonga'; Weir/Barlow wrote 'Money Money'; the rest are Garcia/Hunter"
+  ],
+  "sourceNote": "Rukind blocked automated access for most of this album, so several charts come from other readable sources (Ultimate Guitar, azchords, guitartabs.cc) — each track's source link shows exactly what was read.",
+  "tracks": [
+    {
+      "num": 1,
+      "title": "U.S. Blues",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "A7",
+        "D",
+        "E",
+        "B",
+        "E7"
+      ],
+      "numbers": [
+        "1",
+        "1(7)",
+        "4",
+        "5",
+        "II",
+        "5(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/usblues.html",
+        "genius": "https://genius.com/Grateful-dead-us-blues-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/u.s.-blues"
+      },
+      "chordSource": "https://www.azchords.com/g/gratefuldead-tabs-1693/usblues-tabs-885134.html",
+      "notes": "Verse alternates A/A7 against D; chorus rides E–B–E–B. Read on azchords because Rukind was unreachable — the Rukind search snippet (A, D, E, B) agrees"
+    },
+    {
+      "num": 2,
+      "title": "China Doll",
+      "instrumental": false,
+      "key": "Dm",
+      "chords": [
+        "Dm",
+        "Fmaj7",
+        "B°7",
+        "Bb",
+        "A7",
+        "F",
+        "C",
+        "D",
+        "A",
+        "G",
+        "Am"
+      ],
+      "numbers": [
+        "1m",
+        "b3maj7",
+        "VI°",
+        "b6",
+        "V7",
+        "b3",
+        "b7",
+        "I*",
+        "V",
+        "IV",
+        "5m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/chinadoll.html",
+        "genius": "https://genius.com/Grateful-dead-china-doll-lyrics",
+        "deadnet": "https://www.dead.net/song/china-doll",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/china-doll"
+      },
+      "chordSource": "https://www.azchords.com/g/gratefuldead-tabs-1693/chinadoll-tabs-106572.html",
+      "bass": {
+        "note": "Songsterr's China Doll entry rendered only an acoustic-guitar track, so a bass part there is unconfirmed.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-china-doll-bass-tab-s194128",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Matches the Reckoning chart; the chart marks a 2/4 bar on the 'china doll' line"
+    },
+    {
+      "num": 3,
+      "title": "Unbroken Chain",
+      "instrumental": false,
+      "key": "Am",
+      "chords": [
+        "Dm7",
+        "F",
+        "Csus4",
+        "C",
+        "Am",
+        "Eb",
+        "Em",
+        "G",
+        "G/B",
+        "Fsus4",
+        "Cmaj7",
+        "Cm7",
+        "Fmaj7",
+        "Dm"
+      ],
+      "numbers": [
+        "4m",
+        "b6",
+        "b3",
+        "b3",
+        "1m",
+        "#IV",
+        "5m",
+        "b7",
+        "b7/2",
+        "b6",
+        "b3maj7",
+        "b3m",
+        "b6maj7",
+        "4m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/unbrokenchain.html",
+        "genius": "https://genius.com/Grateful-dead-unbroken-chain-lyrics",
+        "deadnet": "https://www.dead.net/song/unbroken-chain",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/unbroken-chain"
+      },
+      "chordSource": "https://web.archive.org/web/20110821170000/http://www.rukind.com/html/music/gdtunes/Unbroken.htm",
+      "bass": {
+        "note": "The Lesh showcase: the intro sits high on the G and D strings with descending hammer-on figures (7h9-7h9-7, 5h7-5, 4h5-4) and 12-14-16h17 runs, and the verses are melodic rather than root-based, walking chromatically with frequent register jumps and slides.",
+        "tabUrl": "https://tabs.ultimate-guitar.com/tab/grateful-dead/unbroken-chain-bass-2153103",
+        "tabLabel": "UG Bass"
+      },
+      "notes": "Lesh/Petersen. Key inferred from the chart's chords and resolutions — the chart states none. UG's human-made bass tab was used over Songsterr's, which is AI-generated"
+    },
+    {
+      "num": 4,
+      "title": "Loose Lucy",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "B",
+        "E7",
+        "Eb7/E",
+        "D7/E",
+        "F#"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "1(7)",
+        "VII7/1",
+        "bVII7/1",
+        "II"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/looselucy.html",
+        "genius": "https://genius.com/Grateful-dead-loose-lucy-lyrics",
+        "deadnet": "https://www.dead.net/song/loose-lucy",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/loose-lucy"
+      },
+      "chordSource": "https://web.archive.org/web/20100701024332/http://www.rukind.com/html/music/gdtunes/Looselcy.htm",
+      "bass": {
+        "note": "Human-authored live transcription that makes the fingerstyle bass its default and most-viewed track, rated 5/5 — the busiest part in the arrangement.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-loose-lucy-live-tab-s5574360",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Chromatic E7–Eb7/E–D7/E–E turnaround; F#–B–E under 'Thank you for a real good time'. Key inferred, not stated on the chart"
+    },
+    {
+      "num": 5,
+      "title": "Scarlet Begonias",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "B",
+        "A",
+        "F#"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "4",
+        "II"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/scarletbegonias.html",
+        "genius": "https://genius.com/Grateful-dead-scarlet-begonias-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/scarlet-begonias"
+      },
+      "chordSource": "https://www.guitartabs.cc/tabs/g/grateful_dead/scarlet_begonias_crd.html",
+      "bass": {
+        "note": "Framed around a B scale with a triplet-feel verse line that Lesh shifts between octaves through the song — a movable riff rather than a fixed line.",
+        "tabUrl": "https://www.guitartabs.cc/tabs/g/grateful_dead/scarlet_begonias_btab_ver_3.html",
+        "tabLabel": "GuitarTabs.cc"
+      },
+      "notes": "Verse E/B/A, bridge F#–B–A–E. Two independent charts agree; Rukind was unreachable"
+    },
+    {
+      "num": 6,
+      "title": "Pride of Cucamonga",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "A",
+        "E",
+        "B",
+        "D",
+        "G",
+        "C",
+        "Bm"
+      ],
+      "numbers": [
+        "4",
+        "1",
+        "5",
+        "b7",
+        "b3",
+        "b6",
+        "5m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/prideofcucamonga.html",
+        "genius": "https://genius.com/Grateful-dead-pride-of-cucamonga-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/pride-of-cucamonga"
+      },
+      "chordSource": "https://www.guitartabs.cc/tabs/g/grateful_dead/pride_of_cucamonga_crd.html",
+      "notes": "Lesh/Petersen. Verse cycles A–E / B–E / A–E / B–A–E; chorus D–G–C then G–A–E. No bass tab exists for this song"
+    },
+    {
+      "num": 7,
+      "title": "Money Money",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "Am",
+        "E7",
+        "F",
+        "C",
+        "Dm",
+        "Gm",
+        "C/B",
+        "A",
+        "Em",
+        "G",
+        "F#"
+      ],
+      "numbers": [
+        "1",
+        "5m",
+        "II7",
+        "b3",
+        "b7",
+        "1m",
+        "4m",
+        "b7/6",
+        "5",
+        "2m",
+        "4",
+        "III"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/moneymoney.html",
+        "genius": "https://genius.com/Grateful-dead-money-money-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/300"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/money-money-chords-5218350",
+      "notes": "Weir/Barlow. Rukind's page carries no chart. Key inferred from the opening/verse chord. No bass tab exists for this song"
+    },
+    {
+      "num": 8,
+      "title": "Ship of Fools",
+      "instrumental": false,
+      "key": "Bb",
+      "chords": [
+        "Bb",
+        "F",
+        "Eb",
+        "Cm",
+        "Gm",
+        "Dm",
+        "D",
+        "E°7"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "4",
+        "2m",
+        "6m",
+        "3m",
+        "III",
+        "#IV°"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/shipoffools.html",
+        "genius": "https://genius.com/Grateful-dead-ship-of-fools-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/ship-of-fools"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/ship-of-fools-chords-1728114",
+      "bass": {
+        "note": "Standard-tuned fingerstyle bass track rated 3/5 and the most-viewed part on the page — expect a moderately busy walking line rather than root-only holds.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-ship-of-fools-bass-tab-s194103",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Key conflict worth your ear: this chart is in Bb, but other charts write the same progression a whole step up in C (intro C–G–F with an F#°7 passing chord)"
+    }
+  ]
+}

@@ -50,7 +50,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/box-of-rain"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/box-of-rain",
-      "notes": "Phil Lesh lead vocal; intro A–Bm7–A into D-major verses"
+      "notes": "Phil Lesh lead vocal; intro A–Bm7–A into D-major verses",
+      "bass": {
+        "note": "Songsterr notates this as a pick-bass track — plan on a pick-played tone.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-box-of-rain-bass-tab-s417854",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 2,
@@ -112,7 +117,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/sugar-magnolia"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/sugar-magnolia",
-      "notes": "The 'Sunshine Daydream' coda modulates to B (B–E–F#)"
+      "notes": "The 'Sunshine Daydream' coda modulates to B (B–E–F#)",
+      "bass": {
+        "note": "Tab is an explicitly labeled 'Phil Lesh - Bass' transcription of his actual part, not a root-note reduction.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-sugar-magnolia-bass-tab-s417856",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 4,
@@ -372,7 +382,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/truckin"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/truckin",
-      "notes": "Verses vamp on E; intro/outro walk a chord shape down fret by fret"
+      "notes": "Verses vamp on E; intro/outro walk a chord shape down fret by fret",
+      "bass": {
+        "note": "Driving repeated-note intro into a percussive groove alternating between the E and A strings — pocket playing rather than a melodic line.",
+        "tabUrl": "https://www.bigbasstabs.com/grateful_dead_bass_tabs/truckin.html",
+        "tabLabel": "Big Bass Tabs"
+      }
     }
   ]
 }

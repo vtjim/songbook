@@ -40,7 +40,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/view/165"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/165",
-      "notes": "Verse D–C6–G–D; pre-turnaround F–C–G–D"
+      "notes": "Verse D–C6–G–D; pre-turnaround F–C–G–D",
+      "bass": {
+        "note": "Dedicated fingerstyle bass part rated 5/5 — the hardest bass rating of any song on the first three albums.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-the-golden-road-bass-tab-s194055",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 2,
@@ -70,7 +75,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/view/31"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/31",
-      "notes": "Jesse Fuller cover; turnaround A–D–G–C–F–C"
+      "notes": "Jesse Fuller cover; turnaround A–D–G–C–F–C",
+      "bass": {
+        "note": "Transcribed as an acoustic bass track rather than electric, reflecting the tune's Jesse Fuller country-blues origin.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-beat-it-on-down-the-line-bass-tab-s194044",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 3,
@@ -94,7 +104,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/view/168"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/168",
-      "notes": "Pigpen vocal/harmonica blues; verses alternate A7–D"
+      "notes": "Pigpen vocal/harmonica blues; verses alternate A7–D",
+      "bass": {
+        "note": "Five-track transcription with a separate fingerstyle bass part (4/5).",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-good-morning-little-school-girl-bass-tab-s194058",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 4,
@@ -116,7 +131,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/cold-rain-and-snow"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/cold-rain-and-snow",
-      "notes": "Two-chord D–E vamp (4–5 against A) throughout; Rukind's chart follows the Steal Your Face arrangement"
+      "notes": "Two-chord D–E vamp (4–5 against A) throughout; Rukind's chart follows the Steal Your Face arrangement",
+      "bass": {
+        "note": "Notated as pick bass (4/5); a separate Songsterr bass-cover transcription is the most-viewed for this tune.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-cold-rain-and-snow-bass-tab-s4091734",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 5,
@@ -148,7 +168,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/view/391"
       },
       "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/sittin-on-top-of-the-world-chords-3254204",
-      "notes": "Rukind's page exists but its chart is empty, so chords are from Ultimate Guitar's transcription of the 1967 album take"
+      "notes": "Rukind's page exists but its chart is empty, so chords are from Ultimate Guitar's transcription of the 1967 album take",
+      "bass": {
+        "note": "Drumless transcription with the bass part rated 4/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-sitting-on-top-of-the-world-bass-tab-s4091744",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 6,
@@ -178,7 +203,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/cream-puff-war"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/cream-puff-war",
-      "notes": "Garcia's only solo writing credit on the album; main cycle A–G–D–C–Em–A"
+      "notes": "Garcia's only solo writing credit on the album; main cycle A–G–D–C–Em–A",
+      "bass": {
+        "note": "Centers on A through G and D as a root-and-fifth riff, then breaks into high-register playing (12th–22nd frets) with hammer-ons, pull-offs and slides in the solo.",
+        "tabUrl": "https://www.bigbasstabs.com/grateful_dead_bass_tabs/cream_puff_war.html",
+        "tabLabel": "Big Bass Tabs"
+      }
     },
     {
       "num": 7,
@@ -206,7 +236,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/morning-dew"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/morning-dew",
-      "notes": "Bonnie Dobson cover; Rukind's chart follows the Europe '72 arrangement"
+      "notes": "Bonnie Dobson cover; Rukind's chart follows the Europe '72 arrangement",
+      "bass": {
+        "note": "The UG transcription of this line is very simple — a few open and fretted notes — making the underlying scale easy to read off it.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-morning-dew-bass-tab-s194047",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 8,
@@ -232,7 +267,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/view/317"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/317",
-      "notes": "Per Rukind, the 1967 album version runs the later E arrangement a full step down — G, F, D with A turnaround (the 80s Dead Set-era version is in E)"
+      "notes": "Per Rukind, the 1967 album version runs the later E arrangement a full step down — G, F, D with A turnaround (the 80s Dead Set-era version is in E)",
+      "bass": {
+        "note": "Repeated riff landing on E, with Phil walking around the chord and transitioning up to the A; rated 3/5, the easiest of the era.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-all-new-minglewood-blues-bass-tab-s938720",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 9,
@@ -256,7 +296,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/viola-lee-blues"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/viola-lee-blues",
-      "notes": "Blues in G — verses G–C–G with an F–C–G cadence; the album take runs ~10 minutes"
+      "notes": "Blues in G — verses G–C–G with an F–C–G cadence; the album take runs ~10 minutes",
+      "bass": {
+        "note": "Spare three-track transcription — the trio texture leaves the bass carrying much of the harmonic motion through the long jam.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-viola-lee-blues-bass-tab-s2804998",
+        "tabLabel": "Songsterr"
+      }
     }
   ]
 }

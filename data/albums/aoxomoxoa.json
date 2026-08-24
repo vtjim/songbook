@@ -37,7 +37,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/saint-stephen"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/saint-stephen",
-      "notes": "Verses E–D–A–E with a B-lick turnaround"
+      "notes": "Verses E–D–A–E with a B-lick turnaround",
+      "bass": {
+        "note": "Bass track is rated 5/5 and is by far the most-viewed part of this transcription — the bass line is the draw here.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-st-stephen-bass-tab-s1415540",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 2,
@@ -67,7 +72,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/duprees-diamond-blues"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/duprees-diamond-blues",
-      "notes": "Rukind's chart follows the early-80s live revival in G and notes the original album key was D; verse E7–Am–D–G"
+      "notes": "Rukind's chart follows the early-80s live revival in G and notes the original album key was D; verse E7–Am–D–G",
+      "bass": {
+        "note": "Five-track transcription with the bass at 4/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-duprees-diamond-blues-bass-tab-s3384675",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 3,
@@ -144,7 +154,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/doin-that-rag"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/120",
-      "notes": "The 'Hipsters, tripsters' final section modulates the whole form up to B (hence the C#m/G#m/D#m chords)"
+      "notes": "The 'Hipsters, tripsters' final section modulates the whole form up to B (hence the C#m/G#m/D#m chords)",
+      "bass": {
+        "note": "Rated only 2/5 — the simplest bass part on Aoxomoxoa, well below the 4–5 typical elsewhere on the album.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-doin-that-rag-bass-tab-s194082",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 5,
@@ -190,7 +205,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/mountains-of-the-moon"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/mountains-of-the-moon",
-      "notes": "Modal — F and Dm borrowed throughout; verses G–F–Dm–G"
+      "notes": "Modal — F and Dm borrowed throughout; verses G–F–Dm–G",
+      "bass": {
+        "note": "Drumless transcription with the bass at 4/5; a second Songsterr tab reduces it to acoustic guitar and bass only.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-mountains-of-the-moon-bass-tab-s194046",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 6,
@@ -222,7 +242,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/china-cat-sunflower"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/china-cat-sunflower",
-      "notes": "G–F verse vamp; the bridge shifts the same shape up to E–B–A–B"
+      "notes": "G–F verse vamp; the bridge shifts the same shape up to E–B–A–B",
+      "bass": {
+        "note": "Track is labeled 'Phil Lesh Bass', rated 5/5, notated as pick bass — skip the bigbasstabs version, whose own comments note it tabs a guitar part.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-china-cat-sunflower-europe-72-bass-tab-s1727033",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 7,
@@ -277,7 +302,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/cosmic-charlie"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/cosmic-charlie",
-      "notes": "A–G verse vamp; Dead.net spells it 'Cosmic Charley' (Hunter's spelling)"
+      "notes": "A–G verse vamp; Dead.net spells it 'Cosmic Charley' (Hunter's spelling)",
+      "bass": {
+        "note": "Five-track transcription with the bass at 4/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-cosmic-charlie-bass-tab-s4091732",
+        "tabLabel": "Songsterr"
+      }
     }
   ]
 }

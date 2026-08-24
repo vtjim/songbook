@@ -23,8 +23,22 @@
       "title": "Dire Wolf",
       "instrumental": false,
       "key": "G",
-      "chords": ["G", "Bb", "F", "C", "E7", "Am"],
-      "numbers": ["1", "b3", "b7", "4", "VI7", "2m"],
+      "chords": [
+        "G",
+        "Bb",
+        "F",
+        "C",
+        "E7",
+        "Am"
+      ],
+      "numbers": [
+        "1",
+        "b3",
+        "b7",
+        "4",
+        "VI7",
+        "2m"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/direwolf.html",
         "genius": "https://genius.com/Grateful-dead-dire-wolf-lyrics",
@@ -32,15 +46,30 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/dire-wolf"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/dire-wolf",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "Dedicated fingerstyle bass track — study it against the recording rather than deriving from the chord chart.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-dire-wolf-bass-tab-s194049",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 2,
       "title": "The Race Is On",
       "instrumental": false,
       "key": "G",
-      "chords": ["G", "C", "D", "A"],
-      "numbers": ["1", "4", "5", "II"],
+      "chords": [
+        "G",
+        "C",
+        "D",
+        "A"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "II"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/theraceison.html",
         "genius": "https://genius.com/Grateful-dead-the-race-is-on-lyrics",
@@ -48,15 +77,33 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/the-race-is-on"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/the-race-is-on",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "No Dead transcription exists; this is the George Jones original, the source arrangement the Dead covered.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/george-jones-the-race-is-on-bass-tab-s193231",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 3,
       "title": "Oh Babe, It Ain't No Lie",
       "instrumental": false,
       "key": "C",
-      "chords": ["C", "F", "G", "E", "E7", "D"],
-      "numbers": ["1", "4", "5", "III7", "II"],
+      "chords": [
+        "C",
+        "F",
+        "G",
+        "E",
+        "E7",
+        "D"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "III7",
+        "II"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ohbabeitaintnolie.html",
         "genius": "https://genius.com/Grateful-dead-oh-babe-it-aint-no-lie-lyrics",
@@ -71,8 +118,18 @@
       "title": "It Must Have Been the Roses",
       "instrumental": false,
       "key": "A",
-      "chords": ["A", "D", "E", "F#m"],
-      "numbers": ["1", "4", "5", "6m"],
+      "chords": [
+        "A",
+        "D",
+        "E",
+        "F#m"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "6m"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/itmusthavebeentheroses.html",
         "genius": "https://genius.com/Grateful-dead-it-must-have-been-the-roses-lyrics",
@@ -80,15 +137,32 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/it-must-have-been-the-roses"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/it-must-have-been-the-roses",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "Dedicated fingerstyle bass track.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-it-must-have-been-the-roses-bass-tab-s194112",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 5,
       "title": "Dark Hollow",
       "instrumental": false,
       "key": "A",
-      "chords": ["A", "D", "A7", "D7", "E"],
-      "numbers": ["1", "4", "1(7)", "4(7)", "5"],
+      "chords": [
+        "A",
+        "D",
+        "A7",
+        "D7",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "1(7)",
+        "4(7)",
+        "5"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/darkhollow.html",
         "genius": "https://genius.com/Grateful-dead-dark-hollow-lyrics",
@@ -96,15 +170,40 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/dark-hollow"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/dark-hollow",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "Fingerstyle bass track alongside the acoustic guitar part.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-dark-hollow-bass-tab-s194059",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 6,
       "title": "China Doll",
       "instrumental": false,
       "key": "Dm",
-      "chords": ["Dm", "Fmaj7", "B°7", "Bb", "A7", "Am", "D", "A", "G"],
-      "numbers": ["1m", "b3maj7", "VI°7", "b6", "5(7)", "5m", "I*", "V", "IV"],
+      "chords": [
+        "Dm",
+        "Fmaj7",
+        "B°7",
+        "Bb",
+        "A7",
+        "Am",
+        "D",
+        "A",
+        "G"
+      ],
+      "numbers": [
+        "1m",
+        "b3maj7",
+        "VI°7",
+        "b6",
+        "5(7)",
+        "5m",
+        "I*",
+        "V",
+        "IV"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/chinadoll.html",
         "genius": "https://genius.com/Grateful-dead-china-doll-lyrics",
@@ -112,15 +211,30 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/china-doll"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/china-doll",
-      "notes": "I* = major tonic (Picardy third)"
+      "notes": "I* = major tonic (Picardy third)",
+      "bass": {
+        "note": "Dedicated fingerstyle bass track.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-china-doll-bass-tab-s194128",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 7,
       "title": "Been All Around This World",
       "instrumental": false,
       "key": "C",
-      "chords": ["C", "C7", "F", "G"],
-      "numbers": ["1", "1(7)", "4", "5"],
+      "chords": [
+        "C",
+        "C7",
+        "F",
+        "G"
+      ],
+      "numbers": [
+        "1",
+        "1(7)",
+        "4",
+        "5"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/beenallaroundthisworld.html",
         "genius": "https://genius.com/Grateful-dead-been-all-around-this-world-lyrics",
@@ -135,8 +249,18 @@
       "title": "Monkey and the Engineer",
       "instrumental": false,
       "key": "G",
-      "chords": ["G", "C", "A7", "D"],
-      "numbers": ["1", "4", "II7", "5"],
+      "chords": [
+        "G",
+        "C",
+        "A7",
+        "D"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "II7",
+        "5"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/monkeyandtheengineer.html",
         "genius": "https://genius.com/Grateful-dead-monkey-and-the-engineer-lyrics",
@@ -144,15 +268,30 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/monkey-and-the-engineer"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/monkey-and-the-engineer",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "Dedicated fingerstyle bass track over a G–A7–D7–C frame.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-monkey-and-the-engineer-bass-tab-s194039",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 9,
       "title": "Jack-A-Roe",
       "instrumental": false,
       "key": "Am",
-      "chords": ["Am", "C", "E7", "F"],
-      "numbers": ["1m", "b3", "5(7)", "b6"],
+      "chords": [
+        "Am",
+        "C",
+        "E7",
+        "F"
+      ],
+      "numbers": [
+        "1m",
+        "b3",
+        "5(7)",
+        "b6"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/jackaroe.html",
         "genius": "https://genius.com/Grateful-dead-jack-a-roe-lyrics",
@@ -160,15 +299,30 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/jack-a-roe"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/jack-a-roe",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "Dedicated fingerstyle bass track.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-jack-a-roe-bass-tab-s4091692",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 10,
       "title": "Deep Elem Blues",
       "instrumental": false,
       "key": "E",
-      "chords": ["E", "E7", "A7", "B"],
-      "numbers": ["1", "1(7)", "4(7)", "5"],
+      "chords": [
+        "E",
+        "E7",
+        "A7",
+        "B"
+      ],
+      "numbers": [
+        "1",
+        "1(7)",
+        "4(7)",
+        "5"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/deepelemblues.html",
         "genius": "https://genius.com/Grateful-dead-deep-elem-blues-lyrics",
@@ -176,15 +330,34 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/deep-elem-blues"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/deep-elem-blues",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "Best-covered song here — billed as a complete bass tab, with a separate bass backing track for practice.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-deep-elem-blues-with-complete-bass-tab-bass-tab-s2553825",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 11,
       "title": "Cassidy",
       "instrumental": false,
       "key": "E",
-      "chords": ["E", "A", "Em", "Am", "F#m", "B"],
-      "numbers": ["1", "4", "1m†", "4m†", "2m", "5"],
+      "chords": [
+        "E",
+        "A",
+        "Em",
+        "Am",
+        "F#m",
+        "B"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "1m†",
+        "4m†",
+        "2m",
+        "5"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/cassidy.html",
         "genius": "https://genius.com/Grateful-dead-cassidy-lyrics",
@@ -192,15 +365,40 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/cassidy"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/cassidy",
-      "notes": "† = borrowed from the parallel minor (modal mixture)"
+      "notes": "† = borrowed from the parallel minor (modal mixture)",
+      "bass": {
+        "note": "Fingerstyle bass track; UG separately hosts a guitar transcription of the Reckoning intro to line up against.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-cassidy-bass-tab-s194100",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 12,
       "title": "To Lay Me Down",
       "instrumental": false,
       "key": "G",
-      "chords": ["G", "Em", "C", "Bm", "A", "E", "D", "Am", "F"],
-      "numbers": ["1", "6m", "4", "3m", "II", "III", "5", "2m", "b7"],
+      "chords": [
+        "G",
+        "Em",
+        "C",
+        "Bm",
+        "A",
+        "E",
+        "D",
+        "Am",
+        "F"
+      ],
+      "numbers": [
+        "1",
+        "6m",
+        "4",
+        "3m",
+        "II",
+        "III",
+        "5",
+        "2m",
+        "b7"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/tolaymedown.html",
         "genius": "https://genius.com/Grateful-dead-to-lay-me-down-lyrics",
@@ -208,15 +406,30 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/to-lay-me-down"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/to-lay-me-down",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "Dedicated fingerstyle bass track.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-to-lay-me-down-bass-tab-s1314610",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 13,
       "title": "Rosa Lee McFall",
       "instrumental": false,
       "key": "E",
-      "chords": ["E", "C#m", "B", "B7"],
-      "numbers": ["1", "6m", "5", "5(7)"],
+      "chords": [
+        "E",
+        "C#m",
+        "B",
+        "B7"
+      ],
+      "numbers": [
+        "1",
+        "6m",
+        "5",
+        "5(7)"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/rosaleemcfall.html",
         "genius": "https://genius.com/Grateful-dead-rosa-lee-mcfall-lyrics",
@@ -224,15 +437,28 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/rosa-lee-mcfall"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/rosa-lee-mcfall",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "Dedicated fingerstyle bass track.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-rosa-lee-mcfall-bass-tab-s6572618",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 14,
       "title": "On the Road Again",
       "instrumental": false,
       "key": "C",
-      "chords": ["C", "F", "C7"],
-      "numbers": ["1", "4", "1(7)"],
+      "chords": [
+        "C",
+        "F",
+        "C7"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "1(7)"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ontheroadagain.html",
         "genius": "https://genius.com/Grateful-dead-on-the-road-again-lyrics",
@@ -240,7 +466,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/on-the-road-again"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/on-the-road-again",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "Transcription of the acoustic version, with a dedicated fingerstyle bass track.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-on-the-road-again-acoustic-bass-tab-s194069",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 15,
@@ -248,8 +479,26 @@
       "titleNote": "Reckoning / E-key",
       "instrumental": false,
       "key": "E",
-      "chords": ["E7", "D", "C", "G", "A", "C#m", "B", "E"],
-      "numbers": ["1(7)", "b7", "b6", "b3", "4", "6m", "5", "1"],
+      "chords": [
+        "E7",
+        "D",
+        "C",
+        "G",
+        "A",
+        "C#m",
+        "B",
+        "E"
+      ],
+      "numbers": [
+        "1(7)",
+        "b7",
+        "b6",
+        "b3",
+        "4",
+        "6m",
+        "5",
+        "1"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/birdsong.html",
         "genius": "https://genius.com/Grateful-dead-bird-song-lyrics",
@@ -257,15 +506,32 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/bird-song"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/bird-song",
-      "notes": "Reckoning performance is in E"
+      "notes": "Reckoning performance is in E",
+      "bass": {
+        "note": "Transcribed in E — root motion on the E string with melodic movement above it; the transcriber marks the solo section as too fast to notate.",
+        "tabUrl": "https://www.bigbasstabs.com/grateful_dead_bass_tabs/bird_song.html",
+        "tabLabel": "Big Bass Tabs"
+      }
     },
     {
       "num": 16,
       "title": "Ripple",
       "instrumental": false,
       "key": "G",
-      "chords": ["Am", "D", "G", "C", "A7"],
-      "numbers": ["2m", "5", "1", "4", "II7"],
+      "chords": [
+        "Am",
+        "D",
+        "G",
+        "C",
+        "A7"
+      ],
+      "numbers": [
+        "2m",
+        "5",
+        "1",
+        "4",
+        "II7"
+      ],
       "links": {
         "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ripple.html",
         "genius": "https://genius.com/Grateful-dead-ripple-lyrics",
@@ -273,7 +539,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/ripple"
       },
       "chordSource": "https://www.rukind.com/gdpedia/titles/tab/ripple",
-      "notes": null
+      "notes": null,
+      "bass": {
+        "note": "Studio-version transcription with a fingerstyle bass track; the separate 10/31/80 entry (closer to Reckoning) is guitar-only.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-ripple-bass-tab-s36839",
+        "tabLabel": "Songsterr"
+      }
     }
   ]
 }

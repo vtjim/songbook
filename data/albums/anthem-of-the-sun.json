@@ -60,7 +60,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/the-other-one"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/the-other-one",
-      "notes": "Suite: I. Cryptical Envelopment, II. Quadlibet for Tenderfeet, III. The Faster We Go, the Rounder We Get ('The Other One', E–D vamp), IV. We Leave the Castle (musique concrète, no chords). Several chords played without 3rds per Rukind's chart"
+      "notes": "Suite: I. Cryptical Envelopment, II. Quadlibet for Tenderfeet, III. The Faster We Go, the Rounder We Get ('The Other One', E–D vamp), IV. We Leave the Castle (musique concrète, no chords). Several chords played without 3rds per Rukind's chart",
+      "bass": {
+        "note": "Covers the whole suite in one fingerstyle bass track (4/5) — the most-viewed bass part of the Anthem-era transcriptions.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-thats-it-for-the-other-one-cryptical-envelopment-quadlibet-for-tender-feet-the-faster-we-bass-tab-s1555484",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 2,
@@ -108,7 +113,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/new-potato-caboose"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/new-potato-caboose",
-      "notes": "Modal — Rukind's chart notes two sharps but 'not really in D'. Verses vamp on D7"
+      "notes": "Modal — Rukind's chart notes two sharps but 'not really in D'. Verses vamp on D7",
+      "bass": {
+        "note": "Three-track transcription with the bass part rated 4/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-new-potato-caboose-bass-tab-s1555664",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 3,
@@ -140,7 +150,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/born-cross-eyed"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/born-cross-eyed",
-      "notes": "Modal, shifting toward E; several chords played without 3rds per Rukind. Also the B-side of the 'Dark Star' single"
+      "notes": "Modal, shifting toward E; several chords played without 3rds per Rukind. Also the B-side of the 'Dark Star' single",
+      "bass": {
+        "note": "Two distortion guitars over a separate fingerstyle bass part (4/5).",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-born-cross-eyed-bass-tab-s194053",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 4,
@@ -180,7 +195,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/alligator"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/alligator",
-      "notes": "Verses in C (C–F–Am); the second-half jam vamps A–E, ending E–D–Em–E"
+      "notes": "Verses in C (C–F–Am); the second-half jam vamps A–E, ending E–D–Em–E",
+      "bass": {
+        "note": "Full-band transcription with a dedicated fingerstyle bass track (4/5); a separate live version is also tabbed.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-alligator-bass-tab-s1555992",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 5,
@@ -200,7 +220,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/caution-do-not-stop-on-tracks"
       },
       "chordSource": "https://web.archive.org/web/2024/https://tabs.ultimate-guitar.com/tab/grateful-dead/caution-do-not-step-on-tracks-tabs-2409379",
-      "notes": "One-chord Pigpen E blues/boogie vamp — no full chart names further chords; the only Ultimate Guitar entry is a lead tab without chord names"
+      "notes": "One-chord Pigpen E blues/boogie vamp — no full chart names further chords; the only Ultimate Guitar entry is a lead tab without chord names",
+      "bass": {
+        "note": "Studio-version transcription (4/5); four separate live tabs exist for the extended jam readings.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-caution-do-not-stop-on-tracks-bass-tab-s1556111",
+        "tabLabel": "Songsterr"
+      }
     }
   ]
 }

@@ -47,6 +47,51 @@
       "cardBlurb": "Box of Rain through Truckin' — all ten tracks with verified chords, numbers, and links."
     },
     {
+      "slug": "wake-of-the-flood",
+      "title": "Wake of the Flood",
+      "year": 1973,
+      "releaseDate": "1973-10-15",
+      "type": "studio",
+      "page": "wake-of-the-flood.html",
+      "cardBlurb": "Eyes of the World, Stella Blue, Row Jimmy and the Weather Report Suite — the first album on their own label."
+    },
+    {
+      "slug": "from-the-mars-hotel",
+      "title": "From the Mars Hotel",
+      "year": 1974,
+      "releaseDate": "1974-06-27",
+      "type": "studio",
+      "page": "from-the-mars-hotel.html",
+      "cardBlurb": "Scarlet Begonias, U.S. Blues, Ship of Fools — plus Unbroken Chain, the Phil Lesh bass showcase."
+    },
+    {
+      "slug": "blues-for-allah",
+      "title": "Blues for Allah",
+      "year": 1975,
+      "releaseDate": "1975-09-01",
+      "type": "studio",
+      "page": "blues-for-allah.html",
+      "cardBlurb": "Help on the Way → Slipknot! → Franklin's Tower, Crazy Fingers, and the instrumental suites."
+    },
+    {
+      "slug": "terrapin-station",
+      "title": "Terrapin Station",
+      "year": 1977,
+      "releaseDate": "1977-07-27",
+      "type": "studio",
+      "page": "terrapin-station.html",
+      "cardBlurb": "Estimated Prophet in 7/4, Samson and Delilah, and the full Terrapin suite charted section by section."
+    },
+    {
+      "slug": "shakedown-street",
+      "title": "Shakedown Street",
+      "year": 1978,
+      "releaseDate": "1978-11-08",
+      "type": "studio",
+      "page": "shakedown-street.html",
+      "cardBlurb": "The disco-inflected one — Shakedown Street, I Need a Miracle, Stagger Lee, Fire on the Mountain."
+    },
+    {
       "slug": "reckoning",
       "title": "Reckoning",
       "year": 1981,

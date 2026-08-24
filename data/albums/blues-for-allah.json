@@ -1,0 +1,371 @@
+{
+  "slug": "blues-for-allah",
+  "title": "Blues for Allah",
+  "artist": "Grateful Dead",
+  "year": 1975,
+  "type": "studio",
+  "page": "blues-for-allah.html",
+  "facts": [
+    "The band's eighth studio album, released September 1, 1975 on Grateful Dead Records",
+    "Reached #12 on the Billboard Pop Albums chart with a 13-week run — their highest-charting album to that point",
+    "Recorded at Bob Weir's home studio in Mill Valley rather than a commercial studio",
+    "Mickey Hart, who left the band in 1971, was invited back for these sessions and officially rejoined shortly after release",
+    "Several tracks are instrumentals: Slipknot!, King Solomon's Marbles, Stronger than Dirt or Milkin' the Turkey, Sage & Spirit, and Sand Castles & Glass Camels"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Help on the Way",
+      "instrumental": false,
+      "key": "Fm",
+      "chords": [
+        "Fm",
+        "Cm",
+        "Eb",
+        "Dm"
+      ],
+      "numbers": [
+        "1m",
+        "5m",
+        "b7",
+        "6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/helpontheway.html",
+        "genius": "https://genius.com/Grateful-dead-help-on-the-way-lyrics",
+        "deadnet": "https://www.dead.net/song/help-way",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/help-on-the-way"
+      },
+      "chordSource": "https://web.archive.org/web/20251209165203/https://www.rukind.com/gdpedia/titles/tab/help-on-the-way",
+      "bass": {
+        "note": "Rukind notes the even bars of its intro tab are Phil's bass line answering the guitar's Fm chord stabs — Songsterr's bass track transcribes that call-and-response (AI-generated, so verify by ear).",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-help-on-the-way-bass-tab-s194056",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verse Fm | Cm | Fm | Fm Eb Dm on the first line, Fm Eb Fm thereafter"
+    },
+    {
+      "num": 2,
+      "title": "Slipknot!",
+      "instrumental": true,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": {
+        "deadnet": "https://www.dead.net/song/slipknot",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/slipknot"
+      },
+      "chordSource": "https://web.archive.org/web/20251214014917/https://www.rukind.com/gdpedia/titles/tab/slipknot",
+      "bass": {
+        "note": "Songsterr's standalone Slipknot! bass track is barely developed — the combined Help on the Way/Slipknot! transcription (bass rated 4/5) is the substantial source.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-help-on-the-way-slipknot-bass-tab-s2042660",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Instrumental — Rukind charts it as eight tab segments opening in Fm and moving through Gm and Am centers (Fm, F#m7, Gm, Dm, G#m7, Em, G, F#m, F, D, A, Am)"
+    },
+    {
+      "num": 3,
+      "title": "Franklin's Tower",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "G",
+        "D"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/franklinstower.html",
+        "genius": "https://genius.com/Grateful-dead-franklins-tower-lyrics",
+        "deadnet": "https://www.dead.net/song/franklins-tower",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/franklins-tower"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/franklins-tower",
+      "bass": {
+        "note": "Human-made transcription (the most-viewed Franklin's Tower bass track) rated 4/5 — the hardest part in the arrangement, a continuously moving line under the repeating vamp.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-franklins-tower-bass-tab-s417859",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "A Mixolydian — the whole song cycles A–G–D–G"
+    },
+    {
+      "num": 4,
+      "title": "King Solomon's Marbles",
+      "instrumental": true,
+      "key": "Bm",
+      "chords": [
+        "Bm",
+        "D",
+        "A",
+        "Em7",
+        "F#",
+        "E",
+        "B",
+        "C#m",
+        "G#m",
+        "G",
+        "C#°7"
+      ],
+      "numbers": [
+        "1m",
+        "b3",
+        "b7",
+        "4m",
+        "V",
+        "IV",
+        "I*",
+        "2m",
+        "6m",
+        "b6",
+        "2°"
+      ],
+      "links": {
+        "deadnet": "https://www.dead.net/song/king-solomons-marbles",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/566"
+      },
+      "chordSource": "https://web.archive.org/web/2020/https://www.rukind.com/gdpedia/titles/view/566",
+      "bass": {
+        "note": "A Lesh composition whose head is itself a bass-register riff; Songsterr rates the bass 4/5 against 5/5 for the lead guitar (AI-generated transcription).",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-king-solomons-marbles-bass-tab-s1556459",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Instrumental, credited to Lesh. Break progression C#m | G#m | B G | E | A C#°7 (×2)"
+    },
+    {
+      "num": 5,
+      "title": "Stronger than Dirt or Milkin' the Turkey",
+      "instrumental": true,
+      "key": "Bm",
+      "chords": [
+        "Bm",
+        "A",
+        "Em7",
+        "F#",
+        "E",
+        "B",
+        "C#m",
+        "G#m",
+        "G",
+        "C#°7"
+      ],
+      "numbers": [
+        "1m",
+        "b7",
+        "4m",
+        "V",
+        "IV",
+        "I*",
+        "2m",
+        "6m",
+        "b6",
+        "2°"
+      ],
+      "links": {
+        "deadnet": "https://www.dead.net/song/stronger-dirt",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/412"
+      },
+      "chordSource": "https://web.archive.org/web/2020/https://www.rukind.com/gdpedia/titles/view/412",
+      "bass": {
+        "note": "No separate bass transcription — Songsterr treats this as part of the single King Solomon's Marbles arrangement (bass rated 4/5).",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-king-solomons-marbles-bass-tab-s1556459",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Instrumental — effectively the second half of the King Solomon's Marbles suite; Rukind serves the identical chart for both"
+    },
+    {
+      "num": 6,
+      "title": "The Music Never Stopped",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "C",
+        "A°7",
+        "B°/A",
+        "A6",
+        "Bm7b5",
+        "A/C#",
+        "D#°7",
+        "Dm/F",
+        "D7",
+        "D",
+        "F",
+        "G",
+        "B",
+        "F#"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "b6",
+        "IV°",
+        "V°/4",
+        "4",
+        "5ø",
+        "4/6",
+        "7°",
+        "b7m/b2",
+        "bVII7",
+        "b7",
+        "bII",
+        "b3",
+        "5",
+        "II"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/themusicneverstopped.html",
+        "genius": "https://genius.com/Grateful-dead-the-music-never-stopped-lyrics",
+        "deadnet": "https://www.dead.net/song/music-never-stopped",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/the-music-never-stopped"
+      },
+      "chordSource": "https://web.archive.org/web/2020/https://www.rukind.com/gdpedia/titles/view/444",
+      "bass": {
+        "note": "Rukind prints a dedicated 'Phil Intro' tab (a low-E slide 12\\2 into 0-2-0, then an A-string 4 / 2p0 / 3 figure) that opens the song; Songsterr rates the bass 5/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-the-music-never-stopped-bass-tab-s3260127",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verses in E modulating to A for the chorus; the 'Everybody dancin'' turnaround is A6–Bm7b5–A/C#–D#°7–Dm/F–A/C#–D7–E"
+    },
+    {
+      "num": 7,
+      "title": "Crazy Fingers",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "D",
+        "C",
+        "G",
+        "Bb",
+        "F",
+        "Fm",
+        "Gsus4",
+        "Bbm",
+        "Ebmaj7",
+        "Cm",
+        "Ab",
+        "Eb",
+        "Cm/G",
+        "G7",
+        "A°7",
+        "Dmaj7",
+        "Dbmaj7",
+        "Db7"
+      ],
+      "numbers": [
+        "5",
+        "4",
+        "1",
+        "b3",
+        "b7",
+        "b7m",
+        "1",
+        "b3m",
+        "b6maj7",
+        "4m",
+        "bII",
+        "b6",
+        "4m/1",
+        "1(7)",
+        "II°",
+        "5maj7",
+        "#IVmaj7",
+        "#IV7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/crazyfingers.html",
+        "genius": "https://genius.com/Grateful-dead-crazy-fingers-lyrics",
+        "deadnet": "https://www.dead.net/song/crazy-fingers",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/crazy-fingers"
+      },
+      "chordSource": "https://web.archive.org/web/20240621183034/https://www.rukind.com/gdpedia/titles/tab/crazy-fingers",
+      "bass": {
+        "note": "The most-viewed and hardest-rated part (5/5) in Songsterr's arrangement, matching the song's constantly shifting reggae-inflected harmony.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-crazy-fingers-bass-tab-s194116",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The chart resolves to G with a flat-side Bb/Eb/Ab bridge; Rukind states no key"
+    },
+    {
+      "num": 8,
+      "title": "Sage & Spirit",
+      "instrumental": true,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": {
+        "deadnet": "https://www.dead.net/song/sage-and-spirit",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/367"
+      },
+      "chordSource": null,
+      "notes": "Instrumental — no published chart exists: Rukind's page has an empty tab record, Ultimate Guitar has no entry, and Songsterr's has no bass track. Auto-detected chords from Chordify/ChordU aren't a verified source, so nothing is listed here"
+    },
+    {
+      "num": 9,
+      "title": "Blues for Allah",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "F",
+        "A",
+        "E"
+      ],
+      "numbers": [
+        "b6",
+        "1",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/bluesforallah.html",
+        "genius": "https://genius.com/Grateful-dead-blues-for-allah-lyrics",
+        "deadnet": "https://www.dead.net/song/blues-allah",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/49"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/blues-for-allah-tabs-1189911",
+      "notes": "Rukind's page hosts no tab. The UG source is mostly single-note tab with sparse chord labels — an F intro figure and A / A / E over each verse — so the chord list is thin by nature. No bass tab exists"
+    },
+    {
+      "num": 10,
+      "title": "Sand Castles & Glass Camels",
+      "instrumental": true,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": {
+        "deadnet": "https://www.dead.net/song/sand-castles-and-glass-camels",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/542"
+      },
+      "chordSource": null,
+      "bass": {
+        "note": "Covered only inside a combined Sand Castles / Unusual Occurrences transcription — AI-generated with almost no views, so treat it as unvetted.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-sand-castles-and-glass-camels-unusual-occurrences-in-the-desert-bass-tab-s1556291",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Instrumental middle section of the Blues for Allah suite — no chord chart exists on Rukind or Ultimate Guitar"
+    },
+    {
+      "num": 11,
+      "title": "Unusual Occurrences in the Desert",
+      "instrumental": false,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/unusualoccurrencesinthedesert.html",
+        "genius": "https://genius.com/Grateful-dead-unusual-occurrences-in-the-desert-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/543"
+      },
+      "chordSource": null,
+      "bass": {
+        "note": "Same combined Songsterr transcription as Sand Castles — AI-generated and barely viewed, so unverified detail.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-sand-castles-and-glass-camels-unusual-occurrences-in-the-desert-bass-tab-s1556291",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Sung closing section of the suite — no chord chart exists on Rukind or Ultimate Guitar, and no Dead.net song page was found"
+    }
+  ]
+}

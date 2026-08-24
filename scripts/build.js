@@ -280,8 +280,13 @@ function bassCell(t) {
 }
 
 function trackRow(t) {
-  const noteSpan = t.titleNote ? ` <span class="song-note">(${esc(t.titleNote)})</span>` : '';
-  if (t.instrumental) {
+  const label = t.instrumental
+    ? [t.titleNote, 'instrumental'].filter(Boolean).join(' · ')
+    : t.titleNote;
+  const noteSpan = label ? ` <span class="song-note">(${esc(label)})</span>` : '';
+  // An instrumental with a published chart still gets chord/number columns;
+  // only chartless ones collapse to a note.
+  if (t.instrumental && !(t.chords && t.chords.length)) {
     return `<tr><td class="track-num">${t.num}</td><td class="song-title">${esc(t.title)}${noteSpan}</td><td>—</td><td class="instrumental" colspan="2">${esc(t.notes || 'Instrumental — no chords')}</td>
 ${bassCell(t)}
 <td class="links">${linkSet(t.links)}</td></tr>`;

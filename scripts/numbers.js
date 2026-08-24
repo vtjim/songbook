@@ -82,7 +82,7 @@ function main() {
   const album = JSON.parse(fs.readFileSync(file, 'utf8'));
   let changed = false;
   for (const t of album.tracks) {
-    if (t.instrumental || !t.key || !t.chords || !t.chords.length) continue;
+    if (!t.key || !t.chords || !t.chords.length) continue;
     const computed = t.chords.map((ch) => numberFor(ch, t.key));
     if (!t.numbers || !t.numbers.length) {
       console.log(`${t.num}. ${t.title} [${t.key}]: ${computed.join(', ')}`);

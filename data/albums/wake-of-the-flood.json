@@ -1,0 +1,352 @@
+{
+  "slug": "wake-of-the-flood",
+  "title": "Wake of the Flood",
+  "artist": "Grateful Dead",
+  "year": 1973,
+  "type": "studio",
+  "page": "wake-of-the-flood.html",
+  "facts": [
+    "Released October 15, 1973 — the band's first album on their own independent label, Grateful Dead Records, after leaving Warner Bros.",
+    "Recorded August 4–15, 1973 at The Record Plant in Sausalito on 24-track equipment; peaked at #18 on the Billboard 200",
+    "The first Dead studio album without Pigpen, who died in March 1973; Keith Godchaux on keys, Donna Jean Godchaux on vocals",
+    "Seven tracks, closing with the multi-part 'Weather Report Suite' (Prelude / Part I / Part II 'Let It Grow')",
+    "'Let Me Sing Your Blues Away' is Keith Godchaux's only songwriting credit on a Dead studio album — played live just six times, in September 1973"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Mississippi Half-Step Uptown Toodeloo",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C",
+        "E7",
+        "F",
+        "Am",
+        "G",
+        "D7",
+        "G7",
+        "Am/maj7",
+        "Am7",
+        "D9",
+        "Dm",
+        "B7",
+        "A",
+        "D"
+      ],
+      "numbers": [
+        "1",
+        "III7",
+        "4",
+        "6m",
+        "5",
+        "II7",
+        "5(7)",
+        "6m",
+        "6m",
+        "II",
+        "2m",
+        "VII7",
+        "VI",
+        "II"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/mississippihalfstepuptowntoodeloo.html",
+        "genius": "https://genius.com/Grateful-dead-mississippi-half-step-uptown-toodeloo-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/mississippi-half-step"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/mississippi-half-step",
+      "bass": {
+        "note": "Songsterr's fingerstyle bass track is flagged AI-generated — treat it as machine-derived, not a verified Phil Lesh transcription.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-mississippi-half-step-uptown-toodeloo-bass-tab-s194019",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "An A–D 'Across the Rio Grande' coda closes the song; the bridge figure runs Am–Am/maj7–Am7–D9"
+    },
+    {
+      "num": 2,
+      "title": "Let Me Sing Your Blues Away",
+      "instrumental": false,
+      "key": "Bb",
+      "chords": [
+        "Bb",
+        "F",
+        "Eb",
+        "Ab7",
+        "G7",
+        "Gb7",
+        "F7",
+        "Bb7",
+        "Ebm",
+        "D7",
+        "G",
+        "C",
+        "A7",
+        "E7",
+        "C7",
+        "G#7",
+        "C#m",
+        "A",
+        "Bm",
+        "D",
+        "B",
+        "E",
+        "Cm7",
+        "Dm7"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "4",
+        "bVII7",
+        "VI7",
+        "bVI7",
+        "5(7)",
+        "1(7)",
+        "4m",
+        "III7",
+        "VI",
+        "II",
+        "VII7",
+        "#IV7",
+        "II7",
+        "bVII7",
+        "b3m",
+        "VII",
+        "b2m",
+        "III",
+        "bII",
+        "#IV",
+        "2m",
+        "3m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/letmesingyourbluesaway.html",
+        "genius": "https://genius.com/Grateful-dead-let-me-sing-your-blues-away-lyrics",
+        "deadnet": "https://www.dead.net/song/let-me-sing-your-blues-away",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/254"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/view/254",
+      "notes": "Bridge sections step through G, A, B and C#; chorus turnaround Bb–Bb7–Eb–Ebm–Bb–D7. No bass tab exists for this song"
+    },
+    {
+      "num": 3,
+      "title": "Row Jimmy",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "G",
+        "D",
+        "Bm",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "2m",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/rowjimmy.html",
+        "genius": "https://genius.com/Grateful-dead-row-jimmy-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/row-jimmy"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/row-jimmy",
+      "bass": {
+        "note": "Songsterr's fingerstyle bass track is flagged AI-generated — machine-derived rather than a verified transcription.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-row-jimmy-bass-tab-s194083",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Intro G–D–A–G–D; entirely diatonic to A, no borrowed chords in the chart"
+    },
+    {
+      "num": 4,
+      "title": "Stella Blue",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "Emaj7",
+        "Asus4",
+        "A",
+        "Em",
+        "C7",
+        "B7",
+        "B"
+      ],
+      "numbers": [
+        "1",
+        "1maj7",
+        "4",
+        "4",
+        "1m",
+        "bVI7",
+        "5(7)",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/stellablue.html",
+        "genius": "https://genius.com/Grateful-dead-stella-blue-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/stella-blue"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/stella-blue",
+      "bass": {
+        "note": "Songsterr's fingerstyle bass track is flagged AI-generated — treat the notes as machine-derived.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-stella-blue-bass-tab-s194030",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The Em and C7 are the borrowed chords that give the verse its drop"
+    },
+    {
+      "num": 5,
+      "title": "Here Comes Sunshine",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C",
+        "Bb",
+        "Dm",
+        "G",
+        "Am",
+        "F",
+        "Em"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "2m",
+        "5",
+        "6m",
+        "4",
+        "3m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/herecomessunshine.html",
+        "genius": "https://genius.com/Grateful-dead-here-comes-sunshine-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/187"
+      },
+      "chordSource": "https://web.archive.org/web/2023/https://www.rukind.com/gdpedia/titles/view/187",
+      "bass": {
+        "note": "Songsterr's fingerstyle bass track is flagged AI-generated — machine-derived rather than transcribed.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-here-comes-sunshine-bass-tab-s194114",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The flat-VII Bb is the song's signature move; the chorus tag walks down F–Em–Dm"
+    },
+    {
+      "num": 6,
+      "title": "Eyes of the World",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "Emaj7",
+        "A",
+        "B",
+        "Bm",
+        "C#m",
+        "D",
+        "C",
+        "G",
+        "Dsus4",
+        "C#"
+      ],
+      "numbers": [
+        "1maj7",
+        "4",
+        "5",
+        "5m",
+        "6m",
+        "b7",
+        "b6",
+        "b3",
+        "b7",
+        "VI"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/eyesoftheworld.html",
+        "genius": "https://genius.com/Grateful-dead-eyes-of-the-world-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/eyes-of-the-world"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/eyes-of-the-world",
+      "bass": {
+        "note": "The one album track with a human-made Songsterr bass part (current revisions are editor-made, superseding an older AI one) — fingerstyle, standard tuning.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-eyes-of-the-world-bass-tab-s194118",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verses vamp Emaj7–A; the chorus shifts to the G–C alternation before resolving back through D–Bm–A"
+    },
+    {
+      "num": 7,
+      "title": "Weather Report Suite",
+      "titleNote": "Prelude / Part I / Part II 'Let It Grow'",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "C#m",
+        "D",
+        "Dsus4",
+        "C#m7",
+        "F#m",
+        "A",
+        "E7",
+        "C#",
+        "G",
+        "C",
+        "B",
+        "Am7",
+        "Am",
+        "Bm",
+        "A7",
+        "Em",
+        "Bm7",
+        "F",
+        "F#m",
+        "Em7",
+        "G7",
+        "Dm",
+        "B7"
+      ],
+      "numbers": [
+        "1",
+        "6m",
+        "b7",
+        "b7",
+        "6m",
+        "2m",
+        "4",
+        "1(7)",
+        "VI",
+        "b3",
+        "b6",
+        "5",
+        "4m",
+        "4m",
+        "5m",
+        "4(7)",
+        "1m",
+        "5m",
+        "bII",
+        "2m",
+        "1m",
+        "bIII7",
+        "b7m",
+        "5(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/weatherreportsuite.html",
+        "genius": "https://genius.com/Grateful-dead-weather-report-suite-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/wrs-prelude"
+      },
+      "chordSource": "https://web.archive.org/web/2023/https://www.rukind.com/gdpedia/titles/tab/wrs-prelude",
+      "bass": {
+        "note": "Songsterr's suite tab and its separate 'Let It Grow' entry both carry AI-generated bass tracks — useful as a map, not as gospel.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-weather-report-suite-bass-tab-s3061557",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Rukind splits the suite: Prelude/Part I (Weir/Anderson) in E, Part II 'Let It Grow' (Weir/Barlow) in A minor with an Em/F#–B–G bridge. Two intro shapes on the Let It Grow chart are unnamed diagrams, so they're not listed"
+    }
+  ]
+}

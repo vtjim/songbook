@@ -42,7 +42,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/uncle-johns-band"
       },
       "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/uncle-johns-band",
-      "notes": "Chorus G–C–Am–G–D; the 7/4 'how does the song go' tag rides D–C–G"
+      "notes": "Chorus G–C–Am–G–D; the 7/4 'how does the song go' tag rides D–C–G",
+      "bass": {
+        "note": "Songsterr carries a dedicated fingerstyle bass track with distinct intro, verse, and instrumental-section parts rather than one repeated pattern.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-uncle-johns-band-bass-tab-s36840",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 2,
@@ -144,7 +149,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/new-speedway-boogie"
       },
       "chordSource": "https://web.archive.org/web/20180118220042/http://www.rukind.com/gdpedia/titles/view/320",
-      "notes": "Mostly an E/E7 vamp; refrain lines move G–D–A"
+      "notes": "Mostly an E/E7 vamp; refrain lines move G–D–A",
+      "bass": {
+        "note": "Transcriptions notate the intro in both 4/4 and 12/8, reflecting the shuffling boogie feel.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-new-speedway-boogie-bass-tab-s194021",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 5,
@@ -186,7 +196,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/cumberland-blues"
       },
       "chordSource": "https://web.archive.org/web/20240621171944/https://www.rukind.com/gdpedia/titles/tab/cumberland-blues",
-      "notes": "The 'gotta get down' turnaround walks chromatically F#–Bb–B then Bb–A–Ab–G; bridge sections in C"
+      "notes": "The 'gotta get down' turnaround walks chromatically F#–Bb–B then Bb–A–Ab–G; bridge sections in C",
+      "bass": {
+        "note": "Fully written out — Songsterr has a fingerstyle bass track and a Jeff Perrin guitar-and-bass transcription also circulates.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-cumberland-blues-bass-tab-s194062",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 6,
@@ -228,7 +243,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/black-peter"
       },
       "chordSource": "https://web.archive.org/web/20240621182222/https://www.rukind.com/gdpedia/titles/tab/black-peter",
-      "notes": "Mixolydian-leaning A7/D7 vamp; Rukind's chart states no explicit key"
+      "notes": "Mixolydian-leaning A7/D7 vamp; Rukind's chart states no explicit key",
+      "bass": {
+        "note": "Songsterr includes a fingerstyle bass track for this slow ballad.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-black-peter-bass-tab-s194098",
+        "tabLabel": "Songsterr"
+      }
     },
     {
       "num": 7,
@@ -298,7 +318,12 @@
         "rukind": "https://www.rukind.com/gdpedia/titles/tab/casey-jones"
       },
       "chordSource": "https://web.archive.org/web/20241213183529/https://www.rukind.com/gdpedia/titles/tab/casey-jones",
-      "notes": "Chorus uses a C–C#–D chromatic walk-up; ending tag A7–D7–G7–C"
+      "notes": "Chorus uses a C–C#–D chromatic walk-up; ending tag A7–D7–G7–C",
+      "bass": {
+        "note": "Opens with a melodic descending intro fill in upper positions, then a syncopated verse groove around the 3rd fret with slides and pickup runs.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-casey-jones-bass-tab-s36834",
+        "tabLabel": "Songsterr"
+      }
     }
   ]
 }

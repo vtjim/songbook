@@ -36,11 +36,19 @@ integrations (e.g. the Woodshed practice-tracking app).
         "rukind": "https://..."
       },
       "chordSource": "https://...",// the tab page the chords were verified against
+      "bass": {                    // optional — bass-player support
+        "note": "one-line consideration for bass (feel, riff vs root motion)",
+        "tabUrl": "https://...",   // bass tab (Songsterr / Big Bass Tabs / UG bass)
+        "tabLabel": "Songsterr"    // link label shown on the page
+      },
       "notes": null
     }
   ]
 }
 ```
+
+`albums.json` entries also carry `releaseDate` (YYYY-MM-DD) — the index page
+sorts cards by it.
 
 Chords are always verified against a real tab source (Rukind, falling back to
 Ultimate Guitar) via web search at build time — never generated from memory.

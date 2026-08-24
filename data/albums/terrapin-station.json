@@ -1,0 +1,291 @@
+{
+  "slug": "terrapin-station",
+  "title": "Terrapin Station",
+  "artist": "Grateful Dead",
+  "year": 1977,
+  "type": "studio",
+  "page": "terrapin-station.html",
+  "facts": [
+    "Released July 27, 1977 on Arista — the band's first album for the label",
+    "Produced by Keith Olsen; recorded at Sound City (Van Nuys), Automated Sound (NYC), and London studios including AIR, Trident and Abbey Road",
+    "Peaked at #28 on the Billboard 200; certified Gold in September 1987",
+    "Olsen added orchestral and choral arrangements without the band's consent — Garcia said he'd 'put the Grateful Dead in a dress'",
+    "Side two is the single 16:23 'Terrapin Part 1': Lady with a Fan / Terrapin Station / Terrapin / Terrapin Transit / At a Siding / Terrapin Flyer / Refrain"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Estimated Prophet",
+      "instrumental": false,
+      "key": "F#m",
+      "chords": [
+        "F#m",
+        "Bm6",
+        "G",
+        "C",
+        "F",
+        "Dm",
+        "E7",
+        "A",
+        "Bm",
+        "Am",
+        "Cm",
+        "Gm",
+        "Bbm",
+        "Ab",
+        "Bb"
+      ],
+      "numbers": [
+        "1m",
+        "4m",
+        "bII",
+        "#IV",
+        "VII",
+        "b6m",
+        "b7(7)",
+        "b3",
+        "4m",
+        "b3m",
+        "#4m",
+        "b2m",
+        "3m",
+        "II",
+        "III"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/estimatedprophet.html",
+        "genius": "https://genius.com/Grateful-dead-estimated-prophet-lyrics",
+        "deadnet": "https://www.dead.net/song/estimated-prophet",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/estimated-prophet"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/estimated-prophet",
+      "bass": {
+        "note": "Human-edited transcription rated 4/5 — the hardest bass part on the album alongside Terrapin.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-estimated-prophet-tab-s194063",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Weir/Barlow, in 7/4. Modal F#m–Bm6 verse vamp; chorus moves to G/C/F, with a chromatic descending turnaround Bm Dm Am Cm Gm Bbm Ab Bb"
+    },
+    {
+      "num": 2,
+      "title": "Dancin' in the Streets",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "D",
+        "C#",
+        "F#m",
+        "B",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "III",
+        "6m",
+        "II",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/dancinginthestreets.html",
+        "genius": "https://genius.com/Grateful-dead-dancing-in-the-street-lyrics",
+        "deadnet": "https://www.dead.net/song/dancin-streets",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/dancin-in-the-streets"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/dancin-in-the-streets",
+      "bass": {
+        "note": "Human-edited transcription rated 4/5, reflecting the busier bass line of the disco-fied 1977 arrangement.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-dancing-in-the-street-tab-s1021722",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Martha and the Vandellas cover. Rukind charts both an 'Old Style' and a 'Terrapin Station Style' intro; bridge runs C#–F#m–B–E"
+    },
+    {
+      "num": 3,
+      "title": "Passenger",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "D",
+        "G",
+        "C",
+        "E",
+        "Am"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "b7",
+        "b3",
+        "5",
+        "1m†"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/passenger.html",
+        "genius": "https://genius.com/Grateful-dead-passenger-lyrics",
+        "deadnet": "https://www.dead.net/song/passenger",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/passenger"
+      },
+      "chordSource": "http://web.archive.org/web/20230528130039/https://www.rukind.com/gdpedia/titles/view/338",
+      "bass": {
+        "note": "Human-edited transcription with a fingerstyle bass track, rated 3/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-passenger-tab-s955853",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verses vamp A–D–A; lead traditionally played with slide"
+    },
+    {
+      "num": 4,
+      "title": "Samson and Delilah",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "C",
+        "D",
+        "Bmb5",
+        "C+4+9",
+        "C#mb5",
+        "F#"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "3ø",
+        "4(+4/9)",
+        "#4ø",
+        "VII"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/samsonanddelilah.html",
+        "genius": "https://genius.com/Grateful-dead-samson-and-delilah-lyrics",
+        "deadnet": "https://www.dead.net/song/samson-and-delilah",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/samson-and-delilah"
+      },
+      "chordSource": "https://web.archive.org/web/20210418112444/https://www.rukind.com/gdpedia/titles/view/372",
+      "bass": {
+        "note": "Songsterr names the track \"Phil Lesh | 'Mission Control' | Bass\", rated 3/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-samson-and-delilah-tab-s194052",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The altered chords are Rukind's intro walk-up; verses and chorus are G, C, D"
+    },
+    {
+      "num": 5,
+      "title": "Sunrise",
+      "instrumental": false,
+      "key": "Am",
+      "chords": [
+        "Am",
+        "D",
+        "F",
+        "G",
+        "E",
+        "E7",
+        "Am/G",
+        "Esus4",
+        "Em",
+        "A",
+        "Bb",
+        "Bb7sus4",
+        "G7",
+        "C7",
+        "C",
+        "Fmaj7",
+        "D7"
+      ],
+      "numbers": [
+        "1m",
+        "IV",
+        "b6",
+        "b7",
+        "V",
+        "V7",
+        "1m/b7",
+        "V",
+        "5m",
+        "I*",
+        "bII",
+        "bII7",
+        "b7(7)",
+        "b3(7)",
+        "b3",
+        "b6maj7",
+        "IV7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/sunrise.html",
+        "genius": "https://genius.com/Grateful-dead-sunrise-lyrics",
+        "deadnet": "https://www.dead.net/song/sunrise"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/sunrise-chords-1828911",
+      "bass": {
+        "note": "AI-generated transcription rated 2/5 — the simplest bass part on the album, so verify by ear.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-sunrise-tab-s4091936",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Donna Jean Godchaux's song. No Rukind chart exists, so this is the Ultimate Guitar chart: Am–D–F–E verse with frequent Am/G descents and a Bb–Bb7sus4–G7–C7–F bridge"
+    },
+    {
+      "num": 6,
+      "title": "Terrapin Part 1",
+      "titleNote": "Lady with a Fan / Terrapin Station / Terrapin / Terrapin Transit / At a Siding / Terrapin Flyer / Refrain",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "G",
+        "Dm",
+        "C",
+        "F",
+        "Fmaj7",
+        "C9",
+        "E",
+        "A",
+        "A7",
+        "D",
+        "Dmaj7",
+        "C#m",
+        "Gmaj7",
+        "D#m7b5",
+        "B",
+        "Bm",
+        "Eb"
+      ],
+      "numbers": [
+        "5",
+        "2m",
+        "1",
+        "4",
+        "4maj7",
+        "1",
+        "III",
+        "VI",
+        "VI7",
+        "II",
+        "IImaj7",
+        "b2m",
+        "5maj7",
+        "b3ø",
+        "VII",
+        "7m",
+        "b3"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/terrapinstation.html",
+        "genius": "https://genius.com/Grateful-dead-terrapin-station-lyrics",
+        "deadnet": "https://www.dead.net/song/terrapin-station",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/terrapin-station"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/terrapin-station",
+      "bass": {
+        "note": "Songsterr rates the bass 4/5, top tier on this album — the transcription is AI-generated, so treat it as a map rather than gospel.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-terrapin-station-tab-s194115",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "One Rukind chart covers the suite: Lady with a Fan in C (G–Dm–C–F), the Terrapin Station section in A (A–A7–D–Dmaj7–E, with C#m–Gmaj7–D–D#m7b5–E), At a Siding alternating D and Eb, Terrapin Flyer written only as C–D. Terrapin Transit and the Refrain have no charted chords"
+    }
+  ]
+}
