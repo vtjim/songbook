@@ -1,0 +1,218 @@
+{
+  "slug": "live-dead",
+  "title": "Live/Dead",
+  "artist": "Grateful Dead",
+  "year": 1969,
+  "type": "live",
+  "descriptor": "First Live Album",
+  "page": "live-dead.html",
+  "facts": [
+    "Released November 10, 1969 on Warner Bros.–Seven Arts — the band's first live album and fourth overall",
+    "Recorded January 26 – March 2, 1969 at the Avalon Ballroom and Fillmore West; produced by the band with Bob Matthews and Betty Cantor",
+    "The first live rock album recorded on 16-track — their soundman had a microphone splitter built to feed the PA and the recorder simultaneously with no loss of quality",
+    "Peaked at #62 on the Billboard 200",
+    "The four vinyl sides were sequenced for automatic record changers so the album plays back as one continuous concert; the 23-minute 'Dark Star' fills side one"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Dark Star",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "G",
+        "Asus4"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "1"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/darkstar.html",
+        "genius": "https://genius.com/Grateful-dead-dark-star-lyrics",
+        "deadnet": "https://www.dead.net/song/dark-star",
+        "rukind": "https://www.rukind.com/gdpedia/titles/show/103"
+      },
+      "chordSource": "https://web.archive.org/web/20171209195605id_/http://www.rukind.com/gdpedia/titles/show/103",
+      "bass": {
+        "note": "A human transcription of Phil's part — fingerstyle, rated 4/5, and the most-viewed bass track of any Live/Dead song on Songsterr.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-dark-star-bass-tab-s417852t3",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "A Mixolydian — sung over an alternating A–G vamp, with A–Asus4–A on 'Shall we go, you and I while we can'. The chart marks only the sung sections; the long middle improvisation has no written changes"
+    },
+    {
+      "num": 2,
+      "title": "St. Stephen",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "D",
+        "A",
+        "B"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ststephen.html",
+        "genius": "https://genius.com/Grateful-dead-st-stephen-lyrics",
+        "deadnet": "https://www.dead.net/song/saint-stephen",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/saint-stephen"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/saint-stephen",
+      "bass": {
+        "note": "The best-established transcription (9,500+ views, human-made) names its tracks after the actual players, including 'Electric Bass (Phil Lesh)'.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-st-stephen-bass-tab-s641874t2",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verses E–D–A–E with a B-lick turnaround"
+    },
+    {
+      "num": 3,
+      "title": "The Eleven",
+      "titleNote": "in 11/8",
+      "instrumental": false,
+      "key": "B",
+      "chords": [
+        "B",
+        "A",
+        "G#m",
+        "F#m",
+        "E",
+        "D"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "6m",
+        "5m",
+        "4",
+        "b3"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/theeleven.html",
+        "genius": "https://genius.com/Grateful-dead-the-eleven-lyrics",
+        "deadnet": "https://www.dead.net/song/eleven",
+        "rukind": "https://www.rukind.com/gdpedia/titles/show/436"
+      },
+      "chordSource": "https://web.archive.org/web/20170620133012id_/http://www.rukind.com/gdpedia/titles/show/436",
+      "bass": {
+        "note": "The Fillmore West version — same venue as the Live/Dead take — is the only human-made Songsterr transcription, with a pick-bass track; the alternative entry is AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-the-eleven-live-at-the-fillmore-west-bass-tab-s4617917t1",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Hunter/Lesh — eleven beats to the bar, which is where the name comes from. Verses sit on B with G#m–A–B–F#m–E–D motion, then a jam on B, a transition Rukind marks '(mostly Phil) B D E D', and an A–D–E–D cycle under 'No more time to tell how'"
+    },
+    {
+      "num": 4,
+      "title": "Turn On Your Love Light",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E7",
+        "A7"
+      ],
+      "numbers": [
+        "1(7)",
+        "4(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/turnonyourlovelight.html",
+        "genius": "https://genius.com/Grateful-dead-turn-on-your-love-light-lyrics",
+        "deadnet": "https://www.dead.net/song/turn-your-love-light",
+        "rukind": "https://www.rukind.com/gdpedia/titles/show/478"
+      },
+      "chordSource": "https://web.archive.org/web/20171009113004id_/http://www.rukind.com/gdpedia/titles/show/478",
+      "bass": {
+        "note": "Long-standing human-made entry with a named pick-bass track — the most-viewed track in that transcription.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-turn-on-your-love-light-bass-tab-s8219t2",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Bobby Bland cover, Pigpen vocal. A two-chord I–IV vamp the band stretched to fifteen minutes — Rukind charts only the intro plus two tabbed figures"
+    },
+    {
+      "num": 5,
+      "title": "Death Don't Have No Mercy",
+      "instrumental": false,
+      "key": "Em",
+      "chords": [
+        "Em",
+        "G",
+        "B7",
+        "A",
+        "D",
+        "Am"
+      ],
+      "numbers": [
+        "1m",
+        "b3",
+        "V7",
+        "IV",
+        "b7",
+        "4m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/deathdonthavenomercy.html",
+        "genius": "https://genius.com/Grateful-dead-death-dont-have-no-mercy-lyrics",
+        "deadnet": "https://www.dead.net/song/death-dont-have-no-mercy",
+        "rukind": "https://www.rukind.com/gdpedia/titles/show/114"
+      },
+      "chordSource": "https://web.archive.org/web/20171214194221id_/http://www.rukind.com/gdpedia/titles/show/114",
+      "bass": {
+        "note": "The 'Live In SF' entry is human-made with a fingerstyle track; the more-viewed generic entry for this song is AI-generated, so prefer this one.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-death-dont-have-no-mercy-live-in-sf-bass-tab-s3561323t1",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Rev. Gary Davis cover. Em | G–B7–Em on the title line, A–D–G with a B7 turnaround on 'in this land', an Am for 'Look in bed this morning'. Only the first verse is charted"
+    },
+    {
+      "num": 6,
+      "title": "Feedback",
+      "instrumental": true,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": {
+        "deadnet": "https://www.dead.net/song/feedback"
+      },
+      "chordSource": null,
+      "notes": "Free amplifier-feedback improvisation — no chords by nature, no chart on Rukind, and no bass tab that would mean anything"
+    },
+    {
+      "num": 7,
+      "title": "And We Bid You Good Night",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "B"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/andwebidyougoodnight.html",
+        "genius": "https://genius.com/Grateful-dead-and-we-bid-you-goodnight-lyrics",
+        "deadnet": "https://www.dead.net/song/and-we-bid-you-goodnight",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/and-we-bid-you-goodnight-chords-2003703"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/and-we-bid-you-goodnight-chords-2003703",
+      "bass": {
+        "note": "Only appears on Songsterr inside a Johnny B. Goode medley (human-made but unvetted, zero views) — and the Live/Dead take is a near-a cappella 35-second vocal coda with minimal bass anyway.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-johnny-b-goode-and-we-bid-you-goodnight-live-bass-tab-s5872569t1",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Traditional Bahamian hymn, a plain I–IV–V. Rukind indexes the title but never posted a chart, so this is the Ultimate Guitar chart"
+    }
+  ]
+}

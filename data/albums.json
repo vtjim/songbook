@@ -29,6 +29,24 @@
       "cardBlurb": "St. Stephen, China Cat Sunflower, Cosmic Charlie — the 16-track experiment, chords verified."
     },
     {
+      "slug": "live-dead",
+      "title": "Live/Dead",
+      "year": 1969,
+      "releaseDate": "1969-11-10",
+      "type": "live",
+      "page": "live-dead.html",
+      "cardBlurb": "The first live album — the 23-minute Dark Star, The Eleven in 11/8, and Turn On Your Love Light."
+    },
+    {
+      "slug": "europe-72",
+      "title": "Europe '72",
+      "year": 1972,
+      "releaseDate": "1972-11-05",
+      "type": "live",
+      "page": "europe-72.html",
+      "cardBlurb": "The triple album from the European tour — Jack Straw, Brown-Eyed Women, Ramble On Rose, Tennessee Jed."
+    },
+    {
       "slug": "workingmans-dead",
       "title": "Workingman's Dead",
       "year": 1970,

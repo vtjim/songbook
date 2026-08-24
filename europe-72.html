@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Grateful Dead — Europe '72: Chords &amp; Links</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+  (function() {
+    var saved = null;
+    try { saved = localStorage.getItem('gm-theme'); } catch (e) {}
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<style>
+  :root {
+    --pine: #17281f;
+    --pine-card: #223a2c;
+    --pine-card-alt: #1c3226;
+    --lake: #6fb0c0;
+    --moss: #9dbb84;
+    --moss-dim: #6f8a5c;
+    --birch: #f4f0e4;
+    --birch-dim: #cfd6c9;
+    --border: #35503f;
+  }
+  html[data-theme="light"] {
+    --pine: #faf7ef;
+    --pine-card: #ffffff;
+    --pine-card-alt: #f1ede1;
+    --lake: #2f7a8c;
+    --moss: #4f7a3d;
+    --moss-dim: #3c5c2f;
+    --birch: #1f3b2e;
+    --birch-dim: #4a5d51;
+    --border: #dde3d5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--pine);
+    color: var(--birch);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0 0 80px;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  .contour {
+    height: 34px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-repeat: repeat-x;
+    background-size: 68px 34px;
+    opacity: 0.55;
+  }
+  html[data-theme="dark"] .contour {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='34' viewBox='0 0 68 34'%3E%3Cpath d='M0 17 Q17 2 34 17 T68 17' fill='none' stroke='%236fb0c0' stroke-width='1.2'/%3E%3Cpath d='M0 25 Q17 12 34 25 T68 25' fill='none' stroke='%239dbb84' stroke-width='1.2'/%3E%3C/svg%3E");
+  }
+  html[data-theme="light"] .contour {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='34' viewBox='0 0 68 34'%3E%3Cpath d='M0 17 Q17 2 34 17 T68 17' fill='none' stroke='%232f7a8c' stroke-width='1.2'/%3E%3Cpath d='M0 25 Q17 12 34 25 T68 25' fill='none' stroke='%234f7a3d' stroke-width='1.2'/%3E%3C/svg%3E");
+  }
+
+  .topbar {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .back-link {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--moss);
+    text-decoration: none;
+  }
+  .back-link:hover { color: var(--lake); }
+  .theme-toggle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--moss);
+    background: var(--pine-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 7px 14px;
+    cursor: pointer;
+  }
+  .theme-toggle:hover { border-color: var(--lake); color: var(--lake); }
+
+  header {
+    padding: 32px 24px 20px;
+    text-align: center;
+  }
+  header .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--moss);
+  }
+  header h1 {
+    font-family: 'Fraunces', serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    margin: 6px 0 4px;
+    font-size: 3rem;
+    color: var(--birch);
+    letter-spacing: 0.5px;
+  }
+  header p {
+    color: var(--birch-dim);
+    margin-top: 4px;
+    font-size: 1rem;
+  }
+
+  .facts {
+    max-width: 780px;
+    margin: 32px auto;
+    padding: 24px 30px;
+    background: var(--pine-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  .facts h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: var(--lake);
+    margin-top: 0;
+    font-size: 1.15rem;
+    letter-spacing: 0.3px;
+  }
+  .facts ul { margin: 0; padding-left: 20px; line-height: 1.8; color: var(--birch-dim); }
+  .facts li::marker { color: var(--moss); }
+
+  .note {
+    max-width: 780px;
+    margin: 0 auto 8px;
+    padding: 12px 22px;
+    font-size: 0.88rem;
+    color: var(--birch-dim);
+    font-style: italic;
+    border-left: 2px solid var(--moss-dim);
+  }
+
+  .key-note {
+    max-width: 1100px;
+    margin: 30px auto 4px;
+    padding: 0 22px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--birch-dim);
+  }
+
+  table {
+    width: 100%;
+    max-width: 1100px;
+    margin: 14px auto 0;
+    border-collapse: collapse;
+    background: var(--pine-card);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  caption {
+    caption-side: top;
+    text-align: left;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: var(--lake);
+    font-size: 1.3rem;
+    margin: 0 auto 14px;
+    max-width: 1100px;
+    padding: 0 22px;
+  }
+  th, td {
+    border-bottom: 1px solid var(--border);
+    padding: 12px 14px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 0.9rem;
+  }
+  th {
+    background: var(--pine-card-alt);
+    color: var(--moss);
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+  }
+  tbody tr:hover td { background: var(--pine-card-alt); }
+  .track-num {
+    color: var(--birch-dim);
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+  .song-title { color: var(--birch); font-weight: 600; font-family: 'Fraunces', serif; font-size: 1rem; }
+  .song-note { color: var(--birch-dim); font-weight: 400; font-family: 'Inter', sans-serif; font-size: 0.78rem; }
+  .key-badge {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--pine);
+    background: var(--lake);
+    padding: 1px 7px;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+  .chords { color: var(--birch-dim); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+  .numbers { color: var(--moss); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+  .instrumental { color: var(--birch-dim); font-style: italic; font-size: 0.85rem; }
+  .bass { color: var(--birch-dim); font-size: 0.8rem; }
+  .bass div { margin-bottom: 4px; }
+  .bass a { color: var(--lake); text-decoration: none; white-space: nowrap; font-size: 0.82rem; }
+  .bass a:hover { color: var(--moss); text-decoration: underline; }
+  .links a {
+    color: var(--lake);
+    text-decoration: none;
+    margin-right: 10px;
+    white-space: nowrap;
+    font-size: 0.85rem;
+  }
+  .links a:hover { color: var(--moss); text-decoration: underline; }
+
+  footer {
+    max-width: 1100px;
+    margin: 50px auto 0;
+    padding: 0 22px;
+    color: var(--birch-dim);
+    font-size: 0.82rem;
+    text-align: center;
+  }
+  footer .signoff {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--moss-dim);
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="back-link" href="index.html">← Green Mountain Songbook</a>
+  <button class="theme-toggle" id="theme-toggle" type="button">☀ / 🌲 toggle</button>
+</div>
+
+<header>
+  <div class="eyebrow">Green Mountain Songbook</div>
+  <h1>Europe '72</h1>
+  <p>Grateful Dead · 1972 Live Triple Album</p>
+</header>
+
+<div class="contour"></div>
+
+<div class="facts">
+  <h2>Quick Facts</h2>
+  <ul>
+    <li>A triple live album released November 5, 1972 on Warner Bros., drawn from the band's 22-date European tour (April 7 – May 26, 1972)</li>
+    <li>Peaked at #24 on the Billboard 200 and went Double Platinum — one of the first triple rock albums certified gold</li>
+    <li>The last Grateful Dead album with Pigpen, who died in March 1973, and the first with Keith and Donna Jean Godchaux</li>
+    <li>Despite being live, the tracks carry substantial studio overdubs, especially vocals; several Garcia-sung songs were pitched sharp by as much as a half-step</li>
+    <li>The whole tour was later issued as Europe '72: The Complete Recordings, a 73-CD box of all 22 shows that sold out as a pre-order in under four days</li>
+  </ul>
+</div>
+
+<div class="note">
+  Chords verified against Rukind.com and Ultimate Guitar tab archives — not generated from memory. Nashville numbers included; capital numerals (II, III7, VI7) mark a chord borrowed from outside the home key, usually a secondary dominant. Lyrics links follow each site's standard URL pattern — if a link 404s, search the site directly by title.
+</div>
+
+
+<div class="key-note">Key shown per song · numbers relative to that key</div>
+
+<table>
+<caption>Europe '72 — Track Order, Verified Chords, Numbers &amp; Links</caption>
+<thead>
+<tr>
+  <th>#</th><th>Song</th><th>Key</th><th>Chords</th><th>Numbers</th><th>Bass</th><th>Sources</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td class="track-num">1</td><td class="song-title">Cumberland Blues</td><td><span class="key-badge">G</span></td><td class="chords">G, F#, Bb, B, A, Ab, C, D, F, Am7, C7, Em</td><td class="numbers">1, VII, b3, III, II, bII, 4, 5, b7, 2m, 4(7), 6m</td>
+<td class="bass"><div>Fingerstyle bass rated 4/5, human-made — note a separate entry titled 'Cumberland Blues (ai)' exists and is worth avoiding.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-cumberland-blues-bass-tab-s194062">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/cumberlandblues.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-cumberland-blues-lyrics">Genius</a>
+<a href="https://www.dead.net/song/cumberland-blues">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/cumberland-blues">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">2</td><td class="song-title">He's Gone</td><td><span class="key-badge">E</span></td><td class="chords">E, A, B, E7, D, G, Dm</td><td class="numbers">1, 4, 5, 1(7), b7, b3, b7m</td>
+<td class="bass"><div>Songsterr's entry is the Europe '72 version specifically — fingerstyle, rated 2/5, human-made.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-hes-gone-bass-tab-s4986556">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/hesgone.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-hes-gone-lyrics">Genius</a>
+<a href="https://www.dead.net/song/hes-gone">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/hes-gone">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">3</td><td class="song-title">One More Saturday Night</td><td><span class="key-badge">C</span></td><td class="chords">C7, F7, G7, Bb</td><td class="numbers">1(7), 4(7), 5(7), b7</td>
+<td class="bass"><div>The Winterland 10/19/1974 entry is the one with a bass track (fingerstyle, 4/5, human-made) — the canonical entry has none.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-one-more-saturday-night-bass-tab-s5597931">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/onemoresaturdaynight.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-one-more-saturday-night-lyrics">Genius</a>
+<a href="https://www.dead.net/song/one-more-saturday-night">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/one-more-saturday-night">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">4</td><td class="song-title">Jack Straw</td><td><span class="key-badge">E</span></td><td class="chords">E, Esus4, F#m, C#m, A, Bm, D, G#m, B, E7sus4, E7, F#7sus4, F#7</td><td class="numbers">1, 1, 2m, 6m, 4, 5m, b7, 3m, 5, 1(7), 1(7), II7, II7</td>
+<td class="bass"><div>Fingerstyle bass rated 4/5, human-made.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-jack-straw-bass-tab-s194032">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/jackstraw.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-jack-straw-lyrics">Genius</a>
+<a href="https://www.dead.net/song/jack-straw">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/jack-straw">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">5</td><td class="song-title">You Win Again</td><td><span class="key-badge">E</span></td><td class="chords">E, A, B7</td><td class="numbers">1, 4, 5(7)</td>
+<td class="bass">—</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/hankwilliams/youwinagain.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-you-win-again-lyrics">Genius</a>
+<a href="https://www.dead.net/song/you-win-again">Dead.net</a>
+<a href="https://tabs.ultimate-guitar.com/tab/hank-williams/you-win-again-chords-873767">Ult. Guitar</a>
+</td></tr>
+
+<tr><td class="track-num">6</td><td class="song-title">China Cat Sunflower</td><td><span class="key-badge">G</span></td><td class="chords">G, F, D, C, E, B, A</td><td class="numbers">1, b7, 5, 4, VI, III, II</td>
+<td class="bass"><div>The best bass source on this album — a Europe '72-tagged transcription whose track is explicitly named 'Phil Lesh Bass', pick-played, rated 5/5.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-china-cat-sunflower-bass-tab-s1727033">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/chinacatsunflower.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-china-cat-sunflower-lyrics">Genius</a>
+<a href="https://www.dead.net/song/china-cat-sunflower">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/china-cat-sunflower">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">7</td><td class="song-title">I Know You Rider</td><td><span class="key-badge">D</span></td><td class="chords">D, C, G, F, Em</td><td class="numbers">1, b7, 4, b3, 2m</td>
+<td class="bass"><div>Fingerstyle bass rated 4/5, human-made; combined 'China Cat / I Know You Rider' entries also exist.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-i-know-you-rider-bass-tab-s725281">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/iknowyourider.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-i-know-you-rider-lyrics">Genius</a>
+<a href="https://www.dead.net/song/i-know-you-rider">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/i-know-you-rider">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">8</td><td class="song-title">Brown-Eyed Women</td><td><span class="key-badge">E</span></td><td class="chords">C#m, E, B, A, F#m, Bm, G#m</td><td class="numbers">6m, 1, 5, 4, 2m, 5m, 3m</td>
+<td class="bass"><div>Fingerstyle bass rated 4/5, human-made.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-brown-eyed-women-bass-tab-s194104">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/browneyedwomen.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-brown-eyed-women-lyrics">Genius</a>
+<a href="https://www.dead.net/song/brown-eyed-women">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/brown-eyed-women">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">9</td><td class="song-title">Hurts Me Too</td><td><span class="key-badge">A</span></td><td class="chords">A7, D7, E7</td><td class="numbers">1(7), 4(7), 5(7)</td>
+<td class="bass"><div>The only Dead bass tab for this is a 1968 Haight-Ashbury arrangement, not the Europe '72 one — fingerstyle, human-made.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-it-hurts-me-too-bass-tab-s3921378">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/ithurtsmetoo.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-it-hurts-me-too-lyrics">Genius</a>
+<a href="https://www.dead.net/song/it-hurts-me-too">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/it-hurts-me-too">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">10</td><td class="song-title">Ramble On Rose</td><td><span class="key-badge">D</span></td><td class="chords">D, D#, E, F#m, G, G#, A, Bm, C</td><td class="numbers">1, bII, II, 3m, 4, #IV, 5, 6m, b7</td>
+<td class="bass"><div>Bass track rated 2/5, human-made.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-ramble-on-rose-bass-tab-s36835">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/rambleonrose.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-ramble-on-rose-lyrics">Genius</a>
+<a href="https://www.dead.net/song/ramble-rose">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/ramble-on-rose">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">11</td><td class="song-title">Sugar Magnolia</td><td><span class="key-badge">A</span></td><td class="chords">A, D, G, E, C#m, F#m, B, F#</td><td class="numbers">1, 4, b7, 5, 3m, 6m, II, VI</td>
+<td class="bass"><div>A 'Live in Paris, 1972' transcription from this very tour — pick bass, rated 4/5, human-made; another entry offers a track named 'Phil Lesh - Bass'.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-sugar-magnolia-bass-tab-s5445540">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/sugarmagnolia.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-sugar-magnolia-lyrics">Genius</a>
+<a href="https://www.dead.net/song/sugar-magnolia">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/sugar-magnolia">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">12</td><td class="song-title">Mr. Charlie</td><td><span class="key-badge">A</span></td><td class="chords">A7, D7, E7, C, C#, D, E</td><td class="numbers">1(7), 4(7), 5(7), b3, III, 4, 5</td>
+<td class="bass"><div>Fingerstyle bass rated 4/5, human-made.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-mr-charlie-bass-tab-s1145340">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/mrcharlie.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-mr-charlie-lyrics">Genius</a>
+<a href="https://www.dead.net/song/mister-charlie">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/mr.-charlie">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">13</td><td class="song-title">Tennessee Jed</td><td><span class="key-badge">C</span></td><td class="chords">C, F, G, Dm7, C7, Bb</td><td class="numbers">1, 4, 5, 2m, 1(7), b7</td>
+<td class="bass"><div>Fingerstyle bass rated 4/5, human-made.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-tennessee-jed-bass-tab-s194085">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/tennesseejed.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-tennessee-jed-lyrics">Genius</a>
+<a href="https://www.dead.net/song/tennessee-jed">Dead.net</a>
+<a href="https://www.rukind.com/tabs/tennessee-jed">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">14</td><td class="song-title">Truckin'</td><td><span class="key-badge">E</span></td><td class="chords">E, A, B, Bsus4, G, D, F#, F#sus4, Amaj7</td><td class="numbers">1, 4, 5, 5, b3, b7, II, II, 4maj7</td>
+<td class="bass"><div>At 15,000+ views this is by far the most-viewed Grateful Dead bass track anywhere — fingerstyle, rated 4/5, human-made.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-truckin-bass-tab-s8291">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/truckin.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-truckin-lyrics">Genius</a>
+<a href="https://www.dead.net/song/truckin">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/truckin">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">15</td><td class="song-title">Epilog <span class="song-note">(instrumental)</span></td><td>—</td><td class="instrumental" colspan="2">A 4:33 instrumental closing side five, credited to the whole band. No chord chart exists on Rukind and no Dead.net page; the source jam isn't identified</td>
+<td class="bass">—</td>
+<td class="links"></td></tr>
+
+<tr><td class="track-num">16</td><td class="song-title">Prelude <span class="song-note">(instrumental)</span></td><td>—</td><td class="instrumental" colspan="2">An 8:08 band-credited instrumental opening side six and leading into Morning Dew. No chart exists — note that Rukind's only 'prelude' chart is the Weather Report Suite Prelude, a different and later piece</td>
+<td class="bass">—</td>
+<td class="links"></td></tr>
+
+<tr><td class="track-num">17</td><td class="song-title">Morning Dew</td><td><span class="key-badge">D</span></td><td class="chords">D, C, G, F, Em</td><td class="numbers">1, b7, 4, b3, 2m</td>
+<td class="bass"><div>Fingerstyle bass rated 4/5, human-made.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-morning-dew-bass-tab-s194047">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/morningdew.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-morning-dew-lyrics">Genius</a>
+<a href="https://www.dead.net/song/morning-dew">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/morning-dew">Rukind</a>
+</td></tr>
+
+</tbody>
+</table>
+
+<div class="contour" style="margin-top:40px;"></div>
+
+<footer>
+  Compiled from Rukind.com and Ultimate Guitar tab archives. For personal study — not a substitute for official sheet music.
+  <div class="signoff">Vermont · Green Mountains · 2026</div>
+</footer>
+
+<script>
+  document.getElementById('theme-toggle').addEventListener('click', function() {
+    var root = document.documentElement;
+    var current = root.getAttribute('data-theme');
+    var next = current === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('gm-theme', next); } catch (e) {}
+  });
+</script>
+
+</body>
+</html>

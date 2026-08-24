@@ -1,0 +1,590 @@
+{
+  "slug": "europe-72",
+  "title": "Europe '72",
+  "artist": "Grateful Dead",
+  "year": 1972,
+  "type": "live",
+  "descriptor": "Live Triple Album",
+  "page": "europe-72.html",
+  "facts": [
+    "A triple live album released November 5, 1972 on Warner Bros., drawn from the band's 22-date European tour (April 7 – May 26, 1972)",
+    "Peaked at #24 on the Billboard 200 and went Double Platinum — one of the first triple rock albums certified gold",
+    "The last Grateful Dead album with Pigpen, who died in March 1973, and the first with Keith and Donna Jean Godchaux",
+    "Despite being live, the tracks carry substantial studio overdubs, especially vocals; several Garcia-sung songs were pitched sharp by as much as a half-step",
+    "The whole tour was later issued as Europe '72: The Complete Recordings, a 73-CD box of all 22 shows that sold out as a pre-order in under four days"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Cumberland Blues",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "F#",
+        "Bb",
+        "B",
+        "A",
+        "Ab",
+        "C",
+        "D",
+        "F",
+        "Am7",
+        "C7",
+        "Em"
+      ],
+      "numbers": [
+        "1",
+        "VII",
+        "b3",
+        "III",
+        "II",
+        "bII",
+        "4",
+        "5",
+        "b7",
+        "2m",
+        "4(7)",
+        "6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/cumberlandblues.html",
+        "genius": "https://genius.com/Grateful-dead-cumberland-blues-lyrics",
+        "deadnet": "https://www.dead.net/song/cumberland-blues",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/cumberland-blues"
+      },
+      "chordSource": "https://web.archive.org/web/20240621171944/https://www.rukind.com/gdpedia/titles/tab/cumberland-blues",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5, human-made — note a separate entry titled 'Cumberland Blues (ai)' exists and is worth avoiding.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-cumberland-blues-bass-tab-s194062",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The 'gotta get down' turnaround walks chromatically F#–Bb–B then Bb–A–Ab–G"
+    },
+    {
+      "num": 2,
+      "title": "He's Gone",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "B",
+        "E7",
+        "D",
+        "G",
+        "Dm"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "1(7)",
+        "b7",
+        "b3",
+        "b7m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/hesgone.html",
+        "genius": "https://genius.com/Grateful-dead-hes-gone-lyrics",
+        "deadnet": "https://www.dead.net/song/hes-gone",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/hes-gone"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/hes-gone",
+      "bass": {
+        "note": "Songsterr's entry is the Europe '72 version specifically — fingerstyle, rated 2/5, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-hes-gone-bass-tab-s4986556",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Rukind notates a bass walk-up (E–F#–G#) into the 'Now he's gone' refrain; the bridge brings in D, G and a passing Dm"
+    },
+    {
+      "num": 3,
+      "title": "One More Saturday Night",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C7",
+        "F7",
+        "G7",
+        "Bb"
+      ],
+      "numbers": [
+        "1(7)",
+        "4(7)",
+        "5(7)",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/onemoresaturdaynight.html",
+        "genius": "https://genius.com/Grateful-dead-one-more-saturday-night-lyrics",
+        "deadnet": "https://www.dead.net/song/one-more-saturday-night",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/one-more-saturday-night"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/one-more-saturday-night",
+      "bass": {
+        "note": "The Winterland 10/19/1974 entry is the one with a bass track (fingerstyle, 4/5, human-made) — the canonical entry has none.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-one-more-saturday-night-bass-tab-s5597931",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Weir solo composition — an all-dominant-seventh rocker in C with a Bb in the turnaround"
+    },
+    {
+      "num": 4,
+      "title": "Jack Straw",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "Esus4",
+        "F#m",
+        "C#m",
+        "A",
+        "Bm",
+        "D",
+        "G#m",
+        "B",
+        "E7sus4",
+        "E7",
+        "F#7sus4",
+        "F#7"
+      ],
+      "numbers": [
+        "1",
+        "1",
+        "2m",
+        "6m",
+        "4",
+        "5m",
+        "b7",
+        "3m",
+        "5",
+        "1(7)",
+        "1(7)",
+        "II7",
+        "II7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/jackstraw.html",
+        "genius": "https://genius.com/Grateful-dead-jack-straw-lyrics",
+        "deadnet": "https://www.dead.net/song/jack-straw",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/jack-straw"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/jack-straw",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-jack-straw-bass-tab-s194032",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Weir/Hunter. The 'jumped the watchman' section is built entirely on sus4-to-dominant pairs (E7sus4→E7, F#7sus4→F#7)"
+    },
+    {
+      "num": 5,
+      "title": "You Win Again",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "B7"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/hankwilliams/youwinagain.html",
+        "genius": "https://genius.com/Grateful-dead-you-win-again-lyrics",
+        "deadnet": "https://www.dead.net/song/you-win-again",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/hank-williams/you-win-again-chords-873767"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/hank-williams/you-win-again-chords-873767",
+      "notes": "Hank Williams cover. No Rukind chart exists, so these chords come from the Hank Williams original rather than a Dead-specific source — a simple I–IV–V in E. No bass tab exists either"
+    },
+    {
+      "num": 6,
+      "title": "China Cat Sunflower",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "F",
+        "D",
+        "C",
+        "E",
+        "B",
+        "A"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "5",
+        "4",
+        "VI",
+        "III",
+        "II"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/chinacatsunflower.html",
+        "genius": "https://genius.com/Grateful-dead-china-cat-sunflower-lyrics",
+        "deadnet": "https://www.dead.net/song/china-cat-sunflower",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/china-cat-sunflower"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/china-cat-sunflower",
+      "bass": {
+        "note": "The best bass source on this album — a Europe '72-tagged transcription whose track is explicitly named 'Phil Lesh Bass', pick-played, rated 5/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-china-cat-sunflower-bass-tab-s1727033",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "G–F verse vamp; the bridge shifts the same shape up to E–B–A–B"
+    },
+    {
+      "num": 7,
+      "title": "I Know You Rider",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "C",
+        "G",
+        "F",
+        "Em"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "b3",
+        "2m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/iknowyourider.html",
+        "genius": "https://genius.com/Grateful-dead-i-know-you-rider-lyrics",
+        "deadnet": "https://www.dead.net/song/i-know-you-rider",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/i-know-you-rider"
+      },
+      "chordSource": "https://web.archive.org/web/20251230200401id_/https://www.rukind.com/gdpedia/titles/tab/i-know-you-rider",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5, human-made; combined 'China Cat / I Know You Rider' entries also exist.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-i-know-you-rider-bass-tab-s725281",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Traditional. D-Mixolydian with borrowed C, G and F; Rukind notates the intro as a bass run A–B–C# resolving onto the D"
+    },
+    {
+      "num": 8,
+      "title": "Brown-Eyed Women",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "C#m",
+        "E",
+        "B",
+        "A",
+        "F#m",
+        "Bm",
+        "G#m"
+      ],
+      "numbers": [
+        "6m",
+        "1",
+        "5",
+        "4",
+        "2m",
+        "5m",
+        "3m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/browneyedwomen.html",
+        "genius": "https://genius.com/Grateful-dead-brown-eyed-women-lyrics",
+        "deadnet": "https://www.dead.net/song/brown-eyed-women",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/brown-eyed-women"
+      },
+      "chordSource": "https://web.archive.org/web/20240621171000id_/https://www.rukind.com/gdpedia/titles/tab/brown-eyed-women",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-brown-eyed-women-bass-tab-s194104",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verses begin on the relative minor C#m and cadence to E; the 'Tumble down shack' bridge adds Bm and G#m. Key inferred — the chart states none"
+    },
+    {
+      "num": 9,
+      "title": "Hurts Me Too",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A7",
+        "D7",
+        "E7"
+      ],
+      "numbers": [
+        "1(7)",
+        "4(7)",
+        "5(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ithurtsmetoo.html",
+        "genius": "https://genius.com/Grateful-dead-it-hurts-me-too-lyrics",
+        "deadnet": "https://www.dead.net/song/it-hurts-me-too",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/it-hurts-me-too"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/it-hurts-me-too",
+      "bass": {
+        "note": "The only Dead bass tab for this is a 1968 Haight-Ashbury arrangement, not the Europe '72 one — fingerstyle, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-it-hurts-me-too-bass-tab-s3921378",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Elmore James blues cover, Pigpen vocal — a straight three-chord dominant-seventh twelve-bar in A"
+    },
+    {
+      "num": 10,
+      "title": "Ramble On Rose",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "D#",
+        "E",
+        "F#m",
+        "G",
+        "G#",
+        "A",
+        "Bm",
+        "C"
+      ],
+      "numbers": [
+        "1",
+        "bII",
+        "II",
+        "3m",
+        "4",
+        "#IV",
+        "5",
+        "6m",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/rambleonrose.html",
+        "genius": "https://genius.com/Grateful-dead-ramble-on-rose-lyrics",
+        "deadnet": "https://www.dead.net/song/ramble-rose",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/ramble-on-rose"
+      },
+      "chordSource": "https://web.archive.org/web/20260109211303id_/https://www.rukind.com/gdpedia/titles/tab/ramble-on-rose",
+      "bass": {
+        "note": "Bass track rated 2/5, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-ramble-on-rose-bass-tab-s36835",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The D→D#→E and G→G#→A moves are chromatic walk-ups played as written; the 'hundred verses in ragtime' bridge shifts to Bm–C"
+    },
+    {
+      "num": 11,
+      "title": "Sugar Magnolia",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "D",
+        "G",
+        "E",
+        "C#m",
+        "F#m",
+        "B",
+        "F#"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "b7",
+        "5",
+        "3m",
+        "6m",
+        "II",
+        "VI"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/sugarmagnolia.html",
+        "genius": "https://genius.com/Grateful-dead-sugar-magnolia-lyrics",
+        "deadnet": "https://www.dead.net/song/sugar-magnolia",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/sugar-magnolia"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/sugar-magnolia",
+      "bass": {
+        "note": "A 'Live in Paris, 1972' transcription from this very tour — pick bass, rated 4/5, human-made; another entry offers a track named 'Phil Lesh - Bass'.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-sugar-magnolia-bass-tab-s5445540",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The 'Sunshine Daydream' coda modulates to B (B–E–F#)"
+    },
+    {
+      "num": 12,
+      "title": "Mr. Charlie",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A7",
+        "D7",
+        "E7",
+        "C",
+        "C#",
+        "D",
+        "E"
+      ],
+      "numbers": [
+        "1(7)",
+        "4(7)",
+        "5(7)",
+        "b3",
+        "III",
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/mrcharlie.html",
+        "genius": "https://genius.com/Grateful-dead-mr-charlie-lyrics",
+        "deadnet": "https://www.dead.net/song/mister-charlie",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/mr.-charlie"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/mr.-charlie",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-mr-charlie-bass-tab-s1145340",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "McKernan/Hunter — a Pigpen song, fitting for his last album. Verses ride an A7–D7–E7 blues; the 'silver dollar' bridge climbs chromatically C–C#–D onto E"
+    },
+    {
+      "num": 13,
+      "title": "Tennessee Jed",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C",
+        "F",
+        "G",
+        "Dm7",
+        "C7",
+        "Bb"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "2m",
+        "1(7)",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/tennesseejed.html",
+        "genius": "https://genius.com/Grateful-dead-tennessee-jed-lyrics",
+        "deadnet": "https://www.dead.net/song/tennessee-jed",
+        "rukind": "https://www.rukind.com/tabs/tennessee-jed"
+      },
+      "chordSource": "https://web.archive.org/web/20100907063948id_/http://drupal.rukind.com/tabs/tennessee-jed",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-tennessee-jed-bass-tab-s194085",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Not archived under Rukind's usual tab path, so this came from the older Drupal-era Rukind page. Includes a Bb–F–G–C turnaround into the 'Tennessee, Tennessee' chorus"
+    },
+    {
+      "num": 14,
+      "title": "Truckin'",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "B",
+        "Bsus4",
+        "G",
+        "D",
+        "F#",
+        "F#sus4",
+        "Amaj7"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "5",
+        "b3",
+        "b7",
+        "II",
+        "II",
+        "4maj7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/truckin.html",
+        "genius": "https://genius.com/Grateful-dead-truckin-lyrics",
+        "deadnet": "https://www.dead.net/song/truckin",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/truckin"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/truckin",
+      "bass": {
+        "note": "At 15,000+ views this is by far the most-viewed Grateful Dead bass track anywhere — fingerstyle, rated 4/5, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-truckin-bass-tab-s8291",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The album's 13-minute side-five centerpiece, and the source of the cover's walking-foot imagery"
+    },
+    {
+      "num": 15,
+      "title": "Epilog",
+      "instrumental": true,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": null,
+      "chordSource": null,
+      "notes": "A 4:33 instrumental closing side five, credited to the whole band. No chord chart exists on Rukind and no Dead.net page; the source jam isn't identified"
+    },
+    {
+      "num": 16,
+      "title": "Prelude",
+      "instrumental": true,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": null,
+      "chordSource": null,
+      "notes": "An 8:08 band-credited instrumental opening side six and leading into Morning Dew. No chart exists — note that Rukind's only 'prelude' chart is the Weather Report Suite Prelude, a different and later piece"
+    },
+    {
+      "num": 17,
+      "title": "Morning Dew",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "C",
+        "G",
+        "F",
+        "Em"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "4",
+        "b3",
+        "2m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/morningdew.html",
+        "genius": "https://genius.com/Grateful-dead-morning-dew-lyrics",
+        "deadnet": "https://www.dead.net/song/morning-dew",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/morning-dew"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/morning-dew",
+      "bass": {
+        "note": "Fingerstyle bass rated 4/5, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-morning-dew-bass-tab-s194047",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Bonnie Dobson cover — the 10:35 album closer, and the arrangement Rukind's chart follows"
+    }
+  ]
+}

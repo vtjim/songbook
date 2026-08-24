@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Grateful Dead — Live/Dead: Chords &amp; Links</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+  (function() {
+    var saved = null;
+    try { saved = localStorage.getItem('gm-theme'); } catch (e) {}
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<style>
+  :root {
+    --pine: #17281f;
+    --pine-card: #223a2c;
+    --pine-card-alt: #1c3226;
+    --lake: #6fb0c0;
+    --moss: #9dbb84;
+    --moss-dim: #6f8a5c;
+    --birch: #f4f0e4;
+    --birch-dim: #cfd6c9;
+    --border: #35503f;
+  }
+  html[data-theme="light"] {
+    --pine: #faf7ef;
+    --pine-card: #ffffff;
+    --pine-card-alt: #f1ede1;
+    --lake: #2f7a8c;
+    --moss: #4f7a3d;
+    --moss-dim: #3c5c2f;
+    --birch: #1f3b2e;
+    --birch-dim: #4a5d51;
+    --border: #dde3d5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--pine);
+    color: var(--birch);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0 0 80px;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  .contour {
+    height: 34px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-repeat: repeat-x;
+    background-size: 68px 34px;
+    opacity: 0.55;
+  }
+  html[data-theme="dark"] .contour {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='34' viewBox='0 0 68 34'%3E%3Cpath d='M0 17 Q17 2 34 17 T68 17' fill='none' stroke='%236fb0c0' stroke-width='1.2'/%3E%3Cpath d='M0 25 Q17 12 34 25 T68 25' fill='none' stroke='%239dbb84' stroke-width='1.2'/%3E%3C/svg%3E");
+  }
+  html[data-theme="light"] .contour {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='34' viewBox='0 0 68 34'%3E%3Cpath d='M0 17 Q17 2 34 17 T68 17' fill='none' stroke='%232f7a8c' stroke-width='1.2'/%3E%3Cpath d='M0 25 Q17 12 34 25 T68 25' fill='none' stroke='%234f7a3d' stroke-width='1.2'/%3E%3C/svg%3E");
+  }
+
+  .topbar {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .back-link {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--moss);
+    text-decoration: none;
+  }
+  .back-link:hover { color: var(--lake); }
+  .theme-toggle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--moss);
+    background: var(--pine-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 7px 14px;
+    cursor: pointer;
+  }
+  .theme-toggle:hover { border-color: var(--lake); color: var(--lake); }
+
+  header {
+    padding: 32px 24px 20px;
+    text-align: center;
+  }
+  header .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--moss);
+  }
+  header h1 {
+    font-family: 'Fraunces', serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    margin: 6px 0 4px;
+    font-size: 3rem;
+    color: var(--birch);
+    letter-spacing: 0.5px;
+  }
+  header p {
+    color: var(--birch-dim);
+    margin-top: 4px;
+    font-size: 1rem;
+  }
+
+  .facts {
+    max-width: 780px;
+    margin: 32px auto;
+    padding: 24px 30px;
+    background: var(--pine-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  .facts h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: var(--lake);
+    margin-top: 0;
+    font-size: 1.15rem;
+    letter-spacing: 0.3px;
+  }
+  .facts ul { margin: 0; padding-left: 20px; line-height: 1.8; color: var(--birch-dim); }
+  .facts li::marker { color: var(--moss); }
+
+  .note {
+    max-width: 780px;
+    margin: 0 auto 8px;
+    padding: 12px 22px;
+    font-size: 0.88rem;
+    color: var(--birch-dim);
+    font-style: italic;
+    border-left: 2px solid var(--moss-dim);
+  }
+
+  .key-note {
+    max-width: 1100px;
+    margin: 30px auto 4px;
+    padding: 0 22px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--birch-dim);
+  }
+
+  table {
+    width: 100%;
+    max-width: 1100px;
+    margin: 14px auto 0;
+    border-collapse: collapse;
+    background: var(--pine-card);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  caption {
+    caption-side: top;
+    text-align: left;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: var(--lake);
+    font-size: 1.3rem;
+    margin: 0 auto 14px;
+    max-width: 1100px;
+    padding: 0 22px;
+  }
+  th, td {
+    border-bottom: 1px solid var(--border);
+    padding: 12px 14px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 0.9rem;
+  }
+  th {
+    background: var(--pine-card-alt);
+    color: var(--moss);
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+  }
+  tbody tr:hover td { background: var(--pine-card-alt); }
+  .track-num {
+    color: var(--birch-dim);
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+  .song-title { color: var(--birch); font-weight: 600; font-family: 'Fraunces', serif; font-size: 1rem; }
+  .song-note { color: var(--birch-dim); font-weight: 400; font-family: 'Inter', sans-serif; font-size: 0.78rem; }
+  .key-badge {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--pine);
+    background: var(--lake);
+    padding: 1px 7px;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+  .chords { color: var(--birch-dim); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+  .numbers { color: var(--moss); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+  .instrumental { color: var(--birch-dim); font-style: italic; font-size: 0.85rem; }
+  .bass { color: var(--birch-dim); font-size: 0.8rem; }
+  .bass div { margin-bottom: 4px; }
+  .bass a { color: var(--lake); text-decoration: none; white-space: nowrap; font-size: 0.82rem; }
+  .bass a:hover { color: var(--moss); text-decoration: underline; }
+  .links a {
+    color: var(--lake);
+    text-decoration: none;
+    margin-right: 10px;
+    white-space: nowrap;
+    font-size: 0.85rem;
+  }
+  .links a:hover { color: var(--moss); text-decoration: underline; }
+
+  footer {
+    max-width: 1100px;
+    margin: 50px auto 0;
+    padding: 0 22px;
+    color: var(--birch-dim);
+    font-size: 0.82rem;
+    text-align: center;
+  }
+  footer .signoff {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--moss-dim);
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="back-link" href="index.html">← Green Mountain Songbook</a>
+  <button class="theme-toggle" id="theme-toggle" type="button">☀ / 🌲 toggle</button>
+</div>
+
+<header>
+  <div class="eyebrow">Green Mountain Songbook</div>
+  <h1>Live/Dead</h1>
+  <p>Grateful Dead · 1969 First Live Album</p>
+</header>
+
+<div class="contour"></div>
+
+<div class="facts">
+  <h2>Quick Facts</h2>
+  <ul>
+    <li>Released November 10, 1969 on Warner Bros.–Seven Arts — the band's first live album and fourth overall</li>
+    <li>Recorded January 26 – March 2, 1969 at the Avalon Ballroom and Fillmore West; produced by the band with Bob Matthews and Betty Cantor</li>
+    <li>The first live rock album recorded on 16-track — their soundman had a microphone splitter built to feed the PA and the recorder simultaneously with no loss of quality</li>
+    <li>Peaked at #62 on the Billboard 200</li>
+    <li>The four vinyl sides were sequenced for automatic record changers so the album plays back as one continuous concert; the 23-minute 'Dark Star' fills side one</li>
+  </ul>
+</div>
+
+<div class="note">
+  Chords verified against Rukind.com and Ultimate Guitar tab archives — not generated from memory. Nashville numbers included; capital numerals (II, III7, VI7) mark a chord borrowed from outside the home key, usually a secondary dominant. Lyrics links follow each site's standard URL pattern — if a link 404s, search the site directly by title.
+</div>
+
+
+<div class="key-note">Key shown per song · numbers relative to that key</div>
+
+<table>
+<caption>Live/Dead — Track Order, Verified Chords, Numbers &amp; Links</caption>
+<thead>
+<tr>
+  <th>#</th><th>Song</th><th>Key</th><th>Chords</th><th>Numbers</th><th>Bass</th><th>Sources</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td class="track-num">1</td><td class="song-title">Dark Star</td><td><span class="key-badge">A</span></td><td class="chords">A, G, Asus4</td><td class="numbers">1, b7, 1</td>
+<td class="bass"><div>A human transcription of Phil's part — fingerstyle, rated 4/5, and the most-viewed bass track of any Live/Dead song on Songsterr.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-dark-star-bass-tab-s417852t3">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/darkstar.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-dark-star-lyrics">Genius</a>
+<a href="https://www.dead.net/song/dark-star">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/show/103">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">2</td><td class="song-title">St. Stephen</td><td><span class="key-badge">E</span></td><td class="chords">E, D, A, B</td><td class="numbers">1, b7, 4, 5</td>
+<td class="bass"><div>The best-established transcription (9,500+ views, human-made) names its tracks after the actual players, including 'Electric Bass (Phil Lesh)'.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-st-stephen-bass-tab-s641874t2">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/ststephen.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-st-stephen-lyrics">Genius</a>
+<a href="https://www.dead.net/song/saint-stephen">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/saint-stephen">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">3</td><td class="song-title">The Eleven <span class="song-note">(in 11/8)</span></td><td><span class="key-badge">B</span></td><td class="chords">B, A, G#m, F#m, E, D</td><td class="numbers">1, b7, 6m, 5m, 4, b3</td>
+<td class="bass"><div>The Fillmore West version — same venue as the Live/Dead take — is the only human-made Songsterr transcription, with a pick-bass track; the alternative entry is AI-generated.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-the-eleven-live-at-the-fillmore-west-bass-tab-s4617917t1">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/theeleven.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-the-eleven-lyrics">Genius</a>
+<a href="https://www.dead.net/song/eleven">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/show/436">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">4</td><td class="song-title">Turn On Your Love Light</td><td><span class="key-badge">E</span></td><td class="chords">E7, A7</td><td class="numbers">1(7), 4(7)</td>
+<td class="bass"><div>Long-standing human-made entry with a named pick-bass track — the most-viewed track in that transcription.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-turn-on-your-love-light-bass-tab-s8219t2">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/turnonyourlovelight.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-turn-on-your-love-light-lyrics">Genius</a>
+<a href="https://www.dead.net/song/turn-your-love-light">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/show/478">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">5</td><td class="song-title">Death Don't Have No Mercy</td><td><span class="key-badge">Em</span></td><td class="chords">Em, G, B7, A, D, Am</td><td class="numbers">1m, b3, V7, IV, b7, 4m</td>
+<td class="bass"><div>The 'Live In SF' entry is human-made with a fingerstyle track; the more-viewed generic entry for this song is AI-generated, so prefer this one.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-death-dont-have-no-mercy-live-in-sf-bass-tab-s3561323t1">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/deathdonthavenomercy.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-death-dont-have-no-mercy-lyrics">Genius</a>
+<a href="https://www.dead.net/song/death-dont-have-no-mercy">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/show/114">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">6</td><td class="song-title">Feedback <span class="song-note">(instrumental)</span></td><td>—</td><td class="instrumental" colspan="2">Free amplifier-feedback improvisation — no chords by nature, no chart on Rukind, and no bass tab that would mean anything</td>
+<td class="bass">—</td>
+<td class="links">
+<a href="https://www.dead.net/song/feedback">Dead.net</a>
+</td></tr>
+
+<tr><td class="track-num">7</td><td class="song-title">And We Bid You Good Night</td><td><span class="key-badge">E</span></td><td class="chords">E, A, B</td><td class="numbers">1, 4, 5</td>
+<td class="bass"><div>Only appears on Songsterr inside a Johnny B. Goode medley (human-made but unvetted, zero views) — and the Live/Dead take is a near-a cappella 35-second vocal coda with minimal bass anyway.</div><a href="https://www.songsterr.com/a/wsa/grateful-dead-johnny-b-goode-and-we-bid-you-goodnight-live-bass-tab-s5872569t1">Songsterr</a></td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/andwebidyougoodnight.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-and-we-bid-you-goodnight-lyrics">Genius</a>
+<a href="https://www.dead.net/song/and-we-bid-you-goodnight">Dead.net</a>
+<a href="https://tabs.ultimate-guitar.com/tab/grateful-dead/and-we-bid-you-goodnight-chords-2003703">Ult. Guitar</a>
+</td></tr>
+
+</tbody>
+</table>
+
+<div class="contour" style="margin-top:40px;"></div>
+
+<footer>
+  Compiled from Rukind.com and Ultimate Guitar tab archives. For personal study — not a substitute for official sheet music.
+  <div class="signoff">Vermont · Green Mountains · 2026</div>
+</footer>
+
+<script>
+  document.getElementById('theme-toggle').addEventListener('click', function() {
+    var root = document.documentElement;
+    var current = root.getAttribute('data-theme');
+    var next = current === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('gm-theme', next); } catch (e) {}
+  });
+</script>
+
+</body>
+</html>
