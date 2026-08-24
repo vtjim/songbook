@@ -1,0 +1,254 @@
+{
+  "slug": "dead-set",
+  "title": "Dead Set",
+  "artist": "Grateful Dead",
+  "year": 1981,
+  "type": "live",
+  "descriptor": "Live Electric Album",
+  "page": "dead-set.html",
+  "footnotes": [
+    "*I = major tonic (Picardy third)",
+    "†borrowed from the parallel minor (modal mixture)",
+    "ø = flat-5 voicing (Rukind's intro walk-up chart)"
+  ],
+  "facts": [
+    "Released August 26, 1981 on Arista — the electric companion to Reckoning, drawn from the same Sept–Oct 1980 shows",
+    "Recorded at the Warfield Theatre (San Francisco) and Radio City Music Hall (NYC)",
+    "15 tracks including the Drums → Space percussion-and-improv segment",
+    "Reached #29 on the Billboard Pop Albums chart (1981)",
+    "Original CD pressings dropped \"Space\" to fit a single disc; later reissues restored it"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Samson and Delilah",
+      "instrumental": false,
+      "key": "G",
+      "chords": ["G", "C", "D", "Bmb5", "C+4+9", "C#mb5", "F#"],
+      "numbers": ["1", "4", "5", "3ø", "4(+4/9)", "#4ø", "VII"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/samsonanddelilah.html",
+        "genius": "https://genius.com/Grateful-dead-samson-and-delilah-lyrics",
+        "deadnet": "https://www.dead.net/song/samson-and-delilah",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/samson-and-delilah"
+      },
+      "chordSource": "https://web.archive.org/web/20210418112444/https://www.rukind.com/gdpedia/titles/view/372",
+      "notes": "The ø/altered chords are Rukind's intro walk-up ('I would tear this old building down'); verses and chorus are G, C, D"
+    },
+    {
+      "num": 2,
+      "title": "Friend of the Devil",
+      "titleNote": "slow electric arrangement",
+      "instrumental": false,
+      "key": "G",
+      "chords": ["G", "C", "D", "Am", "C#"],
+      "numbers": ["1", "4", "5", "2m", "#4"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/friendofthedevil.html",
+        "genius": "https://genius.com/Grateful-dead-friend-of-the-devil-lyrics",
+        "deadnet": "https://www.dead.net/song/friend-devil",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/friend-of-the-devil"
+      },
+      "chordSource": "https://web.archive.org/web/20240718023144/https://www.rukind.com/gdpedia/titles/tab/friend-of-the-devil",
+      "notes": "Same chords as the fast American Beauty version; C# is a passing chord in the bridge"
+    },
+    {
+      "num": 3,
+      "title": "New Minglewood Blues",
+      "instrumental": false,
+      "key": "E",
+      "chords": ["E", "A", "B", "G"],
+      "numbers": ["1", "4", "5", "b3"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/newminglewoodblues.html",
+        "genius": "https://genius.com/Grateful-dead-new-minglewood-blues-lyrics",
+        "deadnet": "https://www.dead.net/song/new-minglewood-blues",
+        "rukind": "https://www.rukind.com/gdpedia/titles/view/317"
+      },
+      "chordSource": "https://web.archive.org/web/20240309065801/https://www.rukind.com/gdpedia/titles/view/317",
+      "notes": "80s-era arrangement in E, matching the 1980 Dead Set recording; the band played it in C (60s) and A (70s)"
+    },
+    {
+      "num": 4,
+      "title": "Deal",
+      "instrumental": false,
+      "key": "A",
+      "chords": ["A", "C#7", "F#m", "E", "D7", "A°", "G#", "G", "F#", "B", "D"],
+      "numbers": ["1", "III7", "6m", "5", "4(7)", "1°", "VII", "b7", "VI", "II", "4"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/deal.html",
+        "genius": "https://genius.com/Grateful-dead-deal-lyrics",
+        "deadnet": "https://www.dead.net/song/deal",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/deal"
+      },
+      "chordSource": "https://web.archive.org/web/20240621164324/https://www.rukind.com/gdpedia/titles/tab/deal",
+      "notes": "G#–G–F# is a chromatic walkdown into B–D; refrain is A G D A"
+    },
+    {
+      "num": 5,
+      "title": "Candyman",
+      "instrumental": false,
+      "key": "C",
+      "chords": ["C", "Gm", "F", "G", "Dm", "Bb", "Am"],
+      "numbers": ["1", "5m†", "4", "5", "2m", "b7", "6m"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/candyman.html",
+        "genius": "https://genius.com/Grateful-dead-candyman-lyrics",
+        "deadnet": "https://www.dead.net/song/candyman",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/candyman"
+      },
+      "chordSource": "https://web.archive.org/web/20251231105616/https://www.rukind.com/gdpedia/titles/tab/candyman",
+      "notes": "Mixolydian flavor — intro vamps Bb–F–C"
+    },
+    {
+      "num": 6,
+      "title": "Little Red Rooster",
+      "instrumental": false,
+      "key": "D",
+      "chords": ["D", "A7", "E7"],
+      "numbers": ["1", "5(7)", "II7"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/littleredrooster.html",
+        "genius": "https://genius.com/Grateful-dead-little-red-rooster-lyrics",
+        "deadnet": "https://www.dead.net/song/little-red-rooster",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/little-red-rooster"
+      },
+      "chordSource": "http://web.archive.org/web/20251226112616/https://www.rukind.com/gdpedia/titles/tab/little-red-rooster",
+      "notes": "12-bar blues; Rukind's chart is in D, though live keys varied"
+    },
+    {
+      "num": 7,
+      "title": "Loser",
+      "instrumental": false,
+      "key": "Am",
+      "chords": ["Am", "G", "C", "D", "Em", "C/B", "A"],
+      "numbers": ["1m", "b7", "b3", "IV", "5m", "b3/2", "I*"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/loser.html",
+        "genius": "https://genius.com/Grateful-dead-loser-lyrics",
+        "deadnet": "https://www.dead.net/song/loser",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/loser"
+      },
+      "chordSource": "http://web.archive.org/web/20260303101024/https://www.rukind.com/gdpedia/titles/tab/loser",
+      "notes": "Verses center on Am (dorian D major); chorus resolves G–D–A"
+    },
+    {
+      "num": 8,
+      "title": "Passenger",
+      "instrumental": false,
+      "key": "A",
+      "chords": ["A", "D", "G", "C", "E", "Am"],
+      "numbers": ["1", "4", "b7", "b3", "5", "1m†"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/passenger.html",
+        "genius": "https://genius.com/Grateful-dead-passenger-lyrics",
+        "deadnet": "https://www.dead.net/song/passenger",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/passenger"
+      },
+      "chordSource": "http://web.archive.org/web/20230528130039/https://www.rukind.com/gdpedia/titles/view/338",
+      "notes": "Verses vamp A–D–A; lead traditionally played with slide"
+    },
+    {
+      "num": 9,
+      "title": "Feel Like a Stranger",
+      "instrumental": false,
+      "key": "A",
+      "chords": ["A", "G", "C#m", "B", "D", "E", "F#m", "G/D"],
+      "numbers": ["1", "b7", "3m", "II", "4", "5", "6m", "b7/4"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/feellikeastranger.html",
+        "genius": "https://genius.com/Grateful-dead-feel-like-a-stranger-lyrics",
+        "deadnet": "https://www.dead.net/song/feel-stranger",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/feel-like-a-stranger"
+      },
+      "chordSource": "https://web.archive.org/web/20250216224710/https://www.rukind.com/gdpedia/titles/tab/feel-like-a-stranger",
+      "notes": "A-mixolydian verse vamp (A–G); chorus sits on C#m–B"
+    },
+    {
+      "num": 10,
+      "title": "Franklin's Tower",
+      "instrumental": false,
+      "key": "A",
+      "chords": ["A", "G", "D"],
+      "numbers": ["1", "b7", "4"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/franklinstower.html",
+        "genius": "https://genius.com/Grateful-dead-franklins-tower-lyrics",
+        "deadnet": "https://www.dead.net/song/franklins-tower-0",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/franklins-tower"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/franklins-tower",
+      "notes": "A Mixolydian — the whole song cycles A–G–D–G"
+    },
+    {
+      "num": 11,
+      "title": "Drums",
+      "instrumental": true,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": null,
+      "chordSource": null,
+      "notes": "Percussion duet (Hart/Kreutzmann) — no chords"
+    },
+    {
+      "num": 12,
+      "title": "Space",
+      "instrumental": true,
+      "key": null,
+      "chords": [],
+      "numbers": [],
+      "links": null,
+      "chordSource": null,
+      "notes": "Improvised instrumental — no chords"
+    },
+    {
+      "num": 13,
+      "title": "Fire on the Mountain",
+      "instrumental": false,
+      "key": "B",
+      "chords": ["B", "A"],
+      "numbers": ["1", "b7"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/fireonthemountain.html",
+        "genius": "https://genius.com/Grateful-dead-fire-on-the-mountain-lyrics",
+        "deadnet": "https://www.dead.net/song/fire-mountain",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/fire-on-the-mountain"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/fire-on-the-mountain",
+      "notes": "Entire song is a B→A vamp (B Mixolydian)"
+    },
+    {
+      "num": 14,
+      "title": "Greatest Story Ever Told",
+      "instrumental": false,
+      "key": "C",
+      "chords": ["C", "F", "Am", "Em", "G", "D", "Dm"],
+      "numbers": ["1", "4", "6m", "3m", "5", "II", "2m"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/greateststoryevertold.html",
+        "genius": "https://genius.com/Grateful-dead-greatest-story-ever-told-lyrics",
+        "deadnet": "https://www.dead.net/song/greatest-story-ever-told",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/greatest-story-ever-told"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/greatest-story-ever-told",
+      "notes": "Ace-album chart in C; live keys varied (an easier G version circulates)"
+    },
+    {
+      "num": 15,
+      "title": "Brokedown Palace",
+      "instrumental": false,
+      "key": "F",
+      "chords": ["G", "Am", "Bb", "F", "C", "Dm", "A"],
+      "numbers": ["II", "3m", "4", "1", "5", "6m", "III"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/brokedownpalace.html",
+        "genius": "https://genius.com/Grateful-dead-brokedown-palace-lyrics",
+        "deadnet": "https://www.dead.net/song/brokedown-palace",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/brokedown-palace"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/brokedown-palace",
+      "notes": "Chart opens in G before settling in F (as on American Beauty); a Rukind forum thread says the Dead Set take is in G throughout"
+    }
+  ]
+}

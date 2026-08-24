@@ -8,6 +8,14 @@
       "type": "live",
       "page": "reckoning.html",
       "cardBlurb": "16 tracks, verified chords, Nashville numbers, and lyric links for the Dead's acoustic live double album."
+    },
+    {
+      "slug": "dead-set",
+      "title": "Dead Set",
+      "year": 1981,
+      "type": "live",
+      "page": "dead-set.html",
+      "cardBlurb": "Reckoning's electric twin — 13 songs plus Drums/Space, with verified chords, numbers, and links."
     }
   ]
 }
