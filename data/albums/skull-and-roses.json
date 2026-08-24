@@ -1,0 +1,412 @@
+{
+  "slug": "skull-and-roses",
+  "title": "Skull & Roses",
+  "artist": "Grateful Dead",
+  "year": 1971,
+  "type": "live",
+  "descriptor": "Live Double Album",
+  "page": "skull-and-roses.html",
+  "facts": [
+    "Released September 24, 1971 on Warner Bros. — the band's second live double album, issued with no visible title on the sleeve",
+    "Known as 'Skull and Roses' from its cover art (after an Edmund Joseph Sullivan illustration); the band wanted it called 'Skull Fuck', which Warner Bros. rejected",
+    "Peaked at #25 on the Billboard 200 and became the Dead's first gold album",
+    "Recorded March 24 – April 29, 1971 at Winterland, the Hammerstein Ballroom, and the Fillmore East",
+    "Carried the famous insert — 'Dead Freaks Unite: Who are you? Where are you? How are you?' — which started the Dead Heads mailing list",
+    "Features vocal overdubs and organ from Merl Saunders"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Bertha",
+      "instrumental": false,
+      "key": "G",
+      "chords": [
+        "G",
+        "C",
+        "C#",
+        "D",
+        "Am"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "#IV",
+        "5",
+        "2m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/bertha.html",
+        "genius": "https://genius.com/Grateful-dead-bertha-lyrics",
+        "deadnet": "https://www.dead.net/song/bertha",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/bertha"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/bertha",
+      "bass": {
+        "note": "An acoustic-bass track with 8,000+ views, human-made, rated 4/5.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-bertha-bass-tab-s194040",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verses alternate C and G with the signature G–C–G–C–G tag; the bridge runs C–C#–D–Am–G–C–D"
+    },
+    {
+      "num": 2,
+      "title": "Mama Tried",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "G",
+        "A7",
+        "C",
+        "Bm",
+        "A"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5(7)",
+        "b7",
+        "6m",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/mamatried.html",
+        "genius": "https://genius.com/Grateful-dead-mama-tried-lyrics",
+        "deadnet": "https://www.dead.net/song/mama-tried",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/mama-tried"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/mama-tried",
+      "bass": {
+        "note": "A bass-only transcription, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-mama-tried-bass-tab-s2996255",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Merle Haggard cover. Intro D–A7–D; the 'turned twenty-one in prison' line goes D–C–D–Bm–A"
+    },
+    {
+      "num": 3,
+      "title": "Big Railroad Blues",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "D",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/bigrailroadblues.html",
+        "genius": "https://genius.com/Grateful-dead-big-railroad-blues-lyrics",
+        "deadnet": "https://www.dead.net/song/big-railroad-blues",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/big-railroad-blues"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/big-railroad-blues",
+      "bass": {
+        "note": "Fingerstyle bass track, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-big-railroad-blues-bass-tab-s8607",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Noah Lewis cover — a straight I–IV–V in A; Rukind also supplies an intro tab and a lead riff"
+    },
+    {
+      "num": 4,
+      "title": "Playing in the Band",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "A",
+        "E",
+        "G",
+        "Bm",
+        "Gm"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "II",
+        "4",
+        "6m",
+        "4m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/playingintheband.html",
+        "genius": "https://genius.com/Grateful-dead-playing-in-the-band-lyrics",
+        "deadnet": "https://www.dead.net/song/playing-band",
+        "rukind": "https://www.rukind.com/html/music/gdtunes/Playin.htm"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/html/music/gdtunes/Playin.htm",
+      "bass": {
+        "note": "The 'Live' transcription is human-made and rated 5/5 — several other Playing in the Band entries are explicitly AI tabs.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-playing-in-the-band-live-bass-tab-s4943758",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "In 10/4. Verse is a D vamp with a D–A–D tag; the main theme is A–E–A / G–D–A, then Bm–G / D–Gm"
+    },
+    {
+      "num": 5,
+      "title": "The Other One",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "D",
+        "C",
+        "A",
+        "G",
+        "B"
+      ],
+      "numbers": [
+        "1",
+        "b7",
+        "b6",
+        "4",
+        "b3",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/theotherone.html",
+        "genius": "https://genius.com/Grateful-dead-the-other-one-lyrics",
+        "deadnet": "https://www.dead.net/song/other-one",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/the-other-one"
+      },
+      "chordSource": "https://web.archive.org/web/2024/https://www.rukind.com/gdpedia/titles/tab/the-other-one",
+      "bass": {
+        "note": "Both Songsterr options for this song are AI-generated — worth verifying against the record.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-the-other-one-bass-tab-s4091902",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "The E–D vamp section of the Anthem suite; outro E–D–C–A–G 'comin' around in a circle', reprise B–A–G"
+    },
+    {
+      "num": 6,
+      "title": "Me and My Uncle",
+      "instrumental": false,
+      "key": "Em",
+      "chords": [
+        "Em",
+        "G",
+        "G#",
+        "A",
+        "B"
+      ],
+      "numbers": [
+        "1m",
+        "b3",
+        "III",
+        "IV",
+        "V"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/meandmyuncle.html",
+        "genius": "https://genius.com/Grateful-dead-me-and-my-uncle-lyrics",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/me-and-my-uncle"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/me-and-my-uncle",
+      "bass": {
+        "note": "Acoustic-bass track, but AI-generated — as is the 'Me and My Uncle > Big River' entry.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-me-and-my-uncle-bass-tab-s194065",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "John Phillips cover. Intro Em–B–Em; verse alternates G and Em with a G–G#–A chromatic walk-up on line four. No Dead.net page could be confirmed for this one"
+    },
+    {
+      "num": 7,
+      "title": "Big Boss Man",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "D",
+        "E7",
+        "A7",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5(7)",
+        "1(7)",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/bigbossman.html",
+        "genius": "https://genius.com/Grateful-dead-big-boss-man-lyrics",
+        "deadnet": "https://www.dead.net/song/big-boss-man",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/big-boss-man"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/big-boss-man",
+      "bass": {
+        "note": "A Skull & Roses–specific transcription, but AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-big-boss-man-grateful-dead-skull-roses-bass-tab-s3182311",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Jimmy Reed cover, Pigpen vocal — a slow twelve-bar in A with an A7 turn into the refrain"
+    },
+    {
+      "num": 8,
+      "title": "Me and Bobby McGee",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "A",
+        "D7",
+        "G"
+      ],
+      "numbers": [
+        "1",
+        "5",
+        "1(7)",
+        "4"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/meandbobbymcgee.html",
+        "genius": "https://genius.com/Grateful-dead-me-and-bobby-mcgee-lyrics",
+        "deadnet": "https://www.dead.net/song/me-and-bobby-mcgee",
+        "ultimateguitar": "https://tabs.ultimate-guitar.com/tab/grateful-dead/me-and-bobby-mcgee-chords-1774676"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/me-and-bobby-mcgee-chords-1774676",
+      "bass": {
+        "note": "No Dead bass tab exists (Songsterr's entry has no bass track) — this is Janis Joplin's version, human-made and heavily viewed.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/janis-joplin-me-and-bobby-mcgee-bass-tab-s10236",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Kristofferson cover. Neither Rukind archive has a chart for this, so the chords come from Ultimate Guitar: verse D–A–D, then D–D7–G–D"
+    },
+    {
+      "num": 9,
+      "title": "Johnny B. Goode",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A7",
+        "D7",
+        "E7"
+      ],
+      "numbers": [
+        "1(7)",
+        "4(7)",
+        "5(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/johnnybgoode.html",
+        "genius": "https://genius.com/Grateful-dead-johnny-b-goode-lyrics",
+        "deadnet": "https://www.dead.net/song/johnny-b-goode",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/johnny-b.-goode"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/johnny-b.-goode",
+      "bass": {
+        "note": "No Dead version on Songsterr — this is Chuck Berry's original, human-made, with 68,000+ views.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/chuck-berry-johnny-b-goode-bass-tab-s10",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Chuck Berry cover — a standard twelve-bar in A using dominant sevenths throughout"
+    },
+    {
+      "num": 10,
+      "title": "Wharf Rat",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "Asus2",
+        "A",
+        "Em",
+        "D",
+        "G",
+        "C",
+        "Dsus4",
+        "Asus4",
+        "A7"
+      ],
+      "numbers": [
+        "1",
+        "1",
+        "5m",
+        "4",
+        "b7",
+        "b3",
+        "4",
+        "1",
+        "1(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/wharfrat.html",
+        "genius": "https://genius.com/Grateful-dead-wharf-rat-lyrics",
+        "deadnet": "https://www.dead.net/song/wharf-rat",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/wharf-rat"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/wharf-rat",
+      "bass": {
+        "note": "The 'Live' entry is human-made; the higher-traffic alternative is AI-generated, so prefer this one.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-wharf-rat-live-bass-tab-s5211983",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Verses vamp Asus2 to Em with a D passing chord; the 'I'll get back on my feet again' bridge modulates through G–D and C–G before resolving"
+    },
+    {
+      "num": 11,
+      "title": "Not Fade Away",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "D"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "b7"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/notfadeaway.html",
+        "genius": "https://genius.com/Grateful-dead-not-fade-away-lyrics",
+        "deadnet": "https://www.dead.net/song/not-fade-away",
+        "rukind": "https://www.rukind.com/html/music/gdtunes/Notfade.htm"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/html/music/gdtunes/Notfade.htm",
+      "bass": {
+        "note": "Fingerstyle bass, human-made, ~2,000 views; the popular 'Fillmore East 1970' entry is AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-not-fade-away-bass-tab-s36838",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Buddy Holly cover — a Bo Diddley beat over E with A and D answering phrases. First half of the album's closing medley"
+    },
+    {
+      "num": 12,
+      "title": "Goin' Down the Road Feeling Bad",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E",
+        "A",
+        "B",
+        "C#m"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "5",
+        "6m"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/goingdowntheroadfeelingbad.html",
+        "genius": "https://genius.com/Grateful-dead-goin-down-the-road-feeling-bad-lyrics",
+        "deadnet": "https://www.dead.net/song/goin-down-road-feeling-bad",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/goin-down-the-road-feelin-bad"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/goin-down-the-road-feelin-bad",
+      "bass": {
+        "note": "Fingerstyle bass rated 2/5, human-made.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-going-down-the-road-feelin-bad-bass-tab-s8609",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Traditional. Verse A–E, A–E–C#m, then E–B–E. Rukind's chart also carries the 'And We Bid You Goodnight' ending (E–A–E–A–B–E) that closes the album"
+    }
+  ]
+}

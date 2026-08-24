@@ -38,6 +38,24 @@
       "cardBlurb": "The first live album — the 23-minute Dark Star, The Eleven in 11/8, and Turn On Your Love Light."
     },
     {
+      "slug": "skull-and-roses",
+      "title": "Skull & Roses",
+      "year": 1971,
+      "releaseDate": "1971-09-24",
+      "type": "live",
+      "page": "skull-and-roses.html",
+      "cardBlurb": "The untitled double live album — Bertha, Playing in the Band, Wharf Rat, and the Not Fade Away medley."
+    },
+    {
+      "slug": "bears-choice",
+      "title": "Bear's Choice",
+      "year": 1973,
+      "releaseDate": "1973-07-13",
+      "type": "live",
+      "page": "bears-choice.html",
+      "cardBlurb": "Owsley's Fillmore East picks and a Pigpen tribute — Katie Mae, Smokestack Lightning, Hard to Handle."
+    },
+    {
       "slug": "europe-72",
       "title": "Europe '72",
       "year": 1972,

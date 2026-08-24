@@ -1,0 +1,237 @@
+{
+  "slug": "bears-choice",
+  "title": "Bear's Choice",
+  "artist": "Grateful Dead",
+  "year": 1973,
+  "type": "live",
+  "descriptor": "Live Album — History of the Grateful Dead, Vol. One",
+  "page": "bears-choice.html",
+  "facts": [
+    "Full title: History of the Grateful Dead, Volume One (Bear's Choice); released July 13, 1973 on Warner Bros.",
+    "Compiled by soundman Owsley 'Bear' Stanley from his own recordings — hence the name",
+    "Recorded February 13–14, 1970 at the Fillmore East; side one is the acoustic set, side two the electric set",
+    "Effectively a tribute to Pigpen, who died during production and sings lead on three of the electric tracks; it peaked at #60",
+    "The Dancing Bears graphic made its first appearance on this album's back cover — and despite the 'Volume One' billing, no further volumes were released"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Katie Mae",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E7",
+        "A7",
+        "B7"
+      ],
+      "numbers": [
+        "1(7)",
+        "4(7)",
+        "5(7)"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/katiemae.html",
+        "genius": "https://genius.com/Grateful-dead-katie-mae-lyrics",
+        "deadnet": "https://www.dead.net/song/katie-mae",
+        "rukind": "https://www.rukind.com/html/music/gdtunes/Katiemae.htm"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/katie-mae-chords-3237584",
+      "notes": "Lightnin' Hopkins blues, Pigpen vocal. Rukind's page has lead tab but no chord names, so the chords come from an Ultimate Guitar chart transcribed specifically from this album. No bass tab exists for it anywhere"
+    },
+    {
+      "num": 2,
+      "title": "Dark Hollow",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A",
+        "D",
+        "A7",
+        "D7",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "4",
+        "1(7)",
+        "4(7)",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/darkhollow.html",
+        "genius": "https://genius.com/Grateful-dead-dark-hollow-lyrics",
+        "deadnet": "https://www.dead.net/song/dark-hollow",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/dark-hollow"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/dark-hollow",
+      "bass": {
+        "note": "Both Songsterr options for this song are AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-dark-hollow-bass-tab-s194059",
+        "tabLabel": "Songsterr"
+      },
+      "notes": null
+    },
+    {
+      "num": 3,
+      "title": "I've Been All Around This World",
+      "instrumental": false,
+      "key": "C",
+      "chords": [
+        "C",
+        "C7",
+        "F",
+        "G"
+      ],
+      "numbers": [
+        "1",
+        "1(7)",
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/beenallaroundthisworld.html",
+        "genius": "https://genius.com/Grateful-dead-been-all-around-this-world-lyrics",
+        "deadnet": "https://www.dead.net/song/ive-been-all-around-world",
+        "rukind": "https://www.rukind.com/html/music/gdtunes/Ivebnall.htm"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/html/music/gdtunes/Ivebnall.htm",
+      "notes": "Traditional — the same arrangement later heard on Reckoning. No bass tab exists for it"
+    },
+    {
+      "num": 4,
+      "title": "Wake Up Little Susie",
+      "instrumental": false,
+      "key": "D",
+      "chords": [
+        "D",
+        "F",
+        "G",
+        "A"
+      ],
+      "numbers": [
+        "1",
+        "b3",
+        "4",
+        "5"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/wakeuplittlesusie.html",
+        "genius": "https://genius.com/Grateful-dead-wake-up-little-susie-lyrics",
+        "deadnet": "https://www.dead.net/song/wake-little-susie",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/wake-up-little-susie"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/wake-up-little-susie",
+      "bass": {
+        "note": "No Dead version exists and the Everly Brothers entry is AI-generated — this Simon & Garfunkel transcription is the human-made alternative.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/simon-and-garfunkel-wake-up-little-susie-bass-tab-s17380",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Everly Brothers cover. Intro and title hook D–F–G–F–D; the 'movie wasn't so hot' section moves to G–D–G, then G–A–G"
+    },
+    {
+      "num": 5,
+      "title": "Black Peter",
+      "instrumental": false,
+      "key": "A",
+      "chords": [
+        "A7",
+        "D7",
+        "Em",
+        "Bm",
+        "A",
+        "G",
+        "F#m",
+        "D",
+        "C",
+        "Dm",
+        "Am",
+        "F"
+      ],
+      "numbers": [
+        "1(7)",
+        "4(7)",
+        "5m",
+        "2m",
+        "1",
+        "b7",
+        "6m",
+        "4",
+        "b3",
+        "4m",
+        "1m",
+        "b6"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/blackpeter.html",
+        "genius": "https://genius.com/Grateful-dead-black-peter-lyrics",
+        "deadnet": "https://www.dead.net/song/black-peter",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/black-peter"
+      },
+      "chordSource": "https://web.archive.org/web/20240621182222/https://www.rukind.com/gdpedia/titles/tab/black-peter",
+      "bass": {
+        "note": "Both the main entry and the Winterland 1974 alternate are AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-black-peter-bass-tab-s194098",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Mixolydian-leaning A7/D7 vamp; Rukind's chart states no explicit key"
+    },
+    {
+      "num": 6,
+      "title": "Smokestack Lightning",
+      "instrumental": false,
+      "key": "E",
+      "chords": [
+        "E"
+      ],
+      "numbers": [
+        "1"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/smokestacklightning.html",
+        "genius": "https://genius.com/Grateful-dead-smokestack-lightning-lyrics",
+        "deadnet": "https://www.dead.net/song/smokestack-lightning",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/smokestack-lightnin"
+      },
+      "chordSource": "https://web.archive.org/web/2024id_/https://www.rukind.com/gdpedia/titles/tab/smokestack-lightnin",
+      "bass": {
+        "note": "No Dead version on Songsterr — this is Howlin' Wolf's original, human-made, with an acoustic-bass track.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/howlin-wolf-smokestack-lightning-bass-tab-s198050",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Howlin' Wolf cover, Pigpen vocal. A one-chord modal vamp — Rukind prints the riff in open-E position but names no chords, and the Dead's 18-minute Fillmore East reading sustains that E throughout"
+    },
+    {
+      "num": 7,
+      "title": "Hard to Handle",
+      "instrumental": false,
+      "key": "B",
+      "chords": [
+        "B",
+        "G#m",
+        "F#m",
+        "A",
+        "E"
+      ],
+      "numbers": [
+        "1",
+        "6m",
+        "5m",
+        "b7",
+        "4"
+      ],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/hardtohandle.html",
+        "genius": "https://genius.com/Grateful-dead-hard-to-handle-lyrics",
+        "deadnet": "https://www.dead.net/song/hard-handle",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/hard-to-handle"
+      },
+      "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/hard-to-handle-tabs-3247331",
+      "bass": {
+        "note": "The 'Hard To Handle (Live)' entry is human-made; the other Dead entry is AI-generated.",
+        "tabUrl": "https://www.songsterr.com/a/wsa/grateful-dead-hard-to-handle-live-bass-tab-s5129678",
+        "tabLabel": "Songsterr"
+      },
+      "notes": "Otis Redding cover, Pigpen vocal. Rukind's page is riff tab with chords only annotated above the staves; both it and the UG tab agree on the B–G#m–F#m descent with an A–E–B turnaround"
+    }
+  ]
+}
