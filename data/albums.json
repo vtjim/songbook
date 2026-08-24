@@ -1,0 +1,13 @@
+{
+  "site": "Green Mountain Songbook",
+  "albums": [
+    {
+      "slug": "reckoning",
+      "title": "Reckoning",
+      "year": 1981,
+      "type": "live",
+      "page": "reckoning.html",
+      "cardBlurb": "16 tracks, verified chords, Nashville numbers, and lyric links for the Dead's acoustic live double album."
+    }
+  ]
+}

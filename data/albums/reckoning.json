@@ -1,0 +1,279 @@
+{
+  "slug": "reckoning",
+  "title": "Reckoning",
+  "artist": "Grateful Dead",
+  "year": 1981,
+  "type": "live",
+  "descriptor": "Live Acoustic Album",
+  "page": "reckoning.html",
+  "footnotes": [
+    "*I = major tonic (Picardy third)",
+    "†borrowed from the parallel minor (modal mixture)"
+  ],
+  "facts": [
+    "1981 live double album — the band's 6th live release (17th overall)",
+    "Fully acoustic; recorded live Sept–Oct 1980 at the Warfield (San Francisco) and Radio City Music Hall (NYC)",
+    "Companion release to Dead Set (1981), the electric album from the same shows",
+    "16 tracks, ~95 minutes; \"Oh Babe, It Ain't No Lie\" was cut from early CD pressings for space, later restored",
+    "Charted #43 on the Billboard Pop Albums chart; \"Dire Wolf\" reached #37 on Mainstream Rock"
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Dire Wolf",
+      "instrumental": false,
+      "key": "G",
+      "chords": ["G", "Bb", "F", "C", "E7", "Am"],
+      "numbers": ["1", "b3", "b7", "4", "VI7", "2m"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/direwolf.html",
+        "genius": "https://genius.com/Grateful-dead-dire-wolf-lyrics",
+        "deadnet": "https://www.dead.net/song/dire-wolf",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/dire-wolf"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/dire-wolf",
+      "notes": null
+    },
+    {
+      "num": 2,
+      "title": "The Race Is On",
+      "instrumental": false,
+      "key": "G",
+      "chords": ["G", "C", "D", "A"],
+      "numbers": ["1", "4", "5", "II"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/theraceison.html",
+        "genius": "https://genius.com/Grateful-dead-the-race-is-on-lyrics",
+        "deadnet": "https://www.dead.net/song/race-on",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/the-race-is-on"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/the-race-is-on",
+      "notes": null
+    },
+    {
+      "num": 3,
+      "title": "Oh Babe, It Ain't No Lie",
+      "instrumental": false,
+      "key": "C",
+      "chords": ["C", "F", "G", "E", "E7", "D"],
+      "numbers": ["1", "4", "5", "III7", "II"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ohbabeitaintnolie.html",
+        "genius": "https://genius.com/Grateful-dead-oh-babe-it-aint-no-lie-lyrics",
+        "deadnet": "https://www.dead.net/song/oh-babe-it-aint-no-lie",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/oh-babe-it-aint-no-lie"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/oh-babe-it-aint-no-lie",
+      "notes": null
+    },
+    {
+      "num": 4,
+      "title": "It Must Have Been the Roses",
+      "instrumental": false,
+      "key": "A",
+      "chords": ["A", "D", "E", "F#m"],
+      "numbers": ["1", "4", "5", "6m"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/itmusthavebeentheroses.html",
+        "genius": "https://genius.com/Grateful-dead-it-must-have-been-the-roses-lyrics",
+        "deadnet": "https://www.dead.net/song/it-must-have-been-roses",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/it-must-have-been-the-roses"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/it-must-have-been-the-roses",
+      "notes": null
+    },
+    {
+      "num": 5,
+      "title": "Dark Hollow",
+      "instrumental": false,
+      "key": "A",
+      "chords": ["A", "D", "A7", "D7", "E"],
+      "numbers": ["1", "4", "1(7)", "4(7)", "5"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/darkhollow.html",
+        "genius": "https://genius.com/Grateful-dead-dark-hollow-lyrics",
+        "deadnet": "https://www.dead.net/song/dark-hollow",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/dark-hollow"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/dark-hollow",
+      "notes": null
+    },
+    {
+      "num": 6,
+      "title": "China Doll",
+      "instrumental": false,
+      "key": "Dm",
+      "chords": ["Dm", "Fmaj7", "B°7", "Bb", "A7", "Am", "D", "A", "G"],
+      "numbers": ["1m", "b3maj7", "VI°7", "b6", "5(7)", "5m", "I*", "V", "IV"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/chinadoll.html",
+        "genius": "https://genius.com/Grateful-dead-china-doll-lyrics",
+        "deadnet": "https://www.dead.net/song/china-doll",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/china-doll"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/china-doll",
+      "notes": "I* = major tonic (Picardy third)"
+    },
+    {
+      "num": 7,
+      "title": "Been All Around This World",
+      "instrumental": false,
+      "key": "C",
+      "chords": ["C", "C7", "F", "G"],
+      "numbers": ["1", "1(7)", "4", "5"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/beenallaroundthisworld.html",
+        "genius": "https://genius.com/Grateful-dead-been-all-around-this-world-lyrics",
+        "deadnet": "https://www.dead.net/song/all-around-world",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/been-all-around-this-world"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/been-all-around-this-world",
+      "notes": null
+    },
+    {
+      "num": 8,
+      "title": "Monkey and the Engineer",
+      "instrumental": false,
+      "key": "G",
+      "chords": ["G", "C", "A7", "D"],
+      "numbers": ["1", "4", "II7", "5"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/monkeyandtheengineer.html",
+        "genius": "https://genius.com/Grateful-dead-monkey-and-the-engineer-lyrics",
+        "deadnet": "https://www.dead.net/song/monkey-and-engineer",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/monkey-and-the-engineer"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/monkey-and-the-engineer",
+      "notes": null
+    },
+    {
+      "num": 9,
+      "title": "Jack-A-Roe",
+      "instrumental": false,
+      "key": "Am",
+      "chords": ["Am", "C", "E7", "F"],
+      "numbers": ["1m", "b3", "5(7)", "b6"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/jackaroe.html",
+        "genius": "https://genius.com/Grateful-dead-jack-a-roe-lyrics",
+        "deadnet": "https://www.dead.net/song/jack-roe",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/jack-a-roe"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/jack-a-roe",
+      "notes": null
+    },
+    {
+      "num": 10,
+      "title": "Deep Elem Blues",
+      "instrumental": false,
+      "key": "E",
+      "chords": ["E", "E7", "A7", "B"],
+      "numbers": ["1", "1(7)", "4(7)", "5"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/deepelemblues.html",
+        "genius": "https://genius.com/Grateful-dead-deep-elem-blues-lyrics",
+        "deadnet": "https://www.dead.net/song/deep-elem-blues",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/deep-elem-blues"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/deep-elem-blues",
+      "notes": null
+    },
+    {
+      "num": 11,
+      "title": "Cassidy",
+      "instrumental": false,
+      "key": "E",
+      "chords": ["E", "A", "Em", "Am", "F#m", "B"],
+      "numbers": ["1", "4", "1m†", "4m†", "2m", "5"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/cassidy.html",
+        "genius": "https://genius.com/Grateful-dead-cassidy-lyrics",
+        "deadnet": "https://www.dead.net/song/cassidy",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/cassidy"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/cassidy",
+      "notes": "† = borrowed from the parallel minor (modal mixture)"
+    },
+    {
+      "num": 12,
+      "title": "To Lay Me Down",
+      "instrumental": false,
+      "key": "G",
+      "chords": ["G", "Em", "C", "Bm", "A", "E", "D", "Am", "F"],
+      "numbers": ["1", "6m", "4", "3m", "II", "III", "5", "2m", "b7"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/tolaymedown.html",
+        "genius": "https://genius.com/Grateful-dead-to-lay-me-down-lyrics",
+        "deadnet": "https://www.dead.net/song/lay-me-down",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/to-lay-me-down"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/to-lay-me-down",
+      "notes": null
+    },
+    {
+      "num": 13,
+      "title": "Rosa Lee McFall",
+      "instrumental": false,
+      "key": "E",
+      "chords": ["E", "C#m", "B", "B7"],
+      "numbers": ["1", "6m", "5", "5(7)"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/rosaleemcfall.html",
+        "genius": "https://genius.com/Grateful-dead-rosa-lee-mcfall-lyrics",
+        "deadnet": "https://www.dead.net/song/rosa-lee-mcfall",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/rosa-lee-mcfall"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/rosa-lee-mcfall",
+      "notes": null
+    },
+    {
+      "num": 14,
+      "title": "On the Road Again",
+      "instrumental": false,
+      "key": "C",
+      "chords": ["C", "F", "C7"],
+      "numbers": ["1", "4", "1(7)"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ontheroadagain.html",
+        "genius": "https://genius.com/Grateful-dead-on-the-road-again-lyrics",
+        "deadnet": "https://www.dead.net/song/road-again",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/on-the-road-again"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/on-the-road-again",
+      "notes": null
+    },
+    {
+      "num": 15,
+      "title": "Bird Song",
+      "titleNote": "Reckoning / E-key",
+      "instrumental": false,
+      "key": "E",
+      "chords": ["E7", "D", "C", "G", "A", "C#m", "B", "E"],
+      "numbers": ["1(7)", "b7", "b6", "b3", "4", "6m", "5", "1"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/birdsong.html",
+        "genius": "https://genius.com/Grateful-dead-bird-song-lyrics",
+        "deadnet": "https://www.dead.net/song/bird-song",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/bird-song"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/bird-song",
+      "notes": "Reckoning performance is in E"
+    },
+    {
+      "num": 16,
+      "title": "Ripple",
+      "instrumental": false,
+      "key": "G",
+      "chords": ["Am", "D", "G", "C", "A7"],
+      "numbers": ["2m", "5", "1", "4", "II7"],
+      "links": {
+        "azlyrics": "https://www.azlyrics.com/lyrics/gratefuldead/ripple.html",
+        "genius": "https://genius.com/Grateful-dead-ripple-lyrics",
+        "deadnet": "https://www.dead.net/song/ripple",
+        "rukind": "https://www.rukind.com/gdpedia/titles/tab/ripple"
+      },
+      "chordSource": "https://www.rukind.com/gdpedia/titles/tab/ripple",
+      "notes": null
+    }
+  ]
+}
