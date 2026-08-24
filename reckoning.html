@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Grateful Dead — Reckoning: Chords & Links</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+  (function() {
+    var saved = null;
+    try { saved = localStorage.getItem('gm-theme'); } catch (e) {}
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<style>
+  :root {
+    --pine: #17281f;
+    --pine-card: #223a2c;
+    --pine-card-alt: #1c3226;
+    --lake: #6fb0c0;
+    --moss: #9dbb84;
+    --moss-dim: #6f8a5c;
+    --birch: #f4f0e4;
+    --birch-dim: #cfd6c9;
+    --border: #35503f;
+  }
+  html[data-theme="light"] {
+    --pine: #faf7ef;
+    --pine-card: #ffffff;
+    --pine-card-alt: #f1ede1;
+    --lake: #2f7a8c;
+    --moss: #4f7a3d;
+    --moss-dim: #3c5c2f;
+    --birch: #1f3b2e;
+    --birch-dim: #4a5d51;
+    --border: #dde3d5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--pine);
+    color: var(--birch);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0 0 80px;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  .contour {
+    height: 34px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-repeat: repeat-x;
+    background-size: 68px 34px;
+    opacity: 0.55;
+  }
+  html[data-theme="dark"] .contour {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='34' viewBox='0 0 68 34'%3E%3Cpath d='M0 17 Q17 2 34 17 T68 17' fill='none' stroke='%236fb0c0' stroke-width='1.2'/%3E%3Cpath d='M0 25 Q17 12 34 25 T68 25' fill='none' stroke='%239dbb84' stroke-width='1.2'/%3E%3C/svg%3E");
+  }
+  html[data-theme="light"] .contour {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='34' viewBox='0 0 68 34'%3E%3Cpath d='M0 17 Q17 2 34 17 T68 17' fill='none' stroke='%232f7a8c' stroke-width='1.2'/%3E%3Cpath d='M0 25 Q17 12 34 25 T68 25' fill='none' stroke='%234f7a3d' stroke-width='1.2'/%3E%3C/svg%3E");
+  }
+
+  .topbar {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .back-link {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--moss);
+    text-decoration: none;
+  }
+  .back-link:hover { color: var(--lake); }
+  .theme-toggle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--moss);
+    background: var(--pine-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 7px 14px;
+    cursor: pointer;
+  }
+  .theme-toggle:hover { border-color: var(--lake); color: var(--lake); }
+
+  header {
+    padding: 32px 24px 20px;
+    text-align: center;
+  }
+  header .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--moss);
+  }
+  header h1 {
+    font-family: 'Fraunces', serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    margin: 6px 0 4px;
+    font-size: 3rem;
+    color: var(--birch);
+    letter-spacing: 0.5px;
+  }
+  header p {
+    color: var(--birch-dim);
+    margin-top: 4px;
+    font-size: 1rem;
+  }
+
+  .facts {
+    max-width: 780px;
+    margin: 32px auto;
+    padding: 24px 30px;
+    background: var(--pine-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  .facts h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: var(--lake);
+    margin-top: 0;
+    font-size: 1.15rem;
+    letter-spacing: 0.3px;
+  }
+  .facts ul { margin: 0; padding-left: 20px; line-height: 1.8; color: var(--birch-dim); }
+  .facts li::marker { color: var(--moss); }
+
+  .note {
+    max-width: 780px;
+    margin: 0 auto 8px;
+    padding: 12px 22px;
+    font-size: 0.88rem;
+    color: var(--birch-dim);
+    font-style: italic;
+    border-left: 2px solid var(--moss-dim);
+  }
+
+  .key-note {
+    max-width: 1100px;
+    margin: 30px auto 4px;
+    padding: 0 22px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--birch-dim);
+  }
+
+  table {
+    width: 100%;
+    max-width: 1100px;
+    margin: 14px auto 0;
+    border-collapse: collapse;
+    background: var(--pine-card);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  caption {
+    caption-side: top;
+    text-align: left;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: var(--lake);
+    font-size: 1.3rem;
+    margin: 0 auto 14px;
+    max-width: 1100px;
+    padding: 0 22px;
+  }
+  th, td {
+    border-bottom: 1px solid var(--border);
+    padding: 12px 14px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 0.9rem;
+  }
+  th {
+    background: var(--pine-card-alt);
+    color: var(--moss);
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+  }
+  tbody tr:hover td { background: var(--pine-card-alt); }
+  .track-num {
+    color: var(--birch-dim);
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+  .song-title { color: var(--birch); font-weight: 600; font-family: 'Fraunces', serif; font-size: 1rem; }
+  .key-badge {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--pine);
+    background: var(--lake);
+    padding: 1px 7px;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+  .chords { color: var(--birch-dim); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+  .numbers { color: var(--moss); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+  .links a {
+    color: var(--lake);
+    text-decoration: none;
+    margin-right: 10px;
+    white-space: nowrap;
+    font-size: 0.85rem;
+  }
+  .links a:hover { color: var(--moss); text-decoration: underline; }
+
+  footer {
+    max-width: 1100px;
+    margin: 50px auto 0;
+    padding: 0 22px;
+    color: var(--birch-dim);
+    font-size: 0.82rem;
+    text-align: center;
+  }
+  footer .signoff {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--moss-dim);
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a class="back-link" href="index.html">← Green Mountain Songbook</a>
+  <button class="theme-toggle" id="theme-toggle" type="button">☀ / 🌲 toggle</button>
+</div>
+
+<header>
+  <div class="eyebrow">Green Mountain Songbook</div>
+  <h1>Reckoning</h1>
+  <p>Grateful Dead · 1981 Live Acoustic Album</p>
+</header>
+
+<div class="contour"></div>
+
+<div class="facts">
+  <h2>Quick Facts</h2>
+  <ul>
+    <li>1981 live double album — the band's 6th live release (17th overall)</li>
+    <li>Fully acoustic; recorded live Sept–Oct 1980 at the Warfield (San Francisco) and Radio City Music Hall (NYC)</li>
+    <li>Companion release to <em>Dead Set</em> (1981), the electric album from the same shows</li>
+    <li>16 tracks, ~95 minutes; "Oh Babe, It Ain't No Lie" was cut from early CD pressings for space, later restored</li>
+    <li>Charted #43 on the Billboard Pop Albums chart; "Dire Wolf" reached #37 on Mainstream Rock</li>
+  </ul>
+</div>
+
+<div class="note">
+  Chords verified against Rukind.com and Ultimate Guitar tab archives — not generated from memory. Nashville numbers included; capital numerals (II, III7, VI7) mark a chord borrowed from outside the home key, usually a secondary dominant. Lyrics links follow each site's standard URL pattern — if a link 404s, search the site directly by title.
+</div>
+
+<div class="key-note">Key shown per song · numbers relative to that key</div>
+
+<table>
+<caption>Reckoning — Track Order, Verified Chords, Numbers &amp; Links</caption>
+<thead>
+<tr>
+  <th>#</th><th>Song</th><th>Key</th><th>Chords</th><th>Numbers</th><th>Sources</th>
+</tr>
+</thead>
+<tbody>
+
+<tr><td class="track-num">1</td><td class="song-title">Dire Wolf</td><td><span class="key-badge">G</span></td><td class="chords">G, Bb, F, C, E7, Am</td><td class="numbers">1, b3, b7, 4, VI7, 2m</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/direwolf.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-dire-wolf-lyrics">Genius</a>
+<a href="https://www.dead.net/song/dire-wolf">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/dire-wolf">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">2</td><td class="song-title">The Race Is On</td><td><span class="key-badge">G</span></td><td class="chords">G, C, D, A</td><td class="numbers">1, 4, 5, II</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/theraceison.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-the-race-is-on-lyrics">Genius</a>
+<a href="https://www.dead.net/song/race-on">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/the-race-is-on">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">3</td><td class="song-title">Oh Babe, It Ain't No Lie</td><td><span class="key-badge">C</span></td><td class="chords">C, F, G, E, E7, D</td><td class="numbers">1, 4, 5, III7, II</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/ohbabeitaintnolie.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-oh-babe-it-aint-no-lie-lyrics">Genius</a>
+<a href="https://www.dead.net/song/oh-babe-it-aint-no-lie">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/oh-babe-it-aint-no-lie">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">4</td><td class="song-title">It Must Have Been the Roses</td><td><span class="key-badge">A</span></td><td class="chords">A, D, E, F#m</td><td class="numbers">1, 4, 5, 6m</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/itmusthavebeentheroses.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-it-must-have-been-the-roses-lyrics">Genius</a>
+<a href="https://www.dead.net/song/it-must-have-been-roses">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/it-must-have-been-the-roses">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">5</td><td class="song-title">Dark Hollow</td><td><span class="key-badge">A</span></td><td class="chords">A, D, A7, D7, E</td><td class="numbers">1, 4, 1(7), 4(7), 5</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/darkhollow.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-dark-hollow-lyrics">Genius</a>
+<a href="https://www.dead.net/song/dark-hollow">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/dark-hollow">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">6</td><td class="song-title">China Doll</td><td><span class="key-badge">Dm</span></td><td class="chords">Dm, Fmaj7, B°7, Bb, A7, Am, D, A, G</td><td class="numbers">1m, b3maj7, VI°7, b6, 5(7), 5m, I*, V, IV</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/chinadoll.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-china-doll-lyrics">Genius</a>
+<a href="https://www.dead.net/song/china-doll">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/china-doll">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">7</td><td class="song-title">Been All Around This World</td><td><span class="key-badge">C</span></td><td class="chords">C, C7, F, G</td><td class="numbers">1, 1(7), 4, 5</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/beenallaroundthisworld.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-been-all-around-this-world-lyrics">Genius</a>
+<a href="https://www.dead.net/song/all-around-world">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/been-all-around-this-world">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">8</td><td class="song-title">Monkey and the Engineer</td><td><span class="key-badge">G</span></td><td class="chords">G, C, A7, D</td><td class="numbers">1, 4, II7, 5</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/monkeyandtheengineer.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-monkey-and-the-engineer-lyrics">Genius</a>
+<a href="https://www.dead.net/song/monkey-and-engineer">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/monkey-and-the-engineer">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">9</td><td class="song-title">Jack-A-Roe</td><td><span class="key-badge">Am</span></td><td class="chords">Am, C, E7, F</td><td class="numbers">1m, b3, 5(7), b6</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/jackaroe.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-jack-a-roe-lyrics">Genius</a>
+<a href="https://www.dead.net/song/jack-roe">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/jack-a-roe">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">10</td><td class="song-title">Deep Elem Blues</td><td><span class="key-badge">E</span></td><td class="chords">E, E7, A7, B</td><td class="numbers">1, 1(7), 4(7), 5</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/deepelemblues.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-deep-elem-blues-lyrics">Genius</a>
+<a href="https://www.dead.net/song/deep-elem-blues">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/deep-elem-blues">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">11</td><td class="song-title">Cassidy</td><td><span class="key-badge">E</span></td><td class="chords">E, A, Em, Am, F#m, B</td><td class="numbers">1, 4, 1m†, 4m†, 2m, 5</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/cassidy.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-cassidy-lyrics">Genius</a>
+<a href="https://www.dead.net/song/cassidy">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/cassidy">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">12</td><td class="song-title">To Lay Me Down</td><td><span class="key-badge">G</span></td><td class="chords">G, Em, C, Bm, A, E, D, Am, F</td><td class="numbers">1, 6m, 4, 3m, II, III, 5, 2m, b7</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/tolaymedown.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-to-lay-me-down-lyrics">Genius</a>
+<a href="https://www.dead.net/song/lay-me-down">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/to-lay-me-down">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">13</td><td class="song-title">Rosa Lee McFall</td><td><span class="key-badge">E</span></td><td class="chords">E, C#m, B, B7</td><td class="numbers">1, 6m, 5, 5(7)</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/rosaleemcfall.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-rosa-lee-mcfall-lyrics">Genius</a>
+<a href="https://www.dead.net/song/rosa-lee-mcfall">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/rosa-lee-mcfall">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">14</td><td class="song-title">On the Road Again</td><td><span class="key-badge">C</span></td><td class="chords">C, F, C7</td><td class="numbers">1, 4, 1(7)</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/ontheroadagain.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-on-the-road-again-lyrics">Genius</a>
+<a href="https://www.dead.net/song/road-again">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/on-the-road-again">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">15</td><td class="song-title">Bird Song <span style="color:var(--birch-dim); font-weight:400; font-family:'Inter',sans-serif; font-size:0.78rem;">(Reckoning / E-key)</span></td><td><span class="key-badge">E</span></td><td class="chords">E7, D, C, G, A, C#m, B, E</td><td class="numbers">1(7), b7, b6, b3, 4, 6m, 5, 1</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/birdsong.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-bird-song-lyrics">Genius</a>
+<a href="https://www.dead.net/song/bird-song">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/bird-song">Rukind</a>
+</td></tr>
+
+<tr><td class="track-num">16</td><td class="song-title">Ripple</td><td><span class="key-badge">G</span></td><td class="chords">Am, D, G, C, A7</td><td class="numbers">2m, 5, 1, 4, II7</td>
+<td class="links">
+<a href="https://www.azlyrics.com/lyrics/gratefuldead/ripple.html">AZLyrics</a>
+<a href="https://genius.com/Grateful-dead-ripple-lyrics">Genius</a>
+<a href="https://www.dead.net/song/ripple">Dead.net</a>
+<a href="https://www.rukind.com/gdpedia/titles/tab/ripple">Rukind</a>
+</td></tr>
+
+</tbody>
+</table>
+
+<div class="contour" style="margin-top:40px;"></div>
+
+<footer>
+  Compiled from Rukind.com and Ultimate Guitar tab archives. For personal study — not a substitute for official sheet music.<br>
+  *I = major tonic (Picardy third) &nbsp;·&nbsp; †borrowed from the parallel minor (modal mixture)
+  <div class="signoff">Vermont · Green Mountains · 2026</div>
+</footer>
+
+<script>
+  document.getElementById('theme-toggle').addEventListener('click', function() {
+    var root = document.documentElement;
+    var current = root.getAttribute('data-theme');
+    var next = current === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('gm-theme', next); } catch (e) {}
+  });
+</script>
+
+</body>
+</html>
