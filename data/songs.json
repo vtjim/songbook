@@ -1,0 +1,13 @@
+{
+  "site": "Green Mountain Songbook",
+  "description": "Standalone songs — verified charts for material outside the Grateful Dead album catalog. Same rules as the album data: every chord checked against a real tab source, with the URL actually read recorded in chordSource, and no lyrics reproduced.",
+  "songs": [
+    {
+      "slug": "cant-you-see",
+      "title": "Can't You See",
+      "artist": "The Marshall Tucker Band",
+      "year": 1973,
+      "key": "D"
+    }
+  ]
+}

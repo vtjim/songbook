@@ -1,0 +1,17 @@
+{
+  "slug": "cant-you-see",
+  "title": "Can't You See",
+  "artist": "The Marshall Tucker Band",
+  "year": 1973,
+  "key": "D",
+  "instrumental": false,
+  "chords": ["D", "C", "G"],
+  "numbers": ["1", "b7", "4"],
+  "links": {
+    "azlyrics": "https://www.azlyrics.com/lyrics/marshalltuckerband/cantyousee.html",
+    "genius": "https://genius.com/The-marshall-tucker-band-cant-you-see-lyrics"
+  },
+  "chordSource": "https://web.archive.org/web/2024id_/https://tabs.ultimate-guitar.com/tab/the-marshall-tucker-band/cant-you-see-chords-144303",
+  "bass": null,
+  "notes": "Whole song is one four-bar loop: D - C - G - D, unchanged through intro, verse, chorus and solo. In D that reads 1 - b7 - 4 - 1; the C is the non-diatonic flat-seven that gives it the southern-rock lean, the same move Box of Rain makes in the same key. Source chart states no capo. No verified bass tab recorded yet."
+}
