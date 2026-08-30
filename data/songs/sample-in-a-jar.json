@@ -1,0 +1,21 @@
+{
+  "slug": "sample-in-a-jar",
+  "title": "Sample In A Jar",
+  "artist": "Phish",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "C",
+    "G",
+    "E",
+    "Em",
+    "D"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/phish/sample-in-a-jar-chords-1711149",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (105 chord marks, 6 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,3095 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Song Index — Green Mountain Songbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+  (function() {
+    var saved = null;
+    try { saved = localStorage.getItem('gm-theme'); } catch (e) {}
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<style>
+  :root {
+    --pine:#17281f; --pine-card:#223a2c; --pine-card-alt:#1c3226;
+    --lake:#6fb0c0; --moss:#9dbb84; --moss-dim:#6f8a5c;
+    --birch:#f4f0e4; --birch-dim:#cfd6c9; --border:#35503f;
+  }
+  html[data-theme="light"] {
+    --pine:#faf7ef; --pine-card:#ffffff; --pine-card-alt:#f1ede1;
+    --lake:#2f7a8c; --moss:#4f7a3d; --moss-dim:#3c5c2f;
+    --birch:#1f3b2e; --birch-dim:#4a5d51; --border:#dde3d5;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--pine);color:var(--birch);font-family:'Inter',sans-serif;margin:0;padding:0 0 90px}
+  a{color:var(--lake)}
+  .topbar{max-width:1040px;margin:0 auto;padding:20px 24px 0;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .back{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:1px;text-transform:uppercase;color:var(--moss);text-decoration:none}
+  .back:hover{color:var(--lake)}
+  .theme-toggle{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:1px;text-transform:uppercase;color:var(--moss);background:var(--pine-card);border:1px solid var(--border);border-radius:20px;padding:7px 14px;cursor:pointer}
+  .theme-toggle:hover{border-color:var(--lake);color:var(--lake)}
+  header{max-width:1040px;margin:0 auto;padding:34px 24px 18px}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(1.9rem,4.4vw,2.7rem);margin:0 0 10px;letter-spacing:-.01em}
+  .lede{color:var(--birch-dim);max-width:62ch;font-size:1.02rem;line-height:1.6;margin:0}
+  .lede code{font-family:'JetBrains Mono',monospace;font-size:.85em;color:var(--moss);background:var(--pine-card);padding:1px 5px;border-radius:3px;border:1px solid var(--border)}
+  .stats{max-width:1040px;margin:22px auto 0;padding:0 24px;display:flex;flex-wrap:wrap;gap:10px 26px;font-family:'JetBrains Mono',monospace;font-size:.78rem;color:var(--moss-dim)}
+  .stats b{color:var(--birch);font-weight:500}
+  .tools{max-width:1040px;margin:26px auto 0;padding:0 24px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;position:sticky;top:0;z-index:5;background:var(--pine);padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--border)}
+  #q{flex:1 1 240px;min-width:180px;font-family:'Inter',sans-serif;font-size:.95rem;padding:10px 14px;border-radius:22px;border:1px solid var(--border);background:var(--pine-card);color:var(--birch)}
+  #q:focus{outline:none;border-color:var(--lake)}
+  .chip{font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;padding:7px 12px;border-radius:16px;border:1px solid var(--border);background:var(--pine-card);color:var(--moss);cursor:pointer}
+  .chip[aria-pressed="true"]{background:var(--moss);color:var(--pine);border-color:var(--moss)}
+  .chip:focus-visible,#q:focus-visible,.theme-toggle:focus-visible{outline:2px solid var(--lake);outline-offset:2px}
+  .alphabet{max-width:1040px;margin:16px auto 0;padding:0 24px;display:flex;flex-wrap:wrap;gap:6px}
+  .alphabet a{font-family:'JetBrains Mono',monospace;font-size:.74rem;text-decoration:none;color:var(--moss-dim);border:1px solid var(--border);border-radius:4px;width:26px;height:26px;display:grid;place-items:center}
+  .alphabet a:hover{color:var(--lake);border-color:var(--lake)}
+  main{max-width:1040px;margin:0 auto;padding:22px 24px 0;display:grid;gap:12px}
+  .song{background:var(--pine-card);border:1px solid var(--border);border-radius:10px;padding:16px 18px;scroll-margin-top:96px}
+  .song:target{border-color:var(--lake);box-shadow:0 0 0 1px var(--lake)}
+  .song-head{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;justify-content:space-between}
+  .song h3{font-family:'Fraunces',serif;font-weight:600;font-size:1.16rem;margin:0}
+  .anchor{color:var(--moss-dim);text-decoration:none;margin-right:8px;font-family:'JetBrains Mono',monospace;font-size:.85em}
+  .anchor:hover{color:var(--lake)}
+  .badges{display:flex;flex-wrap:wrap;gap:6px}
+  .badge{font-family:'JetBrains Mono',monospace;font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:4px;border:1px solid var(--border);color:var(--moss-dim)}
+  .badge.key{color:var(--lake);border-color:var(--lake)}
+  .cx-simple{color:var(--moss);border-color:var(--moss-dim)}
+  .cx-moderate{color:var(--moss);border-color:var(--moss-dim)}
+  .cx-busy{color:#d9a94e;border-color:#8a6a2a}
+  .cx-dense{color:#e08a72;border-color:#8f4c3a}
+  .song-body{margin-top:11px;display:grid;gap:9px}
+  .chords{display:flex;flex-wrap:wrap;gap:5px}
+  .chords code{font-family:'JetBrains Mono',monospace;font-size:.78rem;background:var(--pine-card-alt);border:1px solid var(--border);border-radius:3px;padding:2px 7px;color:var(--birch-dim)}
+  .muted{color:var(--moss-dim);font-size:.86rem;font-style:italic}
+  .meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.84rem;color:var(--birch-dim)}
+  .meta a{text-decoration:none}
+  .meta a:hover{text-decoration:underline}
+  .sep{color:var(--moss-dim);margin:0 6px}
+  .ref{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--moss-dim)}
+  .ref .id{color:var(--moss);cursor:pointer}
+  .empty{color:var(--moss-dim);text-align:center;padding:40px 0;font-style:italic}
+  footer{max-width:1040px;margin:44px auto 0;padding:20px 24px 0;border-top:1px solid var(--border);color:var(--moss-dim);font-size:.8rem;font-family:'JetBrains Mono',monospace}
+  @media (max-width:560px){.tools{position:static}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a class="back" href="index.html">&larr; Albums</a>
+  <button class="theme-toggle" id="themeToggle">Theme</button>
+</div>
+<header>
+  <h1>Song Index</h1>
+  <p class="lede">Every song in the songbook, one entry each &mdash; versions across albums are
+  collapsed together. Each song has a permanent reference like <code>#box-of-rain</code>:
+  click it to copy, paste it in your notes, and the link keeps working as albums are added.</p>
+</header>
+<div class="stats">
+  <span><b>162</b> songs</span>
+  <span><b>150</b> with chord charts</span>
+  <span><b>19</b> on more than one album</span>
+  <span><b>19</b> albums</span>
+</div>
+<div class="tools">
+  <input id="q" type="search" placeholder="Search title, key or chord…" autocomplete="off">
+  <button class="chip" data-f="all" aria-pressed="true">All</button>
+  <button class="chip" data-f="simple" aria-pressed="false">Simple</button>
+  <button class="chip" data-f="moderate" aria-pressed="false">Moderate</button>
+  <button class="chip" data-f="busy" aria-pressed="false">Busy</button>
+  <button class="chip" data-f="dense" aria-pressed="false">Dense</button>
+  <button class="chip" data-f="multi" aria-pressed="false">Multi-album</button>
+</div>
+<div class="alphabet"><a href="#letter-A">A</a><a href="#letter-B">B</a><a href="#letter-C">C</a><a href="#letter-D">D</a><a href="#letter-E">E</a><a href="#letter-F">F</a><a href="#letter-G">G</a><a href="#letter-H">H</a><a href="#letter-I">I</a><a href="#letter-J">J</a><a href="#letter-K">K</a><a href="#letter-L">L</a><a href="#letter-M">M</a><a href="#letter-N">N</a><a href="#letter-O">O</a><a href="#letter-P">P</a><a href="#letter-R">R</a><a href="#letter-S">S</a><a href="#letter-T">T</a><a href="#letter-U">U</a><a href="#letter-V">V</a><a href="#letter-W">W</a><a href="#letter-Y">Y</a></div>
+<main id="list">
+<article class="song" id="alabama-getaway" data-title="alabama getaway" data-key="A" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#alabama-getaway" aria-label="Permalink to Alabama Getaway">#</a>Alabama Getaway</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A7</code><code>E</code><code>D</code><code>C</code><code>A</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="go-to-heaven.html#track-1">Go to Heaven</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/alabamagetaway.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/alabama-getaway" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-alabama-getaway-19791226-oakland-ca-bass-tab-s5940700" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#alabama-getaway</code></div>
+  </div>
+</article>
+<article class="song" id="all-new-minglewood-blues" data-title="all new minglewood blues" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#all-new-minglewood-blues" aria-label="Permalink to All New Minglewood Blues">#</a>All New Minglewood Blues</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>B</code><code>G</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="shakedown-street.html#track-9">Shakedown Street</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/newminglewoodblues.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/317" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-all-new-minglewood-blues-bass-tab-s938720" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#all-new-minglewood-blues</code></div>
+  </div>
+</article>
+<article class="song" id="alligator" data-title="alligator" data-key="C" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#alligator" aria-label="Permalink to Alligator">#</a>Alligator</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>F</code><code>Am</code><code>G</code><code>A</code><code>C7</code><code>Dm</code><code>G7</code><code>E</code><code>D</code><code>Em</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="anthem-of-the-sun.html#track-4">Anthem of the Sun</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/alligator.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/alligator" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-alligator-bass-tab-s1555992" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#alligator</code></div>
+  </div>
+</article>
+<article class="song" id="althea" data-title="althea" data-key="A" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#althea" aria-label="Permalink to Althea">#</a>Althea</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Bm</code><code>A</code><code>E</code><code>C#m</code><code>D</code><code>G</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="go-to-heaven.html#track-3">Go to Heaven</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/althea.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/althea" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-althea-bass-tab-s194111" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#althea</code></div>
+  </div>
+</article>
+<article class="song" id="and-we-bid-you-good-night" data-title="and we bid you good night" data-key="E" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#and-we-bid-you-good-night" aria-label="Permalink to And We Bid You Good Night">#</a>And We Bid You Good Night</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>B</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="live-dead.html#track-7">Live/Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/andwebidyougoodnight.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-johnny-b-goode-and-we-bid-you-goodnight-live-bass-tab-s5872569t1" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#and-we-bid-you-good-night</code></div>
+  </div>
+</article>
+<article class="song" id="antwerps-placebo-the-plumber" data-title="antwerp's placebo (the plumber)" data-key="" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#antwerps-placebo-the-plumber" aria-label="Permalink to Antwerp's Placebo (The Plumber)">#</a>Antwerp's Placebo (The Plumber)</h3>
+    <div class="badges">
+      
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">instrumental</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="go-to-heaven.html#track-7">Go to Heaven</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#antwerps-placebo-the-plumber</code></div>
+  </div>
+</article>
+<article class="song" id="attics-of-my-life" data-title="attics of my life" data-key="E" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#attics-of-my-life" aria-label="Permalink to Attics of My Life">#</a>Attics of My Life</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>Esus4</code><code>B7</code><code>A</code><code>B</code><code>G#</code><code>F#m7</code><code>F#</code><code>D</code><code>E7sus4</code><code>E7</code><code>Asus4</code><code>Bsus4</code><code>B9</code><code>Dm</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="american-beauty.html#track-9">American Beauty</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/atticsofmylife.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/attics-of-my-life" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#attics-of-my-life</code></div>
+  </div>
+</article>
+<article class="song" id="beat-it-on-down-the-line" data-title="beat it on down the line" data-key="C" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#beat-it-on-down-the-line" aria-label="Permalink to Beat It on Down the Line">#</a>Beat It on Down the Line</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>F</code><code>G</code><code>A</code><code>D</code><code>C7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="the-grateful-dead.html#track-2">The Grateful Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/beatitondowntheline.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/31" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-beat-it-on-down-the-line-bass-tab-s194044" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#beat-it-on-down-the-line</code></div>
+  </div>
+</article>
+<article class="song" id="been-all-around-this-world" data-title="been all around this world" data-key="C" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#been-all-around-this-world" aria-label="Permalink to Been All Around This World">#</a>Been All Around This World</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>C7</code><code>F</code><code>G</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-7">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/beenallaroundthisworld.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/been-all-around-this-world" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#been-all-around-this-world</code></div>
+  </div>
+</article>
+<article class="song" id="bertha" data-title="bertha" data-key="G" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#bertha" aria-label="Permalink to Bertha">#</a>Bertha</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>C</code><code>C#</code><code>D</code><code>Am</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-1">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/bertha.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/bertha" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-bertha-bass-tab-s194040" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#bertha</code></div>
+  </div>
+</article>
+<article class="song" id="big-boss-man" data-title="big boss man" data-key="A" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#big-boss-man" aria-label="Permalink to Big Boss Man">#</a>Big Boss Man</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>D</code><code>E7</code><code>A7</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-7">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/bigbossman.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/big-boss-man" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-big-boss-man-grateful-dead-skull-roses-bass-tab-s3182311" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#big-boss-man</code></div>
+  </div>
+</article>
+<article class="song" id="big-railroad-blues" data-title="big railroad blues" data-key="A" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#big-railroad-blues" aria-label="Permalink to Big Railroad Blues">#</a>Big Railroad Blues</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>D</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-3">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/bigrailroadblues.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/big-railroad-blues" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-big-railroad-blues-bass-tab-s8607" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#big-railroad-blues</code></div>
+  </div>
+</article>
+<article class="song" id="bird-song" data-title="bird song" data-key="E" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#bird-song" aria-label="Permalink to Bird Song">#</a>Bird Song</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E7</code><code>D</code><code>C</code><code>G</code><code>A</code><code>C#m</code><code>B</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-15">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/birdsong.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/bird-song" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.bigbasstabs.com/grateful_dead_bass_tabs/bird_song.html" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#bird-song</code></div>
+  </div>
+</article>
+<article class="song" id="black-muddy-river" data-title="black muddy river" data-key="A" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#black-muddy-river" aria-label="Permalink to Black Muddy River">#</a>Black Muddy River</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>E</code><code>D</code><code>F#m</code><code>Bm</code><code>A/G#</code><code>G#</code><code>A#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="in-the-dark.html#track-7">In the Dark</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/blackmuddyriver.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/black-muddy-river" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-black-muddy-river-bass-tab-s1726840" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#black-muddy-river</code></div>
+  </div>
+</article>
+<article class="song" id="black-peter" data-title="black peter" data-key="A" data-complexity="dense" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#black-peter" aria-label="Permalink to Black Peter">#</a>Black Peter</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-dense">dense</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A7</code><code>D7</code><code>Em</code><code>Bm</code><code>A</code><code>G</code><code>F#m</code><code>D</code><code>C</code><code>Dm</code><code>Am</code><code>F</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="workingmans-dead.html#track-6">Workingman's Dead</a><span class="sep">·</span><a class="alb" href="bears-choice.html#track-5">Bear's Choice</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/blackpeter.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/black-peter" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-black-peter-bass-tab-s194098" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#black-peter</code></div>
+  </div>
+</article>
+<article class="song" id="blow-away" data-title="blow away" data-key="Bb" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#blow-away" aria-label="Permalink to Blow Away">#</a>Blow Away</h3>
+    <div class="badges">
+      <span class="badge key">Bb</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Fsus4</code><code>F</code><code>Eb</code><code>Bb</code><code>Ab</code><code>Bbsus4</code><code>Cm</code><code>Dm</code><code>Gm</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="built-to-last.html#track-4">Built to Last</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/blowaway.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-blow-away-tab-s3013207" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#blow-away</code></div>
+  </div>
+</article>
+<article class="song" id="blues-for-allah" data-title="blues for allah" data-key="A" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#blues-for-allah" aria-label="Permalink to Blues for Allah">#</a>Blues for Allah</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>F</code><code>A</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-9">Blues for Allah</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/bluesforallah.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/49" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#blues-for-allah</code></div>
+  </div>
+</article>
+<article class="song" id="born-cross-eyed" data-title="born cross-eyed" data-key="D" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#born-cross-eyed" aria-label="Permalink to Born Cross-Eyed">#</a>Born Cross-Eyed</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>C</code><code>A</code><code>E</code><code>Badd C</code><code>E7</code><code>Dm/F</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="anthem-of-the-sun.html#track-3">Anthem of the Sun</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/borncrosseyed.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/born-cross-eyed" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-born-cross-eyed-bass-tab-s194053" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#born-cross-eyed</code></div>
+  </div>
+</article>
+<article class="song" id="box-of-rain" data-title="box of rain" data-key="D" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#box-of-rain" aria-label="Permalink to Box of Rain">#</a>Box of Rain</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>Am</code><code>Em</code><code>C</code><code>G</code><code>A</code><code>Bm</code><code>Bm7</code><code>Asus4</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="american-beauty.html#track-1">American Beauty</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/boxofrain.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/box-of-rain" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-box-of-rain-bass-tab-s417854" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#box-of-rain</code></div>
+  </div>
+</article>
+<article class="song" id="brokedown-palace" data-title="brokedown palace" data-key="F" data-complexity="busy" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#brokedown-palace" aria-label="Permalink to Brokedown Palace">#</a>Brokedown Palace</h3>
+    <div class="badges">
+      <span class="badge key">F</span>
+      <span class="badge cx cx-busy">busy</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>Am</code><code>Bb</code><code>F</code><code>C</code><code>Dm</code><code>A</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="american-beauty.html#track-7">American Beauty</a><span class="sep">·</span><a class="alb" href="dead-set.html#track-15">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/brokedownpalace.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/brokedown-palace" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#brokedown-palace</code></div>
+  </div>
+</article>
+<article class="song" id="brown-eyed-women" data-title="brown-eyed women" data-key="E" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#brown-eyed-women" aria-label="Permalink to Brown-Eyed Women">#</a>Brown-Eyed Women</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C#m</code><code>E</code><code>B</code><code>A</code><code>F#m</code><code>Bm</code><code>G#m</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-8">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/browneyedwomen.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/brown-eyed-women" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-brown-eyed-women-bass-tab-s194104" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#brown-eyed-women</code></div>
+  </div>
+</article>
+<article class="song" id="built-to-last" data-title="built to last" data-key="C" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#built-to-last" aria-label="Permalink to Built to Last">#</a>Built to Last</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>G#</code><code>A</code><code>F</code><code>C</code><code>Am</code><code>Dm</code><code>Em</code><code>Bb</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="built-to-last.html#track-3">Built to Last</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/builttolast.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-built-to-last-tab-s194101" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#built-to-last</code></div>
+  </div>
+</article>
+<article class="song" id="candyman" data-title="candyman" data-key="C" data-complexity="busy" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#candyman" aria-label="Permalink to Candyman">#</a>Candyman</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-busy">busy</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>Gm</code><code>F</code><code>G</code><code>Dm</code><code>Bb</code><code>Am</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="american-beauty.html#track-5">American Beauty</a><span class="sep">·</span><a class="alb" href="dead-set.html#track-5">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/candyman.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/candyman" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#candyman</code></div>
+  </div>
+</article>
+<article class="song" id="casey-jones" data-title="casey jones" data-key="C" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#casey-jones" aria-label="Permalink to Casey Jones">#</a>Casey Jones</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>F</code><code>D</code><code>G</code><code>C#</code><code>E7</code><code>Am</code><code>G7</code><code>Bb</code><code>A7</code><code>D7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="workingmans-dead.html#track-8">Workingman's Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/caseyjones.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/casey-jones" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-casey-jones-bass-tab-s36834" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#casey-jones</code></div>
+  </div>
+</article>
+<article class="song" id="cassidy" data-title="cassidy" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#cassidy" aria-label="Permalink to Cassidy">#</a>Cassidy</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>Em</code><code>Am</code><code>F#m</code><code>B</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-11">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/cassidy.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/cassidy" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-cassidy-bass-tab-s194100" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#cassidy</code></div>
+  </div>
+</article>
+<article class="song" id="caution-do-not-stop-on-tracks" data-title="caution (do not stop on tracks)" data-key="E" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#caution-do-not-stop-on-tracks" aria-label="Permalink to Caution (Do Not Stop on Tracks)">#</a>Caution (Do Not Stop on Tracks)</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="anthem-of-the-sun.html#track-5">Anthem of the Sun</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/cautiondonotstopontracks.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/caution-do-not-stop-on-tracks" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-caution-do-not-stop-on-tracks-bass-tab-s1556111" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#caution-do-not-stop-on-tracks</code></div>
+  </div>
+</article>
+<article class="song" id="china-cat-sunflower" data-title="china cat sunflower" data-key="G" data-complexity="busy" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#china-cat-sunflower" aria-label="Permalink to China Cat Sunflower">#</a>China Cat Sunflower</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-busy">busy</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>F</code><code>D</code><code>C</code><code>E</code><code>B</code><code>A</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="aoxomoxoa.html#track-6">Aoxomoxoa</a><span class="sep">·</span><a class="alb" href="europe-72.html#track-6">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/chinacatsunflower.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/china-cat-sunflower" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-china-cat-sunflower-europe-72-bass-tab-s1727033" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#china-cat-sunflower</code></div>
+  </div>
+</article>
+<article class="song" id="china-doll" data-title="china doll" data-key="Dm" data-complexity="dense" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#china-doll" aria-label="Permalink to China Doll">#</a>China Doll</h3>
+    <div class="badges">
+      <span class="badge key">Dm</span>
+      <span class="badge cx cx-dense">dense</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Dm</code><code>Fmaj7</code><code>B°7</code><code>Bb</code><code>A7</code><code>F</code><code>C</code><code>D</code><code>A</code><code>G</code><code>Am</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="from-the-mars-hotel.html#track-2">From the Mars Hotel</a><span class="sep">·</span><a class="alb" href="reckoning.html#track-6">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/chinadoll.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/china-doll" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-china-doll-bass-tab-s194128" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#china-doll</code></div>
+  </div>
+</article>
+<article class="song" id="cold-rain-and-snow" data-title="cold rain and snow" data-key="A" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#cold-rain-and-snow" aria-label="Permalink to Cold Rain and Snow">#</a>Cold Rain and Snow</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="the-grateful-dead.html#track-4">The Grateful Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/coldrainandsnow.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/cold-rain-and-snow" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-cold-rain-and-snow-bass-tab-s4091734" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#cold-rain-and-snow</code></div>
+  </div>
+</article>
+<article class="song" id="cosmic-charlie" data-title="cosmic charlie" data-key="A" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#cosmic-charlie" aria-label="Permalink to Cosmic Charlie">#</a>Cosmic Charlie</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>G</code><code>D</code><code>A7</code><code>E</code><code>Em</code><code>C#m</code><code>F#m</code><code>B</code><code>Bm</code><code>E7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="aoxomoxoa.html#track-8">Aoxomoxoa</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/cosmiccharlie.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/cosmic-charlie" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-cosmic-charlie-bass-tab-s4091732" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#cosmic-charlie</code></div>
+  </div>
+</article>
+<article class="song" id="crazy-fingers" data-title="crazy fingers" data-key="G" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#crazy-fingers" aria-label="Permalink to Crazy Fingers">#</a>Crazy Fingers</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>C</code><code>G</code><code>Bb</code><code>F</code><code>Fm</code><code>Gsus4</code><code>Bbm</code><code>Ebmaj7</code><code>Cm</code><code>Ab</code><code>Eb</code><code>Cm/G</code><code>G7</code><code>A°7</code><code>Dmaj7</code><code>Dbmaj7</code><code>Db7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-7">Blues for Allah</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/crazyfingers.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/crazy-fingers" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-crazy-fingers-bass-tab-s194116" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#crazy-fingers</code></div>
+  </div>
+</article>
+<article class="song" id="cream-puff-war" data-title="cream puff war" data-key="A" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#cream-puff-war" aria-label="Permalink to Cream Puff War">#</a>Cream Puff War</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>G</code><code>D</code><code>C</code><code>Em</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="the-grateful-dead.html#track-6">The Grateful Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/creampuffwar.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/cream-puff-war" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.bigbasstabs.com/grateful_dead_bass_tabs/cream_puff_war.html" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#cream-puff-war</code></div>
+  </div>
+</article>
+<article class="song" id="cumberland-blues" data-title="cumberland blues" data-key="G" data-complexity="dense" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#cumberland-blues" aria-label="Permalink to Cumberland Blues">#</a>Cumberland Blues</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-dense">dense</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>F#</code><code>Bb</code><code>B</code><code>A</code><code>Ab</code><code>C</code><code>D</code><code>F</code><code>Am7</code><code>C7</code><code>Em</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="workingmans-dead.html#track-5">Workingman's Dead</a><span class="sep">·</span><a class="alb" href="europe-72.html#track-1">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/cumberlandblues.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/cumberland-blues" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-cumberland-blues-bass-tab-s194062" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#cumberland-blues</code></div>
+  </div>
+</article>
+<article class="song" id="dancin-in-the-streets" data-title="dancin' in the streets" data-key="A" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#dancin-in-the-streets" aria-label="Permalink to Dancin' in the Streets">#</a>Dancin' in the Streets</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>D</code><code>C#</code><code>F#m</code><code>B</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="terrapin-station.html#track-2">Terrapin Station</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/dancinginthestreets.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/dancin-in-the-streets" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-dancing-in-the-street-tab-s1021722" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#dancin-in-the-streets</code></div>
+  </div>
+</article>
+<article class="song" id="dark-hollow" data-title="dark hollow" data-key="A" data-complexity="moderate" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#dark-hollow" aria-label="Permalink to Dark Hollow">#</a>Dark Hollow</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>D</code><code>A7</code><code>D7</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="bears-choice.html#track-2">Bear's Choice</a><span class="sep">·</span><a class="alb" href="reckoning.html#track-5">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/darkhollow.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/dark-hollow" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-dark-hollow-bass-tab-s194059" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#dark-hollow</code></div>
+  </div>
+</article>
+<article class="song" id="dark-star" data-title="dark star" data-key="A" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#dark-star" aria-label="Permalink to Dark Star">#</a>Dark Star</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>G</code><code>Asus4</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="live-dead.html#track-1">Live/Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/darkstar.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/show/103" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-dark-star-bass-tab-s417852t3" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#dark-star</code></div>
+  </div>
+</article>
+<article class="song" id="deal" data-title="deal" data-key="A" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#deal" aria-label="Permalink to Deal">#</a>Deal</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>C#7</code><code>F#m</code><code>E</code><code>D7</code><code>A°</code><code>G#</code><code>G</code><code>F#</code><code>B</code><code>D</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="dead-set.html#track-4">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/deal.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/deal" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-deal-bass-tab-s194126" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#deal</code></div>
+  </div>
+</article>
+<article class="song" id="death-dont-have-no-mercy" data-title="death don't have no mercy" data-key="Em" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#death-dont-have-no-mercy" aria-label="Permalink to Death Don't Have No Mercy">#</a>Death Don't Have No Mercy</h3>
+    <div class="badges">
+      <span class="badge key">Em</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Em</code><code>G</code><code>B7</code><code>A</code><code>D</code><code>Am</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="live-dead.html#track-5">Live/Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/deathdonthavenomercy.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/show/114" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-death-dont-have-no-mercy-live-in-sf-bass-tab-s3561323t1" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#death-dont-have-no-mercy</code></div>
+  </div>
+</article>
+<article class="song" id="deep-elem-blues" data-title="deep elem blues" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#deep-elem-blues" aria-label="Permalink to Deep Elem Blues">#</a>Deep Elem Blues</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>E7</code><code>A7</code><code>B</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-10">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/deepelemblues.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/deep-elem-blues" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-deep-elem-blues-with-complete-bass-tab-bass-tab-s2553825" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#deep-elem-blues</code></div>
+  </div>
+</article>
+<article class="song" id="dire-wolf" data-title="dire wolf" data-key="G" data-complexity="moderate" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#dire-wolf" aria-label="Permalink to Dire Wolf">#</a>Dire Wolf</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>Bb</code><code>F</code><code>C</code><code>E7</code><code>Am</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="workingmans-dead.html#track-3">Workingman's Dead</a><span class="sep">·</span><a class="alb" href="reckoning.html#track-1">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/direwolf.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/dire-wolf" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#dire-wolf</code></div>
+  </div>
+</article>
+<article class="song" id="doin-that-rag" data-title="doin' that rag" data-key="G" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#doin-that-rag" aria-label="Permalink to Doin' That Rag">#</a>Doin' That Rag</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>C</code><code>D</code><code>F</code><code>Eb</code><code>A</code><code>Am</code><code>Em</code><code>Bm</code><code>C#</code><code>F#</code><code>B</code><code>E</code><code>C#m</code><code>G#m</code><code>D#m</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="aoxomoxoa.html#track-4">Aoxomoxoa</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/dointhatrag.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/doin-that-rag" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-doin-that-rag-bass-tab-s194082" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#doin-that-rag</code></div>
+  </div>
+</article>
+<article class="song" id="dont-ease-me-in" data-title="don't ease me in" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#dont-ease-me-in" aria-label="Permalink to Don't Ease Me In">#</a>Don't Ease Me In</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>B</code><code>A/G#</code><code>A/F#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="go-to-heaven.html#track-9">Go to Heaven</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/donteasemein.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/don't-ease-me-in" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-dont-ease-me-in-73-bass-tab-s6581242" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#dont-ease-me-in</code></div>
+  </div>
+</article>
+<article class="song" id="drums" data-title="drums" data-key="" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#drums" aria-label="Permalink to Drums">#</a>Drums</h3>
+    <div class="badges">
+      
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">instrumental</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="dead-set.html#track-11">Dead Set</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#drums</code></div>
+  </div>
+</article>
+<article class="song" id="duprees-diamond-blues" data-title="dupree's diamond blues" data-key="G" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#duprees-diamond-blues" aria-label="Permalink to Dupree's Diamond Blues">#</a>Dupree's Diamond Blues</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E7</code><code>Am</code><code>D</code><code>G</code><code>Am7</code><code>C</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="aoxomoxoa.html#track-2">Aoxomoxoa</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/dupreesdiamondblues.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/duprees-diamond-blues" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-duprees-diamond-blues-bass-tab-s3384675" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#duprees-diamond-blues</code></div>
+  </div>
+</article>
+<article class="song" id="easy-to-love-you" data-title="easy to love you" data-key="G" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#easy-to-love-you" aria-label="Permalink to Easy to Love You">#</a>Easy to Love You</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>G</code><code>D</code><code>Em</code><code>Dsus4</code><code>Bm</code><code>Ab</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="go-to-heaven.html#track-8">Go to Heaven</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/easytoloveyou.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/easy-to-love-you" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-easy-to-love-you-bass-tab-s2419266" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#easy-to-love-you</code></div>
+  </div>
+</article>
+<article class="song" id="easy-wind" data-title="easy wind" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#easy-wind" aria-label="Permalink to Easy Wind">#</a>Easy Wind</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E7</code><code>A7</code><code>B</code><code>A</code><code>C</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="workingmans-dead.html#track-7">Workingman's Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/easywind.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/132" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#easy-wind</code></div>
+  </div>
+</article>
+<article class="song" id="epilog" data-title="epilog" data-key="" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#epilog" aria-label="Permalink to Epilog">#</a>Epilog</h3>
+    <div class="badges">
+      
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">instrumental</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-15">Europe '72</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#epilog</code></div>
+  </div>
+</article>
+<article class="song" id="estimated-prophet" data-title="estimated prophet" data-key="F#m" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#estimated-prophet" aria-label="Permalink to Estimated Prophet">#</a>Estimated Prophet</h3>
+    <div class="badges">
+      <span class="badge key">F#m</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>F#m</code><code>Bm6</code><code>G</code><code>C</code><code>F</code><code>Dm</code><code>E7</code><code>A</code><code>Bm</code><code>Am</code><code>Cm</code><code>Gm</code><code>Bbm</code><code>Ab</code><code>Bb</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="terrapin-station.html#track-1">Terrapin Station</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/estimatedprophet.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/estimated-prophet" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-estimated-prophet-tab-s194063" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#estimated-prophet</code></div>
+  </div>
+</article>
+<article class="song" id="eyes-of-the-world" data-title="eyes of the world" data-key="E" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#eyes-of-the-world" aria-label="Permalink to Eyes of the World">#</a>Eyes of the World</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Emaj7</code><code>A</code><code>B</code><code>Bm</code><code>C#m</code><code>D</code><code>C</code><code>G</code><code>Dsus4</code><code>C#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="wake-of-the-flood.html#track-6">Wake of the Flood</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/eyesoftheworld.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/eyes-of-the-world" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-eyes-of-the-world-bass-tab-s194118" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#eyes-of-the-world</code></div>
+  </div>
+</article>
+<article class="song" id="far-from-me" data-title="far from me" data-key="D" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#far-from-me" aria-label="Permalink to Far from Me">#</a>Far from Me</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>G</code><code>A</code><code>Bm</code><code>Bm/A</code><code>Em</code><code>F#5</code><code>F#7</code><code>F#</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="go-to-heaven.html#track-2">Go to Heaven</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/farfromme.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/far-from-me" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-far-from-me-bass-tab-s4091643" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#far-from-me</code></div>
+  </div>
+</article>
+<article class="song" id="feedback" data-title="feedback" data-key="" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#feedback" aria-label="Permalink to Feedback">#</a>Feedback</h3>
+    <div class="badges">
+      
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">instrumental</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="live-dead.html#track-6">Live/Dead</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#feedback</code></div>
+  </div>
+</article>
+<article class="song" id="feel-like-a-stranger" data-title="feel like a stranger" data-key="A" data-complexity="busy" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#feel-like-a-stranger" aria-label="Permalink to Feel Like a Stranger">#</a>Feel Like a Stranger</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-busy">busy</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>G</code><code>C#m</code><code>B</code><code>D</code><code>E</code><code>F#m</code><code>G/D</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="go-to-heaven.html#track-4">Go to Heaven</a><span class="sep">·</span><a class="alb" href="dead-set.html#track-9">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/feellikeastranger.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/feel-like-a-stranger" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-feel-like-a-stranger-bass-tab-s4091667" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#feel-like-a-stranger</code></div>
+  </div>
+</article>
+<article class="song" id="fire-on-the-mountain" data-title="fire on the mountain" data-key="B" data-complexity="simple" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#fire-on-the-mountain" aria-label="Permalink to Fire on the Mountain">#</a>Fire on the Mountain</h3>
+    <div class="badges">
+      <span class="badge key">B</span>
+      <span class="badge cx cx-simple">simple</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>B</code><code>A</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="shakedown-street.html#track-5">Shakedown Street</a><span class="sep">·</span><a class="alb" href="dead-set.html#track-13">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/fireonthemountain.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/fire-on-the-mountain" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-fire-on-the-mountain-guitar-bass-tab-s1018878" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#fire-on-the-mountain</code></div>
+  </div>
+</article>
+<article class="song" id="foolish-heart" data-title="foolish heart" data-key="A" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#foolish-heart" aria-label="Permalink to Foolish Heart">#</a>Foolish Heart</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>D</code><code>Amaj7</code><code>Bm</code><code>F#m</code><code>E</code><code>Gmaj7</code><code>Bm7/A</code><code>Bsus4</code><code>B</code><code>G#m</code><code>C#m7b5</code><code>F#7sus4</code><code>F#7</code><code>D/E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="built-to-last.html#track-1">Built to Last</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/foolishheart.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-foolish-heart-tab-s194096" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#foolish-heart</code></div>
+  </div>
+</article>
+<article class="song" id="france" data-title="france" data-key="G" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#france" aria-label="Permalink to France">#</a>France</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>Em</code><code>C#m7</code><code>Dm7</code><code>G7</code><code>F#m7</code><code>F#7</code><code>Bm</code><code>A</code><code>D</code><code>C</code><code>Am</code><code>C#7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="shakedown-street.html#track-2">Shakedown Street</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/france.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-france-bass-tab-s4091858" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#france</code></div>
+  </div>
+</article>
+<article class="song" id="franklins-tower" data-title="franklin's tower" data-key="A" data-complexity="simple" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#franklins-tower" aria-label="Permalink to Franklin's Tower">#</a>Franklin's Tower</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-simple">simple</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>G</code><code>D</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-3">Blues for Allah</a><span class="sep">·</span><a class="alb" href="dead-set.html#track-10">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/franklinstower.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/franklins-tower" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-franklins-tower-bass-tab-s417859" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#franklins-tower</code></div>
+  </div>
+</article>
+<article class="song" id="friend-of-the-devil" data-title="friend of the devil" data-key="G" data-complexity="moderate" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#friend-of-the-devil" aria-label="Permalink to Friend of the Devil">#</a>Friend of the Devil</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>C</code><code>D</code><code>Am</code><code>C#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="american-beauty.html#track-2">American Beauty</a><span class="sep">·</span><a class="alb" href="dead-set.html#track-2">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/friendofthedevil.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/friend-of-the-devil" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#friend-of-the-devil</code></div>
+  </div>
+</article>
+<article class="song" id="from-the-heart-of-me" data-title="from the heart of me" data-key="A" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#from-the-heart-of-me" aria-label="Permalink to From the Heart of Me">#</a>From the Heart of Me</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>A7</code><code>E</code><code>E7</code><code>B</code><code>D</code><code>C#m</code><code>F#m</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="shakedown-street.html#track-7">Shakedown Street</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/fromtheheartofme.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/154" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-from-the-heart-of-me-bass-tab-s4091869" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#from-the-heart-of-me</code></div>
+  </div>
+</article>
+<article class="song" id="goin-down-the-road-feeling-bad" data-title="goin' down the road feeling bad" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#goin-down-the-road-feeling-bad" aria-label="Permalink to Goin' Down the Road Feeling Bad">#</a>Goin' Down the Road Feeling Bad</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>B</code><code>C#m</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-12">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/goingdowntheroadfeelingbad.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/goin-down-the-road-feelin-bad" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-going-down-the-road-feelin-bad-bass-tab-s8609" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#goin-down-the-road-feeling-bad</code></div>
+  </div>
+</article>
+<article class="song" id="good-lovin" data-title="good lovin'" data-key="C" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#good-lovin" aria-label="Permalink to Good Lovin'">#</a>Good Lovin'</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>F</code><code>G</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="shakedown-street.html#track-1">Shakedown Street</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/goodlovin.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/good-lovin" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-good-lovin-2013-remaster-bass-tab-s1482118" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#good-lovin</code></div>
+  </div>
+</article>
+<article class="song" id="good-morning-little-school-girl" data-title="good morning, little school girl" data-key="A" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#good-morning-little-school-girl" aria-label="Permalink to Good Morning, Little School Girl">#</a>Good Morning, Little School Girl</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A7</code><code>D</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="the-grateful-dead.html#track-3">The Grateful Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/goodmorninglittleschoolgirl.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/168" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-good-morning-little-school-girl-bass-tab-s194058" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#good-morning-little-school-girl</code></div>
+  </div>
+</article>
+<article class="song" id="greatest-story-ever-told" data-title="greatest story ever told" data-key="C" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#greatest-story-ever-told" aria-label="Permalink to Greatest Story Ever Told">#</a>Greatest Story Ever Told</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>F</code><code>Am</code><code>Em</code><code>G</code><code>D</code><code>Dm</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="dead-set.html#track-14">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/greateststoryevertold.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/greatest-story-ever-told" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#greatest-story-ever-told</code></div>
+  </div>
+</article>
+<article class="song" id="hard-to-handle" data-title="hard to handle" data-key="B" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#hard-to-handle" aria-label="Permalink to Hard to Handle">#</a>Hard to Handle</h3>
+    <div class="badges">
+      <span class="badge key">B</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>B</code><code>G#m</code><code>F#m</code><code>A</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="bears-choice.html#track-7">Bear's Choice</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/hardtohandle.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/hard-to-handle" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-hard-to-handle-live-bass-tab-s5129678" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#hard-to-handle</code></div>
+  </div>
+</article>
+<article class="song" id="hes-gone" data-title="he's gone" data-key="E" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#hes-gone" aria-label="Permalink to He's Gone">#</a>He's Gone</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>B</code><code>E7</code><code>D</code><code>G</code><code>Dm</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-2">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/hesgone.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/hes-gone" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-hes-gone-bass-tab-s4986556" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#hes-gone</code></div>
+  </div>
+</article>
+<article class="song" id="hell-in-a-bucket" data-title="hell in a bucket" data-key="E" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#hell-in-a-bucket" aria-label="Permalink to Hell in a Bucket">#</a>Hell in a Bucket</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>Em</code><code>B</code><code>A</code><code>Bb</code><code>F#</code><code>D</code><code>C#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="in-the-dark.html#track-2">In the Dark</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/hellinabucket.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/hell-in-a-bucket" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-hell-in-a-bucket-bass-tab-s1695337" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#hell-in-a-bucket</code></div>
+  </div>
+</article>
+<article class="song" id="help-on-the-way" data-title="help on the way" data-key="Fm" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#help-on-the-way" aria-label="Permalink to Help on the Way">#</a>Help on the Way</h3>
+    <div class="badges">
+      <span class="badge key">Fm</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Fm</code><code>Cm</code><code>Eb</code><code>Dm</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-1">Blues for Allah</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/helpontheway.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/help-on-the-way" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-help-on-the-way-bass-tab-s194056" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#help-on-the-way</code></div>
+  </div>
+</article>
+<article class="song" id="here-comes-sunshine" data-title="here comes sunshine" data-key="C" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#here-comes-sunshine" aria-label="Permalink to Here Comes Sunshine">#</a>Here Comes Sunshine</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>Bb</code><code>Dm</code><code>G</code><code>Am</code><code>F</code><code>Em</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="wake-of-the-flood.html#track-5">Wake of the Flood</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/herecomessunshine.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/187" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-here-comes-sunshine-bass-tab-s194114" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#here-comes-sunshine</code></div>
+  </div>
+</article>
+<article class="song" id="high-time" data-title="high time" data-key="A" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#high-time" aria-label="Permalink to High Time">#</a>High Time</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>C#m</code><code>G#</code><code>G#sus4</code><code>A</code><code>F#</code><code>Asus4</code><code>B</code><code>E</code><code>G</code><code>F</code><code>F#m</code><code>Esus4</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="workingmans-dead.html#track-2">Workingman's Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/hightime.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/high-time" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#high-time</code></div>
+  </div>
+</article>
+<article class="song" id="hurts-me-too" data-title="hurts me too" data-key="A" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#hurts-me-too" aria-label="Permalink to Hurts Me Too">#</a>Hurts Me Too</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A7</code><code>D7</code><code>E7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-9">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/ithurtsmetoo.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/it-hurts-me-too" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-it-hurts-me-too-bass-tab-s3921378" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#hurts-me-too</code></div>
+  </div>
+</article>
+<article class="song" id="i-know-you-rider" data-title="i know you rider" data-key="D" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#i-know-you-rider" aria-label="Permalink to I Know You Rider">#</a>I Know You Rider</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>C</code><code>G</code><code>F</code><code>Em</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-7">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/iknowyourider.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/i-know-you-rider" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-i-know-you-rider-bass-tab-s725281" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#i-know-you-rider</code></div>
+  </div>
+</article>
+<article class="song" id="i-need-a-miracle" data-title="i need a miracle" data-key="E" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#i-need-a-miracle" aria-label="Permalink to I Need a Miracle">#</a>I Need a Miracle</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E7</code><code>A</code><code>B</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="shakedown-street.html#track-6">Shakedown Street</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/ineedamiracle.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/i-need-a-miracle" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-i-need-a-miracle-bass-tab-s194057" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#i-need-a-miracle</code></div>
+  </div>
+</article>
+<article class="song" id="i-will-take-you-home" data-title="i will take you home" data-key="B" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#i-will-take-you-home" aria-label="Permalink to I Will Take You Home">#</a>I Will Take You Home</h3>
+    <div class="badges">
+      <span class="badge key">B</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>B</code><code>F#</code><code>E</code><code>G#m</code><code>F#sus4</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="built-to-last.html#track-9">Built to Last</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/iwilltakeyouhome.html" rel="noopener">lyrics</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#i-will-take-you-home</code></div>
+  </div>
+</article>
+<article class="song" id="ive-been-all-around-this-world" data-title="i've been all around this world" data-key="C" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#ive-been-all-around-this-world" aria-label="Permalink to I've Been All Around This World">#</a>I've Been All Around This World</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>C7</code><code>F</code><code>G</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="bears-choice.html#track-3">Bear's Choice</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/beenallaroundthisworld.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/html/music/gdtunes/Ivebnall.htm" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#ive-been-all-around-this-world</code></div>
+  </div>
+</article>
+<article class="song" id="if-i-had-the-world-to-give" data-title="if i had the world to give" data-key="C" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#if-i-had-the-world-to-give" aria-label="Permalink to If I Had the World to Give">#</a>If I Had the World to Give</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>F</code><code>C/E</code><code>Dm</code><code>G</code><code>E</code><code>Am</code><code>G7</code><code>C7</code><code>Fmaj7</code><code>Bbmaj9</code><code>Abmaj7/C</code><code>Bb</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="shakedown-street.html#track-10">Shakedown Street</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/ifihadtheworldtogive.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/217" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-if-i-had-the-world-to-give-bass-tab-s194042" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#if-i-had-the-world-to-give</code></div>
+  </div>
+</article>
+<article class="song" id="it-must-have-been-the-roses" data-title="it must have been the roses" data-key="A" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#it-must-have-been-the-roses" aria-label="Permalink to It Must Have Been the Roses">#</a>It Must Have Been the Roses</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>D</code><code>E</code><code>F#m</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-4">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/itmusthavebeentheroses.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/it-must-have-been-the-roses" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-it-must-have-been-the-roses-bass-tab-s194112" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#it-must-have-been-the-roses</code></div>
+  </div>
+</article>
+<article class="song" id="jack-straw" data-title="jack straw" data-key="E" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#jack-straw" aria-label="Permalink to Jack Straw">#</a>Jack Straw</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>Esus4</code><code>F#m</code><code>C#m</code><code>A</code><code>Bm</code><code>D</code><code>G#m</code><code>B</code><code>E7sus4</code><code>E7</code><code>F#7sus4</code><code>F#7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-4">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/jackstraw.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/jack-straw" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-jack-straw-bass-tab-s194032" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#jack-straw</code></div>
+  </div>
+</article>
+<article class="song" id="jack-a-roe" data-title="jack-a-roe" data-key="Am" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#jack-a-roe" aria-label="Permalink to Jack-A-Roe">#</a>Jack-A-Roe</h3>
+    <div class="badges">
+      <span class="badge key">Am</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Am</code><code>C</code><code>E7</code><code>F</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-9">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/jackaroe.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/jack-a-roe" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-jack-a-roe-bass-tab-s4091692" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#jack-a-roe</code></div>
+  </div>
+</article>
+<article class="song" id="johnny-b-goode" data-title="johnny b. goode" data-key="A" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#johnny-b-goode" aria-label="Permalink to Johnny B. Goode">#</a>Johnny B. Goode</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A7</code><code>D7</code><code>E7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-9">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/johnnybgoode.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/johnny-b.-goode" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/chuck-berry-johnny-b-goode-bass-tab-s10" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#johnny-b-goode</code></div>
+  </div>
+</article>
+<article class="song" id="just-a-little-light" data-title="just a little light" data-key="Am" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#just-a-little-light" aria-label="Permalink to Just a Little Light">#</a>Just a Little Light</h3>
+    <div class="badges">
+      <span class="badge key">Am</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Am</code><code>Em</code><code>Dm</code><code>F</code><code>C</code><code>G</code><code>D</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="built-to-last.html#track-2">Built to Last</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/justalittlelight.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-just-a-little-light-tab-s4091474" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#just-a-little-light</code></div>
+  </div>
+</article>
+<article class="song" id="katie-mae" data-title="katie mae" data-key="E" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#katie-mae" aria-label="Permalink to Katie Mae">#</a>Katie Mae</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E7</code><code>A7</code><code>B7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="bears-choice.html#track-1">Bear's Choice</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/katiemae.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/html/music/gdtunes/Katiemae.htm" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#katie-mae</code></div>
+  </div>
+</article>
+<article class="song" id="king-solomons-marbles" data-title="king solomon's marbles" data-key="Bm" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#king-solomons-marbles" aria-label="Permalink to King Solomon's Marbles">#</a>King Solomon's Marbles</h3>
+    <div class="badges">
+      <span class="badge key">Bm</span>
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Bm</code><code>D</code><code>A</code><code>Em7</code><code>F#</code><code>E</code><code>B</code><code>C#m</code><code>G#m</code><code>G</code><code>C#°7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-4">Blues for Allah</a></span>
+      <span class="out"><a href="https://www.rukind.com/gdpedia/titles/view/566" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-king-solomons-marbles-bass-tab-s1556459" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#king-solomons-marbles</code></div>
+  </div>
+</article>
+<article class="song" id="let-me-sing-your-blues-away" data-title="let me sing your blues away" data-key="Bb" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#let-me-sing-your-blues-away" aria-label="Permalink to Let Me Sing Your Blues Away">#</a>Let Me Sing Your Blues Away</h3>
+    <div class="badges">
+      <span class="badge key">Bb</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Bb</code><code>F</code><code>Eb</code><code>Ab7</code><code>G7</code><code>Gb7</code><code>F7</code><code>Bb7</code><code>Ebm</code><code>D7</code><code>G</code><code>C</code><code>A7</code><code>E7</code><code>C7</code><code>G#7</code><code>C#m</code><code>A</code><code>Bm</code><code>D</code><code>B</code><code>E</code><code>Cm7</code><code>Dm7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="wake-of-the-flood.html#track-2">Wake of the Flood</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/letmesingyourbluesaway.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/254" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#let-me-sing-your-blues-away</code></div>
+  </div>
+</article>
+<article class="song" id="little-red-rooster" data-title="little red rooster" data-key="D" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#little-red-rooster" aria-label="Permalink to Little Red Rooster">#</a>Little Red Rooster</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>A7</code><code>E7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="dead-set.html#track-6">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/littleredrooster.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/little-red-rooster" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.bigbasstabs.com/howlin_wolf_bass_tabs/little_red_rooster.html" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#little-red-rooster</code></div>
+  </div>
+</article>
+<article class="song" id="loose-lucy" data-title="loose lucy" data-key="E" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#loose-lucy" aria-label="Permalink to Loose Lucy">#</a>Loose Lucy</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>B</code><code>E7</code><code>Eb7/E</code><code>D7/E</code><code>F#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="from-the-mars-hotel.html#track-4">From the Mars Hotel</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/looselucy.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/loose-lucy" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-loose-lucy-live-tab-s5574360" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#loose-lucy</code></div>
+  </div>
+</article>
+<article class="song" id="loser" data-title="loser" data-key="Am" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#loser" aria-label="Permalink to Loser">#</a>Loser</h3>
+    <div class="badges">
+      <span class="badge key">Am</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Am</code><code>G</code><code>C</code><code>D</code><code>Em</code><code>C/B</code><code>A</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="dead-set.html#track-7">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/loser.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/loser" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-loser-bass-tab-s194120" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#loser</code></div>
+  </div>
+</article>
+<article class="song" id="lost-sailor" data-title="lost sailor" data-key="F#m" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#lost-sailor" aria-label="Permalink to Lost Sailor">#</a>Lost Sailor</h3>
+    <div class="badges">
+      <span class="badge key">F#m</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>F#m</code><code>Gmaj7</code><code>Em</code><code>A</code><code>D</code><code>Bm</code><code>A/G</code><code>E</code><code>Dsus2</code><code>G#m</code><code>B</code><code>F#</code><code>G</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="go-to-heaven.html#track-5">Go to Heaven</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/lostsailor.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/lost-sailor" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-lost-sailor-bass-tab-s194088" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#lost-sailor</code></div>
+  </div>
+</article>
+<article class="song" id="mama-tried" data-title="mama tried" data-key="D" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#mama-tried" aria-label="Permalink to Mama Tried">#</a>Mama Tried</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>G</code><code>A7</code><code>C</code><code>Bm</code><code>A</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-2">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/mamatried.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/mama-tried" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-mama-tried-bass-tab-s2996255" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#mama-tried</code></div>
+  </div>
+</article>
+<article class="song" id="me-and-bobby-mcgee" data-title="me and bobby mcgee" data-key="D" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#me-and-bobby-mcgee" aria-label="Permalink to Me and Bobby McGee">#</a>Me and Bobby McGee</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>A</code><code>D7</code><code>G</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-8">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/meandbobbymcgee.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/janis-joplin-me-and-bobby-mcgee-bass-tab-s10236" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#me-and-bobby-mcgee</code></div>
+  </div>
+</article>
+<article class="song" id="me-and-my-uncle" data-title="me and my uncle" data-key="Em" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#me-and-my-uncle" aria-label="Permalink to Me and My Uncle">#</a>Me and My Uncle</h3>
+    <div class="badges">
+      <span class="badge key">Em</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Em</code><code>G</code><code>G#</code><code>A</code><code>B</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-6">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/meandmyuncle.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/me-and-my-uncle" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-me-and-my-uncle-bass-tab-s194065" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#me-and-my-uncle</code></div>
+  </div>
+</article>
+<article class="song" id="mississippi-half-step-uptown-toodeloo" data-title="mississippi half-step uptown toodeloo" data-key="C" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#mississippi-half-step-uptown-toodeloo" aria-label="Permalink to Mississippi Half-Step Uptown Toodeloo">#</a>Mississippi Half-Step Uptown Toodeloo</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>E7</code><code>F</code><code>Am</code><code>G</code><code>D7</code><code>G7</code><code>Am/maj7</code><code>Am7</code><code>D9</code><code>Dm</code><code>B7</code><code>A</code><code>D</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="wake-of-the-flood.html#track-1">Wake of the Flood</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/mississippihalfstepuptowntoodeloo.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/mississippi-half-step" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-mississippi-half-step-uptown-toodeloo-bass-tab-s194019" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#mississippi-half-step-uptown-toodeloo</code></div>
+  </div>
+</article>
+<article class="song" id="money-money" data-title="money money" data-key="D" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#money-money" aria-label="Permalink to Money Money">#</a>Money Money</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>Am</code><code>E7</code><code>F</code><code>C</code><code>Dm</code><code>Gm</code><code>C/B</code><code>A</code><code>Em</code><code>G</code><code>F#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="from-the-mars-hotel.html#track-7">From the Mars Hotel</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/moneymoney.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/300" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#money-money</code></div>
+  </div>
+</article>
+<article class="song" id="monkey-and-the-engineer" data-title="monkey and the engineer" data-key="G" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#monkey-and-the-engineer" aria-label="Permalink to Monkey and the Engineer">#</a>Monkey and the Engineer</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>C</code><code>A7</code><code>D</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-8">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/monkeyandtheengineer.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/monkey-and-the-engineer" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-monkey-and-the-engineer-bass-tab-s194039" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#monkey-and-the-engineer</code></div>
+  </div>
+</article>
+<article class="song" id="morning-dew" data-title="morning dew" data-key="D" data-complexity="moderate" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#morning-dew" aria-label="Permalink to Morning Dew">#</a>Morning Dew</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>C</code><code>G</code><code>F</code><code>Em</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="the-grateful-dead.html#track-7">The Grateful Dead</a><span class="sep">·</span><a class="alb" href="europe-72.html#track-17">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/morningdew.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/morning-dew" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-morning-dew-bass-tab-s194047" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#morning-dew</code></div>
+  </div>
+</article>
+<article class="song" id="mountains-of-the-moon" data-title="mountains of the moon" data-key="G" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#mountains-of-the-moon" aria-label="Permalink to Mountains of the Moon">#</a>Mountains of the Moon</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Gsus2</code><code>G</code><code>F/G</code><code>Dm/G</code><code>F</code><code>Dm</code><code>C</code><code>Dm7</code><code>G/B</code><code>Am</code><code>D/F#</code><code>C/G</code><code>G/F</code><code>Em</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="aoxomoxoa.html#track-5">Aoxomoxoa</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/mountainsofthemoon.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/mountains-of-the-moon" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-mountains-of-the-moon-bass-tab-s194046" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#mountains-of-the-moon</code></div>
+  </div>
+</article>
+<article class="song" id="mr-charlie" data-title="mr. charlie" data-key="A" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#mr-charlie" aria-label="Permalink to Mr. Charlie">#</a>Mr. Charlie</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A7</code><code>D7</code><code>E7</code><code>C</code><code>C#</code><code>D</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-12">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/mrcharlie.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/mr.-charlie" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-mr-charlie-bass-tab-s1145340" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#mr-charlie</code></div>
+  </div>
+</article>
+<article class="song" id="new-minglewood-blues" data-title="new minglewood blues" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#new-minglewood-blues" aria-label="Permalink to New Minglewood Blues">#</a>New Minglewood Blues</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>B</code><code>G</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="dead-set.html#track-3">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/newminglewoodblues.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/317" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#new-minglewood-blues</code></div>
+  </div>
+</article>
+<article class="song" id="new-potato-caboose" data-title="new potato caboose" data-key="D" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#new-potato-caboose" aria-label="Permalink to New Potato Caboose">#</a>New Potato Caboose</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D7</code><code>F</code><code>G</code><code>F/A</code><code>C</code><code>C#m</code><code>A</code><code>Bb</code><code>Gm</code><code>D/A</code><code>G9</code><code>D</code><code>E7</code><code>D7sus4</code><code>G/D</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="anthem-of-the-sun.html#track-2">Anthem of the Sun</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/newpotatocaboose.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/new-potato-caboose" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-new-potato-caboose-bass-tab-s1555664" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#new-potato-caboose</code></div>
+  </div>
+</article>
+<article class="song" id="new-speedway-boogie" data-title="new speedway boogie" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#new-speedway-boogie" aria-label="Permalink to New Speedway Boogie">#</a>New Speedway Boogie</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>E7</code><code>G</code><code>D</code><code>A</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="workingmans-dead.html#track-4">Workingman's Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/newspeedwayboogie.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/new-speedway-boogie" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-new-speedway-boogie-bass-tab-s194021" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#new-speedway-boogie</code></div>
+  </div>
+</article>
+<article class="song" id="new-new-minglewood-blues" data-title="new, new minglewood blues" data-key="G" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#new-new-minglewood-blues" aria-label="Permalink to New, New Minglewood Blues">#</a>New, New Minglewood Blues</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>F</code><code>D</code><code>A</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="the-grateful-dead.html#track-8">The Grateful Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/newnewminglewoodblues.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/317" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-all-new-minglewood-blues-bass-tab-s938720" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#new-new-minglewood-blues</code></div>
+  </div>
+</article>
+<article class="song" id="not-fade-away" data-title="not fade away" data-key="E" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#not-fade-away" aria-label="Permalink to Not Fade Away">#</a>Not Fade Away</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>D</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-11">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/notfadeaway.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/html/music/gdtunes/Notfade.htm" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-not-fade-away-bass-tab-s36838" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#not-fade-away</code></div>
+  </div>
+</article>
+<article class="song" id="oh-babe-it-aint-no-lie" data-title="oh babe, it ain't no lie" data-key="C" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#oh-babe-it-aint-no-lie" aria-label="Permalink to Oh Babe, It Ain't No Lie">#</a>Oh Babe, It Ain't No Lie</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>F</code><code>G</code><code>E</code><code>E7</code><code>D</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-3">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/ohbabeitaintnolie.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/oh-babe-it-aint-no-lie" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#oh-babe-it-aint-no-lie</code></div>
+  </div>
+</article>
+<article class="song" id="on-the-road-again" data-title="on the road again" data-key="C" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#on-the-road-again" aria-label="Permalink to On the Road Again">#</a>On the Road Again</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>F</code><code>C7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-14">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/ontheroadagain.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/on-the-road-again" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-on-the-road-again-acoustic-bass-tab-s194069" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#on-the-road-again</code></div>
+  </div>
+</article>
+<article class="song" id="one-more-saturday-night" data-title="one more saturday night" data-key="C" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#one-more-saturday-night" aria-label="Permalink to One More Saturday Night">#</a>One More Saturday Night</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C7</code><code>F7</code><code>G7</code><code>Bb</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-3">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/onemoresaturdaynight.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/one-more-saturday-night" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-one-more-saturday-night-bass-tab-s5597931" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#one-more-saturday-night</code></div>
+  </div>
+</article>
+<article class="song" id="operator" data-title="operator" data-key="F" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#operator" aria-label="Permalink to Operator">#</a>Operator</h3>
+    <div class="badges">
+      <span class="badge key">F</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>F</code><code>C</code><code>A</code><code>Dm</code><code>Bb</code><code>F#</code><code>G</code><code>A7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="american-beauty.html#track-4">American Beauty</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/operator.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/operator" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#operator</code></div>
+  </div>
+</article>
+<article class="song" id="passenger" data-title="passenger" data-key="A" data-complexity="moderate" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#passenger" aria-label="Permalink to Passenger">#</a>Passenger</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>D</code><code>G</code><code>C</code><code>E</code><code>Am</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="terrapin-station.html#track-3">Terrapin Station</a><span class="sep">·</span><a class="alb" href="dead-set.html#track-8">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/passenger.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/passenger" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-passenger-tab-s955853" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#passenger</code></div>
+  </div>
+</article>
+<article class="song" id="picasso-moon" data-title="picasso moon" data-key="F#m" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#picasso-moon" aria-label="Permalink to Picasso Moon">#</a>Picasso Moon</h3>
+    <div class="badges">
+      <span class="badge key">F#m</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C#7</code><code>B</code><code>F#m</code><code>A</code><code>D</code><code>F#m/E</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="built-to-last.html#track-8">Built to Last</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/picassomoon.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-picasso-moon-tab-s3161985" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#picasso-moon</code></div>
+  </div>
+</article>
+<article class="song" id="playing-in-the-band" data-title="playing in the band" data-key="D" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#playing-in-the-band" aria-label="Permalink to Playing in the Band">#</a>Playing in the Band</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>A</code><code>E</code><code>G</code><code>Bm</code><code>Gm</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-4">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/playingintheband.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/html/music/gdtunes/Playin.htm" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-playing-in-the-band-live-bass-tab-s4943758" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#playing-in-the-band</code></div>
+  </div>
+</article>
+<article class="song" id="prelude" data-title="prelude" data-key="" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#prelude" aria-label="Permalink to Prelude">#</a>Prelude</h3>
+    <div class="badges">
+      
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">instrumental</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-16">Europe '72</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#prelude</code></div>
+  </div>
+</article>
+<article class="song" id="pride-of-cucamonga" data-title="pride of cucamonga" data-key="E" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#pride-of-cucamonga" aria-label="Permalink to Pride of Cucamonga">#</a>Pride of Cucamonga</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>E</code><code>B</code><code>D</code><code>G</code><code>C</code><code>Bm</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="from-the-mars-hotel.html#track-6">From the Mars Hotel</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/prideofcucamonga.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/pride-of-cucamonga" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#pride-of-cucamonga</code></div>
+  </div>
+</article>
+<article class="song" id="ramble-on-rose" data-title="ramble on rose" data-key="D" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#ramble-on-rose" aria-label="Permalink to Ramble On Rose">#</a>Ramble On Rose</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>D#</code><code>E</code><code>F#m</code><code>G</code><code>G#</code><code>A</code><code>Bm</code><code>C</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-10">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/rambleonrose.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/ramble-on-rose" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-ramble-on-rose-bass-tab-s36835" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#ramble-on-rose</code></div>
+  </div>
+</article>
+<article class="song" id="ripple" data-title="ripple" data-key="G" data-complexity="moderate" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#ripple" aria-label="Permalink to Ripple">#</a>Ripple</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Am</code><code>D</code><code>G</code><code>C</code><code>A7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="american-beauty.html#track-6">American Beauty</a><span class="sep">·</span><a class="alb" href="reckoning.html#track-16">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/ripple.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/ripple" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#ripple</code></div>
+  </div>
+</article>
+<article class="song" id="rosa-lee-mcfall" data-title="rosa lee mcfall" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#rosa-lee-mcfall" aria-label="Permalink to Rosa Lee McFall">#</a>Rosa Lee McFall</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>C#m</code><code>B</code><code>B7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-13">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/rosaleemcfall.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/rosa-lee-mcfall" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-rosa-lee-mcfall-bass-tab-s6572618" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#rosa-lee-mcfall</code></div>
+  </div>
+</article>
+<article class="song" id="rosemary" data-title="rosemary" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#rosemary" aria-label="Permalink to Rosemary">#</a>Rosemary</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>D</code><code>A</code><code>Bm</code><code>B</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="aoxomoxoa.html#track-3">Aoxomoxoa</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/rosemary.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/rosemary" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#rosemary</code></div>
+  </div>
+</article>
+<article class="song" id="row-jimmy" data-title="row jimmy" data-key="A" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#row-jimmy" aria-label="Permalink to Row Jimmy">#</a>Row Jimmy</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>G</code><code>D</code><code>Bm</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="wake-of-the-flood.html#track-3">Wake of the Flood</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/rowjimmy.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/row-jimmy" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-row-jimmy-bass-tab-s194083" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#row-jimmy</code></div>
+  </div>
+</article>
+<article class="song" id="sage-and-spirit" data-title="sage &amp; spirit" data-key="" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#sage-and-spirit" aria-label="Permalink to Sage &amp; Spirit">#</a>Sage &amp; Spirit</h3>
+    <div class="badges">
+      
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">instrumental</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-8">Blues for Allah</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#sage-and-spirit</code></div>
+  </div>
+</article>
+<article class="song" id="saint-of-circumstance" data-title="saint of circumstance" data-key="A" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#saint-of-circumstance" aria-label="Permalink to Saint of Circumstance">#</a>Saint of Circumstance</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>G</code><code>D</code><code>C</code><code>Bm</code><code>Bb</code><code>E</code><code>F#m</code><code>B</code><code>C#</code><code>A/G</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="go-to-heaven.html#track-6">Go to Heaven</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/saintofcircumstance.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/saint-of-circumstance" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-saint-of-circumstance-bass-tab-s925292" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#saint-of-circumstance</code></div>
+  </div>
+</article>
+<article class="song" id="samson-and-delilah" data-title="samson and delilah" data-key="G" data-complexity="busy" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#samson-and-delilah" aria-label="Permalink to Samson and Delilah">#</a>Samson and Delilah</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-busy">busy</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>C</code><code>D</code><code>Bmb5</code><code>C+4+9</code><code>C#mb5</code><code>F#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="terrapin-station.html#track-4">Terrapin Station</a><span class="sep">·</span><a class="alb" href="dead-set.html#track-1">Dead Set</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/samsonanddelilah.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/samson-and-delilah" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-samson-and-delilah-tab-s194052" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#samson-and-delilah</code></div>
+  </div>
+</article>
+<article class="song" id="sand-castles-and-glass-camels" data-title="sand castles &amp; glass camels" data-key="" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#sand-castles-and-glass-camels" aria-label="Permalink to Sand Castles &amp; Glass Camels">#</a>Sand Castles &amp; Glass Camels</h3>
+    <div class="badges">
+      
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">instrumental</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-10">Blues for Allah</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#sand-castles-and-glass-camels</code></div>
+  </div>
+</article>
+<article class="song" id="scarlet-begonias" data-title="scarlet begonias" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#scarlet-begonias" aria-label="Permalink to Scarlet Begonias">#</a>Scarlet Begonias</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>B</code><code>A</code><code>F#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="from-the-mars-hotel.html#track-5">From the Mars Hotel</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/scarletbegonias.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/scarlet-begonias" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.guitartabs.cc/tabs/g/grateful_dead/scarlet_begonias_btab_ver_3.html" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#scarlet-begonias</code></div>
+  </div>
+</article>
+<article class="song" id="serengetti" data-title="serengetti" data-key="" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#serengetti" aria-label="Permalink to Serengetti">#</a>Serengetti</h3>
+    <div class="badges">
+      
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">instrumental</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="shakedown-street.html#track-4">Shakedown Street</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#serengetti</code></div>
+  </div>
+</article>
+<article class="song" id="shakedown-street" data-title="shakedown street" data-key="Dm" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#shakedown-street" aria-label="Permalink to Shakedown Street">#</a>Shakedown Street</h3>
+    <div class="badges">
+      <span class="badge key">Dm</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Dm</code><code>C/D</code><code>C</code><code>G</code><code>C/G</code><code>F</code><code>C9</code><code>Fmaj7</code><code>Em7</code><code>Ebm7</code><code>Dm7</code><code>C7sus4</code><code>C7</code><code>C#7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="shakedown-street.html#track-3">Shakedown Street</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/shakedownstreet.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/shakedown-street" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-shakedown-street-bass-tab-s70816" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#shakedown-street</code></div>
+  </div>
+</article>
+<article class="song" id="ship-of-fools" data-title="ship of fools" data-key="Bb" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#ship-of-fools" aria-label="Permalink to Ship of Fools">#</a>Ship of Fools</h3>
+    <div class="badges">
+      <span class="badge key">Bb</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Bb</code><code>F</code><code>Eb</code><code>Cm</code><code>Gm</code><code>Dm</code><code>D</code><code>E°7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="from-the-mars-hotel.html#track-8">From the Mars Hotel</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/shipoffools.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/ship-of-fools" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-ship-of-fools-bass-tab-s194103" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#ship-of-fools</code></div>
+  </div>
+</article>
+<article class="song" id="sitting-on-top-of-the-world" data-title="sitting on top of the world" data-key="A" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#sitting-on-top-of-the-world" aria-label="Permalink to Sitting on Top of the World">#</a>Sitting on Top of the World</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>D</code><code>E</code><code>C</code><code>F7</code><code>G</code><code>A7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="the-grateful-dead.html#track-5">The Grateful Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/sittingontopoftheworld.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/391" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-sitting-on-top-of-the-world-bass-tab-s4091744" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#sitting-on-top-of-the-world</code></div>
+  </div>
+</article>
+<article class="song" id="slipknot" data-title="slipknot!" data-key="" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#slipknot" aria-label="Permalink to Slipknot!">#</a>Slipknot!</h3>
+    <div class="badges">
+      
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">instrumental</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-2">Blues for Allah</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#slipknot</code></div>
+  </div>
+</article>
+<article class="song" id="smokestack-lightning" data-title="smokestack lightning" data-key="E" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#smokestack-lightning" aria-label="Permalink to Smokestack Lightning">#</a>Smokestack Lightning</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="bears-choice.html#track-6">Bear's Choice</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/smokestacklightning.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/smokestack-lightnin" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/howlin-wolf-smokestack-lightning-bass-tab-s198050" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#smokestack-lightning</code></div>
+  </div>
+</article>
+<article class="song" id="space" data-title="space" data-key="" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#space" aria-label="Permalink to Space">#</a>Space</h3>
+    <div class="badges">
+      
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">instrumental</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="dead-set.html#track-12">Dead Set</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#space</code></div>
+  </div>
+</article>
+<article class="song" id="st-stephen" data-title="st. stephen" data-key="E" data-complexity="moderate" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#st-stephen" aria-label="Permalink to St. Stephen">#</a>St. Stephen</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>D</code><code>A</code><code>B</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="aoxomoxoa.html#track-1">Aoxomoxoa</a><span class="sep">·</span><a class="alb" href="live-dead.html#track-2">Live/Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/ststephen.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/saint-stephen" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-st-stephen-bass-tab-s1415540" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#st-stephen</code></div>
+  </div>
+</article>
+<article class="song" id="stagger-lee" data-title="stagger lee" data-key="F" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#stagger-lee" aria-label="Permalink to Stagger Lee">#</a>Stagger Lee</h3>
+    <div class="badges">
+      <span class="badge key">F</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>F</code><code>C</code><code>Bb</code><code>G</code><code>A</code><code>D</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="shakedown-street.html#track-8">Shakedown Street</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/staggerlee.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/stagger-lee" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-stagger-lee-bass-tab-s194124" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#stagger-lee</code></div>
+  </div>
+</article>
+<article class="song" id="standing-on-the-moon" data-title="standing on the moon" data-key="G" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#standing-on-the-moon" aria-label="Permalink to Standing on the Moon">#</a>Standing on the Moon</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>C</code><code>D</code><code>Am</code><code>Bm</code><code>F</code><code>F#</code><code>B</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="built-to-last.html#track-7">Built to Last</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/standingonthemoon.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-standing-on-the-moon-tab-s194087" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#standing-on-the-moon</code></div>
+  </div>
+</article>
+<article class="song" id="stella-blue" data-title="stella blue" data-key="E" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#stella-blue" aria-label="Permalink to Stella Blue">#</a>Stella Blue</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>Emaj7</code><code>Asus4</code><code>A</code><code>Em</code><code>C7</code><code>B7</code><code>B</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="wake-of-the-flood.html#track-4">Wake of the Flood</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/stellablue.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/stella-blue" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-stella-blue-bass-tab-s194030" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#stella-blue</code></div>
+  </div>
+</article>
+<article class="song" id="stronger-than-dirt-or-milkin-the-turkey" data-title="stronger than dirt or milkin' the turkey" data-key="Bm" data-complexity="instrumental" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#stronger-than-dirt-or-milkin-the-turkey" aria-label="Permalink to Stronger than Dirt or Milkin' the Turkey">#</a>Stronger than Dirt or Milkin' the Turkey</h3>
+    <div class="badges">
+      <span class="badge key">Bm</span>
+      <span class="badge">instrumental</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Bm</code><code>A</code><code>Em7</code><code>F#</code><code>E</code><code>B</code><code>C#m</code><code>G#m</code><code>G</code><code>C#°7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-5">Blues for Allah</a></span>
+      <span class="out"><a href="https://www.rukind.com/gdpedia/titles/view/412" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-king-solomons-marbles-bass-tab-s1556459" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#stronger-than-dirt-or-milkin-the-turkey</code></div>
+  </div>
+</article>
+<article class="song" id="sugar-magnolia" data-title="sugar magnolia" data-key="A" data-complexity="busy" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#sugar-magnolia" aria-label="Permalink to Sugar Magnolia">#</a>Sugar Magnolia</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-busy">busy</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>D</code><code>G</code><code>E</code><code>C#m</code><code>F#m</code><code>B</code><code>F#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="american-beauty.html#track-3">American Beauty</a><span class="sep">·</span><a class="alb" href="europe-72.html#track-11">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/sugarmagnolia.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/sugar-magnolia" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-sugar-magnolia-bass-tab-s417856" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#sugar-magnolia</code></div>
+  </div>
+</article>
+<article class="song" id="sunrise" data-title="sunrise" data-key="Am" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#sunrise" aria-label="Permalink to Sunrise">#</a>Sunrise</h3>
+    <div class="badges">
+      <span class="badge key">Am</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Am</code><code>D</code><code>F</code><code>G</code><code>E</code><code>E7</code><code>Am/G</code><code>Esus4</code><code>Em</code><code>A</code><code>Bb</code><code>Bb7sus4</code><code>G7</code><code>C7</code><code>C</code><code>Fmaj7</code><code>D7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="terrapin-station.html#track-5">Terrapin Station</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/sunrise.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-sunrise-tab-s4091936" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#sunrise</code></div>
+  </div>
+</article>
+<article class="song" id="tennessee-jed" data-title="tennessee jed" data-key="C" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#tennessee-jed" aria-label="Permalink to Tennessee Jed">#</a>Tennessee Jed</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>C</code><code>F</code><code>G</code><code>Dm7</code><code>C7</code><code>Bb</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-13">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/tennesseejed.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/tabs/tennessee-jed" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-tennessee-jed-bass-tab-s194085" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#tennessee-jed</code></div>
+  </div>
+</article>
+<article class="song" id="terrapin-part-1" data-title="terrapin part 1" data-key="C" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#terrapin-part-1" aria-label="Permalink to Terrapin Part 1">#</a>Terrapin Part 1</h3>
+    <div class="badges">
+      <span class="badge key">C</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>Dm</code><code>C</code><code>F</code><code>Fmaj7</code><code>C9</code><code>E</code><code>A</code><code>A7</code><code>D</code><code>Dmaj7</code><code>C#m</code><code>Gmaj7</code><code>D#m7b5</code><code>B</code><code>Bm</code><code>Eb</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="terrapin-station.html#track-6">Terrapin Station</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/terrapinstation.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/terrapin-station" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-terrapin-station-tab-s194115" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#terrapin-part-1</code></div>
+  </div>
+</article>
+<article class="song" id="thats-it-for-the-other-one" data-title="that's it for the other one" data-key="E" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#thats-it-for-the-other-one" aria-label="Permalink to That's It for the Other One">#</a>That's It for the Other One</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>G</code><code>Em</code><code>D</code><code>C</code><code>B</code><code>Am</code><code>Am/G</code><code>Dm/F</code><code>D/F#</code><code>Em/G</code><code>G#°</code><code>F#7/A#</code><code>B7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="anthem-of-the-sun.html#track-1">Anthem of the Sun</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/thatsitfortheotherone.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/the-other-one" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-thats-it-for-the-other-one-cryptical-envelopment-quadlibet-for-tender-feet-the-faster-we-bass-tab-s1555484" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#thats-it-for-the-other-one</code></div>
+  </div>
+</article>
+<article class="song" id="the-eleven" data-title="eleven" data-key="B" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#the-eleven" aria-label="Permalink to The Eleven">#</a>The Eleven</h3>
+    <div class="badges">
+      <span class="badge key">B</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>B</code><code>A</code><code>G#m</code><code>F#m</code><code>E</code><code>D</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="live-dead.html#track-3">Live/Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/theeleven.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/show/436" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-the-eleven-live-at-the-fillmore-west-bass-tab-s4617917t1" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#the-eleven</code></div>
+  </div>
+</article>
+<article class="song" id="the-golden-road-to-unlimited-devotion" data-title="golden road (to unlimited devotion)" data-key="D" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#the-golden-road-to-unlimited-devotion" aria-label="Permalink to The Golden Road (To Unlimited Devotion)">#</a>The Golden Road (To Unlimited Devotion)</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>C6</code><code>G</code><code>F</code><code>C</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="the-grateful-dead.html#track-1">The Grateful Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/thegoldenroadtounlimiteddevotion.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/165" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-the-golden-road-bass-tab-s194055" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#the-golden-road-to-unlimited-devotion</code></div>
+  </div>
+</article>
+<article class="song" id="the-music-never-stopped" data-title="music never stopped" data-key="E" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#the-music-never-stopped" aria-label="Permalink to The Music Never Stopped">#</a>The Music Never Stopped</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>C</code><code>A°7</code><code>B°/A</code><code>A6</code><code>Bm7b5</code><code>A/C#</code><code>D#°7</code><code>Dm/F</code><code>D7</code><code>D</code><code>F</code><code>G</code><code>B</code><code>F#</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-6">Blues for Allah</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/themusicneverstopped.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/the-music-never-stopped" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-the-music-never-stopped-bass-tab-s3260127" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#the-music-never-stopped</code></div>
+  </div>
+</article>
+<article class="song" id="the-other-one" data-title="other one" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#the-other-one" aria-label="Permalink to The Other One">#</a>The Other One</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>D</code><code>C</code><code>A</code><code>G</code><code>B</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-5">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/theotherone.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/the-other-one" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-the-other-one-bass-tab-s4091902" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#the-other-one</code></div>
+  </div>
+</article>
+<article class="song" id="the-race-is-on" data-title="race is on" data-key="G" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#the-race-is-on" aria-label="Permalink to The Race Is On">#</a>The Race Is On</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>C</code><code>D</code><code>A</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-2">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/theraceison.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/the-race-is-on" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/george-jones-the-race-is-on-bass-tab-s193231" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#the-race-is-on</code></div>
+  </div>
+</article>
+<article class="song" id="throwing-stones" data-title="throwing stones" data-key="E" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#throwing-stones" aria-label="Permalink to Throwing Stones">#</a>Throwing Stones</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Bm</code><code>A</code><code>E</code><code>G</code><code>C#m</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="in-the-dark.html#track-6">In the Dark</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/throwingstones.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/throwin-stones" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-throwing-stones-bass-tab-s194113" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#throwing-stones</code></div>
+  </div>
+</article>
+<article class="song" id="till-the-morning-comes" data-title="till the morning comes" data-key="A" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#till-the-morning-comes" aria-label="Permalink to Till the Morning Comes">#</a>Till the Morning Comes</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>E</code><code>G</code><code>D</code><code>E7#9</code><code>A7</code><code>B7</code><code>E7</code><code>C#</code><code>Dm</code><code>Am</code><code>B7#5</code><code>E9</code><code>Am7</code><code>Bm7</code><code>Bm</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="american-beauty.html#track-8">American Beauty</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/tillthemorningcomes.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/view/466" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#till-the-morning-comes</code></div>
+  </div>
+</article>
+<article class="song" id="to-lay-me-down" data-title="to lay me down" data-key="G" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#to-lay-me-down" aria-label="Permalink to To Lay Me Down">#</a>To Lay Me Down</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>Em</code><code>C</code><code>Bm</code><code>A</code><code>E</code><code>D</code><code>Am</code><code>F</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="reckoning.html#track-12">Reckoning</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/tolaymedown.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/to-lay-me-down" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-to-lay-me-down-bass-tab-s1314610" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#to-lay-me-down</code></div>
+  </div>
+</article>
+<article class="song" id="tons-of-steel" data-title="tons of steel" data-key="F" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#tons-of-steel" aria-label="Permalink to Tons of Steel">#</a>Tons of Steel</h3>
+    <div class="badges">
+      <span class="badge key">F</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>F</code><code>Bb</code><code>C</code><code>Eb</code><code>Gm</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="in-the-dark.html#track-5">In the Dark</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/tonsofsteel.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-tons-of-steel-bass-tab-s4091550" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#tons-of-steel</code></div>
+  </div>
+</article>
+<article class="song" id="touch-of-grey" data-title="touch of grey" data-key="B" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#touch-of-grey" aria-label="Permalink to Touch of Grey">#</a>Touch of Grey</h3>
+    <div class="badges">
+      <span class="badge key">B</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>B</code><code>F#</code><code>E</code><code>A</code><code>C#m</code><code>C#7</code><code>G#m</code><code>D#</code><code>C#m7</code><code>B7</code><code>E7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="in-the-dark.html#track-1">In the Dark</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/touchofgrey.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/html/music/gdtunes/Tchgrey.htm" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-touch-of-grey-bass-tab-s545430" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#touch-of-grey</code></div>
+  </div>
+</article>
+<article class="song" id="truckin" data-title="truckin'" data-key="E" data-complexity="busy" data-albums="2">
+  <div class="song-head">
+    <h3><a class="anchor" href="#truckin" aria-label="Permalink to Truckin'">#</a>Truckin'</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-busy">busy</span>
+      <span class="badge multi">2 versions</span>
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>B</code><code>Bsus4</code><code>G</code><code>D</code><code>F#</code><code>F#sus4</code><code>Amaj7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="american-beauty.html#track-10">American Beauty</a><span class="sep">·</span><a class="alb" href="europe-72.html#track-14">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/truckin.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/truckin" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.bigbasstabs.com/grateful_dead_bass_tabs/truckin.html" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#truckin</code></div>
+  </div>
+</article>
+<article class="song" id="turn-on-your-love-light" data-title="turn on your love light" data-key="E" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#turn-on-your-love-light" aria-label="Permalink to Turn On Your Love Light">#</a>Turn On Your Love Light</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E7</code><code>A7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="live-dead.html#track-4">Live/Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/turnonyourlovelight.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/show/478" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-turn-on-your-love-light-bass-tab-s8219t2" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#turn-on-your-love-light</code></div>
+  </div>
+</article>
+<article class="song" id="u-s-blues" data-title="u.s. blues" data-key="A" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#u-s-blues" aria-label="Permalink to U.S. Blues">#</a>U.S. Blues</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>A7</code><code>D</code><code>E</code><code>B</code><code>E7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="from-the-mars-hotel.html#track-1">From the Mars Hotel</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/usblues.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/u.s.-blues" rel="noopener">chart</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#u-s-blues</code></div>
+  </div>
+</article>
+<article class="song" id="unbroken-chain" data-title="unbroken chain" data-key="Am" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#unbroken-chain" aria-label="Permalink to Unbroken Chain">#</a>Unbroken Chain</h3>
+    <div class="badges">
+      <span class="badge key">Am</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Dm7</code><code>F</code><code>Csus4</code><code>C</code><code>Am</code><code>Eb</code><code>Em</code><code>G</code><code>G/B</code><code>Fsus4</code><code>Cmaj7</code><code>Cm7</code><code>Fmaj7</code><code>Dm</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="from-the-mars-hotel.html#track-3">From the Mars Hotel</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/unbrokenchain.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/unbroken-chain" rel="noopener">chart</a><span class="sep">·</span><a href="https://tabs.ultimate-guitar.com/tab/grateful-dead/unbroken-chain-bass-2153103" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#unbroken-chain</code></div>
+  </div>
+</article>
+<article class="song" id="uncle-johns-band" data-title="uncle john's band" data-key="G" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#uncle-johns-band" aria-label="Permalink to Uncle John's Band">#</a>Uncle John's Band</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>C</code><code>D</code><code>Am</code><code>Em</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="workingmans-dead.html#track-1">Workingman's Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/unclejohnsband.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/uncle-johns-band" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-uncle-johns-band-bass-tab-s36840" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#uncle-johns-band</code></div>
+  </div>
+</article>
+<article class="song" id="unusual-occurrences-in-the-desert" data-title="unusual occurrences in the desert" data-key="" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#unusual-occurrences-in-the-desert" aria-label="Permalink to Unusual Occurrences in the Desert">#</a>Unusual Occurrences in the Desert</h3>
+    <div class="badges">
+      
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">no verified chart</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="blues-for-allah.html#track-11">Blues for Allah</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#unusual-occurrences-in-the-desert</code></div>
+  </div>
+</article>
+<article class="song" id="victim-or-the-crime" data-title="victim or the crime" data-key="B" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#victim-or-the-crime" aria-label="Permalink to Victim or the Crime">#</a>Victim or the Crime</h3>
+    <div class="badges">
+      <span class="badge key">B</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>B5</code><code>Bsus2</code><code>Bm</code><code>G/B</code><code>E7</code><code>B</code><code>Esus4</code><code>E5</code><code>E6</code><code>C</code><code>Csus2</code><code>A9</code><code>A/G#</code><code>A</code><code>Asus2</code><code>Am</code><code>B/A</code><code>F/A</code><code>D</code><code>C#m</code><code>F#m</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="built-to-last.html#track-5">Built to Last</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/victimorthecrime.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-victim-or-the-crime-tab-s194018" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#victim-or-the-crime</code></div>
+  </div>
+</article>
+<article class="song" id="viola-lee-blues" data-title="viola lee blues" data-key="G" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#viola-lee-blues" aria-label="Permalink to Viola Lee Blues">#</a>Viola Lee Blues</h3>
+    <div class="badges">
+      <span class="badge key">G</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>G</code><code>C</code><code>F</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="the-grateful-dead.html#track-9">The Grateful Dead</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/violaleeblues.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/viola-lee-blues" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-viola-lee-blues-bass-tab-s2804998" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#viola-lee-blues</code></div>
+  </div>
+</article>
+<article class="song" id="wake-up-little-susie" data-title="wake up little susie" data-key="D" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#wake-up-little-susie" aria-label="Permalink to Wake Up Little Susie">#</a>Wake Up Little Susie</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>F</code><code>G</code><code>A</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="bears-choice.html#track-4">Bear's Choice</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/wakeuplittlesusie.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/wake-up-little-susie" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/simon-and-garfunkel-wake-up-little-susie-bass-tab-s17380" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#wake-up-little-susie</code></div>
+  </div>
+</article>
+<article class="song" id="we-can-run" data-title="we can run" data-key="A" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#we-can-run" aria-label="Permalink to We Can Run">#</a>We Can Run</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>A</code><code>E</code><code>F#m</code><code>D</code><code>Bm</code><code>C#m</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="built-to-last.html#track-6">Built to Last</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/wecanrun.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-we-can-run-tab-s194105" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#we-can-run</code></div>
+  </div>
+</article>
+<article class="song" id="weather-report-suite" data-title="weather report suite" data-key="E" data-complexity="dense" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#weather-report-suite" aria-label="Permalink to Weather Report Suite">#</a>Weather Report Suite</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-dense">dense</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>C#m</code><code>D</code><code>Dsus4</code><code>C#m7</code><code>F#m</code><code>A</code><code>E7</code><code>C#</code><code>G</code><code>C</code><code>B</code><code>Am7</code><code>Am</code><code>Bm</code><code>A7</code><code>Em</code><code>Bm7</code><code>F</code><code>F#m</code><code>Em7</code><code>G7</code><code>Dm</code><code>B7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="wake-of-the-flood.html#track-7">Wake of the Flood</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/weatherreportsuite.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/wrs-prelude" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-weather-report-suite-bass-tab-s3061557" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#weather-report-suite</code></div>
+  </div>
+</article>
+<article class="song" id="west-l-a-fadeaway" data-title="west l.a. fadeaway" data-key="Am" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#west-l-a-fadeaway" aria-label="Permalink to West L.A. Fadeaway">#</a>West L.A. Fadeaway</h3>
+    <div class="badges">
+      <span class="badge key">Am</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Am</code><code>B</code><code>E</code><code>D</code><code>C</code><code>F9</code><code>Em7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="in-the-dark.html#track-4">In the Dark</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/westlafadeaway.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/html/music/gdtunes/Westla.htm" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-west-la-fadeaway-bass-tab-s1635076" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#west-l-a-fadeaway</code></div>
+  </div>
+</article>
+<article class="song" id="wharf-rat" data-title="wharf rat" data-key="A" data-complexity="busy" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#wharf-rat" aria-label="Permalink to Wharf Rat">#</a>Wharf Rat</h3>
+    <div class="badges">
+      <span class="badge key">A</span>
+      <span class="badge cx cx-busy">busy</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>Asus2</code><code>A</code><code>Em</code><code>D</code><code>G</code><code>C</code><code>Dsus4</code><code>Asus4</code><code>A7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="skull-and-roses.html#track-10">Skull &amp; Roses</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/wharfrat.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/gdpedia/titles/tab/wharf-rat" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-wharf-rat-live-bass-tab-s5211983" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#wharf-rat</code></div>
+  </div>
+</article>
+<article class="song" id="whats-become-of-the-baby" data-title="what's become of the baby" data-key="" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#whats-become-of-the-baby" aria-label="Permalink to What's Become of the Baby">#</a>What's Become of the Baby</h3>
+    <div class="badges">
+      
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="muted">no verified chart</span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="aoxomoxoa.html#track-7">Aoxomoxoa</a></span>
+      
+    </div>
+    <div class="ref">ref <code class="id">#whats-become-of-the-baby</code></div>
+  </div>
+</article>
+<article class="song" id="when-push-comes-to-shove" data-title="when push comes to shove" data-key="D" data-complexity="moderate" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#when-push-comes-to-shove" aria-label="Permalink to When Push Comes to Shove">#</a>When Push Comes to Shove</h3>
+    <div class="badges">
+      <span class="badge key">D</span>
+      <span class="badge cx cx-moderate">moderate</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>D</code><code>A</code><code>G</code><code>B7</code><code>E</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="in-the-dark.html#track-3">In the Dark</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/gratefuldead/whenpushcomestoshove.html" rel="noopener">lyrics</a><span class="sep">·</span><a href="https://www.rukind.com/html/music/gdtunes/Whenpush.htm" rel="noopener">chart</a><span class="sep">·</span><a href="https://www.songsterr.com/a/wsa/grateful-dead-when-push-comes-to-shove-bass-tab-s4091536" rel="noopener">bass</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#when-push-comes-to-shove</code></div>
+  </div>
+</article>
+<article class="song" id="you-win-again" data-title="you win again" data-key="E" data-complexity="simple" data-albums="1">
+  <div class="song-head">
+    <h3><a class="anchor" href="#you-win-again" aria-label="Permalink to You Win Again">#</a>You Win Again</h3>
+    <div class="badges">
+      <span class="badge key">E</span>
+      <span class="badge cx cx-simple">simple</span>
+      
+    </div>
+  </div>
+  <div class="song-body">
+    <span class="chords"><code>E</code><code>A</code><code>B7</code></span>
+    <div class="meta">
+      <span class="on"><a class="alb" href="europe-72.html#track-5">Europe '72</a></span>
+      <span class="out"><a href="https://www.azlyrics.com/lyrics/hankwilliams/youwinagain.html" rel="noopener">lyrics</a></span>
+    </div>
+    <div class="ref">ref <code class="id">#you-win-again</code></div>
+  </div>
+</article>
+<p class="empty" id="empty" hidden>Nothing matches that.</p>
+</main>
+<footer>
+  Generated from data/albums/*.json by scripts/build-songs.js &mdash; 162 songs, 19 albums.
+  Chords are verified against real charts; lyrics are linked, never reproduced.
+</footer>
+<script>
+(function(){
+  var toggle = document.getElementById('themeToggle');
+  toggle.addEventListener('click', function(){
+    var cur = document.documentElement.getAttribute('data-theme');
+    var next = cur === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('gm-theme', next); } catch(e) {}
+  });
+
+  var songs = [].slice.call(document.querySelectorAll('.song'));
+  var q = document.getElementById('q');
+  var empty = document.getElementById('empty');
+  var filter = 'all';
+
+  // Anchor targets for the A–Z rail, placed on the first song of each letter.
+  var seen = {};
+  songs.forEach(function(el){
+    var t = el.dataset.title || '';
+    var c = t.charAt(0).toUpperCase();
+    var k = /[A-Z]/.test(c) ? c : 'sym';
+    if (!seen[k]) { seen[k] = true; el.id = el.id; el.insertAdjacentHTML('beforebegin',
+      '<span id="letter-' + k + '" style="display:block;height:0"></span>'); }
+  });
+
+  function apply(){
+    var term = q.value.trim().toLowerCase();
+    var shown = 0;
+    songs.forEach(function(el){
+      var okF = filter === 'all'
+        || (filter === 'multi' ? +el.dataset.albums > 1 : el.dataset.complexity === filter);
+      var okQ = !term || el.textContent.toLowerCase().indexOf(term) !== -1;
+      var vis = okF && okQ;
+      el.hidden = !vis;
+      if (vis) shown++;
+    });
+    empty.hidden = shown > 0;
+  }
+  q.addEventListener('input', apply);
+  document.querySelector('.tools').addEventListener('click', function(e){
+    var b = e.target.closest('.chip');
+    if (!b) return;
+    filter = b.dataset.f;
+    document.querySelectorAll('.chip').forEach(function(c){
+      c.setAttribute('aria-pressed', String(c === b));
+    });
+    apply();
+  });
+
+  // Click a ref to copy the permalink for pasting into notes.
+  document.getElementById('list').addEventListener('click', function(e){
+    var id = e.target.closest('.ref .id');
+    if (!id) return;
+    var url = location.origin + location.pathname + id.textContent;
+    var done = function(){
+      var was = id.textContent;
+      id.textContent = 'copied';
+      setTimeout(function(){ id.textContent = was; }, 900);
+    };
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, done);
+    else done();
+  });
+})();
+</script>
+</body>
+</html>

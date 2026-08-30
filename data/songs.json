@@ -1,13 +1,304 @@
 {
   "site": "Green Mountain Songbook",
   "description": "Standalone songs — verified charts for material outside the Grateful Dead album catalog. Same rules as the album data: every chord checked against a real tab source, with the URL actually read recorded in chordSource, and no lyrics reproduced.",
+  "generated": "2026-08-30",
+  "count": 37,
   "songs": [
+    {
+      "slug": "across-the-great-divide",
+      "title": "Across The Great Divide",
+      "artist": "Kate Wolf",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "alices-restaurant-massacree",
+      "title": "Alices Restaurant Massacree",
+      "artist": "Arlo Guthrie",
+      "key": "E",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "alright-guy",
+      "title": "Alright Guy",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "cant-find-my-way-home",
+      "title": "Cant Find My Way Home",
+      "artist": "Blind Faith",
+      "key": "D",
+      "chordCount": 8,
+      "hasChart": true
+    },
     {
       "slug": "cant-you-see",
       "title": "Can't You See",
       "artist": "The Marshall Tucker Band",
-      "year": 1973,
-      "key": "D"
+      "key": "D",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "city-of-new-orleans",
+      "title": "City Of New Orleans",
+      "artist": "Steve Goodman",
+      "key": "",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "dirty-business",
+      "title": "Dirty Business",
+      "artist": "New Riders of the Purple Sage",
+      "key": "A",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "dont-think-twice",
+      "title": "Dont Think Twice",
+      "artist": "Susan Tedeschi",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "dust-in-the-wind",
+      "title": "Dust In The Wind",
+      "artist": "Kansas",
+      "key": "C",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
+      "slug": "freight-train",
+      "title": "Freight Train",
+      "artist": "Jerry Garcia",
+      "key": "C",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "girl-from-the-north-country",
+      "title": "Girl From The North Country",
+      "artist": "Bob Dylan",
+      "key": "G",
+      "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "heart-of-gold",
+      "title": "Heart Of Gold",
+      "artist": "Neil Young",
+      "key": "Em",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "i-spoke-as-a-child",
+      "title": "I Spoke As A Child",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "into-the-mystic",
+      "title": "Into The Mystic",
+      "artist": "Van Morrison",
+      "key": "Eb",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "just-like-old-times",
+      "title": "Just Like Old Times",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "listen-to-the-music",
+      "title": "Listen To The Music",
+      "artist": "The Doobie Brothers",
+      "key": "",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "long-year",
+      "title": "Long Year",
+      "artist": "Todd Snider",
+      "key": "D",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "longest-days",
+      "title": "Longest Days",
+      "artist": "John Mellencamp",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "me-and-bobby-mcgee",
+      "title": "Me And Bobby Mcgee",
+      "artist": "Janis Joplin",
+      "key": "G",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "mother",
+      "title": "Mother",
+      "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "on-the-road-again",
+      "title": "On The Road Again",
+      "artist": "Willie Nelson",
+      "key": "E",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "pancho-and-lefty",
+      "title": "Pancho And Lefty",
+      "artist": "Townes Van Zandt",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "peace-frog",
+      "title": "Peace Frog",
+      "artist": "The Doors",
+      "key": "",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "play-a-train-song",
+      "title": "Play A Train Song",
+      "artist": "Todd Snider",
+      "key": "G",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "ridgetop",
+      "title": "Ridgetop",
+      "artist": "Jesse Colin Young",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "sam-stone",
+      "title": "Sam Stone",
+      "artist": "John Prine",
+      "key": "D",
+      "chordCount": 24,
+      "hasChart": true
+    },
+    {
+      "slug": "sample-in-a-jar",
+      "title": "Sample In A Jar",
+      "artist": "Phish",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "stick-season",
+      "title": "Stick Season",
+      "artist": "Noah Kahan",
+      "key": "A",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "tecumseh-valley",
+      "title": "Tecumseh Valley",
+      "artist": "Townes Van Zandt",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "this-must-be-the-place-naive-melody",
+      "title": "This Must Be The Place Naive Melody",
+      "artist": "Talking Heads",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "train-in-vain",
+      "title": "Train In Vain",
+      "artist": "The Clash",
+      "key": "D",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "trucker-speed",
+      "title": "Trucker Speed",
+      "artist": "Fred Eaglesmith",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "up-on-cripple-creek",
+      "title": "Up On Cripple Creek",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "waste",
+      "title": "Waste",
+      "artist": "Phish",
+      "key": "",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
+      "slug": "willin",
+      "title": "Willin",
+      "artist": "Little Feat",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "wish-you-were-here",
+      "title": "Wish You Were Here",
+      "artist": "Pink Floyd",
+      "key": "Em",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "wooden-ships",
+      "title": "Wooden Ships",
+      "artist": "Crosby, Stills & Nash",
+      "key": "Em",
+      "chordCount": 8,
+      "hasChart": true
     }
   ]
 }

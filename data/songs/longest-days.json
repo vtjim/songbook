@@ -1,0 +1,21 @@
+{
+  "slug": "longest-days",
+  "title": "Longest Days",
+  "artist": "John Mellencamp",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "C/G",
+    "G",
+    "Em",
+    "D/F#",
+    "C",
+    "D7/F#"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/john-mellencamp/longest-days-chords-737033",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (65 chord marks, 6 distinct). Source chart uses a capo at fret 6. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

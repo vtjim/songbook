@@ -1,0 +1,21 @@
+{
+  "slug": "long-year",
+  "title": "Long Year",
+  "artist": "Todd Snider",
+  "year": null,
+  "key": "D",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "C/B",
+    "Am7",
+    "G7",
+    "F",
+    "G"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/todd-snider/long-year-chords-449224",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (25 chord marks, 6 distinct). Source chart uses a capo at fret 2. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

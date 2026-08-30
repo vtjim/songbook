@@ -1,0 +1,25 @@
+{
+  "slug": "waste",
+  "title": "Waste",
+  "artist": "Phish",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "Dmaj7",
+    "D7",
+    "D7sus4",
+    "D7sus2",
+    "G",
+    "Gm",
+    "F",
+    "Cadd9",
+    "Am"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/phish/waste-chords-79086",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (88 chord marks, 10 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "listen-to-the-music",
+  "title": "Listen To The Music",
+  "artist": "The Doobie Brothers",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "A",
+    "C#m",
+    "B",
+    "C#m7",
+    "F#7",
+    "D/E",
+    "A/E"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-doobie-brothers/listen-to-the-music-chords-268316",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (93 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

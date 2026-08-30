@@ -1,0 +1,19 @@
+{
+  "slug": "play-a-train-song",
+  "title": "Play A Train Song",
+  "artist": "Todd Snider",
+  "year": null,
+  "key": "G",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "D",
+    "Em",
+    "C"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/todd-snider/play-a-train-song-chords-1099962",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (98 chord marks, 4 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}
