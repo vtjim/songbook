@@ -1,0 +1,704 @@
+{
+  "artist": "Pink Floyd",
+  "slug": "pink-floyd",
+  "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+  "albums": [
+    {
+      "slug": "the-piper-at-the-gates-of-dawn",
+      "title": "The Piper at the Gates of Dawn",
+      "year": 1967,
+      "releaseDate": "1967-07-07",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Astronomy Domine"
+        },
+        {
+          "number": 2,
+          "title": "Lucifer Sam"
+        },
+        {
+          "number": 3,
+          "title": "Matilda Mother"
+        },
+        {
+          "number": 4,
+          "title": "Flaming"
+        },
+        {
+          "number": 5,
+          "title": "Pow R. Toc H."
+        },
+        {
+          "number": 6,
+          "title": "Take Up Thy Stethoscope and Walk"
+        },
+        {
+          "number": 7,
+          "title": "Interstellar Overdrive"
+        },
+        {
+          "number": 8,
+          "title": "The Gnome"
+        },
+        {
+          "number": 9,
+          "title": "Chapter 24"
+        },
+        {
+          "number": 10,
+          "title": "The Scarecrow"
+        },
+        {
+          "number": 11,
+          "title": "Bike"
+        }
+      ]
+    },
+    {
+      "slug": "a-saucerful-of-secrets",
+      "title": "A Saucerful of Secrets",
+      "year": 1968,
+      "releaseDate": "1968-06-29",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Let There Be More Light"
+        },
+        {
+          "number": 2,
+          "title": "Remember a Day"
+        },
+        {
+          "number": 3,
+          "title": "Set the Controls for the Heart of the Sun"
+        },
+        {
+          "number": 4,
+          "title": "Corporal Clegg"
+        },
+        {
+          "number": 5,
+          "title": "A Saucerful of Secrets"
+        },
+        {
+          "number": 6,
+          "title": "See‐Saw"
+        },
+        {
+          "number": 7,
+          "title": "Jugband Blues"
+        }
+      ]
+    },
+    {
+      "slug": "ummagumma",
+      "title": "Ummagumma",
+      "year": 1969,
+      "releaseDate": "1969-10-25",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Astronomy Domine"
+        },
+        {
+          "number": 2,
+          "title": "Careful With That Axe, Eugene"
+        },
+        {
+          "number": 3,
+          "title": "Set the Controls for the Heart of the Sun"
+        },
+        {
+          "number": 4,
+          "title": "A Saucerful of Secrets"
+        },
+        {
+          "number": 5,
+          "title": "Sysyphus, Part 1"
+        },
+        {
+          "number": 6,
+          "title": "Sysyphus, Part 2"
+        },
+        {
+          "number": 7,
+          "title": "Sysyphus, Part 3"
+        },
+        {
+          "number": 8,
+          "title": "Sysyphus, Part 4"
+        },
+        {
+          "number": 9,
+          "title": "Grantchester Meadows"
+        },
+        {
+          "number": 10,
+          "title": "Several Species of Small Furry Animals Gathered Together in a Cave and Grooving With a Pict"
+        },
+        {
+          "number": 11,
+          "title": "The Narrow Way, Part 1"
+        },
+        {
+          "number": 12,
+          "title": "The Narrow Way, Part 2"
+        },
+        {
+          "number": 13,
+          "title": "The Narrow Way, Part 3"
+        },
+        {
+          "number": 14,
+          "title": "The Grand Vizier’s Garden Party, Part 1: Entrance"
+        },
+        {
+          "number": 15,
+          "title": "The Grand Vizier’s Garden Party, Part 2: Entertainment"
+        },
+        {
+          "number": 16,
+          "title": "The Grand Vizier’s Garden Party, Part 3: Exit"
+        }
+      ]
+    },
+    {
+      "slug": "atom-heart-mother",
+      "title": "Atom Heart Mother",
+      "year": 1970,
+      "releaseDate": "1970-10-10",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Atom Heart Mother: a) Father’s Shout / b) Breast Milky / c) Mother Fore / d) Funky Dung / e) Mind Your Throats Please / f) Remergence"
+        },
+        {
+          "number": 2,
+          "title": "If"
+        },
+        {
+          "number": 3,
+          "title": "Summer ’68"
+        },
+        {
+          "number": 4,
+          "title": "Fat Old Sun"
+        },
+        {
+          "number": 5,
+          "title": "Alan’s Psychedelic Breakfast: a) Rise and Shine / b) Sunny Side Up / c) Morning Glory"
+        }
+      ]
+    },
+    {
+      "slug": "meddle",
+      "title": "Meddle",
+      "year": 1971,
+      "releaseDate": "1971-10-30",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "One of These Days"
+        },
+        {
+          "number": 2,
+          "title": "A Pillow of Winds"
+        },
+        {
+          "number": 3,
+          "title": "Fearless: Including You’ll Never Walk Alone"
+        },
+        {
+          "number": 4,
+          "title": "San Tropez"
+        },
+        {
+          "number": 5,
+          "title": "Seamus"
+        },
+        {
+          "number": 6,
+          "title": "Echoes"
+        }
+      ]
+    },
+    {
+      "slug": "the-dark-side-of-the-moon",
+      "title": "The Dark Side of the Moon",
+      "year": 1973,
+      "releaseDate": "1973-03-24",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Speak to Me"
+        },
+        {
+          "number": 2,
+          "title": "Breathe"
+        },
+        {
+          "number": 3,
+          "title": "On the Run"
+        },
+        {
+          "number": 4,
+          "title": "Time"
+        },
+        {
+          "number": 5,
+          "title": "The Great Gig in the Sky"
+        },
+        {
+          "number": 6,
+          "title": "Money"
+        },
+        {
+          "number": 7,
+          "title": "Us and Them"
+        },
+        {
+          "number": 8,
+          "title": "Any Colour You Like"
+        },
+        {
+          "number": 9,
+          "title": "Brain Damage"
+        },
+        {
+          "number": 10,
+          "title": "Eclipse"
+        }
+      ]
+    },
+    {
+      "slug": "wish-you-were-here",
+      "title": "Wish You Were Here",
+      "year": 1975,
+      "releaseDate": "1975-09-12",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Shine On You Crazy Diamond (Part 1-5)"
+        },
+        {
+          "number": 2,
+          "title": "Welcome to the Machine"
+        },
+        {
+          "number": 3,
+          "title": "Have a Cigar"
+        },
+        {
+          "number": 4,
+          "title": "Wish You Were Here"
+        },
+        {
+          "number": 5,
+          "title": "Shine On You Crazy Diamond (Part 6-9)"
+        }
+      ]
+    },
+    {
+      "slug": "animals",
+      "title": "Animals",
+      "year": 1977,
+      "releaseDate": "1977-01-23",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Pigs on the Wing, Part 1"
+        },
+        {
+          "number": 2,
+          "title": "Dogs"
+        },
+        {
+          "number": 3,
+          "title": "Pigs (Three Different Ones)"
+        },
+        {
+          "number": 4,
+          "title": "Sheep"
+        },
+        {
+          "number": 5,
+          "title": "Pigs on the Wing, Part 2"
+        }
+      ]
+    },
+    {
+      "slug": "the-wall",
+      "title": "The Wall",
+      "year": 1979,
+      "releaseDate": "1979-11-30",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "In the Flesh?"
+        },
+        {
+          "number": 2,
+          "title": "The Thin Ice"
+        },
+        {
+          "number": 3,
+          "title": "Another Brick in the Wall, Part 1"
+        },
+        {
+          "number": 4,
+          "title": "The Happiest Days of Our Lives"
+        },
+        {
+          "number": 5,
+          "title": "Another Brick in the Wall, Part 2"
+        },
+        {
+          "number": 6,
+          "title": "Mother"
+        },
+        {
+          "number": 7,
+          "title": "Goodbye Blue Sky"
+        },
+        {
+          "number": 8,
+          "title": "Empty Spaces"
+        },
+        {
+          "number": 9,
+          "title": "Young Lust"
+        },
+        {
+          "number": 10,
+          "title": "One of My Turns"
+        },
+        {
+          "number": 11,
+          "title": "Don’t Leave Me Now"
+        },
+        {
+          "number": 12,
+          "title": "Another Brick in the Wall, Part 3"
+        },
+        {
+          "number": 13,
+          "title": "Goodbye Cruel World"
+        },
+        {
+          "number": 14,
+          "title": "Hey You"
+        },
+        {
+          "number": 15,
+          "title": "Is There Anybody Out There?"
+        },
+        {
+          "number": 16,
+          "title": "Nobody Home"
+        },
+        {
+          "number": 17,
+          "title": "Vera"
+        },
+        {
+          "number": 18,
+          "title": "Bring the Boys Back Home"
+        },
+        {
+          "number": 19,
+          "title": "Comfortably Numb"
+        },
+        {
+          "number": 20,
+          "title": "The Show Must Go On"
+        },
+        {
+          "number": 21,
+          "title": "In the Flesh"
+        },
+        {
+          "number": 22,
+          "title": "Run Like Hell"
+        },
+        {
+          "number": 23,
+          "title": "Waiting for the Worms"
+        },
+        {
+          "number": 24,
+          "title": "Stop"
+        },
+        {
+          "number": 25,
+          "title": "The Trial"
+        },
+        {
+          "number": 26,
+          "title": "Outside the Wall"
+        }
+      ]
+    },
+    {
+      "slug": "the-final-cut",
+      "title": "The Final Cut",
+      "year": 1983,
+      "releaseDate": "1983-03-21",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "The Post War Dream"
+        },
+        {
+          "number": 2,
+          "title": "Your Possible Pasts"
+        },
+        {
+          "number": 3,
+          "title": "One of the Few"
+        },
+        {
+          "number": 4,
+          "title": "The Hero’s Return"
+        },
+        {
+          "number": 5,
+          "title": "The Gunners Dream"
+        },
+        {
+          "number": 6,
+          "title": "Paranoid Eyes"
+        },
+        {
+          "number": 7,
+          "title": "Get Your Filthy Hands off My Desert"
+        },
+        {
+          "number": 8,
+          "title": "The Fletcher Memorial Home"
+        },
+        {
+          "number": 9,
+          "title": "Southampton Dock"
+        },
+        {
+          "number": 10,
+          "title": "The Final Cut"
+        },
+        {
+          "number": 11,
+          "title": "Not Now John"
+        },
+        {
+          "number": 12,
+          "title": "Two Suns in the Sunset"
+        }
+      ]
+    },
+    {
+      "slug": "a-momentary-lapse-of-reason",
+      "title": "A Momentary Lapse of Reason",
+      "year": 1987,
+      "releaseDate": "1987-09-07",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Signs of Life"
+        },
+        {
+          "number": 2,
+          "title": "Learning to Fly"
+        },
+        {
+          "number": 3,
+          "title": "The Dogs of War"
+        },
+        {
+          "number": 4,
+          "title": "One Slip"
+        },
+        {
+          "number": 5,
+          "title": "On the Turning Away"
+        },
+        {
+          "number": 6,
+          "title": "Yet Another Movie / Round and Around"
+        },
+        {
+          "number": 7,
+          "title": "A New Machine, Part 1"
+        },
+        {
+          "number": 8,
+          "title": "Terminal Frost"
+        },
+        {
+          "number": 9,
+          "title": "A New Machine, Part 2"
+        },
+        {
+          "number": 10,
+          "title": "Sorrow"
+        }
+      ]
+    },
+    {
+      "slug": "the-division-bell",
+      "title": "The Division Bell",
+      "year": 1994,
+      "releaseDate": "1994-03-28",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Cluster One"
+        },
+        {
+          "number": 2,
+          "title": "What Do You Want From Me"
+        },
+        {
+          "number": 3,
+          "title": "Poles Apart"
+        },
+        {
+          "number": 4,
+          "title": "Marooned"
+        },
+        {
+          "number": 5,
+          "title": "A Great Day for Freedom"
+        },
+        {
+          "number": 6,
+          "title": "Wearing the Inside Out"
+        },
+        {
+          "number": 7,
+          "title": "Take It Back"
+        },
+        {
+          "number": 8,
+          "title": "Coming Back to Life"
+        },
+        {
+          "number": 9,
+          "title": "Keep Talking"
+        },
+        {
+          "number": 10,
+          "title": "Lost for Words"
+        },
+        {
+          "number": 11,
+          "title": "High Hopes"
+        }
+      ]
+    },
+    {
+      "slug": "the-endless-river",
+      "title": "The Endless River",
+      "year": 2014,
+      "releaseDate": "2014-11-07",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Side 1, Pt. 1: Things Left Unsaid"
+        },
+        {
+          "number": 2,
+          "title": "Side 1, Pt. 2: It’s What We Do"
+        },
+        {
+          "number": 3,
+          "title": "Side 1, Pt. 3: Ebb and Flow"
+        },
+        {
+          "number": 4,
+          "title": "Side 2, Pt. 1: Sum"
+        },
+        {
+          "number": 5,
+          "title": "Side 2, Pt. 2: Skins"
+        },
+        {
+          "number": 6,
+          "title": "Side 2, Pt. 3: Unsung"
+        },
+        {
+          "number": 7,
+          "title": "Side 2, Pt. 4: Anisina"
+        },
+        {
+          "number": 8,
+          "title": "Side 3, Pt. 1: The Lost Art of Conversation"
+        },
+        {
+          "number": 9,
+          "title": "Side 3, Pt. 2: On Noodle Street"
+        },
+        {
+          "number": 10,
+          "title": "Side 3, Pt. 3: Night Light"
+        },
+        {
+          "number": 11,
+          "title": "Side 3, Pt. 4: Allons‐y (1)"
+        },
+        {
+          "number": 12,
+          "title": "Side 3, Pt. 5: Autumn ’68"
+        },
+        {
+          "number": 13,
+          "title": "Side 3, Pt. 6: Allons‐y (2)"
+        },
+        {
+          "number": 14,
+          "title": "Side 3, Pt. 7: Talkin’ Hawkin’"
+        },
+        {
+          "number": 15,
+          "title": "Side 4, Pt. 1: Calling"
+        },
+        {
+          "number": 16,
+          "title": "Side 4, Pt. 2: Eyes to Pearls"
+        },
+        {
+          "number": 17,
+          "title": "Side 4, Pt. 3: Surfacing"
+        },
+        {
+          "number": 18,
+          "title": "Side 4, Pt. 4: Louder Than Words"
+        },
+        {
+          "number": 19,
+          "title": "Tbs9"
+        },
+        {
+          "number": 20,
+          "title": "Tbs14"
+        },
+        {
+          "number": 21,
+          "title": "Nervana"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "note": "Album allow-lists, for artists where an automatic discography is the wrong answer. Anything listed here that is missing from the fetched data is pulled in by scripts/curate-artist.js, including release groups MusicBrainz classifies as soundtracks. Artists absent from this file keep whatever the fetch returned.",
+  "artists": {
+    "the-beatles": {
+      "reason": "The thirteen core studio albums. MusicBrainz also carries the US Capitol variants — Meet The Beatles!, Something New, Beatles VI and the rest — which repackage the same recordings and would list every song several times over. A Hard Day's Night, Help!, Magical Mystery Tour and Yellow Submarine are filed as soundtracks and have to be named to survive the studio-album filter.",
+      "keep": [
+        "Please Please Me",
+        "With The Beatles",
+        "A Hard Day's Night",
+        "Beatles for Sale",
+        "Help!",
+        "Rubber Soul",
+        "Revolver",
+        "Sgt. Pepper's Lonely Hearts Club Band",
+        "Magical Mystery Tour",
+        "The Beatles",
+        "Yellow Submarine",
+        "Abbey Road",
+        "Let It Be"
+      ]
+    }
+  }
+}

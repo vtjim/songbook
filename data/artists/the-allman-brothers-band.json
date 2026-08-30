@@ -1,0 +1,519 @@
+{
+  "artist": "The Allman Brothers Band",
+  "slug": "the-allman-brothers-band",
+  "mbid": "72359492-22be-4ed9-aaa0-efa434fb2b01",
+  "albums": [
+    {
+      "slug": "the-allman-brothers-band",
+      "title": "The Allman Brothers Band",
+      "year": 1969,
+      "releaseDate": "1969-11-04",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Don’t Want You No More"
+        },
+        {
+          "number": 2,
+          "title": "It’s Not My Cross to Bear"
+        },
+        {
+          "number": 3,
+          "title": "Black Hearted Woman"
+        },
+        {
+          "number": 4,
+          "title": "Trouble No More"
+        },
+        {
+          "number": 5,
+          "title": "Every Hungry Woman"
+        },
+        {
+          "number": 6,
+          "title": "Dreams"
+        },
+        {
+          "number": 7,
+          "title": "Whipping Post"
+        }
+      ]
+    },
+    {
+      "slug": "idlewild-south",
+      "title": "Idlewild South",
+      "year": 1970,
+      "releaseDate": "1970-09-23",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Revival"
+        },
+        {
+          "number": 2,
+          "title": "Don’t Keep Me Wonderin’"
+        },
+        {
+          "number": 3,
+          "title": "Midnight Rider"
+        },
+        {
+          "number": 4,
+          "title": "In Memory of Elizabeth Reed"
+        },
+        {
+          "number": 5,
+          "title": "Hoochie Coochie Man"
+        },
+        {
+          "number": 6,
+          "title": "Please Call Home"
+        },
+        {
+          "number": 7,
+          "title": "Leave My Blues at Home"
+        }
+      ]
+    },
+    {
+      "slug": "eat-a-peach",
+      "title": "Eat a Peach",
+      "year": 1972,
+      "releaseDate": "1972-02-12",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Ain’t Wastin’ Time No More"
+        },
+        {
+          "number": 2,
+          "title": "Les Brers in A Minor"
+        },
+        {
+          "number": 3,
+          "title": "Melissa"
+        },
+        {
+          "number": 4,
+          "title": "Mountain Jam"
+        },
+        {
+          "number": 5,
+          "title": "One Way Out"
+        },
+        {
+          "number": 6,
+          "title": "Trouble No More"
+        },
+        {
+          "number": 7,
+          "title": "Stand Back"
+        },
+        {
+          "number": 8,
+          "title": "Blue Sky"
+        },
+        {
+          "number": 9,
+          "title": "Little Martha"
+        }
+      ]
+    },
+    {
+      "slug": "brothers-and-sisters",
+      "title": "Brothers and Sisters",
+      "year": 1973,
+      "releaseDate": "1973-08-01",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Wasted Words"
+        },
+        {
+          "number": 2,
+          "title": "Ramblin’ Man"
+        },
+        {
+          "number": 3,
+          "title": "Come and Go Blues"
+        },
+        {
+          "number": 4,
+          "title": "Jelly Jelly"
+        },
+        {
+          "number": 5,
+          "title": "Southbound"
+        },
+        {
+          "number": 6,
+          "title": "Jessica"
+        },
+        {
+          "number": 7,
+          "title": "Pony Boy"
+        }
+      ]
+    },
+    {
+      "slug": "win-lose-or-draw",
+      "title": "Win, Lose or Draw",
+      "year": 1975,
+      "releaseDate": "1975-03-01",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Can’t Lose What You Never Had"
+        },
+        {
+          "number": 2,
+          "title": "Just Another Love Song"
+        },
+        {
+          "number": 3,
+          "title": "Nevertheless"
+        },
+        {
+          "number": 4,
+          "title": "Win, Lose or Draw"
+        },
+        {
+          "number": 5,
+          "title": "Louisiana Lou and Three Card Monty John"
+        },
+        {
+          "number": 6,
+          "title": "High Falls"
+        },
+        {
+          "number": 7,
+          "title": "Sweet Mama"
+        }
+      ]
+    },
+    {
+      "slug": "enlightened-rogues",
+      "title": "Enlightened Rogues",
+      "year": 1979,
+      "releaseDate": "1979-03-01",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Crazy Love"
+        },
+        {
+          "number": 2,
+          "title": "Can’t Take It With You"
+        },
+        {
+          "number": 3,
+          "title": "Pegasus"
+        },
+        {
+          "number": 4,
+          "title": "Need Your Love So Bad"
+        },
+        {
+          "number": 5,
+          "title": "Blind Love"
+        },
+        {
+          "number": 6,
+          "title": "Try It One More Time"
+        },
+        {
+          "number": 7,
+          "title": "Just Ain’t Easy"
+        },
+        {
+          "number": 8,
+          "title": "Sail Away"
+        }
+      ]
+    },
+    {
+      "slug": "reach-for-the-sky",
+      "title": "Reach for the Sky",
+      "year": 1980,
+      "releaseDate": "1980-08",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Hell & High Water"
+        },
+        {
+          "number": 2,
+          "title": "Mystery Woman"
+        },
+        {
+          "number": 3,
+          "title": "From the Madness of the West"
+        },
+        {
+          "number": 4,
+          "title": "I Got a Right to Be Wrong"
+        },
+        {
+          "number": 5,
+          "title": "Angeline"
+        },
+        {
+          "number": 6,
+          "title": "Famous Last Words"
+        },
+        {
+          "number": 7,
+          "title": "Keep On Keepin’ On"
+        },
+        {
+          "number": 8,
+          "title": "So Long"
+        }
+      ]
+    },
+    {
+      "slug": "brothers-of-the-road",
+      "title": "Brothers of the Road",
+      "year": 1981,
+      "releaseDate": "1981-08",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Brothers of the Road"
+        },
+        {
+          "number": 2,
+          "title": "Leavin’"
+        },
+        {
+          "number": 3,
+          "title": "Straight From the Heart"
+        },
+        {
+          "number": 4,
+          "title": "The Heat Is On"
+        },
+        {
+          "number": 5,
+          "title": "Maybe We Can Go Back to Yesterday"
+        },
+        {
+          "number": 6,
+          "title": "The Judgment"
+        },
+        {
+          "number": 7,
+          "title": "Two Rights"
+        },
+        {
+          "number": 8,
+          "title": "Never Knew How Much (I Needed You)"
+        },
+        {
+          "number": 9,
+          "title": "Things You Used to Do"
+        },
+        {
+          "number": 10,
+          "title": "I Beg of You"
+        }
+      ]
+    },
+    {
+      "slug": "seven-turns",
+      "title": "Seven Turns",
+      "year": 1990,
+      "releaseDate": "1990-07-03",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Good Clean Fun"
+        },
+        {
+          "number": 2,
+          "title": "Let Me Ride"
+        },
+        {
+          "number": 3,
+          "title": "Low Down Dirty Mean"
+        },
+        {
+          "number": 4,
+          "title": "Shine It On"
+        },
+        {
+          "number": 5,
+          "title": "Loaded Dice"
+        },
+        {
+          "number": 6,
+          "title": "Seven Turns"
+        },
+        {
+          "number": 7,
+          "title": "Gambler’s Roll"
+        },
+        {
+          "number": 8,
+          "title": "True Gravity"
+        },
+        {
+          "number": 9,
+          "title": "It Ain’t Over Yet"
+        }
+      ]
+    },
+    {
+      "slug": "shades-of-two-worlds",
+      "title": "Shades of Two Worlds",
+      "year": 1991,
+      "releaseDate": "1991-07-02",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "End of the Line"
+        },
+        {
+          "number": 2,
+          "title": "Bad Rain"
+        },
+        {
+          "number": 3,
+          "title": "Nobody Knows"
+        },
+        {
+          "number": 4,
+          "title": "Desert Blues"
+        },
+        {
+          "number": 5,
+          "title": "Get On With Your Life"
+        },
+        {
+          "number": 6,
+          "title": "Midnight Man"
+        },
+        {
+          "number": 7,
+          "title": "Kind of Bird"
+        },
+        {
+          "number": 8,
+          "title": "Come On In My Kitchen"
+        }
+      ]
+    },
+    {
+      "slug": "where-it-all-begins",
+      "title": "Where It All Begins",
+      "year": 1994,
+      "releaseDate": "1994-05-04",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "All Night Train"
+        },
+        {
+          "number": 2,
+          "title": "Sailin’ ’Cross the Devil’s Sea"
+        },
+        {
+          "number": 3,
+          "title": "Back Where It All Begins"
+        },
+        {
+          "number": 4,
+          "title": "Soulshine"
+        },
+        {
+          "number": 5,
+          "title": "No One to Run With"
+        },
+        {
+          "number": 6,
+          "title": "Change My Way of Living"
+        },
+        {
+          "number": 7,
+          "title": "Mean Woman Blues"
+        },
+        {
+          "number": 8,
+          "title": "Everybody’s Got a Mountain to Climb"
+        },
+        {
+          "number": 9,
+          "title": "What’s Done Is Done"
+        },
+        {
+          "number": 10,
+          "title": "Temptation Is a Gun"
+        }
+      ]
+    },
+    {
+      "slug": "hittin-the-note",
+      "title": "Hittin’ the Note",
+      "year": 2003,
+      "releaseDate": "2003-03-18",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Firing Line"
+        },
+        {
+          "number": 2,
+          "title": "High Cost of Low Living"
+        },
+        {
+          "number": 3,
+          "title": "Desdemona"
+        },
+        {
+          "number": 4,
+          "title": "Woman Across the River"
+        },
+        {
+          "number": 5,
+          "title": "Old Before My Time"
+        },
+        {
+          "number": 6,
+          "title": "Who to Believe"
+        },
+        {
+          "number": 7,
+          "title": "Maydell"
+        },
+        {
+          "number": 8,
+          "title": "Rockin’ Horse"
+        },
+        {
+          "number": 9,
+          "title": "Heart of Stone"
+        },
+        {
+          "number": 10,
+          "title": "Instrumental Illness"
+        },
+        {
+          "number": 11,
+          "title": "Old Friend"
+        }
+      ]
+    }
+  ]
+}

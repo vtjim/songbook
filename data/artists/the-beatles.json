@@ -1,0 +1,881 @@
+{
+  "artist": "The Beatles",
+  "slug": "the-beatles",
+  "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+  "albums": [
+    {
+      "slug": "please-please-me",
+      "title": "Please Please Me",
+      "year": 1963,
+      "releaseDate": "1963-03-22",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "I Saw Her Standing There"
+        },
+        {
+          "number": 2,
+          "title": "Misery"
+        },
+        {
+          "number": 3,
+          "title": "Anna (Go to Him)"
+        },
+        {
+          "number": 4,
+          "title": "Chains"
+        },
+        {
+          "number": 5,
+          "title": "Boys"
+        },
+        {
+          "number": 6,
+          "title": "Ask Me Why"
+        },
+        {
+          "number": 7,
+          "title": "Please Please Me"
+        },
+        {
+          "number": 8,
+          "title": "Love Me Do"
+        },
+        {
+          "number": 9,
+          "title": "P.S. I Love You"
+        },
+        {
+          "number": 10,
+          "title": "Baby It’s You"
+        },
+        {
+          "number": 11,
+          "title": "Do You Want to Know a Secret"
+        },
+        {
+          "number": 12,
+          "title": "A Taste of Honey"
+        },
+        {
+          "number": 13,
+          "title": "There’s a Place"
+        },
+        {
+          "number": 14,
+          "title": "Twist and Shout"
+        }
+      ]
+    },
+    {
+      "slug": "with-the-beatles",
+      "title": "With The Beatles",
+      "year": 1963,
+      "releaseDate": "1963-11-22",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "It Won’t Be Long"
+        },
+        {
+          "number": 2,
+          "title": "All I’ve Got to Do"
+        },
+        {
+          "number": 3,
+          "title": "All My Loving"
+        },
+        {
+          "number": 4,
+          "title": "Don’t Bother Me"
+        },
+        {
+          "number": 5,
+          "title": "Little Child"
+        },
+        {
+          "number": 6,
+          "title": "Till There Was You"
+        },
+        {
+          "number": 7,
+          "title": "Please Mister Postman"
+        },
+        {
+          "number": 8,
+          "title": "Roll Over Beethoven"
+        },
+        {
+          "number": 9,
+          "title": "Hold Me Tight"
+        },
+        {
+          "number": 10,
+          "title": "You Really Gotta Hold on Me"
+        },
+        {
+          "number": 11,
+          "title": "I Wanna Be Your Man"
+        },
+        {
+          "number": 12,
+          "title": "Devil in Her Heart"
+        },
+        {
+          "number": 13,
+          "title": "Not a Second Time"
+        },
+        {
+          "number": 14,
+          "title": "Money"
+        }
+      ]
+    },
+    {
+      "slug": "a-hard-days-night",
+      "title": "A Hard Day’s Night",
+      "year": 1964,
+      "releaseDate": "1964-06-26",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "A Hard Day's Night"
+        },
+        {
+          "number": 2,
+          "title": "I Should Have Known Better"
+        },
+        {
+          "number": 3,
+          "title": "If I Fell"
+        },
+        {
+          "number": 4,
+          "title": "I'm Happy Just to Dance With You"
+        },
+        {
+          "number": 5,
+          "title": "And I Love Her"
+        },
+        {
+          "number": 6,
+          "title": "Tell Me Why"
+        },
+        {
+          "number": 7,
+          "title": "Can't Buy Me Love"
+        },
+        {
+          "number": 8,
+          "title": "Any Time at All"
+        },
+        {
+          "number": 9,
+          "title": "I'll Cry Instead"
+        },
+        {
+          "number": 10,
+          "title": "Things We Said Today"
+        },
+        {
+          "number": 11,
+          "title": "When I Get Home"
+        },
+        {
+          "number": 12,
+          "title": "You Can't Do That"
+        },
+        {
+          "number": 13,
+          "title": "I'll Be Back"
+        }
+      ]
+    },
+    {
+      "slug": "beatles-for-sale",
+      "title": "Beatles for Sale",
+      "year": 1964,
+      "releaseDate": "1964-12-04",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "No Reply"
+        },
+        {
+          "number": 2,
+          "title": "I’m a Loser"
+        },
+        {
+          "number": 3,
+          "title": "Baby’s in Black"
+        },
+        {
+          "number": 4,
+          "title": "Rock and Roll Music"
+        },
+        {
+          "number": 5,
+          "title": "I’ll Follow the Sun"
+        },
+        {
+          "number": 6,
+          "title": "Mr. Moonlight"
+        },
+        {
+          "number": 7,
+          "title": "Medley: Kansas City / Hey‐Hey‐Hey‐Hey!"
+        },
+        {
+          "number": 8,
+          "title": "Eight Days a Week"
+        },
+        {
+          "number": 9,
+          "title": "Words of Love"
+        },
+        {
+          "number": 10,
+          "title": "Honey Don’t"
+        },
+        {
+          "number": 11,
+          "title": "Every Little Thing"
+        },
+        {
+          "number": 12,
+          "title": "I Don’t Want to Spoil the Party"
+        },
+        {
+          "number": 13,
+          "title": "What You’re Doing"
+        },
+        {
+          "number": 14,
+          "title": "Everybody’s Trying to Be My Baby"
+        }
+      ]
+    },
+    {
+      "slug": "help",
+      "title": "Help!",
+      "year": 1965,
+      "releaseDate": "1965-08-06",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Help!"
+        },
+        {
+          "number": 2,
+          "title": "The Night Before"
+        },
+        {
+          "number": 3,
+          "title": "From Me to You Fantasy"
+        },
+        {
+          "number": 4,
+          "title": "You've Got to Hide Your Love Away"
+        },
+        {
+          "number": 5,
+          "title": "I Need You"
+        },
+        {
+          "number": 6,
+          "title": "In the Tyrol"
+        },
+        {
+          "number": 7,
+          "title": "Another Girl"
+        },
+        {
+          "number": 8,
+          "title": "Another Hard Day's Night"
+        },
+        {
+          "number": 9,
+          "title": "Ticket to Ride"
+        },
+        {
+          "number": 10,
+          "title": "The Bitter End / You Can't Do That"
+        },
+        {
+          "number": 11,
+          "title": "You're Gonna Lose That Girl"
+        },
+        {
+          "number": 12,
+          "title": "The Chase"
+        }
+      ]
+    },
+    {
+      "slug": "rubber-soul",
+      "title": "Rubber Soul",
+      "year": 1965,
+      "releaseDate": "1965-12-03",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "I’ve Just Seen a Face"
+        },
+        {
+          "number": 2,
+          "title": "Norwegian Wood (This Bird Has Flown)"
+        },
+        {
+          "number": 3,
+          "title": "You Won’t See Me"
+        },
+        {
+          "number": 4,
+          "title": "Think for Yourself"
+        },
+        {
+          "number": 5,
+          "title": "The Word"
+        },
+        {
+          "number": 6,
+          "title": "Michelle"
+        },
+        {
+          "number": 7,
+          "title": "It’s Only Love"
+        },
+        {
+          "number": 8,
+          "title": "Girl"
+        },
+        {
+          "number": 9,
+          "title": "I’m Looking Through You"
+        },
+        {
+          "number": 10,
+          "title": "In My Life"
+        },
+        {
+          "number": 11,
+          "title": "Wait"
+        },
+        {
+          "number": 12,
+          "title": "Run for Your Life"
+        }
+      ]
+    },
+    {
+      "slug": "revolver",
+      "title": "Revolver",
+      "year": 1966,
+      "releaseDate": "1966-08-05",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Taxman"
+        },
+        {
+          "number": 2,
+          "title": "Eleanor Rigby"
+        },
+        {
+          "number": 3,
+          "title": "I’m Only Sleeping"
+        },
+        {
+          "number": 4,
+          "title": "Love You To"
+        },
+        {
+          "number": 5,
+          "title": "Here, There and Everywhere"
+        },
+        {
+          "number": 6,
+          "title": "Yellow Submarine"
+        },
+        {
+          "number": 7,
+          "title": "She Said She Said"
+        },
+        {
+          "number": 8,
+          "title": "Good Day Sunshine"
+        },
+        {
+          "number": 9,
+          "title": "And Your Bird Can Sing"
+        },
+        {
+          "number": 10,
+          "title": "For No One"
+        },
+        {
+          "number": 11,
+          "title": "Doctor Robert"
+        },
+        {
+          "number": 12,
+          "title": "I Want to Tell You"
+        },
+        {
+          "number": 13,
+          "title": "Got to Get You Into My Life"
+        },
+        {
+          "number": 14,
+          "title": "Tomorrow Never Knows"
+        }
+      ]
+    },
+    {
+      "slug": "sgt-peppers-lonely-hearts-club-band",
+      "title": "Sgt. Pepper’s Lonely Hearts Club Band",
+      "year": 1967,
+      "releaseDate": "1967-05-26",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Sgt. Pepper’s Lonely Hearts Club Band"
+        },
+        {
+          "number": 2,
+          "title": "With a Little Help From My Friends"
+        },
+        {
+          "number": 3,
+          "title": "Lucy in the Sky With Diamonds"
+        },
+        {
+          "number": 4,
+          "title": "Getting Better"
+        },
+        {
+          "number": 5,
+          "title": "Fixing a Hole"
+        },
+        {
+          "number": 6,
+          "title": "She’s Leaving Home"
+        },
+        {
+          "number": 7,
+          "title": "Being for the Benefit of Mr. Kite!"
+        },
+        {
+          "number": 8,
+          "title": "Within You Without You"
+        },
+        {
+          "number": 9,
+          "title": "When I’m Sixty‐Four"
+        },
+        {
+          "number": 10,
+          "title": "Lovely Rita"
+        },
+        {
+          "number": 11,
+          "title": "Good Morning Good Morning"
+        },
+        {
+          "number": 12,
+          "title": "Sgt. Pepper’s Lonely Hearts Club Band (reprise)"
+        },
+        {
+          "number": 13,
+          "title": "A Day in the Life"
+        }
+      ]
+    },
+    {
+      "slug": "magical-mystery-tour",
+      "title": "Magical Mystery Tour",
+      "year": 1967,
+      "releaseDate": "1967-11-27",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Magical Mystery Tour"
+        },
+        {
+          "number": 2,
+          "title": "The Fool on the Hill"
+        },
+        {
+          "number": 3,
+          "title": "Flying"
+        },
+        {
+          "number": 4,
+          "title": "Blue Jay Way"
+        },
+        {
+          "number": 5,
+          "title": "Your Mother Should Know"
+        },
+        {
+          "number": 6,
+          "title": "I Am the Walrus"
+        },
+        {
+          "number": 7,
+          "title": "Hello Goodbye"
+        },
+        {
+          "number": 8,
+          "title": "Strawberry Fields Forever"
+        },
+        {
+          "number": 9,
+          "title": "Penny Lane"
+        },
+        {
+          "number": 10,
+          "title": "Baby You’re a Rich Man"
+        },
+        {
+          "number": 11,
+          "title": "All You Need Is Love"
+        }
+      ]
+    },
+    {
+      "slug": "the-beatles",
+      "title": "The Beatles",
+      "year": 1968,
+      "releaseDate": "1968-11-22",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Back in the U.S.S.R."
+        },
+        {
+          "number": 2,
+          "title": "Dear Prudence"
+        },
+        {
+          "number": 3,
+          "title": "Glass Onion"
+        },
+        {
+          "number": 4,
+          "title": "Ob‐La‐Di, Ob‐La‐Da"
+        },
+        {
+          "number": 5,
+          "title": "Wild Honey Pie"
+        },
+        {
+          "number": 6,
+          "title": "The Continuing Story of Bungalow Bill"
+        },
+        {
+          "number": 7,
+          "title": "While My Guitar Gently Weeps"
+        },
+        {
+          "number": 8,
+          "title": "Happiness Is a Warm Gun"
+        },
+        {
+          "number": 9,
+          "title": "Martha My Dear"
+        },
+        {
+          "number": 10,
+          "title": "I’m So Tired"
+        },
+        {
+          "number": 11,
+          "title": "Blackbird"
+        },
+        {
+          "number": 12,
+          "title": "Piggies"
+        },
+        {
+          "number": 13,
+          "title": "Rocky Raccoon"
+        },
+        {
+          "number": 14,
+          "title": "Don’t Pass Me By"
+        },
+        {
+          "number": 15,
+          "title": "Why Don’t We Do It in the Road?"
+        },
+        {
+          "number": 16,
+          "title": "I Will"
+        },
+        {
+          "number": 17,
+          "title": "Julia"
+        },
+        {
+          "number": 18,
+          "title": "Birthday"
+        },
+        {
+          "number": 19,
+          "title": "Yer Blues"
+        },
+        {
+          "number": 20,
+          "title": "Mother Nature’s Son"
+        },
+        {
+          "number": 21,
+          "title": "Everybody’s Got Something to Hide Except Me and My Monkey"
+        },
+        {
+          "number": 22,
+          "title": "Sexy Sadie"
+        },
+        {
+          "number": 23,
+          "title": "Helter Skelter"
+        },
+        {
+          "number": 24,
+          "title": "Long, Long, Long"
+        },
+        {
+          "number": 25,
+          "title": "Revolution 1"
+        },
+        {
+          "number": 26,
+          "title": "Honey Pie"
+        },
+        {
+          "number": 27,
+          "title": "Savoy Truffle"
+        },
+        {
+          "number": 28,
+          "title": "Cry Baby Cry"
+        },
+        {
+          "number": 29,
+          "title": "Revolution 9"
+        },
+        {
+          "number": 30,
+          "title": "Good Night"
+        }
+      ]
+    },
+    {
+      "slug": "yellow-submarine",
+      "title": "Yellow Submarine",
+      "year": 1969,
+      "releaseDate": "1969-01-13",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Yellow Submarine"
+        },
+        {
+          "number": 2,
+          "title": "Only a Northern Song"
+        },
+        {
+          "number": 3,
+          "title": "All Together Now"
+        },
+        {
+          "number": 4,
+          "title": "Hey Bulldog"
+        },
+        {
+          "number": 5,
+          "title": "It’s All Too Much"
+        },
+        {
+          "number": 6,
+          "title": "All You Need Is Love"
+        },
+        {
+          "number": 7,
+          "title": "Pepperland"
+        },
+        {
+          "number": 8,
+          "title": "Sea of Time"
+        },
+        {
+          "number": 9,
+          "title": "Sea of Holes"
+        },
+        {
+          "number": 10,
+          "title": "Sea of Monsters"
+        },
+        {
+          "number": 11,
+          "title": "March of the Meanies"
+        },
+        {
+          "number": 12,
+          "title": "Pepperland Laid Waste"
+        },
+        {
+          "number": 13,
+          "title": "Yellow Submarine in Pepperland"
+        }
+      ]
+    },
+    {
+      "slug": "abbey-road",
+      "title": "Abbey Road",
+      "year": 1969,
+      "releaseDate": "1969-09-26",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Come Together"
+        },
+        {
+          "number": 2,
+          "title": "Something"
+        },
+        {
+          "number": 3,
+          "title": "Maxwell’s Silver Hammer"
+        },
+        {
+          "number": 4,
+          "title": "Oh! Darling"
+        },
+        {
+          "number": 5,
+          "title": "Octopus’s Garden"
+        },
+        {
+          "number": 6,
+          "title": "I Want You (She’s So Heavy)"
+        },
+        {
+          "number": 7,
+          "title": "Here Comes the Sun"
+        },
+        {
+          "number": 8,
+          "title": "Because"
+        },
+        {
+          "number": 9,
+          "title": "You Never Give Me Your Money"
+        },
+        {
+          "number": 10,
+          "title": "Sun King"
+        },
+        {
+          "number": 11,
+          "title": "Mean Mr Mustard"
+        },
+        {
+          "number": 12,
+          "title": "Polythene Pam"
+        },
+        {
+          "number": 13,
+          "title": "She Came In Through the Bathroom Window"
+        },
+        {
+          "number": 14,
+          "title": "Golden Slumbers"
+        },
+        {
+          "number": 15,
+          "title": "Carry That Weight"
+        },
+        {
+          "number": 16,
+          "title": "The End"
+        },
+        {
+          "number": 17,
+          "title": "Her Majesty"
+        }
+      ]
+    },
+    {
+      "slug": "let-it-be",
+      "title": "Let It Be",
+      "year": 1970,
+      "releaseDate": "1970-05-08",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Two of Us"
+        },
+        {
+          "number": 2,
+          "title": "Dig a Pony"
+        },
+        {
+          "number": 3,
+          "title": "Across the Universe"
+        },
+        {
+          "number": 4,
+          "title": "I Me Mine"
+        },
+        {
+          "number": 5,
+          "title": "Dig It"
+        },
+        {
+          "number": 6,
+          "title": "Let It Be"
+        },
+        {
+          "number": 7,
+          "title": "Maggie Mae"
+        },
+        {
+          "number": 8,
+          "title": "I’ve Got a Feeling"
+        },
+        {
+          "number": 9,
+          "title": "One After 909"
+        },
+        {
+          "number": 10,
+          "title": "The Long and Winding Road"
+        },
+        {
+          "number": 11,
+          "title": "For You Blue"
+        },
+        {
+          "number": 12,
+          "title": "Get Back"
+        }
+      ]
+    }
+  ],
+  "curated": true
+}

@@ -165,7 +165,12 @@ function main() {
   }
 
   const tiles = [];
-  for (const file of fs.readdirSync(ARTISTS_DIR).filter(f => f.endsWith('.json')).sort()) {
+  // Files beginning with an underscore are configuration, not artists.
+  const artistFiles = fs.readdirSync(ARTISTS_DIR)
+    .filter(f => f.endsWith('.json') && !f.startsWith('_'))
+    .sort();
+
+  for (const file of artistFiles) {
     const artist = JSON.parse(fs.readFileSync(path.join(ARTISTS_DIR, file), 'utf8'));
     const page = `artist-${artist.slug}.html`;
     fs.writeFileSync(path.join(ROOT, page), artistPage(artist, charts));

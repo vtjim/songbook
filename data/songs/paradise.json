@@ -1,0 +1,25 @@
+{
+  "slug": "paradise",
+  "title": "Paradise",
+  "artist": "John Prine",
+  "year": null,
+  "key": "D",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "F",
+    "G7",
+    "D",
+    "G",
+    "A7",
+    "A",
+    "E7",
+    "E",
+    "B7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/john-prine/paradise-chords-1051304",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (126 chord marks, 10 distinct). Source chart uses a capo at fret 2. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

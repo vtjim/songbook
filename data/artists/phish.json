@@ -1,0 +1,1094 @@
+{
+  "artist": "Phish",
+  "slug": "phish",
+  "mbid": "e01646f2-2a04-450d-8bf2-0d993082e058",
+  "albums": [
+    {
+      "slug": "lawn-boy",
+      "title": "Lawn Boy",
+      "year": 1990,
+      "releaseDate": "1990-09-21",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "The Squirming Coil"
+        },
+        {
+          "number": 2,
+          "title": "Reba"
+        },
+        {
+          "number": 3,
+          "title": "My Sweet One"
+        },
+        {
+          "number": 4,
+          "title": "Split Open and Melt"
+        },
+        {
+          "number": 5,
+          "title": "The Oh Kee Pa Ceremony"
+        },
+        {
+          "number": 6,
+          "title": "Bathtub Gin"
+        },
+        {
+          "number": 7,
+          "title": "Run Like an Antelope"
+        },
+        {
+          "number": 8,
+          "title": "Lawn Boy"
+        },
+        {
+          "number": 9,
+          "title": "Bouncing Around the Room"
+        }
+      ]
+    },
+    {
+      "slug": "a-picture-of-nectar",
+      "title": "A Picture of Nectar",
+      "year": 1992,
+      "releaseDate": "1992-02-18",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Llama"
+        },
+        {
+          "number": 2,
+          "title": "Eliza"
+        },
+        {
+          "number": 3,
+          "title": "Cavern"
+        },
+        {
+          "number": 4,
+          "title": "Poor Heart"
+        },
+        {
+          "number": 5,
+          "title": "Stash"
+        },
+        {
+          "number": 6,
+          "title": "Manteca"
+        },
+        {
+          "number": 7,
+          "title": "Guelah Papyrus"
+        },
+        {
+          "number": 8,
+          "title": "Magilla"
+        },
+        {
+          "number": 9,
+          "title": "The Landlady"
+        },
+        {
+          "number": 10,
+          "title": "Glide"
+        },
+        {
+          "number": 11,
+          "title": "Tweezer"
+        },
+        {
+          "number": 12,
+          "title": "The Mango Song"
+        },
+        {
+          "number": 13,
+          "title": "Chalk Dust Torture"
+        },
+        {
+          "number": 14,
+          "title": "Faht"
+        },
+        {
+          "number": 15,
+          "title": "Catapult"
+        },
+        {
+          "number": 16,
+          "title": "Tweezer (reprise)"
+        }
+      ]
+    },
+    {
+      "slug": "junta",
+      "title": "Junta",
+      "year": 1992,
+      "releaseDate": "1992-11-10",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Fee"
+        },
+        {
+          "number": 2,
+          "title": "You Enjoy Myself"
+        },
+        {
+          "number": 3,
+          "title": "Esther"
+        },
+        {
+          "number": 4,
+          "title": "Golgi Apparatus"
+        },
+        {
+          "number": 5,
+          "title": "Foam"
+        },
+        {
+          "number": 6,
+          "title": "Dinner and a Movie"
+        },
+        {
+          "number": 7,
+          "title": "The Divided Sky"
+        },
+        {
+          "number": 8,
+          "title": "David Bowie"
+        },
+        {
+          "number": 9,
+          "title": "Fluffhead"
+        },
+        {
+          "number": 10,
+          "title": "Fluff’s Travels"
+        },
+        {
+          "number": 11,
+          "title": "Contact"
+        },
+        {
+          "number": 12,
+          "title": "Union Federal (Bonus Track)"
+        },
+        {
+          "number": 13,
+          "title": "Sanity (Bonus Track)"
+        },
+        {
+          "number": 14,
+          "title": "Icculus (Bonus Track)"
+        }
+      ]
+    },
+    {
+      "slug": "rift",
+      "title": "Rift",
+      "year": 1993,
+      "releaseDate": "1993-02-02",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Rift"
+        },
+        {
+          "number": 2,
+          "title": "Fast Enough for You"
+        },
+        {
+          "number": 3,
+          "title": "Lengthwise"
+        },
+        {
+          "number": 4,
+          "title": "Maze"
+        },
+        {
+          "number": 5,
+          "title": "Sparkle"
+        },
+        {
+          "number": 6,
+          "title": "Horn"
+        },
+        {
+          "number": 7,
+          "title": "The Wedge"
+        },
+        {
+          "number": 8,
+          "title": "My Friend, My Friend"
+        },
+        {
+          "number": 9,
+          "title": "Weigh"
+        },
+        {
+          "number": 10,
+          "title": "All Things Reconsidered"
+        },
+        {
+          "number": 11,
+          "title": "Mound"
+        },
+        {
+          "number": 12,
+          "title": "It’s Ice"
+        },
+        {
+          "number": 13,
+          "title": "Lengthwise"
+        },
+        {
+          "number": 14,
+          "title": "The Horse"
+        },
+        {
+          "number": 15,
+          "title": "Silent in the Morning"
+        }
+      ]
+    },
+    {
+      "slug": "hoist",
+      "title": "Hoist",
+      "year": 1994,
+      "releaseDate": "1994-03-29",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Julius"
+        },
+        {
+          "number": 2,
+          "title": "Down With Disease"
+        },
+        {
+          "number": 3,
+          "title": "If I Could"
+        },
+        {
+          "number": 4,
+          "title": "Riker’s Mailbox"
+        },
+        {
+          "number": 5,
+          "title": "Axilla, Part II"
+        },
+        {
+          "number": 6,
+          "title": "Lifeboy"
+        },
+        {
+          "number": 7,
+          "title": "Sample in a Jar"
+        },
+        {
+          "number": 8,
+          "title": "Wolfman’s Brother"
+        },
+        {
+          "number": 9,
+          "title": "Scent of a Mule"
+        },
+        {
+          "number": 10,
+          "title": "Dog Faced Boy"
+        },
+        {
+          "number": 11,
+          "title": "Demand"
+        }
+      ]
+    },
+    {
+      "slug": "crimes-of-the-mind",
+      "title": "Crimes of the Mind",
+      "year": 1994,
+      "releaseDate": "1994-10-25",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Dahlia"
+        },
+        {
+          "number": 2,
+          "title": "Family Picture"
+        },
+        {
+          "number": 3,
+          "title": "Self"
+        },
+        {
+          "number": 4,
+          "title": "Crimes of the Mind"
+        },
+        {
+          "number": 5,
+          "title": "Bitchin' Again"
+        },
+        {
+          "number": 6,
+          "title": "TV Show"
+        },
+        {
+          "number": 7,
+          "title": "Trials and Tribulations"
+        },
+        {
+          "number": 8,
+          "title": "Lucy in the Subway"
+        },
+        {
+          "number": 9,
+          "title": "Ordinary Day"
+        },
+        {
+          "number": 10,
+          "title": "Revolution's Over"
+        },
+        {
+          "number": 11,
+          "title": "King of Nothing"
+        }
+      ]
+    },
+    {
+      "slug": "billy-breathes",
+      "title": "Billy Breathes",
+      "year": 1996,
+      "releaseDate": "1996-10-15",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Free"
+        },
+        {
+          "number": 2,
+          "title": "Character Zero"
+        },
+        {
+          "number": 3,
+          "title": "Waste"
+        },
+        {
+          "number": 4,
+          "title": "Taste"
+        },
+        {
+          "number": 5,
+          "title": "Cars Trucks Buses"
+        },
+        {
+          "number": 6,
+          "title": "Talk"
+        },
+        {
+          "number": 7,
+          "title": "Theme From the Bottom"
+        },
+        {
+          "number": 8,
+          "title": "Train Song"
+        },
+        {
+          "number": 9,
+          "title": "Bliss"
+        },
+        {
+          "number": 10,
+          "title": "Billy Breathes"
+        },
+        {
+          "number": 11,
+          "title": "Swept Away"
+        },
+        {
+          "number": 12,
+          "title": "Steep"
+        },
+        {
+          "number": 13,
+          "title": "Prince Caspian"
+        }
+      ]
+    },
+    {
+      "slug": "the-story-of-the-ghost",
+      "title": "The Story of the Ghost",
+      "year": 1998,
+      "releaseDate": "1998-10-27",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Ghost"
+        },
+        {
+          "number": 2,
+          "title": "Birds of a Feather"
+        },
+        {
+          "number": 3,
+          "title": "Meat"
+        },
+        {
+          "number": 4,
+          "title": "Guyute"
+        },
+        {
+          "number": 5,
+          "title": "Fikus"
+        },
+        {
+          "number": 6,
+          "title": "Shafty"
+        },
+        {
+          "number": 7,
+          "title": "Limb by Limb"
+        },
+        {
+          "number": 8,
+          "title": "Frankie Says"
+        },
+        {
+          "number": 9,
+          "title": "Brian and Robert"
+        },
+        {
+          "number": 10,
+          "title": "Water in the Sky"
+        },
+        {
+          "number": 11,
+          "title": "Roggae"
+        },
+        {
+          "number": 12,
+          "title": "Wading in the Velvet Sea"
+        },
+        {
+          "number": 13,
+          "title": "The Moma Dance"
+        },
+        {
+          "number": 14,
+          "title": "End of Session"
+        }
+      ]
+    },
+    {
+      "slug": "the-siket-disc",
+      "title": "The Siket Disc",
+      "year": 1999,
+      "releaseDate": "1999-06-03",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "My Left Toe"
+        },
+        {
+          "number": 2,
+          "title": "The Name Is Slick"
+        },
+        {
+          "number": 3,
+          "title": "What’s the Use"
+        },
+        {
+          "number": 4,
+          "title": "Fish Bass"
+        },
+        {
+          "number": 5,
+          "title": "Quadrophonic Toppling"
+        },
+        {
+          "number": 6,
+          "title": "The Happy Whip and Dung Song"
+        },
+        {
+          "number": 7,
+          "title": "Insects"
+        },
+        {
+          "number": 8,
+          "title": "Title Track"
+        },
+        {
+          "number": 9,
+          "title": "Albert"
+        }
+      ]
+    },
+    {
+      "slug": "farmhouse",
+      "title": "Farmhouse",
+      "year": 2000,
+      "releaseDate": "2000-05-16",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Farmhouse"
+        },
+        {
+          "number": 2,
+          "title": "Twist"
+        },
+        {
+          "number": 3,
+          "title": "Bug"
+        },
+        {
+          "number": 4,
+          "title": "Back on the Train"
+        },
+        {
+          "number": 5,
+          "title": "Heavy Things"
+        },
+        {
+          "number": 6,
+          "title": "Gotta Jibboo"
+        },
+        {
+          "number": 7,
+          "title": "Dirt"
+        },
+        {
+          "number": 8,
+          "title": "Piper"
+        },
+        {
+          "number": 9,
+          "title": "Sleep"
+        },
+        {
+          "number": 10,
+          "title": "The Inlaw Josie Wales"
+        },
+        {
+          "number": 11,
+          "title": "Sand"
+        },
+        {
+          "number": 12,
+          "title": "First Tube"
+        }
+      ]
+    },
+    {
+      "slug": "round-room",
+      "title": "Round Room",
+      "year": 2002,
+      "releaseDate": "2002-12-10",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Pebbles and Marbles"
+        },
+        {
+          "number": 2,
+          "title": "Anything but Me"
+        },
+        {
+          "number": 3,
+          "title": "Round Room"
+        },
+        {
+          "number": 4,
+          "title": "Mexican Cousin"
+        },
+        {
+          "number": 5,
+          "title": "Friday"
+        },
+        {
+          "number": 6,
+          "title": "Seven Below"
+        },
+        {
+          "number": 7,
+          "title": "Mock Song"
+        },
+        {
+          "number": 8,
+          "title": "46 Days"
+        },
+        {
+          "number": 9,
+          "title": "All of These Dreams"
+        },
+        {
+          "number": 10,
+          "title": "Walls of the Cave"
+        },
+        {
+          "number": 11,
+          "title": "Thunderhead"
+        },
+        {
+          "number": 12,
+          "title": "Waves"
+        }
+      ]
+    },
+    {
+      "slug": "undermind",
+      "title": "Undermind",
+      "year": 2004,
+      "releaseDate": "2004-06-15",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Scents and Subtle Sounds (intro)"
+        },
+        {
+          "number": 2,
+          "title": "Undermind"
+        },
+        {
+          "number": 3,
+          "title": "The Connection"
+        },
+        {
+          "number": 4,
+          "title": "A Song I Heard the Ocean Sing"
+        },
+        {
+          "number": 5,
+          "title": "Army of One"
+        },
+        {
+          "number": 6,
+          "title": "Crowd Control"
+        },
+        {
+          "number": 7,
+          "title": "Maggie's Revenge"
+        },
+        {
+          "number": 8,
+          "title": "Nothing"
+        },
+        {
+          "number": 9,
+          "title": "Two Versions of Me"
+        },
+        {
+          "number": 10,
+          "title": "Access Me"
+        },
+        {
+          "number": 11,
+          "title": "Scents and Subtle Sounds"
+        },
+        {
+          "number": 12,
+          "title": "Tomorrow's Song"
+        },
+        {
+          "number": 13,
+          "title": "Secret Smile"
+        },
+        {
+          "number": 14,
+          "title": "Grind"
+        }
+      ]
+    },
+    {
+      "slug": "joy",
+      "title": "Joy",
+      "year": 2009,
+      "releaseDate": "2009-09-08",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Backwards Down the Number Line"
+        },
+        {
+          "number": 2,
+          "title": "Stealing Time From the Faulty Plan"
+        },
+        {
+          "number": 3,
+          "title": "Joy"
+        },
+        {
+          "number": 4,
+          "title": "Sugar Shack"
+        },
+        {
+          "number": 5,
+          "title": "Ocelot"
+        },
+        {
+          "number": 6,
+          "title": "Kill Devil Falls"
+        },
+        {
+          "number": 7,
+          "title": "Light"
+        },
+        {
+          "number": 8,
+          "title": "I Been Around"
+        },
+        {
+          "number": 9,
+          "title": "Time Turns Elastic"
+        },
+        {
+          "number": 10,
+          "title": "Twenty Years Later"
+        }
+      ]
+    },
+    {
+      "slug": "party-time",
+      "title": "Party Time",
+      "year": 2009,
+      "releaseDate": "2009-11-10",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Party Time"
+        },
+        {
+          "number": 2,
+          "title": "Alaska"
+        },
+        {
+          "number": 3,
+          "title": "Windy City"
+        },
+        {
+          "number": 4,
+          "title": "In a Misty Glade"
+        },
+        {
+          "number": 5,
+          "title": "Gone"
+        },
+        {
+          "number": 6,
+          "title": "Only a Dream"
+        },
+        {
+          "number": 7,
+          "title": "The Birdwatcher"
+        },
+        {
+          "number": 8,
+          "title": "Let Me Lie"
+        },
+        {
+          "number": 9,
+          "title": "If I Told You"
+        },
+        {
+          "number": 10,
+          "title": "Splinters of Hail"
+        },
+        {
+          "number": 11,
+          "title": "Can’t Come Back"
+        },
+        {
+          "number": 12,
+          "title": "Shrine"
+        },
+        {
+          "number": 13,
+          "title": "Liquid Time"
+        }
+      ]
+    },
+    {
+      "slug": "fuego",
+      "title": "Fuego",
+      "year": 2014,
+      "releaseDate": "2014-06-24",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Fuego"
+        },
+        {
+          "number": 2,
+          "title": "The Line"
+        },
+        {
+          "number": 3,
+          "title": "Devotion to a Dream"
+        },
+        {
+          "number": 4,
+          "title": "Halfway to the Moon"
+        },
+        {
+          "number": 5,
+          "title": "Winterqueen"
+        },
+        {
+          "number": 6,
+          "title": "Sing Monica"
+        },
+        {
+          "number": 7,
+          "title": "555"
+        },
+        {
+          "number": 8,
+          "title": "Waiting All Night"
+        },
+        {
+          "number": 9,
+          "title": "Wombat"
+        },
+        {
+          "number": 10,
+          "title": "Wingsuit"
+        }
+      ]
+    },
+    {
+      "slug": "big-boat",
+      "title": "Big Boat",
+      "year": 2016,
+      "releaseDate": "2016-10-07",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Friends"
+        },
+        {
+          "number": 2,
+          "title": "Breath and Burning"
+        },
+        {
+          "number": 3,
+          "title": "Home"
+        },
+        {
+          "number": 4,
+          "title": "Blaze On"
+        },
+        {
+          "number": 5,
+          "title": "Tide Turns"
+        },
+        {
+          "number": 6,
+          "title": "Things People Do"
+        },
+        {
+          "number": 7,
+          "title": "Waking Up Dead"
+        },
+        {
+          "number": 8,
+          "title": "Running Out of Time"
+        },
+        {
+          "number": 9,
+          "title": "No Men in No Man’s Land"
+        },
+        {
+          "number": 10,
+          "title": "Miss You"
+        },
+        {
+          "number": 11,
+          "title": "I Always Wanted It This Way"
+        },
+        {
+          "number": 12,
+          "title": "More"
+        },
+        {
+          "number": 13,
+          "title": "Petrichor"
+        }
+      ]
+    },
+    {
+      "slug": "sigma-oasis",
+      "title": "Sigma Oasis",
+      "year": 2020,
+      "releaseDate": "2020-04-01",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Sigma Oasis"
+        },
+        {
+          "number": 2,
+          "title": "Leaves"
+        },
+        {
+          "number": 3,
+          "title": "Everything’s Right"
+        },
+        {
+          "number": 4,
+          "title": "Mercury"
+        },
+        {
+          "number": 5,
+          "title": "Shade"
+        },
+        {
+          "number": 6,
+          "title": "Evening Song"
+        },
+        {
+          "number": 7,
+          "title": "Steam"
+        },
+        {
+          "number": 8,
+          "title": "A Life Beyond the Dream"
+        },
+        {
+          "number": 9,
+          "title": "Thread"
+        }
+      ]
+    },
+    {
+      "slug": "get-more-down",
+      "title": "Get More Down",
+      "year": 2022,
+      "releaseDate": "2022-10-31",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Knuckle Bone Broth Avenue"
+        },
+        {
+          "number": 2,
+          "title": "Get More Down"
+        },
+        {
+          "number": 3,
+          "title": "Egg in a Hole"
+        },
+        {
+          "number": 4,
+          "title": "Thanksgiving"
+        },
+        {
+          "number": 5,
+          "title": "Clear Your Mind"
+        },
+        {
+          "number": 6,
+          "title": "The 9th Cube"
+        },
+        {
+          "number": 7,
+          "title": "The Inner Reaches of Outer"
+        },
+        {
+          "number": 8,
+          "title": "Don't Doubt Me"
+        },
+        {
+          "number": 9,
+          "title": "The Unwinding"
+        },
+        {
+          "number": 10,
+          "title": "Something Living Here"
+        },
+        {
+          "number": 11,
+          "title": "The Howling"
+        },
+        {
+          "number": 12,
+          "title": "I Am in Miami"
+        }
+      ]
+    },
+    {
+      "slug": "evolve",
+      "title": "Evolve",
+      "year": 2024,
+      "releaseDate": "2024-07-12",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Hey Stranger"
+        },
+        {
+          "number": 2,
+          "title": "Oblivion"
+        },
+        {
+          "number": 3,
+          "title": "Evolve"
+        },
+        {
+          "number": 4,
+          "title": "A Wave of Hope"
+        },
+        {
+          "number": 5,
+          "title": "Pillow Jets"
+        },
+        {
+          "number": 6,
+          "title": "Lonely Trip"
+        },
+        {
+          "number": 7,
+          "title": "Life Saving Gun"
+        },
+        {
+          "number": 8,
+          "title": "Monsters"
+        },
+        {
+          "number": 9,
+          "title": "Ether Edge"
+        },
+        {
+          "number": 10,
+          "title": "Human Nature"
+        },
+        {
+          "number": 11,
+          "title": "Valdese"
+        },
+        {
+          "number": 12,
+          "title": "Mercy"
+        }
+      ]
+    }
+  ]
+}

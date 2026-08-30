@@ -1,0 +1,18 @@
+{
+  "slug": "dear-abby",
+  "title": "Dear Abby",
+  "artist": "John Prine",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "C",
+    "D"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/john-prine/dear-abby-chords-1179227",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (112 chord marks, 3 distinct). Source chart uses a capo at fret 4. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

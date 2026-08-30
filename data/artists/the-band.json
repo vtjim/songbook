@@ -1,0 +1,775 @@
+{
+  "artist": "The Band",
+  "slug": "the-band",
+  "mbid": "8c90ad8c-9150-4c51-a1eb-342232e99d06",
+  "albums": [
+    {
+      "slug": "music-from-big-pink",
+      "title": "Music From Big Pink",
+      "year": 1968,
+      "releaseDate": "1968-07-01",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Tears of Rage"
+        },
+        {
+          "number": 2,
+          "title": "To Kingdom Come"
+        },
+        {
+          "number": 3,
+          "title": "In a Station"
+        },
+        {
+          "number": 4,
+          "title": "Caledonia Mission"
+        },
+        {
+          "number": 5,
+          "title": "The Weight"
+        },
+        {
+          "number": 6,
+          "title": "We Can Talk"
+        },
+        {
+          "number": 7,
+          "title": "Long Black Veil"
+        },
+        {
+          "number": 8,
+          "title": "Chest Fever"
+        },
+        {
+          "number": 9,
+          "title": "Lonesome Suzie"
+        },
+        {
+          "number": 10,
+          "title": "This Wheel’s on Fire"
+        },
+        {
+          "number": 11,
+          "title": "I Shall Be Released"
+        },
+        {
+          "number": 12,
+          "title": "Yazoo Street Scandal (outtake)"
+        },
+        {
+          "number": 13,
+          "title": "Tears of Rage (alternate take)"
+        },
+        {
+          "number": 14,
+          "title": "Long Distance Operator (outtake)"
+        },
+        {
+          "number": 15,
+          "title": "Lonesome Suzie (alternate version)"
+        },
+        {
+          "number": 16,
+          "title": "Key to the Highway (outtake)"
+        },
+        {
+          "number": 17,
+          "title": "I Shall Be Released (a capella)"
+        }
+      ]
+    },
+    {
+      "slug": "the-band",
+      "title": "The Band",
+      "year": 1969,
+      "releaseDate": "1969-09-22",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Across the Great Divide"
+        },
+        {
+          "number": 2,
+          "title": "Rag Mama Rag"
+        },
+        {
+          "number": 3,
+          "title": "The Night They Drove Old Dixie Down"
+        },
+        {
+          "number": 4,
+          "title": "When You Awake"
+        },
+        {
+          "number": 5,
+          "title": "Up on Cripple Creek"
+        },
+        {
+          "number": 6,
+          "title": "Whispering Pines"
+        },
+        {
+          "number": 7,
+          "title": "Jemima Surrender"
+        },
+        {
+          "number": 8,
+          "title": "Rockin’ Chair"
+        },
+        {
+          "number": 9,
+          "title": "Look Out Cleveland"
+        },
+        {
+          "number": 10,
+          "title": "Jawbone"
+        },
+        {
+          "number": 11,
+          "title": "The Unfaithful Servant"
+        },
+        {
+          "number": 12,
+          "title": "King Harvest (Has Surely Come)"
+        },
+        {
+          "number": 13,
+          "title": "Get Up Jake"
+        }
+      ]
+    },
+    {
+      "slug": "stage-fright",
+      "title": "Stage Fright",
+      "year": 1970,
+      "releaseDate": "1970-08-17",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Strawberry Wine"
+        },
+        {
+          "number": 2,
+          "title": "Sleeping"
+        },
+        {
+          "number": 3,
+          "title": "Time to Kill"
+        },
+        {
+          "number": 4,
+          "title": "Just Another Whistle Stop"
+        },
+        {
+          "number": 5,
+          "title": "All La Glory"
+        },
+        {
+          "number": 6,
+          "title": "The Shape I’m In"
+        },
+        {
+          "number": 7,
+          "title": "The W.S. Walcott Medicine Show"
+        },
+        {
+          "number": 8,
+          "title": "Daniel and the Sacred Harp"
+        },
+        {
+          "number": 9,
+          "title": "Stage Fright"
+        },
+        {
+          "number": 10,
+          "title": "The Rumor"
+        },
+        {
+          "number": 11,
+          "title": "Daniel and the Sacred Harp (alternate take)"
+        },
+        {
+          "number": 12,
+          "title": "Time to Kill (alternate mix)"
+        },
+        {
+          "number": 13,
+          "title": "The W.S. Walcott Medicine Show (alternate take)"
+        },
+        {
+          "number": 14,
+          "title": "Radio Commercial"
+        }
+      ]
+    },
+    {
+      "slug": "cahoots",
+      "title": "Cahoots",
+      "year": 1971,
+      "releaseDate": "1971-09-15",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Life Is a Carnival"
+        },
+        {
+          "number": 2,
+          "title": "When I Paint My Masterpiece"
+        },
+        {
+          "number": 3,
+          "title": "Last of the Blacksmiths"
+        },
+        {
+          "number": 4,
+          "title": "Where Do We Go From Here?"
+        },
+        {
+          "number": 5,
+          "title": "4% Pantomime"
+        },
+        {
+          "number": 6,
+          "title": "Shoot Out in Chinatown"
+        },
+        {
+          "number": 7,
+          "title": "The Moon Struck One"
+        },
+        {
+          "number": 8,
+          "title": "Thinkin’ Out Loud"
+        },
+        {
+          "number": 9,
+          "title": "Smoke Signal"
+        },
+        {
+          "number": 10,
+          "title": "Volcano"
+        },
+        {
+          "number": 11,
+          "title": "The River Hymn"
+        },
+        {
+          "number": 12,
+          "title": "Endless Highway (early studio take)"
+        },
+        {
+          "number": 13,
+          "title": "When I Paint My Masterpiece (alternate take)"
+        },
+        {
+          "number": 14,
+          "title": "Bessie Smith (outtake)"
+        },
+        {
+          "number": 15,
+          "title": "Don’t Do It (outtake studio version)"
+        },
+        {
+          "number": 16,
+          "title": "Radio Commercial"
+        }
+      ]
+    },
+    {
+      "slug": "moondog-matinee",
+      "title": "Moondog Matinee",
+      "year": 1973,
+      "releaseDate": "1973-10-15",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Ain't Got No Home"
+        },
+        {
+          "number": 2,
+          "title": "Holy Cow"
+        },
+        {
+          "number": 3,
+          "title": "Share Your Love"
+        },
+        {
+          "number": 4,
+          "title": "Mystery Train"
+        },
+        {
+          "number": 5,
+          "title": "Third Man Theme"
+        },
+        {
+          "number": 6,
+          "title": "Promised Land"
+        },
+        {
+          "number": 7,
+          "title": "The Great Pretender"
+        },
+        {
+          "number": 8,
+          "title": "I'm Ready"
+        },
+        {
+          "number": 9,
+          "title": "Saved"
+        },
+        {
+          "number": 10,
+          "title": "A Change Is Gonna Come"
+        }
+      ]
+    },
+    {
+      "slug": "the-basement-tapes",
+      "title": "The Basement Tapes",
+      "year": 1975,
+      "releaseDate": "1975-06-26",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Odds and Ends"
+        },
+        {
+          "number": 2,
+          "title": "Orange Juice Blues (Blues for Breakfast)"
+        },
+        {
+          "number": 3,
+          "title": "Million Dollar Bash"
+        },
+        {
+          "number": 4,
+          "title": "Yazoo Street Scandal"
+        },
+        {
+          "number": 5,
+          "title": "Goin' to Acapulco"
+        },
+        {
+          "number": 6,
+          "title": "Katie's Been Gone"
+        },
+        {
+          "number": 7,
+          "title": "Lo and Behold!"
+        },
+        {
+          "number": 8,
+          "title": "Bessie Smith"
+        },
+        {
+          "number": 9,
+          "title": "Clothes Line Saga"
+        },
+        {
+          "number": 10,
+          "title": "Apple Suckling Tree"
+        },
+        {
+          "number": 11,
+          "title": "Please, Mrs. Henry"
+        },
+        {
+          "number": 12,
+          "title": "Tears of Rage"
+        },
+        {
+          "number": 13,
+          "title": "Too Much of Nothing"
+        },
+        {
+          "number": 14,
+          "title": "Yea! Heavy and a Bottle of Bread"
+        },
+        {
+          "number": 15,
+          "title": "Ain't No More Cane"
+        },
+        {
+          "number": 16,
+          "title": "Crash on the Levee (Down in the Flood)"
+        },
+        {
+          "number": 17,
+          "title": "Ruben Remus"
+        },
+        {
+          "number": 18,
+          "title": "Tiny Montgomery"
+        },
+        {
+          "number": 19,
+          "title": "You Ain't Goin' Nowhere"
+        },
+        {
+          "number": 20,
+          "title": "Don't Ya Tell Henry"
+        },
+        {
+          "number": 21,
+          "title": "Nothing Was Delivered"
+        },
+        {
+          "number": 22,
+          "title": "Open the Door, Homer"
+        },
+        {
+          "number": 23,
+          "title": "Long Distance Operator"
+        },
+        {
+          "number": 24,
+          "title": "This Wheel's on Fire"
+        }
+      ]
+    },
+    {
+      "slug": "northern-lights-southern-cross",
+      "title": "Northern Lights – Southern Cross",
+      "year": 1975,
+      "releaseDate": "1975-11-01",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Rags and Bones"
+        },
+        {
+          "number": 2,
+          "title": "Acadian Driftwood"
+        },
+        {
+          "number": 3,
+          "title": "Ophelia"
+        },
+        {
+          "number": 4,
+          "title": "Hobo Jungle"
+        },
+        {
+          "number": 5,
+          "title": "It Makes No Difference"
+        },
+        {
+          "number": 6,
+          "title": "Forbidden Fruit"
+        },
+        {
+          "number": 7,
+          "title": "Ring Your Bell"
+        },
+        {
+          "number": 8,
+          "title": "Jupiter Hollow"
+        }
+      ]
+    },
+    {
+      "slug": "islands",
+      "title": "Islands",
+      "year": 1977,
+      "releaseDate": "1977-03-15",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Right as Rain"
+        },
+        {
+          "number": 2,
+          "title": "Street Walker"
+        },
+        {
+          "number": 3,
+          "title": "Let the Night Fall"
+        },
+        {
+          "number": 4,
+          "title": "Ain't That a Lot of Love"
+        },
+        {
+          "number": 5,
+          "title": "Christmas Must Be Tonight"
+        },
+        {
+          "number": 6,
+          "title": "Islands"
+        },
+        {
+          "number": 7,
+          "title": "The Saga of Pepote Rouge"
+        },
+        {
+          "number": 8,
+          "title": "Georgia on My Mind"
+        },
+        {
+          "number": 9,
+          "title": "Knockin' Lost John"
+        },
+        {
+          "number": 10,
+          "title": "Livin' in a Dream"
+        }
+      ]
+    },
+    {
+      "slug": "jericho",
+      "title": "Jericho",
+      "year": 1993,
+      "releaseDate": "1993-11-02",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Remedy"
+        },
+        {
+          "number": 2,
+          "title": "Blind Willie McTell"
+        },
+        {
+          "number": 3,
+          "title": "The Caves of Jericho"
+        },
+        {
+          "number": 4,
+          "title": "Atlantic City"
+        },
+        {
+          "number": 5,
+          "title": "Too Soon Gone"
+        },
+        {
+          "number": 6,
+          "title": "Country Boy"
+        },
+        {
+          "number": 7,
+          "title": "Move to Japan"
+        },
+        {
+          "number": 8,
+          "title": "Amazon (River of Dreams)"
+        },
+        {
+          "number": 9,
+          "title": "Stuff You Gotta Watch"
+        },
+        {
+          "number": 10,
+          "title": "Same Thing"
+        },
+        {
+          "number": 11,
+          "title": "Shine a Light"
+        },
+        {
+          "number": 12,
+          "title": "Blues Stay Away From Me"
+        }
+      ]
+    },
+    {
+      "slug": "let-it-rock-the-rocknroll-album-of-the-decade",
+      "title": "Let It Rock! The Rock’n’Roll Album of the Decade",
+      "year": 1995,
+      "releaseDate": "1995",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Let It Rock"
+        },
+        {
+          "number": 2,
+          "title": "Down in the Alley"
+        },
+        {
+          "number": 3,
+          "title": "Mamma Come Home"
+        },
+        {
+          "number": 4,
+          "title": "Remedy"
+        },
+        {
+          "number": 5,
+          "title": "When There’s Time for Love"
+        },
+        {
+          "number": 6,
+          "title": "Good Golly Miss Molly"
+        },
+        {
+          "number": 7,
+          "title": "Long Tall Sally"
+        },
+        {
+          "number": 8,
+          "title": "Wild Little Willie"
+        },
+        {
+          "number": 9,
+          "title": "Match Box"
+        },
+        {
+          "number": 10,
+          "title": "Blue Suede Shoes"
+        },
+        {
+          "number": 11,
+          "title": "Mary Lou"
+        },
+        {
+          "number": 12,
+          "title": "Ruby Baby"
+        },
+        {
+          "number": 13,
+          "title": "The Weight"
+        },
+        {
+          "number": 14,
+          "title": "Rock’n’Roll Shoes"
+        },
+        {
+          "number": 15,
+          "title": "Whole Lotta Shakin’"
+        },
+        {
+          "number": 16,
+          "title": "Great Balls of Fire"
+        },
+        {
+          "number": 17,
+          "title": "Bo Diddley"
+        },
+        {
+          "number": 18,
+          "title": "Who Do You Love"
+        },
+        {
+          "number": 19,
+          "title": "Days Gone By"
+        }
+      ]
+    },
+    {
+      "slug": "high-on-the-hog",
+      "title": "High on the Hog",
+      "year": 1996,
+      "releaseDate": "1996-02-27",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Stand Up"
+        },
+        {
+          "number": 2,
+          "title": "Back to Memphis"
+        },
+        {
+          "number": 3,
+          "title": "Where I should Always Be"
+        },
+        {
+          "number": 4,
+          "title": "Free Your Mind"
+        },
+        {
+          "number": 5,
+          "title": "Forever Young"
+        },
+        {
+          "number": 6,
+          "title": "The High Price of Love"
+        },
+        {
+          "number": 7,
+          "title": "Crazy Mama"
+        },
+        {
+          "number": 8,
+          "title": "I Must Love You Too Much"
+        },
+        {
+          "number": 9,
+          "title": "She Knows"
+        },
+        {
+          "number": 10,
+          "title": "Ramble Jungle"
+        },
+        {
+          "number": 11,
+          "title": "Young Blood"
+        }
+      ]
+    },
+    {
+      "slug": "jubilation",
+      "title": "Jubilation",
+      "year": 1998,
+      "releaseDate": "1998-09-15",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Book Faded Brown"
+        },
+        {
+          "number": 2,
+          "title": "Don't Wait"
+        },
+        {
+          "number": 3,
+          "title": "Last Train to Memphis"
+        },
+        {
+          "number": 4,
+          "title": "High Cotton"
+        },
+        {
+          "number": 5,
+          "title": "Kentucky Downpour"
+        },
+        {
+          "number": 6,
+          "title": "Bound by Love"
+        },
+        {
+          "number": 7,
+          "title": "White Cadillac"
+        },
+        {
+          "number": 8,
+          "title": "If I Should Fail"
+        },
+        {
+          "number": 9,
+          "title": "Spirit of the Dance"
+        },
+        {
+          "number": 10,
+          "title": "You See Me"
+        },
+        {
+          "number": 11,
+          "title": "French Girls"
+        }
+      ]
+    }
+  ]
+}

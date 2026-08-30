@@ -1,0 +1,870 @@
+{
+  "artist": "Todd Snider",
+  "slug": "todd-snider",
+  "mbid": "25c13ec7-fad4-4da4-8d98-9607ff615d68",
+  "albums": [
+    {
+      "slug": "songs-for-the-daily-planet",
+      "title": "Songs for the Daily Planet",
+      "year": 1994,
+      "releaseDate": "1994-10-11",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "My Generation (Pt. 2)"
+        },
+        {
+          "number": 2,
+          "title": "Easy Money"
+        },
+        {
+          "number": 3,
+          "title": "That Was Me"
+        },
+        {
+          "number": 4,
+          "title": "This Land Is Our Land"
+        },
+        {
+          "number": 5,
+          "title": "Alright Guy"
+        },
+        {
+          "number": 6,
+          "title": "I Spoke as a Child"
+        },
+        {
+          "number": 7,
+          "title": "Turn It Up"
+        },
+        {
+          "number": 8,
+          "title": "Trouble"
+        },
+        {
+          "number": 9,
+          "title": "A Lot More"
+        },
+        {
+          "number": 10,
+          "title": "You Think You Know Somebody"
+        },
+        {
+          "number": 11,
+          "title": "Somebody’s Coming"
+        },
+        {
+          "number": 12,
+          "title": "Joe’s Blues"
+        },
+        {
+          "number": 13,
+          "title": "Talkin’ Seattle Blues"
+        }
+      ]
+    },
+    {
+      "slug": "step-right-up",
+      "title": "Step Right Up",
+      "year": 1996,
+      "releaseDate": "1996",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Elmo and Henry"
+        },
+        {
+          "number": 2,
+          "title": "I Believe You"
+        },
+        {
+          "number": 3,
+          "title": "Side Show Blues"
+        },
+        {
+          "number": 4,
+          "title": "Enough"
+        },
+        {
+          "number": 5,
+          "title": "T.V. Guide"
+        },
+        {
+          "number": 6,
+          "title": "Hey Hey"
+        },
+        {
+          "number": 7,
+          "title": "Moon Dawg’s Tavern"
+        },
+        {
+          "number": 8,
+          "title": "Prison Walls"
+        },
+        {
+          "number": 9,
+          "title": "Horseshoe Lake"
+        },
+        {
+          "number": 10,
+          "title": "It All Adds Up"
+        },
+        {
+          "number": 11,
+          "title": "Tension"
+        },
+        {
+          "number": 12,
+          "title": "Late Last Night"
+        },
+        {
+          "number": 13,
+          "title": "24 Hours a Day"
+        },
+        {
+          "number": 14,
+          "title": "Better Than Ever Blues Part 2"
+        }
+      ]
+    },
+    {
+      "slug": "viva-satellite",
+      "title": "Viva Satellite",
+      "year": 1998,
+      "releaseDate": "1998-04-07",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Rocket Fuel"
+        },
+        {
+          "number": 2,
+          "title": "Yesterdays and Used to Be’s"
+        },
+        {
+          "number": 3,
+          "title": "The Joker"
+        },
+        {
+          "number": 4,
+          "title": "I Am Too"
+        },
+        {
+          "number": 5,
+          "title": "I Am Two"
+        },
+        {
+          "number": 6,
+          "title": "Out All Night"
+        },
+        {
+          "number": 7,
+          "title": "Guaranteed"
+        },
+        {
+          "number": 8,
+          "title": "Can’t Complain"
+        },
+        {
+          "number": 9,
+          "title": "Positively Negative"
+        },
+        {
+          "number": 10,
+          "title": "Once He Finds Us"
+        },
+        {
+          "number": 11,
+          "title": "Godsend"
+        },
+        {
+          "number": 12,
+          "title": "Comin’ Down"
+        },
+        {
+          "number": 13,
+          "title": "Never Let Me Down"
+        },
+        {
+          "number": 14,
+          "title": "Doublewide Blues"
+        }
+      ]
+    },
+    {
+      "slug": "happy-to-be-here",
+      "title": "Happy to Be Here",
+      "year": 2000,
+      "releaseDate": "2000",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Happy to Be Here"
+        },
+        {
+          "number": 2,
+          "title": "Forty Five Miles"
+        },
+        {
+          "number": 3,
+          "title": "Long Year"
+        },
+        {
+          "number": 4,
+          "title": "D.B. Cooper"
+        },
+        {
+          "number": 5,
+          "title": "Lonely Girl"
+        },
+        {
+          "number": 6,
+          "title": "Keep Off the Grass"
+        },
+        {
+          "number": 7,
+          "title": "All of My Life"
+        },
+        {
+          "number": 8,
+          "title": "Betty Was Black (and Willie was White)"
+        },
+        {
+          "number": 9,
+          "title": "Ballad of the Devil's Backbone Tavern"
+        },
+        {
+          "number": 10,
+          "title": "Just in Case"
+        },
+        {
+          "number": 11,
+          "title": "What's Wrong With You"
+        },
+        {
+          "number": 12,
+          "title": "Missing You"
+        },
+        {
+          "number": 13,
+          "title": "Back to the Crossroads"
+        }
+      ]
+    },
+    {
+      "slug": "new-connection",
+      "title": "New Connection",
+      "year": 2002,
+      "releaseDate": "2002",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "New Connection"
+        },
+        {
+          "number": 2,
+          "title": "Vinyl Records"
+        },
+        {
+          "number": 3,
+          "title": "Rose City"
+        },
+        {
+          "number": 4,
+          "title": "Beer Run"
+        },
+        {
+          "number": 5,
+          "title": "Easy"
+        },
+        {
+          "number": 6,
+          "title": "Crooked Piece of Time"
+        },
+        {
+          "number": 7,
+          "title": "Anywhere"
+        },
+        {
+          "number": 8,
+          "title": "Stuck All Night"
+        },
+        {
+          "number": 9,
+          "title": "Statistician's Blues"
+        },
+        {
+          "number": 10,
+          "title": "Class of 85"
+        },
+        {
+          "number": 11,
+          "title": "Broke"
+        },
+        {
+          "number": 12,
+          "title": "Close Enough to You"
+        },
+        {
+          "number": 13,
+          "title": "Waco Moon"
+        }
+      ]
+    },
+    {
+      "slug": "east-nashville-skyline",
+      "title": "East Nashville Skyline",
+      "year": 2004,
+      "releaseDate": "2004",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Age Like Wine"
+        },
+        {
+          "number": 2,
+          "title": "Tillamook County Jail"
+        },
+        {
+          "number": 3,
+          "title": "Play a Train Song"
+        },
+        {
+          "number": 4,
+          "title": "Alcohol and Pills"
+        },
+        {
+          "number": 5,
+          "title": "Good News Blues"
+        },
+        {
+          "number": 6,
+          "title": "The Ballad of the Kingsmen"
+        },
+        {
+          "number": 7,
+          "title": "Iron Mike's Main Man's Last Request"
+        },
+        {
+          "number": 8,
+          "title": "Conservative Christian, Right Wing, Republican, Straight, White, American Males"
+        },
+        {
+          "number": 9,
+          "title": "Incarcerated"
+        },
+        {
+          "number": 10,
+          "title": "Nashville"
+        },
+        {
+          "number": 11,
+          "title": "Sunshine"
+        },
+        {
+          "number": 12,
+          "title": "Enjoy Yourself"
+        }
+      ]
+    },
+    {
+      "slug": "the-devil-you-know",
+      "title": "The Devil You Know",
+      "year": 2006,
+      "releaseDate": "2006-08-06",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "If Tomorrow Never Comes"
+        },
+        {
+          "number": 2,
+          "title": "Looking for a Job"
+        },
+        {
+          "number": 3,
+          "title": "Just Like Old Times"
+        },
+        {
+          "number": 4,
+          "title": "Carla"
+        },
+        {
+          "number": 5,
+          "title": "You Got Away With It"
+        },
+        {
+          "number": 6,
+          "title": "The Highland Street Incident"
+        },
+        {
+          "number": 7,
+          "title": "Thin Wild Mercury"
+        },
+        {
+          "number": 8,
+          "title": "The Devil You Know"
+        },
+        {
+          "number": 9,
+          "title": "Unbreakable"
+        },
+        {
+          "number": 10,
+          "title": "All That Matters"
+        },
+        {
+          "number": 11,
+          "title": "Happy New Year"
+        }
+      ]
+    },
+    {
+      "slug": "the-excitement-plan",
+      "title": "The Excitement Plan",
+      "year": 2009,
+      "releaseDate": "2009-06-09",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Slim Chance"
+        },
+        {
+          "number": 2,
+          "title": "Greencastle Blues"
+        },
+        {
+          "number": 3,
+          "title": "America's Favorite Pastime"
+        },
+        {
+          "number": 4,
+          "title": "Doll Face"
+        },
+        {
+          "number": 5,
+          "title": "Bring 'Em Home"
+        },
+        {
+          "number": 6,
+          "title": "Corpus Christi Bay"
+        },
+        {
+          "number": 7,
+          "title": "The Last Laugh"
+        },
+        {
+          "number": 8,
+          "title": "Unorganized Crime"
+        },
+        {
+          "number": 9,
+          "title": "Barefoot Champagne"
+        },
+        {
+          "number": 10,
+          "title": "Don't Tempt Me"
+        },
+        {
+          "number": 11,
+          "title": "Money, Compliments, Publicity (Song Number Ten)"
+        },
+        {
+          "number": 12,
+          "title": "Good Fortune"
+        }
+      ]
+    },
+    {
+      "slug": "agnostic-hymns-and-stoner-fables",
+      "title": "Agnostic Hymns & Stoner Fables",
+      "year": 2012,
+      "releaseDate": "2012-03-06",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "In the Beginning"
+        },
+        {
+          "number": 2,
+          "title": "New York Banker"
+        },
+        {
+          "number": 3,
+          "title": "West Nashville Grand Ballroom Gown"
+        },
+        {
+          "number": 4,
+          "title": "Precious Little Miracles"
+        },
+        {
+          "number": 5,
+          "title": "The Very Last Time"
+        },
+        {
+          "number": 6,
+          "title": "In Between Jobs"
+        },
+        {
+          "number": 7,
+          "title": "Brenda"
+        },
+        {
+          "number": 8,
+          "title": "Too Soon to Tell"
+        },
+        {
+          "number": 9,
+          "title": "Digger Dave’s Crazy Woman Blues"
+        },
+        {
+          "number": 10,
+          "title": "Big Finish"
+        }
+      ]
+    },
+    {
+      "slug": "time-as-we-know-it-the-songs-of-jerry-jeff-walker",
+      "title": "Time As We Know It - The Songs Of Jerry Jeff Walker",
+      "year": 2012,
+      "releaseDate": "2012-04-24",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Vince Triple O Martin"
+        },
+        {
+          "number": 2,
+          "title": "Jaded Lover"
+        },
+        {
+          "number": 3,
+          "title": "Moon Child"
+        },
+        {
+          "number": 4,
+          "title": "Takin' It as It Comes"
+        },
+        {
+          "number": 5,
+          "title": "Derby Day"
+        },
+        {
+          "number": 6,
+          "title": "Sangria Wine"
+        },
+        {
+          "number": 7,
+          "title": "Continuing Saga of the Classic Bummer or Is This My One Way Bus Ticket to Cleveland"
+        },
+        {
+          "number": 8,
+          "title": "Little Bird"
+        },
+        {
+          "number": 9,
+          "title": "Hill Country Rain"
+        },
+        {
+          "number": 10,
+          "title": "Railroad Lady"
+        },
+        {
+          "number": 11,
+          "title": "Laying My Life on the Line"
+        },
+        {
+          "number": 12,
+          "title": "Pissin' in the Wind"
+        },
+        {
+          "number": 13,
+          "title": "Mr. Bojangles"
+        },
+        {
+          "number": 14,
+          "title": "Will There Be Any"
+        }
+      ]
+    },
+    {
+      "slug": "eastside-bulldog",
+      "title": "Eastside Bulldog",
+      "year": 2016,
+      "releaseDate": "2016-10-07",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Hey Pretty Boy"
+        },
+        {
+          "number": 2,
+          "title": "37206"
+        },
+        {
+          "number": 3,
+          "title": "The Funky Tomato"
+        },
+        {
+          "number": 4,
+          "title": "Eastside Bulldog"
+        },
+        {
+          "number": 5,
+          "title": "Check It Out"
+        },
+        {
+          "number": 6,
+          "title": "Bocephus"
+        },
+        {
+          "number": 7,
+          "title": "Are You with Me"
+        },
+        {
+          "number": 8,
+          "title": "Enough Is Enough"
+        },
+        {
+          "number": 9,
+          "title": "Ways and Means"
+        },
+        {
+          "number": 10,
+          "title": "Come on Up"
+        }
+      ]
+    },
+    {
+      "slug": "cash-cabin-sessions-vol-3",
+      "title": "Cash Cabin Sessions, Vol. 3",
+      "year": 2019,
+      "releaseDate": "2019-03-15",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Working on a Song"
+        },
+        {
+          "number": 2,
+          "title": "Talking Reality Television Blues"
+        },
+        {
+          "number": 3,
+          "title": "Like a Force of Nature"
+        },
+        {
+          "number": 4,
+          "title": "Just Like Overnight"
+        },
+        {
+          "number": 5,
+          "title": "The Blues on Banjo"
+        },
+        {
+          "number": 6,
+          "title": "Framed"
+        },
+        {
+          "number": 7,
+          "title": "The Ghost of Johnny Cash"
+        },
+        {
+          "number": 8,
+          "title": "[Dedication]"
+        },
+        {
+          "number": 9,
+          "title": "Cowboy Jack Clement’s Waltz"
+        },
+        {
+          "number": 10,
+          "title": "[Explanation]"
+        },
+        {
+          "number": 11,
+          "title": "Watering Flowers in the Rain"
+        },
+        {
+          "number": 12,
+          "title": "A Timeless Response to Current Events"
+        }
+      ]
+    },
+    {
+      "slug": "first-agnostic-church-of-hope-and-wonder",
+      "title": "First Agnostic Church of Hope and Wonder",
+      "year": 2021,
+      "releaseDate": "2021-04-23",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Turn Me Loose (I’ll Never Be the Same)"
+        },
+        {
+          "number": 2,
+          "title": "The Get Together"
+        },
+        {
+          "number": 3,
+          "title": "Never Let a Day Go By"
+        },
+        {
+          "number": 4,
+          "title": "That Great Pacific Garbage Patch"
+        },
+        {
+          "number": 5,
+          "title": "Handsome John"
+        },
+        {
+          "number": 6,
+          "title": "Sail on, My Friend"
+        },
+        {
+          "number": 7,
+          "title": "Battle Hymn of the Album"
+        },
+        {
+          "number": 8,
+          "title": "Stoner Yodel Number One"
+        },
+        {
+          "number": 9,
+          "title": "Agnostic Preacher’s Lament"
+        },
+        {
+          "number": 10,
+          "title": "The Resignation Vs. The Comeback Special"
+        }
+      ]
+    },
+    {
+      "slug": "crank-it-were-doomed",
+      "title": "Crank It, We’re Doomed",
+      "year": 2023,
+      "releaseDate": "2023-11-10",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "From a Dying Rose"
+        },
+        {
+          "number": 2,
+          "title": "Juice"
+        },
+        {
+          "number": 3,
+          "title": "Handleman’s Revenge"
+        },
+        {
+          "number": 4,
+          "title": "Don’t Tempt Me"
+        },
+        {
+          "number": 5,
+          "title": "The War on Terror"
+        },
+        {
+          "number": 6,
+          "title": "America’s Favorite Pastime"
+        },
+        {
+          "number": 7,
+          "title": "Doll Face"
+        },
+        {
+          "number": 8,
+          "title": "But Seriously Folks"
+        },
+        {
+          "number": 9,
+          "title": "West Nashville Grand Ballroom Gown"
+        },
+        {
+          "number": 10,
+          "title": "Mercer’s Folly"
+        },
+        {
+          "number": 11,
+          "title": "What Made You Do It"
+        },
+        {
+          "number": 12,
+          "title": "The Last Laugh"
+        },
+        {
+          "number": 13,
+          "title": "Mission Accomplished (Because You Gotta Have Faith)"
+        },
+        {
+          "number": 14,
+          "title": "Slim Chance Is Still a Chance"
+        },
+        {
+          "number": 15,
+          "title": "Good Fortune"
+        }
+      ]
+    },
+    {
+      "slug": "high-lonesome-and-then-some",
+      "title": "HIGH, LONESOME AND THEN SOME.",
+      "year": 2025,
+      "releaseDate": "2025-10-17",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "The Human Condition (Dancing Like I Don't Know How)"
+        },
+        {
+          "number": 2,
+          "title": "Unforgivable (Worst Story Ever Told)"
+        },
+        {
+          "number": 3,
+          "title": "While We Still Have a Chance"
+        },
+        {
+          "number": 4,
+          "title": "One, Four Five Blues"
+        },
+        {
+          "number": 5,
+          "title": "Its Hard to Be Happy (Why Is for Redneck?)"
+        },
+        {
+          "number": 6,
+          "title": "Stoner Yodel #2 (Raelyn Nelson)"
+        },
+        {
+          "number": 7,
+          "title": "Older Women"
+        },
+        {
+          "number": 8,
+          "title": "High, Lonesome and Then Some"
+        },
+        {
+          "number": 9,
+          "title": "The Temptation to Exist"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1085 @@
+{
+  "artist": "John Prine",
+  "slug": "john-prine",
+  "mbid": "e86492c1-0376-4df0-8042-8ba058c83960",
+  "albums": [
+    {
+      "slug": "john-prine",
+      "title": "John Prine",
+      "year": 1971,
+      "releaseDate": "1971",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Illegal Smile"
+        },
+        {
+          "number": 2,
+          "title": "Spanish Pipedream"
+        },
+        {
+          "number": 3,
+          "title": "Hello in There"
+        },
+        {
+          "number": 4,
+          "title": "Sam Stone"
+        },
+        {
+          "number": 5,
+          "title": "Paradise"
+        },
+        {
+          "number": 6,
+          "title": "Pretty Good"
+        },
+        {
+          "number": 7,
+          "title": "Your Flag Decal Won’t Get You Into Heaven Anymore"
+        },
+        {
+          "number": 8,
+          "title": "Far From Me"
+        },
+        {
+          "number": 9,
+          "title": "Angel From Montgomery"
+        },
+        {
+          "number": 10,
+          "title": "Quiet Man"
+        },
+        {
+          "number": 11,
+          "title": "Donald and Lydia"
+        },
+        {
+          "number": 12,
+          "title": "Six O’Clock News"
+        },
+        {
+          "number": 13,
+          "title": "Flashback Blues"
+        }
+      ]
+    },
+    {
+      "slug": "diamonds-in-the-rough",
+      "title": "Diamonds in the Rough",
+      "year": 1972,
+      "releaseDate": "1972",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Everybody"
+        },
+        {
+          "number": 2,
+          "title": "The Torch Singer"
+        },
+        {
+          "number": 3,
+          "title": "Souvenirs"
+        },
+        {
+          "number": 4,
+          "title": "The Late John Garfield Blues"
+        },
+        {
+          "number": 5,
+          "title": "Sour Grapes"
+        },
+        {
+          "number": 6,
+          "title": "Billy the Bum"
+        },
+        {
+          "number": 7,
+          "title": "The Frying Pan"
+        },
+        {
+          "number": 8,
+          "title": "Yes I Guess They Oughta Name a Drink After You"
+        },
+        {
+          "number": 9,
+          "title": "Take the Star out of the Window"
+        },
+        {
+          "number": 10,
+          "title": "The Great Compromise"
+        },
+        {
+          "number": 11,
+          "title": "Clocks and Spoons"
+        },
+        {
+          "number": 12,
+          "title": "Rocky Mountain Time"
+        },
+        {
+          "number": 13,
+          "title": "Diamonds in the Rough"
+        }
+      ]
+    },
+    {
+      "slug": "sweet-revenge",
+      "title": "Sweet Revenge",
+      "year": 1973,
+      "releaseDate": "1973",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Sweet Revenge"
+        },
+        {
+          "number": 2,
+          "title": "Please Don't Bury Me"
+        },
+        {
+          "number": 3,
+          "title": "Christmas in Prison"
+        },
+        {
+          "number": 4,
+          "title": "Dear Abby"
+        },
+        {
+          "number": 5,
+          "title": "Blue Umbrella"
+        },
+        {
+          "number": 6,
+          "title": "Often Is a Word I Seldom Use"
+        },
+        {
+          "number": 7,
+          "title": "Onomatopoeia"
+        },
+        {
+          "number": 8,
+          "title": "Grandpa Was a Carpenter"
+        },
+        {
+          "number": 9,
+          "title": "The Accident (Things Could Be Worse)"
+        },
+        {
+          "number": 10,
+          "title": "Mexican Home"
+        },
+        {
+          "number": 11,
+          "title": "A Good Time"
+        },
+        {
+          "number": 12,
+          "title": "Nine Pound Hammer"
+        }
+      ]
+    },
+    {
+      "slug": "common-sense",
+      "title": "Common Sense",
+      "year": 1975,
+      "releaseDate": "1975",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Middleman"
+        },
+        {
+          "number": 2,
+          "title": "Common Sense"
+        },
+        {
+          "number": 3,
+          "title": "Come Back to Us Barbara Lewis Hare Krishna Beauregard"
+        },
+        {
+          "number": 4,
+          "title": "Wedding Day in Funeralville"
+        },
+        {
+          "number": 5,
+          "title": "Way Down"
+        },
+        {
+          "number": 6,
+          "title": "My Own Best Friend"
+        },
+        {
+          "number": 7,
+          "title": "Forbidden Jimmy"
+        },
+        {
+          "number": 8,
+          "title": "Saddle in the Rain"
+        },
+        {
+          "number": 9,
+          "title": "That Close to You"
+        },
+        {
+          "number": 10,
+          "title": "He Was in Heaven Before He Died"
+        },
+        {
+          "number": 11,
+          "title": "You Never Can Tell"
+        }
+      ]
+    },
+    {
+      "slug": "bruised-orange",
+      "title": "Bruised Orange",
+      "year": 1978,
+      "releaseDate": "1978",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Fish And Whistle"
+        },
+        {
+          "number": 2,
+          "title": "There She Goes"
+        },
+        {
+          "number": 3,
+          "title": "If You Don't Want My Love"
+        },
+        {
+          "number": 4,
+          "title": "That's The Way That The World Goes 'Round"
+        },
+        {
+          "number": 5,
+          "title": "Bruised Orange (Chain Of Sorrow)"
+        },
+        {
+          "number": 6,
+          "title": "Sabu Visits The Twin Cities Alone"
+        },
+        {
+          "number": 7,
+          "title": "Aw Heck"
+        },
+        {
+          "number": 8,
+          "title": "Crooked Piece Of Time"
+        },
+        {
+          "number": 9,
+          "title": "Iron Ore Betty"
+        },
+        {
+          "number": 10,
+          "title": "The Hobo Song"
+        }
+      ]
+    },
+    {
+      "slug": "pink-cadillac",
+      "title": "Pink Cadillac",
+      "year": 1979,
+      "releaseDate": "1979",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Chinatown"
+        },
+        {
+          "number": 2,
+          "title": "Automobile"
+        },
+        {
+          "number": 3,
+          "title": "Killing the Blues"
+        },
+        {
+          "number": 4,
+          "title": "No Name Girl"
+        },
+        {
+          "number": 5,
+          "title": "Saigon"
+        },
+        {
+          "number": 6,
+          "title": "This Cold War With You"
+        },
+        {
+          "number": 7,
+          "title": "Baby Let's Play House"
+        },
+        {
+          "number": 8,
+          "title": "Down by the Side of the Road"
+        },
+        {
+          "number": 9,
+          "title": "How Lucky"
+        },
+        {
+          "number": 10,
+          "title": "Ubangi Stomp"
+        }
+      ]
+    },
+    {
+      "slug": "storm-windows",
+      "title": "Storm Windows",
+      "year": 1980,
+      "releaseDate": "1980",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Shop Talk"
+        },
+        {
+          "number": 2,
+          "title": "Living in the Future"
+        },
+        {
+          "number": 3,
+          "title": "It's Happening to You"
+        },
+        {
+          "number": 4,
+          "title": "Sleepy Eyed Boy"
+        },
+        {
+          "number": 5,
+          "title": "All Night Blue"
+        },
+        {
+          "number": 6,
+          "title": "Just Wanna Be With You"
+        },
+        {
+          "number": 7,
+          "title": "Storm Windows"
+        },
+        {
+          "number": 8,
+          "title": "Baby Ruth"
+        },
+        {
+          "number": 9,
+          "title": "One Red Rose"
+        },
+        {
+          "number": 10,
+          "title": "I Had a Dream"
+        }
+      ]
+    },
+    {
+      "slug": "aimless-love",
+      "title": "Aimless Love",
+      "year": 1984,
+      "releaseDate": "1984",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Be My Friend Tonight"
+        },
+        {
+          "number": 2,
+          "title": "Aimless Love"
+        },
+        {
+          "number": 3,
+          "title": "Me, Myself and I"
+        },
+        {
+          "number": 4,
+          "title": "The Oldest Baby in the World"
+        },
+        {
+          "number": 5,
+          "title": "Slow Boat to China"
+        },
+        {
+          "number": 6,
+          "title": "The Bottomless Lake"
+        },
+        {
+          "number": 7,
+          "title": "Maureen, Maureen"
+        },
+        {
+          "number": 8,
+          "title": "Somewhere Someone’s Falling in Love"
+        },
+        {
+          "number": 9,
+          "title": "People Puttin’ People Down"
+        },
+        {
+          "number": 10,
+          "title": "Unwed Fathers"
+        },
+        {
+          "number": 11,
+          "title": "Only Love"
+        }
+      ]
+    },
+    {
+      "slug": "german-afternoons",
+      "title": "German Afternoons",
+      "year": 1986,
+      "releaseDate": "1986",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Lulu Walls"
+        },
+        {
+          "number": 2,
+          "title": "Speed of the Sound of Loneliness"
+        },
+        {
+          "number": 3,
+          "title": "Out of Love"
+        },
+        {
+          "number": 4,
+          "title": "Sailin’ Around"
+        },
+        {
+          "number": 5,
+          "title": "If She Were You"
+        },
+        {
+          "number": 6,
+          "title": "Linda Goes to Mars"
+        },
+        {
+          "number": 7,
+          "title": "Let’s Talk Dirty in Hawaiian"
+        },
+        {
+          "number": 8,
+          "title": "I Just Want to Dance With You"
+        },
+        {
+          "number": 9,
+          "title": "Love, Love, Love"
+        },
+        {
+          "number": 10,
+          "title": "Bad Boy"
+        },
+        {
+          "number": 11,
+          "title": "They’ll Never Take Her Love From Me"
+        },
+        {
+          "number": 12,
+          "title": "Paradise"
+        }
+      ]
+    },
+    {
+      "slug": "the-missing-years",
+      "title": "The Missing Years",
+      "year": 1991,
+      "releaseDate": "1991-09-24",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Picture Show"
+        },
+        {
+          "number": 2,
+          "title": "All the Best"
+        },
+        {
+          "number": 3,
+          "title": "The Sins of Memphisto"
+        },
+        {
+          "number": 4,
+          "title": "Everybody Wants to Feel Like You"
+        },
+        {
+          "number": 5,
+          "title": "It's a Big Old Goofy World"
+        },
+        {
+          "number": 6,
+          "title": "I Want to Be with You Always"
+        },
+        {
+          "number": 7,
+          "title": "Daddy's Little Pumpkin"
+        },
+        {
+          "number": 8,
+          "title": "Take a Look at My Heart"
+        },
+        {
+          "number": 9,
+          "title": "Great Rain"
+        },
+        {
+          "number": 10,
+          "title": "Way Back Then"
+        },
+        {
+          "number": 11,
+          "title": "Unlonely"
+        },
+        {
+          "number": 12,
+          "title": "You Got Gold"
+        },
+        {
+          "number": 13,
+          "title": "Everything Is Cool"
+        },
+        {
+          "number": 14,
+          "title": "Jesus, The Missing Years"
+        },
+        {
+          "number": 15,
+          "title": "The Third of July"
+        }
+      ]
+    },
+    {
+      "slug": "a-john-prine-christmas",
+      "title": "A John Prine Christmas",
+      "year": 1993,
+      "releaseDate": "1993",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Everything Is Cool"
+        },
+        {
+          "number": 2,
+          "title": "All the Best"
+        },
+        {
+          "number": 3,
+          "title": "Silent Night All Day Long"
+        },
+        {
+          "number": 4,
+          "title": "If You Were the Woman and I Was the Man"
+        },
+        {
+          "number": 5,
+          "title": "Silver Bells"
+        },
+        {
+          "number": 6,
+          "title": "I Saw Mommy Kissing Santa Claus"
+        },
+        {
+          "number": 7,
+          "title": "Christmas in Prison"
+        },
+        {
+          "number": 8,
+          "title": "A John Prine Christmas"
+        }
+      ]
+    },
+    {
+      "slug": "lost-dogs-and-mixed-blessings",
+      "title": "Lost Dogs and Mixed Blessings",
+      "year": 1995,
+      "releaseDate": "1995-04-04",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "New Train"
+        },
+        {
+          "number": 2,
+          "title": "Ain't Hurtin' Nobody"
+        },
+        {
+          "number": 3,
+          "title": "All the Way With You"
+        },
+        {
+          "number": 4,
+          "title": "We are the Lonely"
+        },
+        {
+          "number": 5,
+          "title": "Lake Marie"
+        },
+        {
+          "number": 6,
+          "title": "Humidity Built the Snowman"
+        },
+        {
+          "number": 7,
+          "title": "Day Is Done"
+        },
+        {
+          "number": 8,
+          "title": "Quit Hollerin' At Me"
+        },
+        {
+          "number": 9,
+          "title": "Big Fat Love"
+        },
+        {
+          "number": 10,
+          "title": "Same Thing Happened to Me"
+        },
+        {
+          "number": 11,
+          "title": "This Love Is Real"
+        },
+        {
+          "number": 12,
+          "title": "Leave the Lights On"
+        },
+        {
+          "number": 13,
+          "title": "He Forgot That It Was Sunday"
+        },
+        {
+          "number": 14,
+          "title": "I Love You So Much It Hurts"
+        },
+        {
+          "number": 15,
+          "title": "Ain't Hurtin' Nobody (alternate version)"
+        },
+        {
+          "number": 16,
+          "title": "All the Way With You (acoustic version)"
+        },
+        {
+          "number": 17,
+          "title": "Lake Marie (demo version)"
+        },
+        {
+          "number": 18,
+          "title": "Humidity Built the Snowman (solo acoustic version)"
+        },
+        {
+          "number": 19,
+          "title": "Quit Hollerin' At Me (alternative version)"
+        },
+        {
+          "number": 20,
+          "title": "Hey Ah Nothin' (previously unreleased track)"
+        }
+      ]
+    },
+    {
+      "slug": "in-spite-of-ourselves",
+      "title": "In Spite of Ourselves",
+      "year": 1999,
+      "releaseDate": "1999-09-14",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "(We’re Not) The Jet Set (Spotify commentary)"
+        },
+        {
+          "number": 2,
+          "title": "So Sad (to Watch Good Love Go Bad) (Spotify commentary)"
+        },
+        {
+          "number": 3,
+          "title": "Wedding Bells / Let’s Turn Back the Years (Spotify commentary)"
+        },
+        {
+          "number": 4,
+          "title": "When Two Worlds Collide (Spotify commentary)"
+        },
+        {
+          "number": 5,
+          "title": "Milwaukee Here I Come (Spotify commentary)"
+        },
+        {
+          "number": 6,
+          "title": "I Know One (Spotify commentary)"
+        },
+        {
+          "number": 7,
+          "title": "It’s a Cheating Situation (Spotify commentary)"
+        },
+        {
+          "number": 8,
+          "title": "Back Street Affair (Spotify commentary)"
+        },
+        {
+          "number": 9,
+          "title": "Loose Talk (Spotify commentary)"
+        },
+        {
+          "number": 10,
+          "title": "Let’s Invite Them Over (Spotify commentary)"
+        },
+        {
+          "number": 11,
+          "title": "Til a Tear Becomes a Rose (Spotify commentary)"
+        },
+        {
+          "number": 12,
+          "title": "In a Town This Size (Spotify commentary)"
+        },
+        {
+          "number": 13,
+          "title": "We Could (Spotify commentary)"
+        },
+        {
+          "number": 14,
+          "title": "We Must Have Been out of Our Minds (Spotify commentary)"
+        },
+        {
+          "number": 15,
+          "title": "In Spite of Ourselves (Spotify commentary)"
+        },
+        {
+          "number": 16,
+          "title": "Dear John (Spotify commentary)"
+        }
+      ]
+    },
+    {
+      "slug": "souvenirs",
+      "title": "Souvenirs",
+      "year": 2000,
+      "releaseDate": "2000-10-31",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Souvenirs"
+        },
+        {
+          "number": 2,
+          "title": "Fish and Whistle"
+        },
+        {
+          "number": 3,
+          "title": "Far From Me"
+        },
+        {
+          "number": 4,
+          "title": "Angel From Montgomery"
+        },
+        {
+          "number": 5,
+          "title": "Donald and Lydia"
+        },
+        {
+          "number": 6,
+          "title": "Christmas in Prison"
+        },
+        {
+          "number": 7,
+          "title": "Storm Windows"
+        },
+        {
+          "number": 8,
+          "title": "Grandpa Was a Carpenter"
+        },
+        {
+          "number": 9,
+          "title": "The Late John Garfield Blues"
+        },
+        {
+          "number": 10,
+          "title": "Blue Umbrella"
+        },
+        {
+          "number": 11,
+          "title": "Six O’Clock News"
+        },
+        {
+          "number": 12,
+          "title": "People Puttin’ People Down"
+        },
+        {
+          "number": 13,
+          "title": "Sam Stone"
+        },
+        {
+          "number": 14,
+          "title": "Please Don’t Bury Me"
+        },
+        {
+          "number": 15,
+          "title": "Hello in There"
+        }
+      ]
+    },
+    {
+      "slug": "fair-and-square",
+      "title": "Fair & Square",
+      "year": 2005,
+      "releaseDate": "2005-04-26",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Glory of True Love"
+        },
+        {
+          "number": 2,
+          "title": "Crazy as a Loon"
+        },
+        {
+          "number": 3,
+          "title": "Long Monday"
+        },
+        {
+          "number": 4,
+          "title": "Taking a Walk"
+        },
+        {
+          "number": 5,
+          "title": "Some Humans Ain’t Human"
+        },
+        {
+          "number": 6,
+          "title": "My Darlin’ Hometown"
+        },
+        {
+          "number": 7,
+          "title": "Morning Train"
+        },
+        {
+          "number": 8,
+          "title": "The Moon Is Down"
+        },
+        {
+          "number": 9,
+          "title": "Clay Pigeons"
+        },
+        {
+          "number": 10,
+          "title": "She Is My Everything"
+        },
+        {
+          "number": 11,
+          "title": "I Hate It When That Happens to Me"
+        },
+        {
+          "number": 12,
+          "title": "Bear Creek Blues"
+        },
+        {
+          "number": 13,
+          "title": "Other Side of Town"
+        },
+        {
+          "number": 14,
+          "title": "Safety Joe"
+        }
+      ]
+    },
+    {
+      "slug": "standard-songs-for-average-people",
+      "title": "Standard Songs for Average People",
+      "year": 2007,
+      "releaseDate": "2007-04-24",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Blue Eyed Elaine"
+        },
+        {
+          "number": 2,
+          "title": "Don't Be Ashamed of Your Age"
+        },
+        {
+          "number": 3,
+          "title": "I Forgot to Remember to Forget"
+        },
+        {
+          "number": 4,
+          "title": "I Love You Because"
+        },
+        {
+          "number": 5,
+          "title": "Pistol Packin' Mama"
+        },
+        {
+          "number": 6,
+          "title": "Saginaw Michigan"
+        },
+        {
+          "number": 7,
+          "title": "Old Dogs, Children and Watermelon Wine"
+        },
+        {
+          "number": 8,
+          "title": "Old Cape Cod"
+        },
+        {
+          "number": 9,
+          "title": "Death of Floyd Collins"
+        },
+        {
+          "number": 10,
+          "title": "The Blue Side of Lonesome"
+        },
+        {
+          "number": 11,
+          "title": "In the Garden"
+        },
+        {
+          "number": 12,
+          "title": "Just the Other Side of Nowhere"
+        },
+        {
+          "number": 13,
+          "title": "Old Rugged Cross"
+        },
+        {
+          "number": 14,
+          "title": "Where the Blue of the Night"
+        }
+      ]
+    },
+    {
+      "slug": "for-better-or-worse",
+      "title": "For Better, or Worse",
+      "year": 2016,
+      "releaseDate": "2016-09-30",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Who’s Gonna Take the Garbage Out"
+        },
+        {
+          "number": 2,
+          "title": "Storms Never Last"
+        },
+        {
+          "number": 3,
+          "title": "Falling in Love Again"
+        },
+        {
+          "number": 4,
+          "title": "Color of the Blues"
+        },
+        {
+          "number": 5,
+          "title": "I’m Telling You"
+        },
+        {
+          "number": 6,
+          "title": "Remember Me"
+        },
+        {
+          "number": 7,
+          "title": "Look at Us"
+        },
+        {
+          "number": 8,
+          "title": "Dim Lights, Thick Smoke"
+        },
+        {
+          "number": 9,
+          "title": "Fifteen Years Ago"
+        },
+        {
+          "number": 10,
+          "title": "Cold, Cold Heart"
+        },
+        {
+          "number": 11,
+          "title": "Dreaming My Dreams"
+        },
+        {
+          "number": 12,
+          "title": "Mental Cruelty"
+        },
+        {
+          "number": 13,
+          "title": "Mr. & Mrs. Used to Be"
+        },
+        {
+          "number": 14,
+          "title": "My Happiness"
+        },
+        {
+          "number": 15,
+          "title": "Just Waitin’"
+        }
+      ]
+    },
+    {
+      "slug": "the-tree-of-forgiveness",
+      "title": "The Tree of Forgiveness",
+      "year": 2018,
+      "releaseDate": "2018-04-13",
+      "type": "studio",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Knockin’ on Your Screen Door"
+        },
+        {
+          "number": 2,
+          "title": "I Have Met My Love Today"
+        },
+        {
+          "number": 3,
+          "title": "Egg & Daughter Nite, Lincoln Nebraska, 1967 (Crazy Bone)"
+        },
+        {
+          "number": 4,
+          "title": "Summer’s End"
+        },
+        {
+          "number": 5,
+          "title": "Caravan of Fools"
+        },
+        {
+          "number": 6,
+          "title": "Lonesome Friends of Science"
+        },
+        {
+          "number": 7,
+          "title": "No Ordinary Blue"
+        },
+        {
+          "number": 8,
+          "title": "Boundless Love"
+        },
+        {
+          "number": 9,
+          "title": "God Only Knows"
+        },
+        {
+          "number": 10,
+          "title": "When I Get to Heaven"
+        }
+      ]
+    }
+  ]
+}
