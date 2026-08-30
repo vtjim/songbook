@@ -1,0 +1,24 @@
+{
+  "slug": "strawberry-fields-forever",
+  "title": "Strawberry Fields Forever",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Bb",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "Emaj7",
+    "E7",
+    "D",
+    "A",
+    "Em7",
+    "F#7",
+    "F#m",
+    "Dmaj7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/strawberry-fields-forever-chords-728419",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (102 chord marks, 9 distinct). Source chart uses a capo at fret 1. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

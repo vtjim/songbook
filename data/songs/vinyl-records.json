@@ -1,0 +1,22 @@
+{
+  "slug": "vinyl-records",
+  "title": "Vinyl Records",
+  "artist": "Todd Snider",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "F",
+    "C/B",
+    "Amin",
+    "D7",
+    "G",
+    "A7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/todd-snider/vinyl-records-chords-944116",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (89 chord marks, 7 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

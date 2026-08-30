@@ -1,0 +1,27 @@
+{
+  "slug": "two-of-us",
+  "title": "Two Of Us",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "Cadd9",
+    "G/B",
+    "Am7",
+    "D",
+    "Gadd9",
+    "Bb",
+    "Dm",
+    "Gm7",
+    "Am",
+    "D7",
+    "Gm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/two-of-us-chords-17445",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (112 chord marks, 12 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

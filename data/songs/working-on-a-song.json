@@ -1,0 +1,19 @@
+{
+  "slug": "working-on-a-song",
+  "title": "Working on a Song",
+  "sourceTitle": "Workin On A Song",
+  "artist": "Todd Snider",
+  "year": null,
+  "key": "D",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "C",
+    "D"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/todd-snider/workin-on-a-song-chords-3513680",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (67 chord marks, 3 distinct). Source chart uses a capo at fret 4. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

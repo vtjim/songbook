@@ -1,0 +1,23 @@
+{
+  "slug": "with-a-little-help-from-my-friends",
+  "title": "With A Little Help From My Friends",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "D",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "C#m",
+    "F#"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/with-a-little-help-from-my-friends-chords-682919",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (97 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

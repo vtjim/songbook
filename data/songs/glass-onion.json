@@ -1,0 +1,29 @@
+{
+  "slug": "glass-onion",
+  "title": "Glass Onion",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Adim7",
+    "Abdim7",
+    "Gdim7",
+    "F#dim7",
+    "Gm7",
+    "F7",
+    "Am",
+    "C7",
+    "D7",
+    "G7",
+    "F",
+    "Am7",
+    "G",
+    "G#dim7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/glass-onion-chords-17258",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (65 chord marks, 14 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

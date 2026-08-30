@@ -1,0 +1,29 @@
+{
+  "slug": "hello-goodbye",
+  "title": "Hello Goodbye",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Dm",
+  "instrumental": false,
+  "chords": [
+    "Dm",
+    "C",
+    "G7",
+    "Am",
+    "G",
+    "F",
+    "G#",
+    "Bm",
+    "A",
+    "E7",
+    "F#m",
+    "D",
+    "E#",
+    "Fm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/hello-goodbye-chords-1061734",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (114 chord marks, 14 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

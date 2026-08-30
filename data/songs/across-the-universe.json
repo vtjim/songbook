@@ -1,0 +1,24 @@
+{
+  "slug": "across-the-universe",
+  "title": "Across The Universe",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Db",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "F#m",
+    "A",
+    "Bm",
+    "Em7",
+    "A7",
+    "Gm",
+    "A7sus4",
+    "G"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/across-the-universe-chords-202167",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (69 chord marks, 9 distinct). Source chart states no capo. Tuning: Half-Step Down. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

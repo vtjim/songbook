@@ -1,0 +1,26 @@
+{
+  "slug": "oh-darling",
+  "title": "Oh Darling",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "E7#5",
+    "A",
+    "E",
+    "F#m",
+    "D",
+    "Bm7",
+    "E7",
+    "A7",
+    "F7",
+    "B7",
+    "Bb7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/oh-darling-chords-17335",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (77 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

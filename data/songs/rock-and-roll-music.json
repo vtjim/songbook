@@ -1,0 +1,22 @@
+{
+  "slug": "rock-and-roll-music",
+  "title": "Rock And Roll Music",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "E7",
+    "A",
+    "D",
+    "E",
+    "D7",
+    "G",
+    "C"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/rock-and-roll-music-chords-1051669",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (73 chord marks, 7 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

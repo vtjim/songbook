@@ -1,0 +1,25 @@
+{
+  "slug": "run-for-your-life",
+  "title": "Run For Your Life",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "D",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "Bm",
+    "E",
+    "G",
+    "F#7",
+    "A",
+    "C",
+    "Am",
+    "F",
+    "E7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/run-for-your-life-chords-1092230",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (68 chord marks, 10 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

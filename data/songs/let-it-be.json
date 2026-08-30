@@ -1,0 +1,26 @@
+{
+  "slug": "let-it-be",
+  "title": "Let It Be",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "C",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "G",
+    "Am",
+    "Fmaj7",
+    "F6",
+    "F",
+    "C/E",
+    "Dm7",
+    "Am/G",
+    "Bb",
+    "F/A"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/let-it-be-chords-17427",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (179 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

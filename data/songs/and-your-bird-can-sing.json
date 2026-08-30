@@ -1,0 +1,33 @@
+{
+  "slug": "and-your-bird-can-sing",
+  "title": "And Your Bird Can Sing",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "F#m",
+    "A",
+    "G#m",
+    "B",
+    "B7",
+    "D",
+    "Em",
+    "G",
+    "A7",
+    "C",
+    "Dm",
+    "F",
+    "Ebm",
+    "G7",
+    "Bm",
+    "C#m",
+    "E7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/and-your-bird-can-sing-chords-1089326",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (74 chord marks, 18 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

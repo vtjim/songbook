@@ -1,0 +1,28 @@
+{
+  "slug": "good-day-sunshine",
+  "title": "Good Day Sunshine",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "E",
+    "D",
+    "D7",
+    "G",
+    "E7",
+    "A7",
+    "G7",
+    "C",
+    "C7",
+    "F",
+    "F7",
+    "Bb"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/good-day-sunshine-chords-1045434",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (102 chord marks, 13 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

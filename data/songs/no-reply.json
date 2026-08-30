@@ -1,0 +1,26 @@
+{
+  "slug": "no-reply",
+  "title": "No Reply",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "F",
+    "G",
+    "C",
+    "Am",
+    "Em",
+    "Fmaj7",
+    "F6/D",
+    "E",
+    "A",
+    "Dm",
+    "C6add9"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/no-reply-chords-889476",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (55 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

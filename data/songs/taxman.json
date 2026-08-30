@@ -1,0 +1,24 @@
+{
+  "slug": "taxman",
+  "title": "Taxman",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "D7",
+    "G7",
+    "C7",
+    "F7",
+    "E7",
+    "B7",
+    "A7",
+    "C#7",
+    "F#7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/taxman-chords-1053630",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (80 chord marks, 9 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

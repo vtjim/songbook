@@ -1,0 +1,27 @@
+{
+  "slug": "hey-bulldog",
+  "title": "Hey Bulldog",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "B7",
+    "F#m",
+    "A",
+    "E",
+    "Bm",
+    "Gmaj7",
+    "Bm7",
+    "Em",
+    "Em6",
+    "Em7",
+    "Bdim",
+    "Bm6"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/hey-bulldog-chords-700757",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (58 chord marks, 12 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

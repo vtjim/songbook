@@ -1,0 +1,32 @@
+{
+  "slug": "good-night",
+  "title": "Good Night",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "G",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "Bm",
+    "C",
+    "D7",
+    "Am",
+    "A",
+    "F",
+    "Bb",
+    "C7",
+    "Gm",
+    "E",
+    "Abm",
+    "B7",
+    "F#m",
+    "D",
+    "A7",
+    "Em"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/good-night-chords-1045445",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (103 chord marks, 17 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

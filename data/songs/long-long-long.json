@@ -1,0 +1,27 @@
+{
+  "slug": "long-long-long",
+  "title": "Long, Long, Long",
+  "sourceTitle": "The Long And Winding Road",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Eb",
+  "instrumental": false,
+  "chords": [
+    "Bm",
+    "G",
+    "Gmaj7",
+    "Gsus2/A",
+    "D",
+    "D7",
+    "F#m",
+    "Em",
+    "A",
+    "G6",
+    "Asus4"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/the-long-and-winding-road-chords-525032",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (110 chord marks, 11 distinct). Source chart uses a capo at fret 1. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

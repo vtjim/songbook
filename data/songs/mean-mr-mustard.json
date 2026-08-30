@@ -1,0 +1,22 @@
+{
+  "slug": "mean-mr-mustard",
+  "title": "Mean Mr Mustard",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "Esus4",
+    "B7",
+    "C7",
+    "C#7",
+    "D7",
+    "C"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/mean-mr-mustard-chords-17323",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (44 chord marks, 7 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

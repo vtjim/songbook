@@ -1,0 +1,30 @@
+{
+  "slug": "ive-just-seen-a-face",
+  "title": "Ive Just Seen A Face",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "Em",
+    "G",
+    "Em7",
+    "C",
+    "D",
+    "A",
+    "F#m",
+    "Dm",
+    "E",
+    "F",
+    "Cm",
+    "Bb",
+    "Bm",
+    "Am",
+    "Gm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/ive-just-seen-a-face-chords-1061795",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (103 chord marks, 15 distinct). Source chart uses a capo at fret 2. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

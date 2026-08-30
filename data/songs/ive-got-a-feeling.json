@@ -1,0 +1,22 @@
+{
+  "slug": "ive-got-a-feeling",
+  "title": "Ive Got A Feeling",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "D",
+    "A7",
+    "E",
+    "G",
+    "E7",
+    "G7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/ive-got-a-feeling-chords-887785",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (78 chord marks, 7 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

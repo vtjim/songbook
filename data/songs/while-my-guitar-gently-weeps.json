@@ -1,0 +1,30 @@
+{
+  "slug": "while-my-guitar-gently-weeps",
+  "title": "While My Guitar Gently Weeps",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Am",
+  "instrumental": false,
+  "chords": [
+    "Am",
+    "G",
+    "A",
+    "Am/G",
+    "D",
+    "C#m",
+    "F#m7b5",
+    "E",
+    "F#m",
+    "Fmaj7",
+    "C",
+    "Bm",
+    "Dsus4",
+    "Dsus2",
+    "Esus4"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/while-my-guitar-gently-weeps-chords-17446",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (150 chord marks, 15 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

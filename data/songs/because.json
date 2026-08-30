@@ -1,0 +1,27 @@
+{
+  "slug": "because",
+  "title": "Because",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "C#m",
+    "D#m7b5",
+    "G#7/D#",
+    "A",
+    "A7",
+    "A13",
+    "D",
+    "Ddim7",
+    "A9",
+    "F#",
+    "F#/C#",
+    "G#7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/because-chords-685924",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (64 chord marks, 12 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

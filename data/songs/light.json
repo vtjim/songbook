@@ -1,0 +1,23 @@
+{
+  "slug": "light",
+  "title": "Light",
+  "artist": "Phish",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "D",
+    "A",
+    "C#m",
+    "F#m",
+    "B",
+    "G#m",
+    "F#"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/phish/light-chords-4170079",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (126 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "sun-king",
+  "title": "Sun King",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "A6",
+    "Emaj7",
+    "Emaj7/B",
+    "E6",
+    "C",
+    "Cmaj7",
+    "Gm7",
+    "A7",
+    "F",
+    "D7",
+    "Em7",
+    "C7",
+    "A#6",
+    "G9sus4"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/sun-king-chords-790882",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (61 chord marks, 15 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

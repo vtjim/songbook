@@ -1,0 +1,29 @@
+{
+  "slug": "wait",
+  "title": "Wait",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "F#m",
+  "instrumental": false,
+  "chords": [
+    "Em",
+    "Am",
+    "B7",
+    "G",
+    "Cmaj7",
+    "D",
+    "B",
+    "F#m",
+    "Bm",
+    "C#7",
+    "A",
+    "Dmaj7",
+    "E",
+    "C#"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/wait-chords-1088918",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (130 chord marks, 14 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

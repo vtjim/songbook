@@ -1,0 +1,26 @@
+{
+  "slug": "getting-better",
+  "title": "Getting Better",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "C",
+  "instrumental": false,
+  "chords": [
+    "Fadd9",
+    "C",
+    "F",
+    "G",
+    "Em",
+    "Fmaj7",
+    "A",
+    "D",
+    "E",
+    "C#m",
+    "Dmaj7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/getting-better-chords-1061697",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (124 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

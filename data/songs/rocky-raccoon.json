@@ -1,0 +1,29 @@
+{
+  "slug": "rocky-raccoon",
+  "title": "Rocky Raccoon",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Am",
+  "instrumental": false,
+  "chords": [
+    "Am7",
+    "D7",
+    "D",
+    "G7",
+    "C",
+    "G",
+    "Am",
+    "F#m7",
+    "F#m",
+    "B7",
+    "B",
+    "E7",
+    "A",
+    "E"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/rocky-raccoon-chords-1051718",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (119 chord marks, 14 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

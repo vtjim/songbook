@@ -1,0 +1,25 @@
+{
+  "slug": "in-my-life",
+  "title": "In My Life",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "D",
+    "Em",
+    "G7/F",
+    "C",
+    "Cm",
+    "F",
+    "A",
+    "A7",
+    "D7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/in-my-life-chords-17422",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (79 chord marks, 10 distinct). Source chart uses a capo at fret 2. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

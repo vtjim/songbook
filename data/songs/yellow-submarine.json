@@ -1,0 +1,20 @@
+{
+  "slug": "yellow-submarine",
+  "title": "Yellow Submarine",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "F#",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "D",
+    "C",
+    "Em",
+    "Am"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/yellow-submarine-chords-672077",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (109 chord marks, 5 distinct). Source chart states no capo. Tuning: Half-Step Down. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "for-no-one",
+  "title": "For No One",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "B",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "C/B",
+    "Am",
+    "C/G",
+    "F",
+    "Bb",
+    "Dm",
+    "A7",
+    "Gsus4",
+    "G"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/for-no-one-chords-17250",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (75 chord marks, 10 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

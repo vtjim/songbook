@@ -1,0 +1,28 @@
+{
+  "slug": "girl",
+  "title": "Girl",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Cm",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "A",
+    "D",
+    "G",
+    "B",
+    "Em",
+    "B7",
+    "Em7",
+    "Am",
+    "C6",
+    "Bm",
+    "D7",
+    "C"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/girl-chords-52520",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (104 chord marks, 13 distinct). Source chart uses a capo at fret 8. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

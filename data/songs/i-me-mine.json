@@ -1,0 +1,33 @@
+{
+  "slug": "i-me-mine",
+  "title": "I Me Mine",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Am",
+  "instrumental": false,
+  "chords": [
+    "Gm",
+    "Bb",
+    "C7",
+    "F",
+    "D7",
+    "C",
+    "D",
+    "Cm",
+    "Cm7",
+    "Eb",
+    "G7",
+    "Am",
+    "G",
+    "E7",
+    "Dm7",
+    "A7",
+    "E",
+    "Dm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/i-me-mine-chords-1089382",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (81 chord marks, 18 distinct). Source chart uses a capo at fret 2. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "eight-days-a-week",
+  "title": "Eight Days A Week",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "E/D",
+    "G/D",
+    "E7",
+    "G",
+    "Bm",
+    "E",
+    "A"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/eight-days-a-week-chords-848333",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (86 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

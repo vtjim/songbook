@@ -2,8 +2,16 @@
   "site": "Green Mountain Songbook",
   "description": "Standalone songs — verified charts for material outside the Grateful Dead album catalog. Same rules as the album data: every chord checked against a real tab source, with the URL actually read recorded in chordSource, and no lyrics reproduced.",
   "generated": "2026-08-30",
-  "count": 548,
+  "count": 830,
   "songs": [
+    {
+      "slug": "24-hours-a-day",
+      "title": "24 Hours A Day",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
     {
       "slug": "4-pantomime",
       "title": "4 Pantomime",
@@ -18,6 +26,14 @@
       "artist": "Phish",
       "key": "",
       "chordCount": 2,
+      "hasChart": true
+    },
+    {
+      "slug": "a-day-in-the-life",
+      "title": "A Day In The Life",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 20,
       "hasChart": true
     },
     {
@@ -93,6 +109,22 @@
       "hasChart": true
     },
     {
+      "slug": "across-the-universe",
+      "title": "Across The Universe",
+      "artist": "The Beatles",
+      "key": "Db",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "age-like-wine",
+      "title": "Age Like Wine",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "aimless-love",
       "title": "Aimless Love",
       "artist": "John Prine",
@@ -130,6 +162,14 @@
       "artist": "Phish",
       "key": "",
       "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "alcohol-and-pills",
+      "title": "Alcohol And Pills",
+      "artist": "Todd Snider",
+      "key": "Dm",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -173,10 +213,26 @@
       "hasChart": true
     },
     {
+      "slug": "all-of-my-life",
+      "title": "All Of My Life",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "all-of-these-dreams",
       "title": "All Of These Dreams",
       "artist": "Phish",
       "key": "C",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "all-that-matters",
+      "title": "All That Matters",
+      "artist": "Todd Snider",
+      "key": "",
       "chordCount": 4,
       "hasChart": true
     },
@@ -189,11 +245,35 @@
       "hasChart": true
     },
     {
+      "slug": "all-the-way-with-you-acoustic-version",
+      "title": "All the Way With You (acoustic version)",
+      "artist": "John Prine",
+      "key": "Bb",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "all-the-way-with-you",
       "title": "All The Way With You",
       "artist": "John Prine",
       "key": "Bb",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "all-together-now",
+      "title": "All Together Now",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "all-you-need-is-love",
+      "title": "All You Need Is Love",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 9,
       "hasChart": true
     },
     {
@@ -205,11 +285,27 @@
       "hasChart": true
     },
     {
+      "slug": "americas-favorite-pastime",
+      "title": "Americas Favorite Pastime",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "and-i-love-her",
       "title": "And I Love Her",
       "artist": "The Beatles",
       "key": "E",
       "chordCount": 16,
+      "hasChart": true
+    },
+    {
+      "slug": "and-your-bird-can-sing",
+      "title": "And Your Bird Can Sing",
+      "artist": "The Beatles",
+      "key": "E",
+      "chordCount": 18,
       "hasChart": true
     },
     {
@@ -237,11 +333,35 @@
       "hasChart": true
     },
     {
+      "slug": "another-brick-in-the-wall-part-1",
+      "title": "Another Brick in the Wall, Part 1",
+      "artist": "Pink Floyd",
+      "key": "Dm",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "another-brick-in-the-wall-part-2",
       "title": "Another Brick In The Wall Part 2",
       "artist": "Pink Floyd",
       "key": "Dm",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "another-brick-in-the-wall-part-3",
+      "title": "Another Brick in the Wall, Part 3",
+      "artist": "Pink Floyd",
+      "key": "Dm",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "another-girl",
+      "title": "Another Girl",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -301,6 +421,14 @@
       "hasChart": true
     },
     {
+      "slug": "atom-heart-mother-a-fathers-shout-b-breast-milky-c-mother-fore-d-funky-dung-e-mind-your-throats-please-f-remergence",
+      "title": "Atom Heart Mother: a) Father’s Shout / b) Breast Milky / c) Mother Fore / d) Funky Dung / e) Mind Your Throats Please / f) Remergence",
+      "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 21,
+      "hasChart": true
+    },
+    {
       "slug": "atom-heart-mother",
       "title": "Atom Heart Mother",
       "artist": "Pink Floyd",
@@ -341,6 +469,38 @@
       "hasChart": true
     },
     {
+      "slug": "baby-youre-a-rich-man",
+      "title": "Baby Youre A Rich Man",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "babys-in-black",
+      "title": "Babys In Black",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "back-in-the-u-s-s-r",
+      "title": "Back in the U.S.S.R.",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "back-in-the-ussr",
+      "title": "Back In The Ussr",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
       "slug": "back-on-the-train",
       "title": "Back On The Train",
       "artist": "Phish",
@@ -349,9 +509,33 @@
       "hasChart": true
     },
     {
+      "slug": "back-street-affair-spotify-commentary",
+      "title": "Back Street Affair (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "back-street-affair",
+      "title": "Back Street Affair",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "back-to-memphis",
       "title": "Back To Memphis",
       "artist": "The Band",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "back-to-the-crossroads",
+      "title": "Back To The Crossroads",
+      "artist": "Todd Snider",
       "key": "",
       "chordCount": 4,
       "hasChart": true
@@ -370,6 +554,22 @@
       "artist": "Phish",
       "key": "",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "ballad-of-the-devils-backbone-tavern",
+      "title": "Ballad Of The Devils Backbone Tavern",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "barefoot-champagne",
+      "title": "Barefoot Champagne",
+      "artist": "Todd Snider",
+      "key": "C",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -397,11 +597,59 @@
       "hasChart": true
     },
     {
+      "slug": "because",
+      "title": "Because",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "beer-run",
+      "title": "Beer Run",
+      "artist": "Todd Snider",
+      "key": "A",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "being-for-the-benefit-of-mr-kite",
+      "title": "Being For The Benefit Of Mr Kite",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 15,
+      "hasChart": true
+    },
+    {
+      "slug": "bessie-smith-outtake",
+      "title": "Bessie Smith (outtake)",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "bessie-smith",
       "title": "Bessie Smith",
       "artist": "The Band",
       "key": "",
       "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "better-than-ever-blues-part-2",
+      "title": "Better Than Ever Blues Part 2",
+      "artist": "Todd Snider",
+      "key": "C",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
+      "slug": "better-than-ever-blues-part-ii",
+      "title": "Better Than Ever Blues Part Ii",
+      "artist": "Todd Snider",
+      "key": "C",
+      "chordCount": 10,
       "hasChart": true
     },
     {
@@ -445,11 +693,27 @@
       "hasChart": true
     },
     {
+      "slug": "birthday",
+      "title": "Birthday",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "black-hearted-woman",
       "title": "Black Hearted Woman",
       "artist": "The Allman Brothers Band",
       "key": "",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "blackbird",
+      "title": "Blackbird",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 19,
       "hasChart": true
     },
     {
@@ -474,6 +738,14 @@
       "artist": "John Prine",
       "key": "",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "blue-jay-way",
+      "title": "Blue Jay Way",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 7,
       "hasChart": true
     },
     {
@@ -557,9 +829,25 @@
       "hasChart": true
     },
     {
+      "slug": "brenda",
+      "title": "Brenda",
+      "artist": "Todd Snider",
+      "key": "F#",
+      "chordCount": 34,
+      "hasChart": true
+    },
+    {
       "slug": "brian-and-robert",
       "title": "Brian And Robert",
       "artist": "Phish",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "bring-em-home",
+      "title": "Bring Em Home",
+      "artist": "Todd Snider",
       "key": "",
       "chordCount": 4,
       "hasChart": true
@@ -570,6 +858,30 @@
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "broke",
+      "title": "Broke",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "bruised-orange-chain-of-sorrow",
+      "title": "Bruised Orange (Chain Of Sorrow)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "bruised-orange",
+      "title": "Bruised Orange",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -634,6 +946,14 @@
       "artist": "John Prine",
       "key": "Em",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "carry-that-weight",
+      "title": "Carry That Weight",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 27,
       "hasChart": true
     },
     {
@@ -733,6 +1053,14 @@
       "hasChart": true
     },
     {
+      "slug": "close-enough-to-you",
+      "title": "Close Enough To You",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "come-and-go-blues",
       "title": "Come And Go Blues",
       "artist": "The Allman Brothers Band",
@@ -754,6 +1082,14 @@
       "artist": "The Allman Brothers Band",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "come-together",
+      "title": "Come Together",
+      "artist": "The Beatles",
+      "key": "Dm",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -781,6 +1117,14 @@
       "hasChart": true
     },
     {
+      "slug": "conservative-christian-right-wing-republican-straight-white-american-males",
+      "title": "Conservative Christian Right-Wing Republican Straight White American Males",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "contact",
       "title": "Contact",
       "artist": "Phish",
@@ -797,11 +1141,27 @@
       "hasChart": true
     },
     {
+      "slug": "corpus-christi-bay",
+      "title": "Corpus Christi Bay",
+      "artist": "Todd Snider",
+      "key": "A",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "country-boy",
       "title": "Country Boy",
       "artist": "The Band",
       "key": "A",
       "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "cowboy-jack-clements-waltz",
+      "title": "Cowboy Jack Clements Waltz",
+      "artist": "Todd Snider",
+      "key": "A",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -829,11 +1189,27 @@
       "hasChart": true
     },
     {
+      "slug": "cry-baby-cry",
+      "title": "Cry Baby Cry",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
       "slug": "daddys-little-pumpkin",
       "title": "Daddys Little Pumpkin",
       "artist": "John Prine",
       "key": "",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "daniel-and-the-sacred-harp-alternate-take",
+      "title": "Daniel and the Sacred Harp (alternate take)",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 8,
       "hasChart": true
     },
     {
@@ -858,6 +1234,14 @@
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "dear-prudence",
+      "title": "Dear Prudence",
+      "artist": "The Beatles",
+      "key": "D",
+      "chordCount": 11,
       "hasChart": true
     },
     {
@@ -901,8 +1285,32 @@
       "hasChart": true
     },
     {
+      "slug": "dig-a-pony",
+      "title": "Dig A Pony",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "dig-it",
+      "title": "Dig It",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "dim-lights-thick-smoke-and-loud-music",
       "title": "Dim Lights Thick Smoke And Loud Music",
+      "artist": "John Prine",
+      "key": "D",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "dim-lights-thick-smoke",
+      "title": "Dim Lights, Thick Smoke",
       "artist": "John Prine",
       "key": "D",
       "chordCount": 8,
@@ -930,6 +1338,14 @@
       "artist": "The Beatles",
       "key": "",
       "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "doctor-robert",
+      "title": "Doctor Robert",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 11,
       "hasChart": true
     },
     {
@@ -997,6 +1413,14 @@
       "hasChart": true
     },
     {
+      "slug": "dont-pass-me-by",
+      "title": "Dont Pass Me By",
+      "artist": "The Beatles",
+      "key": "C",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "dont-think-twice",
       "title": "Dont Think Twice",
       "artist": "Susan Tedeschi",
@@ -1009,6 +1433,14 @@
       "title": "Dont Wait",
       "artist": "The Band",
       "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "doublewide-blues",
+      "title": "Doublewide Blues",
+      "artist": "Todd Snider",
+      "key": "D",
       "chordCount": 3,
       "hasChart": true
     },
@@ -1037,11 +1469,27 @@
       "hasChart": true
     },
     {
+      "slug": "dreaming-my-dreams",
+      "title": "Dreaming My Dreams",
+      "artist": "John Prine",
+      "key": "E",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "dust-in-the-wind",
       "title": "Dust In The Wind",
       "artist": "Kansas",
       "key": "C",
       "chordCount": 10,
+      "hasChart": true
+    },
+    {
+      "slug": "easy-money",
+      "title": "Easy Money",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
       "hasChart": true
     },
     {
@@ -1069,6 +1517,22 @@
       "hasChart": true
     },
     {
+      "slug": "eight-days-a-week",
+      "title": "Eight Days A Week",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "eleanor-rigby",
+      "title": "Eleanor Rigby",
+      "artist": "The Beatles",
+      "key": "Em",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "eliza",
       "title": "Eliza",
       "artist": "Phish",
@@ -1090,6 +1554,30 @@
       "artist": "The Allman Brothers Band",
       "key": "Dm",
       "chordCount": 18,
+      "hasChart": true
+    },
+    {
+      "slug": "endless-highway-early-studio-take",
+      "title": "Endless Highway (early studio take)",
+      "artist": "The Band",
+      "key": "G",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "endless-highway",
+      "title": "Endless Highway",
+      "artist": "The Band",
+      "key": "G",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "enjoy-yourself",
+      "title": "Enjoy Yourself",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -1117,6 +1605,14 @@
       "hasChart": true
     },
     {
+      "slug": "every-little-thing",
+      "title": "Every Little Thing",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "everybody-wants-to-feel-like-you",
       "title": "Everybody Wants To Feel Like You",
       "artist": "John Prine",
@@ -1136,6 +1632,22 @@
       "slug": "everybodys-got-a-mountain-to-climb",
       "title": "Everybodys Got A Mountain To Climb",
       "artist": "The Allman Brothers Band",
+      "key": "E",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "everybodys-got-something-to-hide-except-me-and-my-monkey",
+      "title": "Everybody’s Got Something to Hide Except Me and My Monkey",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "everybodys-trying-to-be-my-baby",
+      "title": "Everybodys Trying To Be My Baby",
+      "artist": "The Beatles",
       "key": "E",
       "chordCount": 5,
       "hasChart": true
@@ -1229,6 +1741,14 @@
       "hasChart": true
     },
     {
+      "slug": "fixing-a-hole",
+      "title": "Fixing A Hole",
+      "artist": "The Beatles",
+      "key": "F",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "flaming",
       "title": "Flaming",
       "artist": "Pink Floyd",
@@ -1245,6 +1765,30 @@
       "hasChart": true
     },
     {
+      "slug": "flying",
+      "title": "Flying",
+      "artist": "The Beatles",
+      "key": "C",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "for-no-one",
+      "title": "For No One",
+      "artist": "The Beatles",
+      "key": "B",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
+      "slug": "for-you-blue",
+      "title": "For You Blue",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
       "slug": "forbidden-fruit",
       "title": "Forbidden Fruit",
       "artist": "The Band",
@@ -1257,6 +1801,22 @@
       "title": "Forbidden Jimmy",
       "artist": "John Prine",
       "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "forty-five-miles",
+      "title": "Forty Five Miles",
+      "artist": "Todd Snider",
+      "key": "A",
+      "chordCount": 1,
+      "hasChart": true
+    },
+    {
+      "slug": "framed",
+      "title": "Framed",
+      "artist": "Todd Snider",
+      "key": "A",
       "chordCount": 3,
       "hasChart": true
     },
@@ -1277,6 +1837,22 @@
       "hasChart": true
     },
     {
+      "slug": "from-me-to-you-fantasy",
+      "title": "From Me to You Fantasy",
+      "artist": "The Beatles",
+      "key": "C",
+      "chordCount": 25,
+      "hasChart": true
+    },
+    {
+      "slug": "from-me-to-you",
+      "title": "From Me To You",
+      "artist": "The Beatles",
+      "key": "C",
+      "chordCount": 25,
+      "hasChart": true
+    },
+    {
       "slug": "fuego",
       "title": "Fuego",
       "artist": "Phish",
@@ -1290,6 +1866,14 @@
       "artist": "The Allman Brothers Band",
       "key": "",
       "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "get-back",
+      "title": "Get Back",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 9,
       "hasChart": true
     },
     {
@@ -1317,11 +1901,35 @@
       "hasChart": true
     },
     {
+      "slug": "getting-better",
+      "title": "Getting Better",
+      "artist": "The Beatles",
+      "key": "C",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
       "slug": "girl-from-the-north-country",
       "title": "Girl From The North Country",
       "artist": "Bob Dylan",
       "key": "G",
       "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "girl",
+      "title": "Girl",
+      "artist": "The Beatles",
+      "key": "Cm",
+      "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "glass-onion",
+      "title": "Glass Onion",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 14,
       "hasChart": true
     },
     {
@@ -1341,11 +1949,51 @@
       "hasChart": true
     },
     {
+      "slug": "golden-slumbers-carry-that-weight-the-end",
+      "title": "Golden Slumbers Carry That Weight The End",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 27,
+      "hasChart": true
+    },
+    {
+      "slug": "golden-slumbers",
+      "title": "Golden Slumbers",
+      "artist": "The Beatles",
+      "key": "C",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
       "slug": "good-clean-fun",
       "title": "Good Clean Fun",
       "artist": "The Allman Brothers Band",
       "key": "",
       "chordCount": 15,
+      "hasChart": true
+    },
+    {
+      "slug": "good-day-sunshine",
+      "title": "Good Day Sunshine",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "good-morning-good-morning",
+      "title": "Good Morning Good Morning",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "good-night",
+      "title": "Good Night",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 17,
       "hasChart": true
     },
     {
@@ -1362,6 +2010,14 @@
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "got-to-get-you-into-my-life",
+      "title": "Got To Get You Into My Life",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 11,
       "hasChart": true
     },
     {
@@ -1389,6 +2045,14 @@
       "hasChart": true
     },
     {
+      "slug": "greencastle-blues",
+      "title": "Greencastle Blues",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "guelah-papyrus",
       "title": "Guelah Papyrus",
       "artist": "Phish",
@@ -1402,6 +2066,38 @@
       "artist": "Phish",
       "key": "",
       "chordCount": 15,
+      "hasChart": true
+    },
+    {
+      "slug": "handsome-john",
+      "title": "Handsome John",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "happiness-is-a-warm-gun",
+      "title": "Happiness Is A Warm Gun",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 19,
+      "hasChart": true
+    },
+    {
+      "slug": "happy-new-year",
+      "title": "Happy New Year",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "happy-to-be-here",
+      "title": "Happy To Be Here",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 8,
       "hasChart": true
     },
     {
@@ -1453,11 +2149,75 @@
       "hasChart": true
     },
     {
+      "slug": "hello-goodbye",
+      "title": "Hello Goodbye",
+      "artist": "The Beatles",
+      "key": "Dm",
+      "chordCount": 14,
+      "hasChart": true
+    },
+    {
       "slug": "hello-in-there",
       "title": "Hello In There",
       "artist": "John Prine",
       "key": "C",
       "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "helter-skelter",
+      "title": "Helter Skelter",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "her-majesty",
+      "title": "Her Majesty",
+      "artist": "The Beatles",
+      "key": "D",
+      "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "here-comes-the-sun",
+      "title": "Here Comes The Sun",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "here-there-and-everywhere",
+      "title": "Here There And Everywhere",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "hey-ah-nothin-previously-unreleased-track",
+      "title": "Hey Ah Nothin' (previously unreleased track)",
+      "artist": "John Prine",
+      "key": "E",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "hey-ah-nothin",
+      "title": "Hey Ah Nothin",
+      "artist": "John Prine",
+      "key": "E",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "hey-bulldog",
+      "title": "Hey Bulldog",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 12,
       "hasChart": true
     },
     {
@@ -1485,6 +2245,14 @@
       "hasChart": true
     },
     {
+      "slug": "high-lonesome-and-then-some",
+      "title": "High Lonesome And Then Some",
+      "artist": "Todd Snider",
+      "key": "A",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "hobo-jungle",
       "title": "Hobo Jungle",
       "artist": "The Band",
@@ -1509,10 +2277,42 @@
       "hasChart": true
     },
     {
+      "slug": "honey-dont",
+      "title": "Honey Dont",
+      "artist": "The Beatles",
+      "key": "E",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "honey-pie",
+      "title": "Honey Pie",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 15,
+      "hasChart": true
+    },
+    {
+      "slug": "horseshoe-lake",
+      "title": "Horseshoe Lake",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "how-lucky",
       "title": "How Lucky",
       "artist": "John Prine",
       "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "humidity-built-the-snowman-solo-acoustic-version",
+      "title": "Humidity Built the Snowman (solo acoustic version)",
+      "artist": "John Prine",
+      "key": "B",
       "chordCount": 3,
       "hasChart": true
     },
@@ -1533,11 +2333,35 @@
       "hasChart": true
     },
     {
+      "slug": "i-am-the-walrus",
+      "title": "I Am The Walrus",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 21,
+      "hasChart": true
+    },
+    {
       "slug": "i-beg-of-you",
       "title": "I Beg Of You",
       "artist": "The Allman Brothers Band",
       "key": "D",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "i-cant-complain",
+      "title": "I Cant Complain",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "i-dont-want-to-spoil-the-party",
+      "title": "I Dont Want To Spoil The Party",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 14,
       "hasChart": true
     },
     {
@@ -1573,6 +2397,22 @@
       "hasChart": true
     },
     {
+      "slug": "i-know-one-spotify-commentary",
+      "title": "I Know One (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "i-know-one",
+      "title": "I Know One",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "i-love-you-so-much-it-hurts",
       "title": "I Love You So Much It Hurts",
       "artist": "John Prine",
@@ -1581,11 +2421,35 @@
       "hasChart": true
     },
     {
+      "slug": "i-me-mine",
+      "title": "I Me Mine",
+      "artist": "The Beatles",
+      "key": "Am",
+      "chordCount": 18,
+      "hasChart": true
+    },
+    {
+      "slug": "i-need-you",
+      "title": "I Need You",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 21,
+      "hasChart": true
+    },
+    {
       "slug": "i-saw-her-standing-there",
       "title": "I Saw Her Standing There",
       "artist": "The Beatles",
       "key": "E",
       "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "i-shall-be-released-a-capella",
+      "title": "I Shall Be Released (a capella)",
+      "artist": "The Band",
+      "key": "E",
+      "chordCount": 12,
       "hasChart": true
     },
     {
@@ -1629,6 +2493,30 @@
       "hasChart": true
     },
     {
+      "slug": "i-want-to-tell-you",
+      "title": "I Want To Tell You",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "i-want-you-shes-so-heavy",
+      "title": "I Want You Shes So Heavy",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 19,
+      "hasChart": true
+    },
+    {
+      "slug": "i-will",
+      "title": "I Will",
+      "artist": "The Beatles",
+      "key": "F",
+      "chordCount": 23,
+      "hasChart": true
+    },
+    {
       "slug": "if-i-could",
       "title": "If I Could",
       "artist": "Phish",
@@ -1653,6 +2541,14 @@
       "hasChart": true
     },
     {
+      "slug": "if-tomorrow-never-comes",
+      "title": "If Tomorrow Never Comes",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "if-you-dont-want-my-love",
       "title": "If You Dont Want My Love",
       "artist": "John Prine",
@@ -1669,11 +2565,27 @@
       "hasChart": true
     },
     {
+      "slug": "ill-be-back",
+      "title": "Ill Be Back",
+      "artist": "The Beatles",
+      "key": "Am",
+      "chordCount": 19,
+      "hasChart": true
+    },
+    {
       "slug": "ill-cry-instead",
       "title": "Ill Cry Instead",
       "artist": "The Beatles",
       "key": "G",
       "chordCount": 18,
+      "hasChart": true
+    },
+    {
+      "slug": "ill-follow-the-sun",
+      "title": "Ill Follow The Sun",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 13,
       "hasChart": true
     },
     {
@@ -1685,11 +2597,43 @@
       "hasChart": true
     },
     {
+      "slug": "im-a-loser",
+      "title": "Im A Loser",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "im-happy-just-to-dance-with-you",
       "title": "Im Happy Just To Dance With You",
       "artist": "The Beatles",
       "key": "",
       "chordCount": 24,
+      "hasChart": true
+    },
+    {
+      "slug": "im-looking-through-you",
+      "title": "Im Looking Through You",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "im-only-sleeping",
+      "title": "Im Only Sleeping",
+      "artist": "The Beatles",
+      "key": "Em",
+      "chordCount": 23,
+      "hasChart": true
+    },
+    {
+      "slug": "im-so-tired",
+      "title": "Im So Tired",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 21,
       "hasChart": true
     },
     {
@@ -1709,11 +2653,35 @@
       "hasChart": true
     },
     {
+      "slug": "in-a-town-this-size-spotify-commentary",
+      "title": "In a Town This Size (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "in-a-town-this-size",
       "title": "In A Town This Size",
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "in-my-life",
+      "title": "In My Life",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
+      "slug": "in-spite-of-ourselves-spotify-commentary",
+      "title": "In Spite of Ourselves (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "C",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -1725,11 +2693,43 @@
       "hasChart": true
     },
     {
+      "slug": "in-the-flesh-pt-1-and-2",
+      "title": "In The Flesh Pt 1 And 2",
+      "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "in-the-flesh-pt-1",
+      "title": "In The Flesh Pt 1",
+      "artist": "Pink Floyd",
+      "key": "A",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "in-the-flesh",
+      "title": "In the Flesh?",
+      "artist": "Pink Floyd",
+      "key": "A",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "into-the-mystic",
       "title": "Into The Mystic",
       "artist": "Van Morrison",
       "key": "Eb",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "iron-mikes-main-mans-last-request",
+      "title": "Iron Mikes Main Mans Last Request",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
       "hasChart": true
     },
     {
@@ -1781,6 +2781,14 @@
       "hasChart": true
     },
     {
+      "slug": "its-all-too-much",
+      "title": "Its All Too Much",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "its-happening-to-you",
       "title": "Its Happening To You",
       "artist": "John Prine",
@@ -1794,6 +2802,30 @@
       "artist": "The Allman Brothers Band",
       "key": "",
       "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "its-only-love",
+      "title": "Its Only Love",
+      "artist": "The Beatles",
+      "key": "C",
+      "chordCount": 19,
+      "hasChart": true
+    },
+    {
+      "slug": "ive-got-a-feeling",
+      "title": "Ive Got A Feeling",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "ive-just-seen-a-face",
+      "title": "Ive Just Seen A Face",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 15,
       "hasChart": true
     },
     {
@@ -1845,6 +2877,14 @@
       "hasChart": true
     },
     {
+      "slug": "julia",
+      "title": "Julia",
+      "artist": "The Beatles",
+      "key": "D",
+      "chordCount": 20,
+      "hasChart": true
+    },
+    {
       "slug": "julius",
       "title": "Julius",
       "artist": "Phish",
@@ -1877,11 +2917,27 @@
       "hasChart": true
     },
     {
+      "slug": "just-in-case",
+      "title": "Just In Case",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "just-like-old-times",
       "title": "Just Like Old Times",
       "artist": "Todd Snider",
       "key": "",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "just-like-overnight",
+      "title": "Just Like Overnight",
+      "artist": "Todd Snider",
+      "key": "B",
+      "chordCount": 2,
       "hasChart": true
     },
     {
@@ -1901,11 +2957,35 @@
       "hasChart": true
     },
     {
+      "slug": "keep-off-the-grass",
+      "title": "Keep Off The Grass",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "keep-talking",
       "title": "Keep Talking",
       "artist": "Pink Floyd",
       "key": "Dm",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "key-to-the-highway-outtake",
+      "title": "Key to the Highway (outtake)",
+      "artist": "The Band",
+      "key": "E",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "key-to-the-highway",
+      "title": "Key To The Highway",
+      "artist": "The Band",
+      "key": "E",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -1949,6 +3029,14 @@
       "hasChart": true
     },
     {
+      "slug": "lake-marie-demo-version",
+      "title": "Lake Marie (demo version)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "lake-marie",
       "title": "Lake Marie",
       "artist": "John Prine",
@@ -1970,6 +3058,14 @@
       "artist": "The Band",
       "key": "",
       "chordCount": 2,
+      "hasChart": true
+    },
+    {
+      "slug": "late-last-night",
+      "title": "Late Last Night",
+      "artist": "Todd Snider",
+      "key": "A",
+      "chordCount": 7,
       "hasChart": true
     },
     {
@@ -2010,6 +3106,14 @@
       "artist": "Phish",
       "key": "G",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "let-it-be",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "key": "C",
+      "chordCount": 11,
       "hasChart": true
     },
     {
@@ -2069,6 +3173,22 @@
       "hasChart": true
     },
     {
+      "slug": "light",
+      "title": "Light",
+      "artist": "Phish",
+      "key": "E",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "like-a-force-of-nature",
+      "title": "Like A Force Of Nature",
+      "artist": "Todd Snider",
+      "key": "B",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "linda-goes-to-mars",
       "title": "Linda Goes To Mars",
       "artist": "John Prine",
@@ -2109,11 +3229,27 @@
       "hasChart": true
     },
     {
+      "slug": "lonely-girl",
+      "title": "Lonely Girl",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "lonesome-friends-of-science",
       "title": "Lonesome Friends Of Science",
       "artist": "John Prine",
       "key": "C",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "lonesome-suzie-alternate-version",
+      "title": "Lonesome Suzie (alternate version)",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 8,
       "hasChart": true
     },
     {
@@ -2133,11 +3269,27 @@
       "hasChart": true
     },
     {
+      "slug": "long-distance-operator-outtake",
+      "title": "Long Distance Operator (outtake)",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "long-distance-operator",
       "title": "Long Distance Operator",
       "artist": "The Band",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "long-long-long",
+      "title": "Long, Long, Long",
+      "artist": "The Beatles",
+      "key": "Eb",
+      "chordCount": 11,
       "hasChart": true
     },
     {
@@ -2181,6 +3333,30 @@
       "hasChart": true
     },
     {
+      "slug": "looking-for-a-job",
+      "title": "Looking For A Job",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "loose-talk-spotify-commentary",
+      "title": "Loose Talk (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "loose-talk",
+      "title": "Loose Talk",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "lost-for-words",
       "title": "Lost For Words",
       "artist": "Pink Floyd",
@@ -2205,6 +3381,22 @@
       "hasChart": true
     },
     {
+      "slug": "love-you-to",
+      "title": "Love You To",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 2,
+      "hasChart": true
+    },
+    {
+      "slug": "lovely-rita",
+      "title": "Lovely Rita",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "low-down-dirty-mean",
       "title": "Low Down Dirty Mean",
       "artist": "The Allman Brothers Band",
@@ -2221,11 +3413,43 @@
       "hasChart": true
     },
     {
+      "slug": "lucy-in-the-sky-with-diamonds",
+      "title": "Lucy In The Sky With Diamonds",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
       "slug": "lulu-walls",
       "title": "Lulu Walls",
       "artist": "John Prine",
       "key": "G",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "maggie-mae",
+      "title": "Maggie Mae",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "magical-mystery-tour",
+      "title": "Magical Mystery Tour",
+      "artist": "The Beatles",
+      "key": "E",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "martha-my-dear",
+      "title": "Martha My Dear",
+      "artist": "The Beatles",
+      "key": "Eb",
+      "chordCount": 26,
       "hasChart": true
     },
     {
@@ -2245,6 +3469,14 @@
       "hasChart": true
     },
     {
+      "slug": "maxwells-silver-hammer",
+      "title": "Maxwells Silver Hammer",
+      "artist": "The Beatles",
+      "key": "D",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
       "slug": "me-and-bobby-mcgee",
       "title": "Me And Bobby Mcgee",
       "artist": "Janis Joplin",
@@ -2257,6 +3489,14 @@
       "title": "Me Myself And I",
       "artist": "John Prine",
       "key": "C",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "mean-mr-mustard",
+      "title": "Mean Mr Mustard",
+      "artist": "The Beatles",
+      "key": "",
       "chordCount": 7,
       "hasChart": true
     },
@@ -2309,9 +3549,25 @@
       "hasChart": true
     },
     {
+      "slug": "michelle",
+      "title": "Michelle",
+      "artist": "The Beatles",
+      "key": "F",
+      "chordCount": 25,
+      "hasChart": true
+    },
+    {
       "slug": "midnight-rider",
       "title": "Midnight Rider",
       "artist": "The Allman Brothers Band",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "milwaukee-here-i-come-spotify-commentary",
+      "title": "Milwaukee Here I Come (Spotify commentary)",
+      "artist": "John Prine",
       "key": "",
       "chordCount": 4,
       "hasChart": true
@@ -2341,6 +3597,22 @@
       "hasChart": true
     },
     {
+      "slug": "money-compliments-and-publicity",
+      "title": "Money Compliments And Publicity",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "money-compliments-publicity-song-number-ten",
+      "title": "Money, Compliments, Publicity (Song Number Ten)",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "money",
       "title": "Money",
       "artist": "Pink Floyd",
@@ -2354,6 +3626,14 @@
       "artist": "John Prine",
       "key": "",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "mother-natures-son",
+      "title": "Mother Natures Son",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 13,
       "hasChart": true
     },
     {
@@ -2384,6 +3664,14 @@
       "slug": "my-darlin-hometown",
       "title": "My Darlin Hometown",
       "artist": "John Prine",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "my-generation-part-2",
+      "title": "My Generation Part 2",
+      "artist": "Todd Snider",
       "key": "",
       "chordCount": 5,
       "hasChart": true
@@ -2437,6 +3725,14 @@
       "hasChart": true
     },
     {
+      "slug": "new-connection",
+      "title": "New Connection",
+      "artist": "Todd Snider",
+      "key": "D",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "new-train",
       "title": "New Train",
       "artist": "John Prine",
@@ -2469,10 +3765,34 @@
       "hasChart": true
     },
     {
+      "slug": "no-reply",
+      "title": "No Reply",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
       "slug": "nobody-home",
       "title": "Nobody Home",
       "artist": "Pink Floyd",
       "key": "",
+      "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "norwegian-wood-this-bird-has-flown",
+      "title": "Norwegian Wood (This Bird Has Flown)",
+      "artist": "The Beatles",
+      "key": "E",
+      "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "norwegian-wood",
+      "title": "Norwegian Wood",
+      "artist": "The Beatles",
+      "key": "E",
       "chordCount": 14,
       "hasChart": true
     },
@@ -2501,11 +3821,27 @@
       "hasChart": true
     },
     {
+      "slug": "octopuss-garden",
+      "title": "Octopuss Garden",
+      "artist": "The Beatles",
+      "key": "E",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "often-is-a-word-i-seldom-use",
       "title": "Often Is A Word I Seldom Use",
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "oh-darling",
+      "title": "Oh Darling",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 11,
       "hasChart": true
     },
     {
@@ -2536,6 +3872,22 @@
       "slug": "on-the-turning-away",
       "title": "On The Turning Away",
       "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "once-he-finds-us",
+      "title": "Once He Finds Us",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "one-after-909",
+      "title": "One After 909",
+      "artist": "The Beatles",
       "key": "",
       "chordCount": 5,
       "hasChart": true
@@ -2581,6 +3933,14 @@
       "hasChart": true
     },
     {
+      "slug": "only-a-northern-song",
+      "title": "Only A Northern Song",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
       "slug": "onomatopoeia",
       "title": "Onomatopoeia",
       "artist": "John Prine",
@@ -2605,11 +3965,27 @@
       "hasChart": true
     },
     {
+      "slug": "out-all-night",
+      "title": "Out All Night",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "out-of-love",
       "title": "Out Of Love",
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "outside-the-wall",
+      "title": "Outside the Wall",
+      "artist": "Pink Floyd",
+      "key": "Dm",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -2653,6 +4029,14 @@
       "hasChart": true
     },
     {
+      "slug": "penny-lane",
+      "title": "Penny Lane",
+      "artist": "The Beatles",
+      "key": "B",
+      "chordCount": 23,
+      "hasChart": true
+    },
+    {
       "slug": "picture-show",
       "title": "Picture Show",
       "artist": "John Prine",
@@ -2661,10 +4045,34 @@
       "hasChart": true
     },
     {
+      "slug": "piggies",
+      "title": "Piggies",
+      "artist": "The Beatles",
+      "key": "Ab",
+      "chordCount": 19,
+      "hasChart": true
+    },
+    {
       "slug": "pigs-on-the-wing-part-1",
       "title": "Pigs On The Wing Part 1",
       "artist": "Pink Floyd",
       "key": "C",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "pigs-on-the-wing-part-2",
+      "title": "Pigs on the Wing, Part 2",
+      "artist": "Pink Floyd",
+      "key": "Dm",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "pigs-on-the-wing-parts-1-and-2",
+      "title": "Pigs On The Wing Parts 1 And 2",
+      "artist": "Pink Floyd",
+      "key": "",
       "chordCount": 12,
       "hasChart": true
     },
@@ -2741,11 +4149,27 @@
       "hasChart": true
     },
     {
+      "slug": "polythene-pam",
+      "title": "Polythene Pam",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "pony-boy",
       "title": "Pony Boy",
       "artist": "The Allman Brothers Band",
       "key": "E",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "positively-negative",
+      "title": "Positively Negative",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -2765,11 +4189,27 @@
       "hasChart": true
     },
     {
+      "slug": "prison-walls",
+      "title": "Prison Walls",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "quiet-man",
       "title": "Quiet Man",
       "artist": "John Prine",
       "key": "",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "quit-hollerin-at-me-alternative-version",
+      "title": "Quit Hollerin' At Me (alternative version)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 3,
       "hasChart": true
     },
     {
@@ -2821,6 +4261,22 @@
       "hasChart": true
     },
     {
+      "slug": "revolution-1",
+      "title": "Revolution 1",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
+      "slug": "revolution-9",
+      "title": "Revolution 9",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
       "slug": "ridgetop",
       "title": "Ridgetop",
       "artist": "Jesse Colin Young",
@@ -2842,6 +4298,14 @@
       "artist": "The Band",
       "key": "",
       "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "rock-and-roll-music",
+      "title": "Rock And Roll Music",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 7,
       "hasChart": true
     },
     {
@@ -2869,6 +4333,14 @@
       "hasChart": true
     },
     {
+      "slug": "rocky-raccoon",
+      "title": "Rocky Raccoon",
+      "artist": "The Beatles",
+      "key": "Am",
+      "chordCount": 14,
+      "hasChart": true
+    },
+    {
       "slug": "roggae",
       "title": "Roggae",
       "artist": "Phish",
@@ -2882,6 +4354,30 @@
       "artist": "The Beatles",
       "key": "D",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "rose-city",
+      "title": "Rose City",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "round-room",
+      "title": "Round Room",
+      "artist": "Phish",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "run-for-your-life",
+      "title": "Run For Your Life",
+      "artist": "The Beatles",
+      "key": "D",
+      "chordCount": 10,
       "hasChart": true
     },
     {
@@ -2921,6 +4417,14 @@
       "title": "Safety Joe",
       "artist": "John Prine",
       "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "sail-on-my-friend",
+      "title": "Sail On My Friend",
+      "artist": "Todd Snider",
+      "key": "B",
       "chordCount": 3,
       "hasChart": true
     },
@@ -2981,6 +4485,30 @@
       "hasChart": true
     },
     {
+      "slug": "sanity-bonus-track",
+      "title": "Sanity (Bonus Track)",
+      "artist": "Phish",
+      "key": "",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "sanity",
+      "title": "Sanity",
+      "artist": "Phish",
+      "key": "",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "savoy-truffle",
+      "title": "Savoy Truffle",
+      "artist": "The Beatles",
+      "key": "E",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
       "slug": "scent-of-a-mule",
       "title": "Scent Of A Mule",
       "artist": "Phish",
@@ -3013,6 +4541,30 @@
       "hasChart": true
     },
     {
+      "slug": "sexy-sadie",
+      "title": "Sexy Sadie",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 24,
+      "hasChart": true
+    },
+    {
+      "slug": "sgt-peppers-lonely-hearts-club-band-reprise",
+      "title": "Sgt. Pepper’s Lonely Hearts Club Band (reprise)",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "sgt-peppers-lonely-hearts-club-band",
+      "title": "Sgt Peppers Lonely Hearts Club Band",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "shade",
       "title": "Shade",
       "artist": "Phish",
@@ -3029,6 +4581,22 @@
       "hasChart": true
     },
     {
+      "slug": "share-your-love",
+      "title": "Share Your Love",
+      "artist": "The Band",
+      "key": "F",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "she-came-in-through-the-bathroom-window",
+      "title": "She Came In Through The Bathroom Window",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 19,
+      "hasChart": true
+    },
+    {
       "slug": "she-is-my-everything",
       "title": "She Is My Everything",
       "artist": "John Prine",
@@ -3037,11 +4605,43 @@
       "hasChart": true
     },
     {
+      "slug": "she-said-she-said",
+      "title": "She Said She Said",
+      "artist": "The Beatles",
+      "key": "Bb",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
       "slug": "sheep",
       "title": "Sheep",
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "shes-leaving-home",
+      "title": "Shes Leaving Home",
+      "artist": "The Beatles",
+      "key": "E",
+      "chordCount": 20,
+      "hasChart": true
+    },
+    {
+      "slug": "shine-on-you-crazy-diamond-part-1-5",
+      "title": "Shine On You Crazy Diamond (Part 1-5)",
+      "artist": "Pink Floyd",
+      "key": "Gm",
+      "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "shine-on-you-crazy-diamond-part-6-9",
+      "title": "Shine On You Crazy Diamond (Part 6-9)",
+      "artist": "Pink Floyd",
+      "key": "Gm",
+      "chordCount": 14,
       "hasChart": true
     },
     {
@@ -3066,6 +4666,46 @@
       "artist": "John Prine",
       "key": "E",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "side-1-pt-2-its-what-we-do",
+      "title": "Side 1, Pt. 2: It’s What We Do",
+      "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "side-1-pt-3-ebb-and-flow",
+      "title": "Side 1, Pt. 3: Ebb and Flow",
+      "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "side-3-pt-1-the-lost-art-of-conversation",
+      "title": "Side 3, Pt. 1: The Lost Art of Conversation",
+      "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 61,
+      "hasChart": true
+    },
+    {
+      "slug": "side-3-pt-4-allons-y-1",
+      "title": "Side 3, Pt. 4: Allons‐y (1)",
+      "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "side-3-pt-6-allons-y-2",
+      "title": "Side 3, Pt. 6: Allons‐y (2)",
+      "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -3141,6 +4781,22 @@
       "hasChart": true
     },
     {
+      "slug": "slim-chance-is-still-a-chance",
+      "title": "Slim Chance Is Still a Chance",
+      "artist": "Todd Snider",
+      "key": "G",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "slim-chance",
+      "title": "Slim Chance",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "slow-boat-to-china",
       "title": "Slow Boat To China",
       "artist": "John Prine",
@@ -3157,6 +4813,14 @@
       "hasChart": true
     },
     {
+      "slug": "so-sad-to-watch-good-love-go-bad-spotify-commentary",
+      "title": "So Sad (to Watch Good Love Go Bad) (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "so-sad-to-watch-good-love-go-bad",
       "title": "So Sad To Watch Good Love Go Bad",
       "artist": "John Prine",
@@ -3170,6 +4834,22 @@
       "artist": "John Prine",
       "key": "",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "somebodys-coming",
+      "title": "Somebodys Coming",
+      "artist": "Todd Snider",
+      "key": "C",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "something",
+      "title": "Something",
+      "artist": "The Beatles",
+      "key": "C",
+      "chordCount": 20,
       "hasChart": true
     },
     {
@@ -3269,6 +4949,14 @@
       "hasChart": true
     },
     {
+      "slug": "statisticians-blues",
+      "title": "Statisticians Blues",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "stealing-time-from-the-faulty-plan",
       "title": "Stealing Time From The Faulty Plan",
       "artist": "Phish",
@@ -3309,6 +4997,14 @@
       "hasChart": true
     },
     {
+      "slug": "strawberry-fields-forever",
+      "title": "Strawberry Fields Forever",
+      "artist": "The Beatles",
+      "key": "Bb",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "strawberry-wine",
       "title": "Strawberry Wine",
       "artist": "The Band",
@@ -3330,6 +5026,14 @@
       "artist": "John Prine",
       "key": "D",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "sun-king",
+      "title": "Sun King",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 15,
       "hasChart": true
     },
     {
@@ -3397,11 +5101,35 @@
       "hasChart": true
     },
     {
+      "slug": "talkin-seattle-blues",
+      "title": "Talkin Seattle Blues",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "taste",
       "title": "Taste",
       "artist": "Phish",
       "key": "D",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "taxman",
+      "title": "Taxman",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "tears-of-rage-alternate-take",
+      "title": "Tears of Rage (alternate take)",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 14,
       "hasChart": true
     },
     {
@@ -3429,6 +5157,14 @@
       "hasChart": true
     },
     {
+      "slug": "tension",
+      "title": "Tension",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "terminal-frost",
       "title": "Terminal Frost",
       "artist": "Pink Floyd",
@@ -3445,11 +5181,59 @@
       "hasChart": true
     },
     {
+      "slug": "that-was-me",
+      "title": "That Was Me",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "thats-the-way-that-the-world-goes-round",
       "title": "Thats The Way That The World Goes Round",
       "artist": "John Prine",
       "key": "D",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "the-accident-things-could-be-worse",
+      "title": "The Accident (Things Could Be Worse)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "the-accident",
+      "title": "The Accident",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "the-ballad-of-the-kingsmen",
+      "title": "The Ballad Of The Kingsmen",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "the-bitter-end-you-cant-do-that",
+      "title": "The Bitter End / You Can't Do That",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 19,
+      "hasChart": true
+    },
+    {
+      "slug": "the-blue-side-of-lonesome",
+      "title": "The Blue Side of Lonesome",
+      "artist": "John Prine",
+      "key": "Bb",
+      "chordCount": 12,
       "hasChart": true
     },
     {
@@ -3469,6 +5253,14 @@
       "hasChart": true
     },
     {
+      "slug": "the-continuing-story-of-bungalow-bill",
+      "title": "The Continuing Story Of Bungalow Bill",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 17,
+      "hasChart": true
+    },
+    {
       "slug": "the-dark-side-of-the-moon",
       "title": "The Dark Side Of The Moon",
       "artist": "Pink Floyd",
@@ -3477,11 +5269,27 @@
       "hasChart": true
     },
     {
+      "slug": "the-devil-you-know",
+      "title": "The Devil You Know",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "the-dogs-of-war",
       "title": "The Dogs Of War",
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "the-end",
+      "title": "The End",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 14,
       "hasChart": true
     },
     {
@@ -3501,11 +5309,27 @@
       "hasChart": true
     },
     {
+      "slug": "the-fool-on-the-hill",
+      "title": "The Fool On The Hill",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "the-frying-pan",
       "title": "The Frying Pan",
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "the-ghost-of-johnny-cash",
+      "title": "The Ghost Of Johnny Cash",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -3597,6 +5421,14 @@
       "hasChart": true
     },
     {
+      "slug": "the-long-and-winding-road",
+      "title": "The Long And Winding Road",
+      "artist": "The Beatles",
+      "key": "Eb",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
       "slug": "the-mango-song",
       "title": "The Mango Song",
       "artist": "Phish",
@@ -3629,11 +5461,35 @@
       "hasChart": true
     },
     {
+      "slug": "the-narrow-way-part-1",
+      "title": "The Narrow Way, Part 1",
+      "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "the-narrow-way-part-2",
+      "title": "The Narrow Way, Part 2",
+      "artist": "Pink Floyd",
+      "key": "",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
       "slug": "the-narrow-way-part-3",
       "title": "The Narrow Way Part 3",
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "the-night-before",
+      "title": "The Night Before",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 9,
       "hasChart": true
     },
     {
@@ -3757,6 +5613,30 @@
       "hasChart": true
     },
     {
+      "slug": "the-very-last-time",
+      "title": "The Very Last Time",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "the-w-s-walcott-medicine-show-alternate-take",
+      "title": "The W.S. Walcott Medicine Show (alternate take)",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "the-w-s-walcott-medicine-show",
+      "title": "The W.S. Walcott Medicine Show",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
       "slug": "the-wedge",
       "title": "The Wedge",
       "artist": "Phish",
@@ -3770,6 +5650,14 @@
       "artist": "The Band",
       "key": "A",
       "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "the-word",
+      "title": "The Word",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 9,
       "hasChart": true
     },
     {
@@ -3813,11 +5701,35 @@
       "hasChart": true
     },
     {
+      "slug": "thin-wild-mercury",
+      "title": "Thin Wild Mercury",
+      "artist": "Todd Snider",
+      "key": "F",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "things-we-said-today",
       "title": "Things We Said Today",
       "artist": "The Beatles",
       "key": "",
       "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "think-for-yourself",
+      "title": "Think For Yourself",
+      "artist": "The Beatles",
+      "key": "Am",
+      "chordCount": 17,
+      "hasChart": true
+    },
+    {
+      "slug": "this-land-is-our-land",
+      "title": "This Land Is Our Land",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -3845,11 +5757,27 @@
       "hasChart": true
     },
     {
+      "slug": "ticket-to-ride",
+      "title": "Ticket To Ride",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 17,
+      "hasChart": true
+    },
+    {
       "slug": "tide-turns",
       "title": "Tide Turns",
       "artist": "Phish",
       "key": "",
       "chordCount": 10,
+      "hasChart": true
+    },
+    {
+      "slug": "til-a-tear-becomes-a-rose-spotify-commentary",
+      "title": "Til a Tear Becomes a Rose (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 3,
       "hasChart": true
     },
     {
@@ -3866,6 +5794,22 @@
       "artist": "The Beatles",
       "key": "F",
       "chordCount": 34,
+      "hasChart": true
+    },
+    {
+      "slug": "tillamook-county-jail",
+      "title": "Tillamook County Jail",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "time-to-kill-alternate-mix",
+      "title": "Time to Kill (alternate mix)",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 7,
       "hasChart": true
     },
     {
@@ -3893,11 +5837,27 @@
       "hasChart": true
     },
     {
+      "slug": "tomorrow-never-knows",
+      "title": "Tomorrow Never Knows",
+      "artist": "The Beatles",
+      "key": "C",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "too-soon-gone",
       "title": "Too Soon Gone",
       "artist": "The Band",
       "key": "",
       "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "too-soon-to-tell",
+      "title": "Too Soon To Tell",
+      "artist": "Todd Snider",
+      "key": "Am",
+      "chordCount": 10,
       "hasChart": true
     },
     {
@@ -3933,6 +5893,14 @@
       "hasChart": true
     },
     {
+      "slug": "tweezer-reprise",
+      "title": "Tweezer (reprise)",
+      "artist": "Phish",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "tweezer",
       "title": "Tweezer",
       "artist": "Phish",
@@ -3954,6 +5922,14 @@
       "artist": "Phish",
       "key": "G",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "two-of-us",
+      "title": "Two Of Us",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 12,
       "hasChart": true
     },
     {
@@ -4029,11 +6005,35 @@
       "hasChart": true
     },
     {
+      "slug": "vinyl-records",
+      "title": "Vinyl Records",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "waco-moon",
+      "title": "Waco Moon",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "wading-in-the-velvet-sea",
       "title": "Wading In The Velvet Sea",
       "artist": "Phish",
       "key": "",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "wait",
+      "title": "Wait",
+      "artist": "The Beatles",
+      "key": "F#m",
+      "chordCount": 14,
       "hasChart": true
     },
     {
@@ -4085,6 +6085,14 @@
       "hasChart": true
     },
     {
+      "slug": "watering-flowers-in-the-rain",
+      "title": "Watering Flowers In The Rain",
+      "artist": "Todd Snider",
+      "key": "B",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
       "slug": "way-back-then",
       "title": "Way Back Then",
       "artist": "John Prine",
@@ -4117,6 +6125,38 @@
       "hasChart": true
     },
     {
+      "slug": "we-can-work-it-out",
+      "title": "We Can Work It Out",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "we-could-spotify-commentary",
+      "title": "We Could (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "we-could",
+      "title": "We Could",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "we-must-have-been-out-of-our-minds-spotify-commentary",
+      "title": "We Must Have Been out of Our Minds (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "we-must-have-been-out-of-our-minds",
       "title": "We Must Have Been Out Of Our Minds",
       "artist": "John Prine",
@@ -4130,6 +6170,14 @@
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "wedding-bells-lets-turn-back-the-years-spotify-commentary",
+      "title": "Wedding Bells / Let’s Turn Back the Years (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -4165,6 +6213,14 @@
       "hasChart": true
     },
     {
+      "slug": "were-not-the-jet-set-spotify-commentary",
+      "title": "(We’re Not) The Jet Set (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "were-not-the-jet-set",
       "title": "Were Not The Jet Set",
       "artist": "John Prine",
@@ -4178,6 +6234,22 @@
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 10,
+      "hasChart": true
+    },
+    {
+      "slug": "what-youre-doing",
+      "title": "What Youre Doing",
+      "artist": "The Beatles",
+      "key": "D",
+      "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "whats-wrong-with-you",
+      "title": "Whats Wrong With You",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 3,
       "hasChart": true
     },
     {
@@ -4197,11 +6269,35 @@
       "hasChart": true
     },
     {
+      "slug": "when-i-paint-my-masterpiece-alternate-take",
+      "title": "When I Paint My Masterpiece (alternate take)",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
       "slug": "when-i-paint-my-masterpiece",
       "title": "When I Paint My Masterpiece",
       "artist": "The Band",
       "key": "",
       "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "when-im-sixty-four",
+      "title": "When Im Sixty Four",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 15,
+      "hasChart": true
+    },
+    {
+      "slug": "when-two-worlds-collide-spotify-commentary",
+      "title": "When Two Worlds Collide (Spotify commentary)",
+      "artist": "John Prine",
+      "key": "",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -4226,6 +6322,22 @@
       "artist": "The Band",
       "key": "",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "while-my-guitar-gently-weeps",
+      "title": "While My Guitar Gently Weeps",
+      "artist": "The Beatles",
+      "key": "Am",
+      "chordCount": 15,
+      "hasChart": true
+    },
+    {
+      "slug": "while-we-still-have-a-chance",
+      "title": "While We Still Have A Chance",
+      "artist": "Todd Snider",
+      "key": "G",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -4261,6 +6373,22 @@
       "hasChart": true
     },
     {
+      "slug": "why-dont-we-do-it-in-the-road",
+      "title": "Why Don’t We Do It in the Road?",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "wild-honey-pie",
+      "title": "Wild Honey Pie",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "willin",
       "title": "Willin",
       "artist": "Little Feat",
@@ -4293,6 +6421,22 @@
       "hasChart": true
     },
     {
+      "slug": "with-a-little-help-from-my-friends",
+      "title": "With A Little Help From My Friends",
+      "artist": "The Beatles",
+      "key": "E",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "within-you-without-you",
+      "title": "Within You Without You",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "wolfmans-brother",
       "title": "Wolfmans Brother",
       "artist": "Phish",
@@ -4317,11 +6461,59 @@
       "hasChart": true
     },
     {
+      "slug": "words-of-love",
+      "title": "Words Of Love",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "workin-on-a-song",
+      "title": "Workin On A Song",
+      "artist": "Todd Snider",
+      "key": "D",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "working-on-a-song",
+      "title": "Working on a Song",
+      "artist": "Todd Snider",
+      "key": "D",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "yazoo-street-scandal-outtake",
+      "title": "Yazoo Street Scandal (outtake)",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "yazoo-street-scandal",
       "title": "Yazoo Street Scandal",
       "artist": "The Band",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "yellow-submarine",
+      "title": "Yellow Submarine",
+      "artist": "The Beatles",
+      "key": "F#",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "yer-blues",
+      "title": "Yer Blues",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -4341,6 +6533,14 @@
       "hasChart": true
     },
     {
+      "slug": "you-cant-do-that",
+      "title": "You Cant Do That",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 19,
+      "hasChart": true
+    },
+    {
       "slug": "you-got-gold",
       "title": "You Got Gold",
       "artist": "John Prine",
@@ -4357,11 +6557,43 @@
       "hasChart": true
     },
     {
+      "slug": "you-never-give-me-your-money",
+      "title": "You Never Give Me Your Money",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 33,
+      "hasChart": true
+    },
+    {
       "slug": "you-really-got-a-hold-on-me",
       "title": "You Really Got A Hold On Me",
       "artist": "The Beatles",
       "key": "A",
       "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "you-really-gotta-hold-on-me",
+      "title": "You Really Gotta Hold on Me",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "you-think-you-know-somebody",
+      "title": "You Think You Know Somebody",
+      "artist": "Todd Snider",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "you-wont-see-me",
+      "title": "You Wont See Me",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 9,
       "hasChart": true
     },
     {
@@ -4381,11 +6613,35 @@
       "hasChart": true
     },
     {
+      "slug": "your-mother-should-know",
+      "title": "Your Mother Should Know",
+      "artist": "The Beatles",
+      "key": "Am",
+      "chordCount": 16,
+      "hasChart": true
+    },
+    {
       "slug": "your-possible-pasts",
       "title": "Your Possible Pasts",
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "youre-going-to-lose-that-girl",
+      "title": "Youre Going To Lose That Girl",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 17,
+      "hasChart": true
+    },
+    {
+      "slug": "youve-got-to-hide-your-love-away",
+      "title": "Youve Got To Hide Your Love Away",
+      "artist": "The Beatles",
+      "key": "G",
+      "chordCount": 11,
       "hasChart": true
     }
   ]

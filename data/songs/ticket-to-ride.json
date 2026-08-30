@@ -1,0 +1,32 @@
+{
+  "slug": "ticket-to-ride",
+  "title": "Ticket To Ride",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "Asus4",
+    "Bm",
+    "E",
+    "F#m",
+    "D",
+    "G",
+    "D7",
+    "E7",
+    "Gsus4",
+    "Am",
+    "F",
+    "Em",
+    "C",
+    "C7",
+    "Dsus4",
+    "G7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/ticket-to-ride-chords-1088894",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (113 chord marks, 17 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

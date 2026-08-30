@@ -1,0 +1,27 @@
+{
+  "slug": "magical-mystery-tour",
+  "title": "Magical Mystery Tour",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "A",
+    "E",
+    "G",
+    "D7",
+    "Gm",
+    "B",
+    "F#m",
+    "G#m",
+    "F",
+    "C",
+    "Fm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/magical-mystery-tour-chords-1049577",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (81 chord marks, 12 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

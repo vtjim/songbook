@@ -1,0 +1,26 @@
+{
+  "slug": "dear-prudence",
+  "title": "Dear Prudence",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "D",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "D7",
+    "Gmaj7/D",
+    "D+",
+    "Gm",
+    "C",
+    "G",
+    "G/D",
+    "A/D",
+    "F",
+    "Ab"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/dear-prudence-chords-1044378",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (101 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

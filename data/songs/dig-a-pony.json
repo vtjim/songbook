@@ -1,0 +1,24 @@
+{
+  "slug": "dig-a-pony",
+  "title": "Dig A Pony",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "D",
+    "A",
+    "D/A",
+    "F#m",
+    "Bm",
+    "G7",
+    "E",
+    "E7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/dig-a-pony-chords-276200",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (104 chord marks, 9 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

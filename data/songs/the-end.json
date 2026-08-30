@@ -1,0 +1,29 @@
+{
+  "slug": "the-end",
+  "title": "The End",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "D",
+    "B",
+    "E",
+    "B/F#",
+    "A7",
+    "D7",
+    "G",
+    "F",
+    "Dm",
+    "C",
+    "D/C",
+    "Eb/C",
+    "F/C"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/the-end-chords-733992",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (52 chord marks, 14 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

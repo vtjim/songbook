@@ -1,0 +1,24 @@
+{
+  "slug": "all-you-need-is-love",
+  "title": "All You Need Is Love",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "G",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "D",
+    "Em",
+    "Am",
+    "D7",
+    "D6",
+    "A",
+    "B7",
+    "C"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/all-you-need-is-love-chords-878481",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (133 chord marks, 9 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

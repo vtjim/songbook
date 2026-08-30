@@ -69,7 +69,16 @@ const searchable = title => String(title)
   .replace(/[‘’ʼ]/g, "'")
   .replace(/[“”]/g, '"')
   .replace(/[–—]/g, '-')
-  .replace(/…/g, '...');
+  .replace(/…/g, '...')
+  // Parenthetical suffixes are almost always an alternate-take or featured-
+  // artist note, not part of the title the search index holds.
+  .replace(/\s*\([^)]*\)\s*$/, '')
+  // The search endpoint answers 404 rather than no-results for several
+  // characters — commas, hashes, colons and slashes among them. Dropping them
+  // still matches on the words, which is what the index searches on anyway.
+  .replace(/[#,:;/\\?&%"']/g, ' ')
+  .replace(/\s+/g, ' ')
+  .trim();
 
 async function findChart(artist, title) {
   const url = 'https://www.ultimate-guitar.com/search.php?search_type=title&value=' +
@@ -120,7 +129,17 @@ async function readChart(url) {
   };
 }
 
-function toEntry(chart) {
+/**
+ * The slug is the song we went looking for, not the title the chart came back
+ * with.
+ *
+ * The search strips parenthetical suffixes, so "Betty Was Black (and Willie was
+ * White)" finds a chart titled "Betty Was Black". Slugging the returned title
+ * files it where nothing links to it: the artist page looks up the track name
+ * it has. Keeping the requested title as the key is what makes the chart
+ * findable, while `title` still records what the source actually called it.
+ */
+function toEntry(chart, requestedTitle) {
   const notes = [
     `Chords as printed in the source chart (${chart.chordCount} chord marks, ` +
     `${chart.chords.length} distinct).`,
@@ -131,8 +150,9 @@ function toEntry(chart) {
   ].filter(Boolean).join(' ');
 
   return {
-    slug: slugify(chart.title),
-    title: chart.title,
+    slug: slugify(requestedTitle || chart.title),
+    title: requestedTitle || chart.title,
+    sourceTitle: chart.title,
     artist: chart.artist,
     year: null,
     key: chart.key || '',
@@ -176,7 +196,7 @@ async function handle(artist, title, url, write) {
     return null;
   }
 
-  const entry = toEntry(chart);
+  const entry = toEntry(chart, title);
   console.log(`  OK     ${entry.artist} — ${entry.title}`);
   console.log(`         ${entry.chords.join(' ')}${chart.capo ? `   capo ${chart.capo}` : ''}`);
   console.log(`         ${entry.chordSource}`);

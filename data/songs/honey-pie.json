@@ -1,0 +1,30 @@
+{
+  "slug": "honey-pie",
+  "title": "Honey Pie",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Em",
+    "A6",
+    "Am/D",
+    "Cm",
+    "G",
+    "A7",
+    "D7",
+    "Eb7",
+    "E7",
+    "F#",
+    "F",
+    "C#m7b5",
+    "G7",
+    "C",
+    "Am"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/honey-pie-chords-768560",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (87 chord marks, 15 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

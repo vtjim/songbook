@@ -1,0 +1,21 @@
+{
+  "slug": "octopuss-garden",
+  "title": "Octopuss Garden",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "B",
+    "E",
+    "A",
+    "C#m",
+    "F#m",
+    "D"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/octopuss-garden-chords-17333",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (75 chord marks, 6 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "savoy-truffle",
+  "title": "Savoy Truffle",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "E7",
+    "E",
+    "F#",
+    "A",
+    "G",
+    "B7",
+    "Em",
+    "C",
+    "Asus4",
+    "B"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/savoy-truffle-chords-1052040",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (70 chord marks, 10 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

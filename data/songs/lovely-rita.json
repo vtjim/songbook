@@ -1,0 +1,24 @@
+{
+  "slug": "lovely-rita",
+  "title": "Lovely Rita",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "G",
+    "D",
+    "Bm",
+    "E7",
+    "A7",
+    "C",
+    "F",
+    "E"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/lovely-rita-chords-980512",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (96 chord marks, 9 distinct). Source chart uses a capo at fret 1. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

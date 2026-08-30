@@ -1,0 +1,22 @@
+{
+  "slug": "blue-jay-way",
+  "title": "Blue Jay Way",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "C6",
+    "Cmaj7",
+    "C5",
+    "Cadd9",
+    "Cdim",
+    "C(b5)"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/blue-jay-way-chords-1940215",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (131 chord marks, 7 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

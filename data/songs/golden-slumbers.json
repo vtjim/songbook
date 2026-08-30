@@ -1,0 +1,23 @@
+{
+  "slug": "golden-slumbers",
+  "title": "Golden Slumbers",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "C",
+  "instrumental": false,
+  "chords": [
+    "Am7",
+    "Dm7",
+    "G7",
+    "C",
+    "E",
+    "Am",
+    "Dm9",
+    "Fadd9"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/golden-slumbers-chords-17417",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (29 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

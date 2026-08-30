@@ -1,0 +1,20 @@
+{
+  "slug": "beer-run",
+  "title": "Beer Run",
+  "artist": "Todd Snider",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "D",
+    "C",
+    "E",
+    "A"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/todd-snider/beer-run-chords-647603",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (105 chord marks, 5 distinct). Source chart uses a capo at fret 2. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

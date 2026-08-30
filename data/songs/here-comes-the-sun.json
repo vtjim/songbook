@@ -1,0 +1,28 @@
+{
+  "slug": "here-comes-the-sun",
+  "title": "Here Comes The Sun",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "G",
+    "A7",
+    "Dsus2",
+    "E7",
+    "Bmadd11",
+    "Asus4",
+    "G6",
+    "A7sus4",
+    "F",
+    "C",
+    "G/B",
+    "A"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/here-comes-the-sun-chords-566611",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (129 chord marks, 13 distinct). Source chart uses a capo at fret 7. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

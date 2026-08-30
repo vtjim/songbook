@@ -1,0 +1,24 @@
+{
+  "slug": "get-back",
+  "title": "Get Back",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "G",
+    "D",
+    "A7",
+    "F",
+    "C",
+    "G7",
+    "E",
+    "D7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/get-back-chords-1061694",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (129 chord marks, 9 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}
