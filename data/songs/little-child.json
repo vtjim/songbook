@@ -1,0 +1,29 @@
+{
+  "slug": "little-child",
+  "title": "Little Child",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "A",
+    "E7",
+    "B7",
+    "F#7",
+    "F#",
+    "D7",
+    "D",
+    "G",
+    "A7",
+    "C7",
+    "C",
+    "F",
+    "G7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/little-child-chords-1048951",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (79 chord marks, 14 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

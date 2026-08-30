@@ -1,0 +1,28 @@
+{
+  "slug": "dogs",
+  "title": "Dogs",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Dm9",
+    "Bb",
+    "A9sus4",
+    "Bb7",
+    "Dm",
+    "C",
+    "F",
+    "Eb",
+    "C7",
+    "A",
+    "Em",
+    "Dm7",
+    "A7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/dogs-chords-43450",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (171 chord marks, 13 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

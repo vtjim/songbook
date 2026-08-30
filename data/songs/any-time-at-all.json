@@ -1,0 +1,31 @@
+{
+  "slug": "any-time-at-all",
+  "title": "Any Time At All",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Bm",
+  "instrumental": false,
+  "chords": [
+    "Bm",
+    "D",
+    "A",
+    "G",
+    "F#m",
+    "Gm",
+    "Am",
+    "C",
+    "F",
+    "Em",
+    "Fm",
+    "Cm",
+    "C#m",
+    "E",
+    "B",
+    "Abm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/any-time-at-all-chords-1089327",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (137 chord marks, 16 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "holy-cow",
+  "title": "Holy Cow",
+  "artist": "The Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "C",
+    "D",
+    "D7",
+    "Dm7",
+    "G7",
+    "Am",
+    "F"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/holy-cow-chords-1718233",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (59 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

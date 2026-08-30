@@ -1,0 +1,30 @@
+{
+  "slug": "stage-fright",
+  "title": "Stage Fright",
+  "artist": "The Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "Bb",
+    "F",
+    "G",
+    "B",
+    "D",
+    "Em",
+    "A",
+    "Em/G",
+    "Am",
+    "F/D",
+    "F#m",
+    "Bm",
+    "C#o",
+    "Eb"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/stage-fright-chords-2285495",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (106 chord marks, 15 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

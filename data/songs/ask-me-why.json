@@ -1,0 +1,27 @@
+{
+  "slug": "ask-me-why",
+  "title": "Ask Me Why",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "F#m7",
+    "G#m7",
+    "G#7",
+    "C#m",
+    "Am",
+    "F#7",
+    "B",
+    "Eaug",
+    "A",
+    "A/E",
+    "G#m/B"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/ask-me-why-chords-1701122",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (89 chord marks, 12 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "blind-love",
+  "title": "Blind Love",
+  "artist": "The Allman Brothers Band",
+  "year": null,
+  "key": "C",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "A#",
+    "F",
+    "C7",
+    "G7",
+    "F7",
+    "D#7",
+    "D#",
+    "C#7",
+    "D7",
+    "E7",
+    "F#7",
+    "G#7",
+    "A7",
+    "A#7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-allman-brothers-band/blind-love-chords-5169568",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (178 chord marks, 15 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

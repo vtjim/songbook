@@ -1,0 +1,26 @@
+{
+  "slug": "ophelia",
+  "title": "Ophelia",
+  "artist": "The Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "G7#5",
+    "C",
+    "E7",
+    "A7",
+    "D7",
+    "F",
+    "G7",
+    "C7",
+    "E",
+    "F7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/ophelia-chords-1673909",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (96 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

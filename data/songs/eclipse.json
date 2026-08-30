@@ -1,0 +1,20 @@
+{
+  "slug": "eclipse",
+  "title": "Eclipse",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "D",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "A",
+    "D/C",
+    "A7",
+    "Bb"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/eclipse-chords-2038231",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (42 chord marks, 5 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

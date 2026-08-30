@@ -1,0 +1,25 @@
+{
+  "slug": "please-call-home",
+  "title": "Please Call Home",
+  "artist": "The Allman Brothers Band",
+  "year": null,
+  "key": "C",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "C/Bb",
+    "Fmaj7",
+    "D7sus",
+    "G/B",
+    "Am",
+    "Am/G",
+    "F7",
+    "F#dim7",
+    "G"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-allman-brothers-band/please-call-home-chords-2395255",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (91 chord marks, 10 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

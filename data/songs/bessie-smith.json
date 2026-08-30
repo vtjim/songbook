@@ -1,0 +1,24 @@
+{
+  "slug": "bessie-smith",
+  "title": "Bessie Smith",
+  "artist": "The Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "F",
+    "F#dim",
+    "Am",
+    "D7",
+    "G#",
+    "G",
+    "E",
+    "C/G#"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/bessie-smith-chords-998111",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (45 chord marks, 9 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

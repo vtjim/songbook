@@ -1,0 +1,20 @@
+{
+  "slug": "money",
+  "title": "Money",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "C",
+  "instrumental": false,
+  "chords": [
+    "Bm7",
+    "F#m",
+    "A",
+    "D",
+    "Em"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/money-chords-1234659",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (158 chord marks, 5 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

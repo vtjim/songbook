@@ -1,0 +1,29 @@
+{
+  "slug": "nobody-home",
+  "title": "Nobody Home",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Am",
+    "C",
+    "C7",
+    "Caug",
+    "E",
+    "C/G",
+    "E7",
+    "D7/F#",
+    "Am/G#",
+    "F",
+    "D/F#",
+    "Fm",
+    "Fm6",
+    "G"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/nobody-home-chords-705733",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (87 chord marks, 14 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

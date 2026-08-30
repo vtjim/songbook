@@ -1,0 +1,27 @@
+{
+  "slug": "i-shall-be-released",
+  "title": "I Shall Be Released",
+  "artist": "The Band",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "F#m",
+    "G#m",
+    "A",
+    "B7",
+    "D",
+    "Em",
+    "G",
+    "A7",
+    "Bm",
+    "C#m",
+    "E7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/i-shall-be-released-chords-1047049",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (81 chord marks, 12 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

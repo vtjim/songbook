@@ -1,0 +1,26 @@
+{
+  "slug": "southampton-dock",
+  "title": "Southampton Dock",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "F",
+  "instrumental": false,
+  "chords": [
+    "F",
+    "Bb",
+    "C",
+    "Bbm",
+    "Gm7",
+    "F/A",
+    "F7",
+    "Dm7",
+    "C7/E",
+    "Am7",
+    "Dm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/southampton-dock-chords-43501",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (40 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

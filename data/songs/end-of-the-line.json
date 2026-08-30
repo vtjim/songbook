@@ -1,0 +1,33 @@
+{
+  "slug": "end-of-the-line",
+  "title": "End Of The Line",
+  "artist": "The Allman Brothers Band",
+  "year": null,
+  "key": "Dm",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "D",
+    "Cadd9",
+    "G/B",
+    "Bb6",
+    "C",
+    "F",
+    "E",
+    "Fadd2",
+    "G5",
+    "B",
+    "A",
+    "A5",
+    "Cadd2",
+    "Dm",
+    "Csus2",
+    "Fsus2",
+    "C5"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-allman-brothers-band/end-of-the-line-chords-2786995",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (182 chord marks, 18 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

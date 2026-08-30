@@ -1,0 +1,28 @@
+{
+  "slug": "in-a-station",
+  "title": "In A Station",
+  "artist": "The Band",
+  "year": null,
+  "key": "C",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "D",
+    "C",
+    "D#",
+    "F",
+    "Em",
+    "Dm",
+    "C7",
+    "G7",
+    "Bm",
+    "E",
+    "Am",
+    "G#"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/in-a-station-chords-4060666",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (89 chord marks, 13 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

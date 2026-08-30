@@ -60,9 +60,20 @@ function jsStore(htmlText) {
  * this is the only quality signal available without reading every version.
  * Pro/official entries are skipped — they are paywalled and render nothing.
  */
+/**
+ * Typographic apostrophes and dashes come straight out of MusicBrainz and are
+ * not what the search index holds, so a title like "People Puttin' People Down"
+ * answers 404 rather than no-results. Normalised to ASCII before searching.
+ */
+const searchable = title => String(title)
+  .replace(/[‘’ʼ]/g, "'")
+  .replace(/[“”]/g, '"')
+  .replace(/[–—]/g, '-')
+  .replace(/…/g, '...');
+
 async function findChart(artist, title) {
   const url = 'https://www.ultimate-guitar.com/search.php?search_type=title&value=' +
-    encodeURIComponent(title);
+    encodeURIComponent(searchable(title));
   const data = jsStore(await getText(url));
   const results = data?.store?.page?.data?.results || [];
 
@@ -138,7 +149,18 @@ function toEntry(chart) {
 async function handle(artist, title, url, write) {
   let chosen = url;
   if (!chosen) {
-    const hit = await findChart(artist, title);
+    /**
+     * A single unlucky title must not end the run. This is an unattended job
+     * over a thousand songs, and an uncaught 404 on song 78 previously threw
+     * away the remaining eleven hundred.
+     */
+    let hit;
+    try {
+      hit = await findChart(artist, title);
+    } catch (err) {
+      console.log(`  ERR    ${artist} — ${title}   (search failed: ${err.message})`);
+      return null;
+    }
     if (!hit) {
       console.log(`  MISS   ${artist} — ${title}   (no chords chart found)`);
       return null;

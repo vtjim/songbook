@@ -1,0 +1,32 @@
+{
+  "slug": "echoes",
+  "title": "Echoes",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "F#m",
+    "C#m",
+    "A#m",
+    "A",
+    "G#sus4",
+    "G#",
+    "G#m",
+    "C#",
+    "E",
+    "B",
+    "C",
+    "Bm",
+    "D",
+    "Em",
+    "Bm/D",
+    "Esus4",
+    "F#"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/echoes-chords-43469",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (121 chord marks, 17 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

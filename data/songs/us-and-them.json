@@ -1,0 +1,26 @@
+{
+  "slug": "us-and-them",
+  "title": "Us And Them",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "D",
+  "instrumental": false,
+  "chords": [
+    "Dsus2",
+    "Esus2/D",
+    "Faug/D",
+    "G/D",
+    "D",
+    "Dsus4",
+    "A/C#",
+    "Bm",
+    "A",
+    "Gmaj7",
+    "C"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/us-and-them-chords-1708554",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (97 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

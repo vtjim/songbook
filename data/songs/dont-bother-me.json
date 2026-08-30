@@ -1,0 +1,26 @@
+{
+  "slug": "dont-bother-me",
+  "title": "Dont Bother Me",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Em",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "Em",
+    "Bm",
+    "Am",
+    "G",
+    "A",
+    "C",
+    "Gm",
+    "F",
+    "Dm",
+    "Bb"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/dont-bother-me-chords-1044461",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (91 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

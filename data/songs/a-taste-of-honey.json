@@ -1,0 +1,27 @@
+{
+  "slug": "a-taste-of-honey",
+  "title": "A Taste Of Honey",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "F#m",
+    "A",
+    "E",
+    "F#",
+    "B",
+    "Bm",
+    "Em",
+    "G",
+    "D",
+    "Am",
+    "C",
+    "Dm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/a-taste-of-honey-chords-1042348",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (92 chord marks, 12 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

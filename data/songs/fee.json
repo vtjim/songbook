@@ -1,0 +1,27 @@
+{
+  "slug": "fee",
+  "title": "Fee",
+  "artist": "Phish",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Cm",
+    "Abm",
+    "Bbm",
+    "Gbm",
+    "Gbm7",
+    "Db",
+    "Ab",
+    "Eb",
+    "Bb",
+    "Gm7",
+    "Fm7",
+    "Cm7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/phish/fee-chords-79071",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (118 chord marks, 12 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

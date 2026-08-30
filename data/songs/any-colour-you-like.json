@@ -1,0 +1,25 @@
+{
+  "slug": "any-colour-you-like",
+  "title": "Any Colour You Like",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Dm7",
+    "G",
+    "G7sus4",
+    "G7",
+    "Bbmaj7",
+    "Am",
+    "Ebmaj7",
+    "F",
+    "C7#9",
+    "C7b9"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/any-colour-you-like-chords-43463",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (43 chord marks, 10 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "time",
+  "title": "Time",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "F#m",
+  "instrumental": false,
+  "chords": [
+    "F#m",
+    "Dmaj7",
+    "Amaj7",
+    "C#m7",
+    "Bm7",
+    "F/B",
+    "E",
+    "A",
+    "Bm",
+    "Emadd9",
+    "Em7",
+    "A7",
+    "Cmaj7",
+    "Fmaj7",
+    "G",
+    "D7#9",
+    "D7b9"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/time-chords-129282",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (82 chord marks, 17 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "the-trial",
+  "title": "The Trial",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Em",
+    "F",
+    "C",
+    "B7",
+    "F#",
+    "G",
+    "G#",
+    "D/A",
+    "Em7",
+    "Bmaj7",
+    "B",
+    "F#m",
+    "F#7",
+    "Bm",
+    "Bm/A",
+    "D",
+    "D#",
+    "Am"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/the-trial-chords-420585",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (57 chord marks, 18 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

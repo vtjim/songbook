@@ -1,0 +1,22 @@
+{
+  "slug": "not-now-john",
+  "title": "Not Now John",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "D",
+    "Em",
+    "C/E",
+    "Bm7",
+    "D/E",
+    "Asus2"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/not-now-john-chords-43505",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (78 chord marks, 7 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

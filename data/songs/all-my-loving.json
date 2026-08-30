@@ -1,0 +1,23 @@
+{
+  "slug": "all-my-loving",
+  "title": "All My Loving",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "Em",
+    "A7",
+    "D",
+    "Bm",
+    "G",
+    "C",
+    "A",
+    "Bbaug"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/all-my-loving-chords-453882",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (68 chord marks, 8 distinct). Source chart uses a capo at fret 2. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

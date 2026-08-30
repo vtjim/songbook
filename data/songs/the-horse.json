@@ -1,0 +1,24 @@
+{
+  "slug": "the-horse",
+  "title": "The Horse",
+  "artist": "Phish",
+  "year": null,
+  "key": "C",
+  "instrumental": false,
+  "chords": [
+    "Am",
+    "Em",
+    "F",
+    "Dm",
+    "C",
+    "Bb",
+    "G",
+    "D",
+    "B"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/phish/the-horse-chords-4249417",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (27 chord marks, 9 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

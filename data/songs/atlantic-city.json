@@ -1,0 +1,19 @@
+{
+  "slug": "atlantic-city",
+  "title": "Atlantic City",
+  "artist": "The Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Em",
+    "G",
+    "C",
+    "D"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/atlantic-city-chords-1115224",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (160 chord marks, 4 distinct). Source chart uses a capo at fret 2. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

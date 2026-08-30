@@ -1,0 +1,28 @@
+{
+  "slug": "one-slip",
+  "title": "One Slip",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Eb",
+    "Gmadd4",
+    "Fsus4",
+    "C",
+    "Eb6",
+    "F",
+    "Abadd9",
+    "Cadd9",
+    "Ebmaj7/Bb",
+    "Bbadd9",
+    "Gmadd9",
+    "Gm/D",
+    "Gm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/one-slip-chords-43473",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (55 chord marks, 13 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

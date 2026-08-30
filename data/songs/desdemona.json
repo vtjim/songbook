@@ -1,0 +1,32 @@
+{
+  "slug": "desdemona",
+  "title": "Desdemona",
+  "artist": "The Allman Brothers Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Abmaj7",
+    "C",
+    "Cm",
+    "Cm#7",
+    "Cm7",
+    "Cm6",
+    "Db",
+    "Eb/G",
+    "F",
+    "Fm",
+    "F/A",
+    "G",
+    "G7",
+    "G/B",
+    "C/Bb",
+    "C/A",
+    "C/G"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-allman-brothers-band/desdemona-chords-793870",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (119 chord marks, 17 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

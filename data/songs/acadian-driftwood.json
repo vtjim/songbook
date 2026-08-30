@@ -1,0 +1,31 @@
+{
+  "slug": "acadian-driftwood",
+  "title": "Acadian Driftwood",
+  "artist": "The Band",
+  "year": null,
+  "key": "F",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "Bsus4",
+    "C#m",
+    "Dsus2",
+    "F#m/E",
+    "G#m/E",
+    "Asus2",
+    "Esus4",
+    "D",
+    "Asus4",
+    "Bm",
+    "Csus2",
+    "Em/D",
+    "F#m",
+    "Gsus2",
+    "Dsus4"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/acadian-driftwood-chords-743437",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (288 chord marks, 16 distinct). Source chart uses a capo at fret 1. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

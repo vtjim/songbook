@@ -1,0 +1,27 @@
+{
+  "slug": "the-rumor",
+  "title": "The Rumor",
+  "artist": "The Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "F",
+    "G",
+    "A7",
+    "C",
+    "Bm",
+    "F#m",
+    "A",
+    "Dm/F",
+    "Em",
+    "D7",
+    "B"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/the-rumor-chords-1178933",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (135 chord marks, 12 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "blue-sky",
+  "title": "Blue Sky",
+  "artist": "The Allman Brothers Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "A",
+    "D",
+    "G",
+    "B",
+    "D/A",
+    "F#m7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-allman-brothers-band/blue-sky-chords-1775562",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (176 chord marks, 7 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

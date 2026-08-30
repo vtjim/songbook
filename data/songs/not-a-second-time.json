@@ -1,0 +1,26 @@
+{
+  "slug": "not-a-second-time",
+  "title": "Not A Second Time",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "G",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "Em",
+    "D",
+    "D7",
+    "Am",
+    "Bm",
+    "F",
+    "Dm",
+    "C",
+    "Gm",
+    "C7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/not-a-second-time-chords-1087970",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (81 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "tweezer",
+  "title": "Tweezer",
+  "artist": "Phish",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "A7",
+    "D7",
+    "D9",
+    "D5",
+    "Am7",
+    "E7",
+    "D",
+    "Am",
+    "Bb"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/phish/tweezer-chords-2992346",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (44 chord marks, 9 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "vera",
+  "title": "Vera",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "D",
+    "Em",
+    "C",
+    "Emadd9",
+    "Am",
+    "Gmaj7",
+    "Bm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/vera-chords-44545",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (30 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

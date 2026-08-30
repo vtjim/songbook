@@ -1,0 +1,27 @@
+{
+  "slug": "sheep",
+  "title": "Sheep",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Dm",
+    "Am",
+    "Bm",
+    "Em",
+    "F#7",
+    "A",
+    "C#m",
+    "F#",
+    "D",
+    "Fm",
+    "C",
+    "E"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/sheep-chords-43452",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (85 chord marks, 12 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

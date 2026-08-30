@@ -1,0 +1,23 @@
+{
+  "slug": "hey-you",
+  "title": "Hey You",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Emadd9",
+    "Dm",
+    "Bm",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "Em"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/hey-you-chords-44544",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (59 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

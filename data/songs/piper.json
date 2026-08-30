@@ -1,0 +1,22 @@
+{
+  "slug": "piper",
+  "title": "Piper",
+  "artist": "Phish",
+  "year": null,
+  "key": "G",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "C",
+    "C#",
+    "D",
+    "G#",
+    "C#7",
+    "F#"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/phish/piper-chords-4254307",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (81 chord marks, 7 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

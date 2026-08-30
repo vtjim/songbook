@@ -1,0 +1,18 @@
+{
+  "slug": "yet-another-movie",
+  "title": "Yet Another Movie",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Dm",
+    "C",
+    "Gm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/yet-another-movie-chords-43474",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (39 chord marks, 3 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

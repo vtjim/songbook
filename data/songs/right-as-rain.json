@@ -1,0 +1,33 @@
+{
+  "slug": "right-as-rain",
+  "title": "Right As Rain",
+  "artist": "The Band",
+  "year": null,
+  "key": "G",
+  "instrumental": false,
+  "chords": [
+    "Gmaj7",
+    "Cmaj7",
+    "C",
+    "Dm",
+    "G",
+    "Am7",
+    "D",
+    "Em",
+    "A7",
+    "G7",
+    "F",
+    "E7",
+    "Em7",
+    "Am",
+    "B",
+    "Bb",
+    "Bm",
+    "Fmaj7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/right-as-rain-chords-4702139",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (116 chord marks, 18 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

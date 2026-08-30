@@ -1,0 +1,30 @@
+{
+  "slug": "valdese",
+  "title": "Valdese",
+  "artist": "Phish",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "F#m",
+    "B7",
+    "E",
+    "Em7",
+    "C#m",
+    "D",
+    "B",
+    "Am",
+    "G",
+    "C",
+    "Cm7",
+    "G#",
+    "A",
+    "C#",
+    "E7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/phish/valdese-chords-5361237",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (153 chord marks, 15 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

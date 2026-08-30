@@ -1,0 +1,20 @@
+{
+  "slug": "smoke-signal",
+  "title": "Smoke Signal",
+  "artist": "The Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "D7",
+    "G7",
+    "C7",
+    "F",
+    "A7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/smoke-signal-chords-1717460",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (72 chord marks, 5 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

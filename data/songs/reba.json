@@ -1,0 +1,32 @@
+{
+  "slug": "reba",
+  "title": "Reba",
+  "artist": "Phish",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Eb",
+    "Bb",
+    "Db",
+    "Ab",
+    "B",
+    "Gb",
+    "A",
+    "Bbsus4",
+    "G",
+    "E",
+    "D",
+    "F#",
+    "C#",
+    "D#",
+    "A#",
+    "G#",
+    "C#sus4"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/phish/reba-chords-4281799",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (81 chord marks, 17 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

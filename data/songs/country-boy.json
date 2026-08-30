@@ -1,0 +1,23 @@
+{
+  "slug": "country-boy",
+  "title": "Country Boy",
+  "artist": "The Band",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "F#m",
+    "E",
+    "C#m7",
+    "D",
+    "E7",
+    "Bm7",
+    "A/F#"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/country-boy-chords-4184395",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (84 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

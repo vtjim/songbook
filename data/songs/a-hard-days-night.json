@@ -1,0 +1,25 @@
+{
+  "slug": "a-hard-days-night",
+  "title": "A Hard Days Night",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "G",
+  "instrumental": false,
+  "chords": [
+    "G7sus4/D",
+    "G",
+    "C",
+    "F",
+    "D",
+    "Bm",
+    "Em",
+    "C6",
+    "D7sus4",
+    "Dm7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/a-hard-days-night-chords-60697",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (105 chord marks, 10 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

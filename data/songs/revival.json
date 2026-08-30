@@ -1,0 +1,33 @@
+{
+  "slug": "revival",
+  "title": "Revival",
+  "artist": "The Allman Brothers Band",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "D/A",
+    "E",
+    "A5",
+    "Am7",
+    "Am11",
+    "G6/B",
+    "Em7/B",
+    "Csus2",
+    "C",
+    "F",
+    "G",
+    "Am",
+    "Dm",
+    "Gm/D",
+    "D",
+    "D6",
+    "E6"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-allman-brothers-band/revival-chords-3680222",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (184 chord marks, 18 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

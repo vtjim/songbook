@@ -1,0 +1,25 @@
+{
+  "slug": "misery",
+  "title": "Misery",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "F",
+    "G",
+    "C",
+    "Am",
+    "G7",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "E7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/misery-chords-1050575",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (56 chord marks, 10 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

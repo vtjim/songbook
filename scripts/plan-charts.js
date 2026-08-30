@@ -46,7 +46,12 @@ const charted = new Set(
 const lines = [];
 const perArtist = [];
 
-for (const file of fs.readdirSync(ARTISTS_DIR).filter(f => f.endsWith('.json')).sort()) {
+// Files beginning with an underscore are configuration, not artists.
+const artistFiles = fs.readdirSync(ARTISTS_DIR)
+  .filter(f => f.endsWith('.json') && !f.startsWith('_'))
+  .sort();
+
+for (const file of artistFiles) {
   const key = path.basename(file, '.json');
   if (only.length && !only.includes(key)) continue;
 

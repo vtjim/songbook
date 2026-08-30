@@ -1,0 +1,25 @@
+{
+  "slug": "jawbone",
+  "title": "Jawbone",
+  "artist": "The Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "F#",
+    "B7",
+    "A",
+    "D",
+    "D/F#",
+    "G",
+    "Em",
+    "C",
+    "C#m"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/jawbone-chords-6572135",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (119 chord marks, 10 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

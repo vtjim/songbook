@@ -1,0 +1,20 @@
+{
+  "slug": "roll-over-beethoven",
+  "title": "Roll Over Beethoven",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "D",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "G",
+    "A",
+    "G7",
+    "A7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/roll-over-beethoven-chords-1051722",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (78 chord marks, 5 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

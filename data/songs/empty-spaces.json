@@ -1,0 +1,24 @@
+{
+  "slug": "empty-spaces",
+  "title": "Empty Spaces",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "B",
+    "F#",
+    "Em",
+    "G",
+    "A",
+    "E2",
+    "B2",
+    "F#2",
+    "G2"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/empty-spaces-chords-348155",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (49 chord marks, 9 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

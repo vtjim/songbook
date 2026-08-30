@@ -1,0 +1,22 @@
+{
+  "slug": "the-final-cut",
+  "title": "The Final Cut",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "A",
+    "G",
+    "Bm",
+    "Em7",
+    "F#m",
+    "D/A"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/the-final-cut-chords-525387",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (68 chord marks, 7 distinct). Source chart uses a capo at fret 3. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

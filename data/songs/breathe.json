@@ -1,0 +1,23 @@
+{
+  "slug": "breathe",
+  "title": "Breathe",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "Em",
+  "instrumental": false,
+  "chords": [
+    "Em",
+    "A7",
+    "Cmaj7",
+    "Bm7",
+    "Fmaj7",
+    "G",
+    "D7#9",
+    "D7b9"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/breathe-chords-812636",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (37 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

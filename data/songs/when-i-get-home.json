@@ -1,0 +1,28 @@
+{
+  "slug": "when-i-get-home",
+  "title": "When I Get Home",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "G7",
+    "A",
+    "D9",
+    "Am",
+    "C7",
+    "F",
+    "C",
+    "E7",
+    "F#",
+    "B9",
+    "F#m",
+    "A7",
+    "D"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/when-i-get-home-chords-1088952",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (77 chord marks, 13 distinct). Source chart uses a capo at fret 7. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

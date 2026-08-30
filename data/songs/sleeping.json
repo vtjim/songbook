@@ -1,0 +1,21 @@
+{
+  "slug": "sleeping",
+  "title": "Sleeping",
+  "artist": "The Band",
+  "year": null,
+  "key": "Dm",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "Bb",
+    "F",
+    "Dm",
+    "A",
+    "Gm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-band/sleeping-chords-4430351",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (81 chord marks, 6 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

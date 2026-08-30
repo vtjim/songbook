@@ -1,0 +1,21 @@
+{
+  "slug": "southbound",
+  "title": "Southbound",
+  "artist": "The Allman Brothers Band",
+  "year": null,
+  "key": "F",
+  "instrumental": false,
+  "chords": [
+    "C9",
+    "F9",
+    "G9",
+    "Bb7",
+    "B7",
+    "C7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-allman-brothers-band/southbound-chords-3468707",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (92 chord marks, 6 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

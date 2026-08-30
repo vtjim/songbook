@@ -1,0 +1,24 @@
+{
+  "slug": "farmhouse",
+  "title": "Farmhouse",
+  "artist": "Phish",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "G",
+    "Am",
+    "F",
+    "G/B",
+    "C/E",
+    "C/B",
+    "C/A",
+    "C/F"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/phish/farmhouse-chords-79084",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (100 chord marks, 9 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "boys",
+  "title": "Boys",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "B",
+    "A",
+    "E",
+    "B7",
+    "A7",
+    "G",
+    "D",
+    "G7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/boys-chords-1043384",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (50 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

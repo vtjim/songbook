@@ -1,0 +1,28 @@
+{
+  "slug": "melissa",
+  "title": "Melissa",
+  "artist": "The Allman Brothers Band",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "F#m",
+    "F#m7add11/E",
+    "Emaj7",
+    "Bm",
+    "Bmadd11/A",
+    "Amaj7",
+    "E",
+    "A",
+    "Cmaj7",
+    "B",
+    "D",
+    "C#m",
+    "B7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-allman-brothers-band/melissa-chords-125171",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (87 chord marks, 13 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

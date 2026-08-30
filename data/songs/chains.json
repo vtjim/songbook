@@ -1,0 +1,27 @@
+{
+  "slug": "chains",
+  "title": "Chains",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "Bb",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "D7",
+    "E",
+    "E7",
+    "A7",
+    "D",
+    "Dm",
+    "G",
+    "C7",
+    "C",
+    "G7",
+    "Cm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/chains-chords-1044035",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (61 chord marks, 12 distinct). Source chart uses a capo at fret 1. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

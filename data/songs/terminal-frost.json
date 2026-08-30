@@ -1,0 +1,25 @@
+{
+  "slug": "terminal-frost",
+  "title": "Terminal Frost",
+  "artist": "Pink Floyd",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Eb",
+    "C",
+    "D/C",
+    "Dm",
+    "Bb",
+    "F",
+    "F/C",
+    "E",
+    "Gm",
+    "D"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/pink-floyd/terminal-frost-chords-43476",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (66 chord marks, 10 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}
