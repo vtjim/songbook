@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340"
+     role="img" aria-label="A row of five guitars">
+  <title>Guitars</title>
+
+  <!--
+    Original line drawings, not photographs.
+
+    This repo is public, so brand product shots are somebody else's copyright
+    and cannot be published here. These are simplified outlines — two
+    dreadnoughts, a cutaway grand auditorium, a double-cutaway solidbody and an
+    offset solidbody — with no maker's logo and no trademarked headstock shape.
+    They stand for Jim's guitars rather than depicting particular instruments.
+
+    What makes a guitar read as a guitar is the figure of eight: a shoulder
+    (upper bout), a narrow waist, and a wider hip (lower bout). Drawn without
+    that it comes out a teardrop, which is what the first attempt did. Neck
+    length matches body length for the same reason.
+
+    Stroked in currentColor, so inline this in the page — through an <img>,
+    currentColor cannot reach it.
+  -->
+
+  <g fill="none" stroke="currentColor" stroke-width="2.2"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- 1 · Dreadnought — broad shoulders, shallow waist -->
+    <g transform="translate(28,10)">
+      <path d="M25 10 h30 a5 5 0 0 1 5 5 v30 a5 5 0 0 1 -5 5 h-30 a5 5 0 0 1 -5 -5 v-30 a5 5 0 0 1 5 -5 z"/>
+      <path d="M28 50 V168"/><path d="M52 50 V168"/>
+      <path d="M28 86 H52" opacity=".45"/><path d="M28 114 H52" opacity=".45"/>
+      <path d="M28 142 H52" opacity=".45"/>
+      <path d="M40 168 C61 168 75 181 75 201 C75 219 65 227 65 240
+               C65 255 80 263 80 282 C80 305 62 320 40 320
+               C18 320 0 305 0 282 C0 263 15 255 15 240
+               C15 227 5 219 5 201 C5 181 19 168 40 168 Z"/>
+      <circle cx="40" cy="212" r="13"/>
+      <rect x="28" y="272" width="24" height="7" rx="2"/>
+    </g>
+
+    <!-- 2 · Grand auditorium — tighter waist, cutaway under the treble side -->
+    <g transform="translate(198,10)">
+      <path d="M25 10 h30 a5 5 0 0 1 5 5 v30 a5 5 0 0 1 -5 5 h-30 a5 5 0 0 1 -5 -5 v-30 a5 5 0 0 1 5 -5 z"/>
+      <path d="M28 50 V170"/><path d="M52 50 V170"/>
+      <path d="M28 88 H52" opacity=".45"/><path d="M28 116 H52" opacity=".45"/>
+      <path d="M28 144 H52" opacity=".45"/>
+      <path d="M52 170 C68 176 76 187 76 202 C76 220 64 228 64 241
+               C64 256 79 264 79 283 C79 306 61 321 40 321
+               C19 321 1 306 1 283 C1 264 16 256 16 241
+               C16 228 4 220 4 202 C4 182 18 169 38 169"/>
+      <circle cx="40" cy="213" r="12"/>
+      <rect x="28" y="273" width="24" height="7" rx="2"/>
+    </g>
+
+    <!-- 3 · Dreadnought — rounder, slightly smaller -->
+    <g transform="translate(368,10)">
+      <path d="M25 10 h30 a5 5 0 0 1 5 5 v30 a5 5 0 0 1 -5 5 h-30 a5 5 0 0 1 -5 -5 v-30 a5 5 0 0 1 5 -5 z"/>
+      <path d="M28 50 V166"/><path d="M52 50 V166"/>
+      <path d="M28 84 H52" opacity=".45"/><path d="M28 112 H52" opacity=".45"/>
+      <path d="M28 140 H52" opacity=".45"/>
+      <path d="M40 166 C60 166 73 179 73 199 C73 216 64 224 64 237
+               C64 252 78 260 78 279 C78 301 61 316 40 316
+               C19 316 2 301 2 279 C2 260 16 252 16 237
+               C16 224 7 216 7 199 C7 179 20 166 40 166 Z"/>
+      <circle cx="40" cy="210" r="13"/>
+      <rect x="28" y="268" width="24" height="7" rx="2"/>
+    </g>
+
+    <!-- 4 · Double cutaway solidbody — two horns, deep waist -->
+    <g transform="translate(543,10)">
+      <path d="M32 8 h16 l5 28 h-26 z"/>
+      <path d="M30 36 V166"/><path d="M50 36 V166"/>
+      <path d="M30 74 H50" opacity=".45"/><path d="M30 106 H50" opacity=".45"/>
+      <path d="M30 138 H50" opacity=".45"/>
+      <path d="M40 166 C26 160 8 168 4 186 C0 204 10 214 14 226
+               C18 238 8 246 8 264 C8 292 26 312 46 312
+               C68 312 88 294 90 268 C92 248 82 240 82 228
+               C82 214 94 204 90 186 C86 168 66 160 52 168"/>
+      <path d="M40 166 C44 170 48 170 52 168"/>
+      <rect x="34" y="256" width="28" height="8" rx="2" transform="rotate(-14 48 260)"/>
+      <path d="M22 226 L74 212"/>
+    </g>
+
+    <!-- 5 · Offset solidbody — waist and hip pulled out of line -->
+    <g transform="translate(718,10)">
+      <path d="M34 8 h16 l6 28 h-28 z"/>
+      <path d="M32 36 V164"/><path d="M52 36 V164"/>
+      <path d="M32 72 H52" opacity=".45"/><path d="M32 104 H52" opacity=".45"/>
+      <path d="M32 136 H52" opacity=".45"/>
+      <path d="M42 164 C28 158 8 166 5 184 C2 202 13 212 16 224
+               C19 236 9 246 10 264 C11 290 30 308 50 306
+               C72 304 90 284 91 260 C92 242 82 234 83 222
+               C84 208 95 200 90 182 C85 164 66 158 54 166"/>
+      <path d="M42 164 C46 168 50 168 54 166"/>
+      <rect x="36" y="250" width="28" height="8" rx="2" transform="rotate(-12 50 254)"/>
+      <path d="M24 222 L76 208"/>
+      <path d="M24 240 L76 226"/>
+    </g>
+  </g>
+</svg>
