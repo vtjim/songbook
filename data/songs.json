@@ -1,8 +1,8 @@
 {
   "site": "Green Mountain Songbook",
   "description": "Standalone songs — verified charts for material outside the Grateful Dead album catalog. Same rules as the album data: every chord checked against a real tab source, with the URL actually read recorded in chordSource, and no lyrics reproduced.",
-  "generated": "2026-08-30",
-  "count": 830,
+  "generated": "2026-09-13",
+  "count": 835,
   "songs": [
     {
       "slug": "24-hours-a-day",
@@ -3989,6 +3989,14 @@
       "hasChart": true
     },
     {
+      "slug": "palm-sunday",
+      "title": "Palm Sunday",
+      "artist": "Jerry Garcia Band",
+      "key": "C",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "pancho-and-lefty",
       "title": "Pancho And Lefty",
       "artist": "Townes Van Zandt",
@@ -4757,6 +4765,14 @@
       "hasChart": true
     },
     {
+      "slug": "sister-golden-hair",
+      "title": "Sister Golden Hair",
+      "artist": "America",
+      "key": "C#m",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "six-oclock-news",
       "title": "Six Oclock News",
       "artist": "John Prine",
@@ -5077,6 +5093,14 @@
       "hasChart": true
     },
     {
+      "slug": "take-it-easy",
+      "title": "Take It Easy",
+      "artist": "Eagles",
+      "key": "G",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
       "slug": "take-the-star-out-of-the-window",
       "title": "Take The Star Out Of The Window",
       "artist": "John Prine",
@@ -5193,6 +5217,14 @@
       "title": "Thats The Way That The World Goes Round",
       "artist": "John Prine",
       "key": "D",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "thats-what-love-will-make-you-do",
+      "title": "That’s What Love Will Make You Do",
+      "artist": "Jerry Garcia Band",
+      "key": "",
       "chordCount": 3,
       "hasChart": true
     },
@@ -5946,6 +5978,14 @@
       "artist": "Phish",
       "key": "",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "under-the-bridge",
+      "title": "Under the Bridge",
+      "artist": "Red Hot Chili Peppers",
+      "key": "E",
+      "chordCount": 14,
       "hasChart": true
     },
     {
