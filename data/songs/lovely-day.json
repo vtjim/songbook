@@ -1,0 +1,24 @@
+{
+  "slug": "lovely-day",
+  "title": "Lovely Day",
+  "sourceTitle": "Lovely Day",
+  "artist": "Bill Withers",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "C#m7",
+    "Amaj7",
+    "Cmaj7",
+    "Bm7",
+    "Am7/D",
+    "Bm7/E",
+    "Am7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/bill-withers/lovely-day-chords-1135417",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (107 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

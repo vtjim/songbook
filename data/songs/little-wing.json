@@ -1,0 +1,24 @@
+{
+  "slug": "little-wing",
+  "title": "Little Wing",
+  "sourceTitle": "Little Wing",
+  "artist": "Jimi Hendrix",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "Em",
+    "G",
+    "Am",
+    "Bm",
+    "C",
+    "F",
+    "D",
+    "Bb"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/jimi-hendrix/little-wing-chords-1027945",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (54 chord marks, 8 distinct). Source chart states no capo. Tuning: Half-Step Down. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

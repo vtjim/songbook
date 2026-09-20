@@ -1,0 +1,24 @@
+{
+  "slug": "desolation-row",
+  "title": "Desolation Row",
+  "sourceTitle": "Desolation Row",
+  "artist": "Bob Dylan",
+  "year": null,
+  "key": "",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "Esus4",
+    "A",
+    "B7",
+    "D",
+    "G",
+    "A7",
+    "Dsus4"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/bob-dylan/desolation-row-chords-1092234",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (255 chord marks, 8 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

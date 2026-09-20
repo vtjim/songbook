@@ -2,7 +2,7 @@
   "site": "Green Mountain Songbook",
   "description": "Standalone songs — verified charts for material outside the Grateful Dead album catalog. Same rules as the album data: every chord checked against a real tab source, with the URL actually read recorded in chordSource, and no lyrics reproduced.",
   "generated": "2026-09-20",
-  "count": 838,
+  "count": 970,
   "songs": [
     {
       "slug": "24-hours-a-day",
@@ -117,6 +117,14 @@
       "hasChart": true
     },
     {
+      "slug": "after-midnight",
+      "title": "After Midnight",
+      "artist": "J.J. Cale",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "age-like-wine",
       "title": "Age Like Wine",
       "artist": "Todd Snider",
@@ -137,6 +145,22 @@
       "title": "Aint Hurtin Nobody",
       "artist": "John Prine",
       "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "aint-no-bread-in-the-breadbox",
+      "title": "Ain't No Bread in the Breadbox",
+      "artist": "Jerry Garcia Band",
+      "key": "E",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "aint-no-sunshine",
+      "title": "Ain't No Sunshine",
+      "artist": "Bill Withers",
+      "key": "Am",
       "chordCount": 4,
       "hasChart": true
     },
@@ -179,6 +203,30 @@
       "key": "E",
       "chordCount": 7,
       "hasChart": true
+    },
+    {
+      "slug": "alices-restaurant",
+      "title": "Alice's Restaurant",
+      "artist": "Arlo Guthrie",
+      "key": "E",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "all-along-the-watchtower",
+      "title": "All Along the Watchtower",
+      "artist": "Bob Dylan",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "all-by-myself",
+      "title": "All By Myself",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "all-ive-got-to-do",
@@ -285,6 +333,14 @@
       "hasChart": true
     },
     {
+      "slug": "american-girl",
+      "title": "American Girl",
+      "artist": "Tom Petty and The Heartbreakers",
+      "key": "D",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "americas-favorite-pastime",
       "title": "Americas Favorite Pastime",
       "artist": "Todd Snider",
@@ -298,6 +354,14 @@
       "artist": "The Beatles",
       "key": "E",
       "chordCount": 16,
+      "hasChart": true
+    },
+    {
+      "slug": "and-it-stoned-me",
+      "title": "And It Stoned Me",
+      "artist": "Van Morrison",
+      "key": "",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -363,6 +427,14 @@
       "key": "",
       "chordCount": 6,
       "hasChart": true
+    },
+    {
+      "slug": "antwerps-placebo-the-plumber",
+      "title": "Antwerp's Placebo (The Plumber)",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "any-colour-you-like",
@@ -565,6 +637,14 @@
       "hasChart": true
     },
     {
+      "slug": "band-of-casey-jones",
+      "title": "Band of Casey Jones",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
+    },
+    {
       "slug": "barefoot-champagne",
       "title": "Barefoot Champagne",
       "artist": "Todd Snider",
@@ -661,12 +741,28 @@
       "hasChart": true
     },
     {
+      "slug": "big-river",
+      "title": "Big River",
+      "artist": "Johnny Cash",
+      "key": "F",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "bike",
       "title": "Bike",
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 4,
       "hasChart": true
+    },
+    {
+      "slug": "bill-cheatem",
+      "title": "Bill Cheatem",
+      "artist": "Traditional",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "billy-breathes",
@@ -773,6 +869,14 @@
       "hasChart": true
     },
     {
+      "slug": "boogie-on-reggae-woman",
+      "title": "Boogie on Reggae Woman",
+      "artist": "Stevie Wonder",
+      "key": "",
+      "chordCount": 15,
+      "hasChart": true
+    },
+    {
       "slug": "book-faded-brown",
       "title": "Book Faded Brown",
       "artist": "The Band",
@@ -783,6 +887,14 @@
     {
       "slug": "bouncing-around-the-room",
       "title": "Bouncing Around The Room",
+      "artist": "Phish",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "bouncing-round-the-room",
+      "title": "Bouncing Round the Room",
       "artist": "Phish",
       "key": "",
       "chordCount": 4,
@@ -810,6 +922,14 @@
       "artist": "Pink Floyd",
       "key": "D",
       "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "break-down",
+      "title": "Break Down",
+      "artist": "Tom Petty and The Heartbreakers",
+      "key": "Am",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -845,6 +965,14 @@
       "hasChart": true
     },
     {
+      "slug": "bright-side-of-the-road",
+      "title": "Bright Side of the Road",
+      "artist": "Van Morrison",
+      "key": "",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
       "slug": "bring-em-home",
       "title": "Bring Em Home",
       "artist": "Todd Snider",
@@ -865,6 +993,14 @@
       "title": "Broke",
       "artist": "Todd Snider",
       "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "brown-eyed-girl",
+      "title": "Brown Eyed Girl",
+      "artist": "Van Morrison",
+      "key": "G",
       "chordCount": 5,
       "hasChart": true
     },
@@ -954,6 +1090,22 @@
       "artist": "The Beatles",
       "key": "",
       "chordCount": 27,
+      "hasChart": true
+    },
+    {
+      "slug": "catfish-john",
+      "title": "Catfish John",
+      "artist": "Jerry Garcia Band",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "cats-under-the-stars",
+      "title": "Cat's Under the Stars",
+      "artist": "Jerry Garcia Band",
+      "key": "",
+      "chordCount": 13,
       "hasChart": true
     },
     {
@@ -1149,6 +1301,14 @@
       "hasChart": true
     },
     {
+      "slug": "cortez-the-killer",
+      "title": "Cortez the Killer",
+      "artist": "Neil Young",
+      "key": "Em",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "country-boy",
       "title": "Country Boy",
       "artist": "The Band",
@@ -1165,12 +1325,28 @@
       "hasChart": true
     },
     {
+      "slug": "cowboy-shit",
+      "title": "Cowboy Shit",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
+    },
+    {
       "slug": "crazy-as-a-loon",
       "title": "Crazy As A Loon",
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
       "hasChart": true
+    },
+    {
+      "slug": "cripple-creek",
+      "title": "Cripple Creek",
+      "artist": "The Band",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "crooked-piece-of-time",
@@ -1229,11 +1405,27 @@
       "hasChart": true
     },
     {
+      "slug": "dead-flowers",
+      "title": "Dead Flowers",
+      "artist": "The Rolling Stones",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "dear-abby",
       "title": "Dear Abby",
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "dear-mr-fantasy",
+      "title": "Dear Mr. Fantasy",
+      "artist": "Traffic",
+      "key": "A",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -1258,6 +1450,14 @@
       "artist": "The Allman Brothers Band",
       "key": "",
       "chordCount": 17,
+      "hasChart": true
+    },
+    {
+      "slug": "desolation-row",
+      "title": "Desolation Row",
+      "artist": "Bob Dylan",
+      "key": "",
+      "chordCount": 8,
       "hasChart": true
     },
     {
@@ -1413,6 +1613,14 @@
       "hasChart": true
     },
     {
+      "slug": "dont-let-go",
+      "title": "Don't Let Go",
+      "artist": "Jerry Garcia Band",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "dont-pass-me-by",
       "title": "Dont Pass Me By",
       "artist": "The Beatles",
@@ -1461,6 +1669,14 @@
       "hasChart": true
     },
     {
+      "slug": "dreadful-wind-and-rain",
+      "title": "Dreadful Wind & Rain",
+      "artist": "Jerry Garcia",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "dreaming-my-dreams-with-you",
       "title": "Dreaming My Dreams With You",
       "artist": "John Prine",
@@ -1475,6 +1691,14 @@
       "key": "E",
       "chordCount": 9,
       "hasChart": true
+    },
+    {
+      "slug": "drums",
+      "title": "Drums",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "dust-in-the-wind",
@@ -1522,6 +1746,14 @@
       "artist": "The Beatles",
       "key": "",
       "chordCount": 8,
+      "hasChart": true
+    },
+    {
+      "slug": "el-paso",
+      "title": "El Paso",
+      "artist": "Grateful Dead",
+      "key": "D",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -1579,6 +1811,14 @@
       "key": "",
       "chordCount": 5,
       "hasChart": true
+    },
+    {
+      "slug": "epilog",
+      "title": "Epilog",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "ether-edge",
@@ -1701,6 +1941,14 @@
       "hasChart": true
     },
     {
+      "slug": "fast-enough-for-you",
+      "title": "Fast Enough for You",
+      "artist": "Phish",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
+    },
+    {
       "slug": "fat-old-sun",
       "title": "Fat Old Sun",
       "artist": "Pink Floyd",
@@ -1715,6 +1963,14 @@
       "key": "",
       "chordCount": 12,
       "hasChart": true
+    },
+    {
+      "slug": "feedback",
+      "title": "Feedback",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "fifteen-years-ago",
@@ -1813,6 +2069,14 @@
       "hasChart": true
     },
     {
+      "slug": "foxy-lady",
+      "title": "Foxy Lady",
+      "artist": "Jimi Hendrix",
+      "key": "F#m",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "framed",
       "title": "Framed",
       "artist": "Todd Snider",
@@ -1885,6 +2149,14 @@
       "hasChart": true
     },
     {
+      "slug": "get-out-of-my-life-woman",
+      "title": "Get Out of My Life Woman",
+      "artist": "Lee Dorsey",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "get-up-jake",
       "title": "Get Up Jake",
       "artist": "The Band",
@@ -1923,6 +2195,14 @@
       "key": "Cm",
       "chordCount": 13,
       "hasChart": true
+    },
+    {
+      "slug": "give-a-little-love",
+      "title": "Give a Little Love",
+      "artist": "Bob Marley",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "glass-onion",
@@ -1965,6 +2245,14 @@
       "hasChart": true
     },
     {
+      "slug": "gomorrah",
+      "title": "Gomorrah",
+      "artist": "Jerry Garcia Band",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "good-clean-fun",
       "title": "Good Clean Fun",
       "artist": "The Allman Brothers Band",
@@ -1995,6 +2283,14 @@
       "key": "G",
       "chordCount": 17,
       "hasChart": true
+    },
+    {
+      "slug": "good-times-roll",
+      "title": "Good Times Roll",
+      "artist": "B.B. King",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "goodbye-blue-sky",
@@ -2101,6 +2397,14 @@
       "hasChart": true
     },
     {
+      "slug": "harder-they-come",
+      "title": "Harder They Come",
+      "artist": "Jimmy Cliff",
+      "key": "Db",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "have-a-cigar",
       "title": "Have A Cigar",
       "artist": "Pink Floyd",
@@ -2165,11 +2469,35 @@
       "hasChart": true
     },
     {
+      "slug": "help",
+      "title": "Help",
+      "artist": "Beatles",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
+    },
+    {
+      "slug": "helpless",
+      "title": "Helpless",
+      "artist": "Crosby, Stills, Nash & Young",
+      "key": "D",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "helter-skelter",
       "title": "Helter Skelter",
       "artist": "The Beatles",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "hemingways-whiskey",
+      "title": "Hemingway's Whiskey",
+      "artist": "Guy Clark",
+      "key": "",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -2197,6 +2525,14 @@
       "hasChart": true
     },
     {
+      "slug": "hesitation-blues",
+      "title": "Hesitation Blues",
+      "artist": "Jorma Kaukonen",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "hey-ah-nothin-previously-unreleased-track",
       "title": "Hey Ah Nothin' (previously unreleased track)",
       "artist": "John Prine",
@@ -2218,6 +2554,22 @@
       "artist": "The Beatles",
       "key": "",
       "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "hey-jude",
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "key": "F",
+      "chordCount": 28,
+      "hasChart": true
+    },
+    {
+      "slug": "hey-pocky-way",
+      "title": "Hey Pocky Way",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -2251,6 +2603,14 @@
       "key": "A",
       "chordCount": 3,
       "hasChart": true
+    },
+    {
+      "slug": "high-times",
+      "title": "High Times",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "hobo-jungle",
@@ -2301,11 +2661,27 @@
       "hasChart": true
     },
     {
+      "slug": "house-of-the-rising-sun",
+      "title": "House of the Rising Sun",
+      "artist": "The Animals",
+      "key": "Am",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "how-lucky",
       "title": "How Lucky",
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "how-sweet-it-is",
+      "title": "How Sweet It Is",
+      "artist": "James Taylor",
+      "key": "",
+      "chordCount": 15,
       "hasChart": true
     },
     {
@@ -2362,6 +2738,14 @@
       "artist": "The Beatles",
       "key": "G",
       "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "i-feel-fine",
+      "title": "I Feel Fine",
+      "artist": "The Beatles",
+      "key": "",
+      "chordCount": 17,
       "hasChart": true
     },
     {
@@ -2717,6 +3101,14 @@
       "hasChart": true
     },
     {
+      "slug": "in-the-midnight-hour",
+      "title": "In the Midnight Hour",
+      "artist": "Wilson Pickett",
+      "key": "A",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "into-the-mystic",
       "title": "Into The Mystic",
       "artist": "Van Morrison",
@@ -2757,6 +3149,14 @@
       "hasChart": true
     },
     {
+      "slug": "it-takes-a-lot-to-laugh-it-takes-a-train-to-cry",
+      "title": "It Takes a Lot to Laugh, It Takes a Train to Cry",
+      "artist": "Bob Dylan",
+      "key": "Ab",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
       "slug": "it-wont-be-long",
       "title": "It Wont Be Long",
       "artist": "The Beatles",
@@ -2778,6 +3178,14 @@
       "artist": "John Prine",
       "key": "",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "its-all-over-now-baby-blue",
+      "title": "It's All Over Now Baby Blue",
+      "artist": "Bob Dylan",
+      "key": "E",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -2973,6 +3381,14 @@
       "hasChart": true
     },
     {
+      "slug": "keep-on-growing",
+      "title": "Keep on Growing",
+      "artist": "Derek and the Dominos",
+      "key": "",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "keep-talking",
       "title": "Keep Talking",
       "artist": "Pink Floyd",
@@ -3029,6 +3445,14 @@
       "hasChart": true
     },
     {
+      "slug": "knockin-on-heavens-door",
+      "title": "Knockin' on Heaven's Door",
+      "artist": "Bob Dylan",
+      "key": "G",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "knockin-on-your-screen-door",
       "title": "Knockin On Your Screen Door",
       "artist": "John Prine",
@@ -3050,6 +3474,14 @@
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "last-dance-with-mary-jane",
+      "title": "Last Dance with Mary Jane",
+      "artist": "Tom Petty and The Heartbreakers",
+      "key": "Am",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -3082,6 +3514,14 @@
       "artist": "Phish",
       "key": "",
       "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "lay-down-sally",
+      "title": "Lay Down Sally",
+      "artist": "Eric Clapton",
+      "key": "",
+      "chordCount": 3,
       "hasChart": true
     },
     {
@@ -3125,6 +3565,14 @@
       "hasChart": true
     },
     {
+      "slug": "let-the-good-times-roll",
+      "title": "Let the Good Times Roll",
+      "artist": "B.B. King",
+      "key": "F",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "let-the-night-fall",
       "title": "Let The Night Fall",
       "artist": "The Band",
@@ -3154,6 +3602,14 @@
       "artist": "John Prine",
       "key": "",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "liberty",
+      "title": "Liberty",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 7,
       "hasChart": true
     },
     {
@@ -3197,6 +3653,22 @@
       "hasChart": true
     },
     {
+      "slug": "like-a-road",
+      "title": "Like a Road",
+      "artist": "Jerry Garcia Band",
+      "key": "",
+      "chordCount": 10,
+      "hasChart": true
+    },
+    {
+      "slug": "like-a-rolling-stone",
+      "title": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "key": "C",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "linda-goes-to-mars",
       "title": "Linda Goes To Mars",
       "artist": "John Prine",
@@ -3218,6 +3690,22 @@
       "artist": "The Beatles",
       "key": "E",
       "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "little-sadie",
+      "title": "Little Sadie",
+      "artist": "Doc Watson",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "little-wing",
+      "title": "Little Wing",
+      "artist": "Jimi Hendrix",
+      "key": "",
+      "chordCount": 8,
       "hasChart": true
     },
     {
@@ -3349,6 +3837,14 @@
       "hasChart": true
     },
     {
+      "slug": "looks-like-rain",
+      "title": "Looks Like Rain",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "loose-talk-spotify-commentary",
       "title": "Loose Talk (Spotify commentary)",
       "artist": "John Prine",
@@ -3381,11 +3877,27 @@
       "hasChart": true
     },
     {
+      "slug": "love-in-the-afternoon",
+      "title": "Love in the Afternoon",
+      "artist": "Jerry Garcia Band",
+      "key": "C",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "love-me-do",
       "title": "Love Me Do",
       "artist": "The Beatles",
       "key": "G",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "love-me-two-times",
+      "title": "Love Me Two Times",
+      "artist": "The Doors",
+      "key": "",
+      "chordCount": 7,
       "hasChart": true
     },
     {
@@ -3397,11 +3909,27 @@
       "hasChart": true
     },
     {
+      "slug": "lovely-day",
+      "title": "Lovely Day",
+      "artist": "Bill Withers",
+      "key": "E",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
       "slug": "lovely-rita",
       "title": "Lovely Rita",
       "artist": "The Beatles",
       "key": "",
       "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "loving-cup",
+      "title": "Loving Cup",
+      "artist": "The Rolling Stones",
+      "key": "",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -3450,6 +3978,14 @@
       "artist": "The Beatles",
       "key": "E",
       "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "magnificent-sanctuary-band",
+      "title": "Magnificent Sanctuary Band",
+      "artist": "Jerry Garcia",
+      "key": "",
+      "chordCount": 20,
       "hasChart": true
     },
     {
@@ -3517,6 +4053,14 @@
       "hasChart": true
     },
     {
+      "slug": "meet-me-in-the-morning",
+      "title": "Meet Me in the Morning",
+      "artist": "Bob Dylan",
+      "key": "E",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "melissa",
       "title": "Melissa",
       "artist": "The Allman Brothers Band",
@@ -3565,11 +4109,27 @@
       "hasChart": true
     },
     {
+      "slug": "midnight-moonlight",
+      "title": "Midnight Moonlight",
+      "artist": "Jerry Garcia Band",
+      "key": "A",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "midnight-rider",
       "title": "Midnight Rider",
       "artist": "The Allman Brothers Band",
       "key": "",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "might-as-well",
+      "title": "Might As Well",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 10,
       "hasChart": true
     },
     {
@@ -3602,6 +4162,14 @@
       "artist": "Phish",
       "key": "",
       "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "mission-in-the-rain",
+      "title": "Mission in the Rain",
+      "artist": "Jerry Garcia Band",
+      "key": "",
+      "chordCount": 12,
       "hasChart": true
     },
     {
@@ -3701,6 +4269,14 @@
       "hasChart": true
     },
     {
+      "slug": "my-sisters-and-brothers",
+      "title": "My Sisters and Brothers",
+      "artist": "Jerry Garcia Band",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "my-sweet-one",
       "title": "My Sweet One",
       "artist": "Phish",
@@ -3725,6 +4301,14 @@
       "hasChart": true
     },
     {
+      "slug": "nellie-kane",
+      "title": "Nellie Kane",
+      "artist": "Hot Rize",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "never-knew-how-much-i-needed-you",
       "title": "Never Knew How Much I Needed You",
       "artist": "The Allman Brothers Band",
@@ -3746,6 +4330,14 @@
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "night-they-drove-old-dixie-down",
+      "title": "Night They Drove Old Dixie Down",
+      "artist": "The Band",
+      "key": "C",
+      "chordCount": 14,
       "hasChart": true
     },
     {
@@ -3778,6 +4370,14 @@
       "artist": "The Beatles",
       "key": "",
       "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "no-woman-no-cry",
+      "title": "No Woman No Cry",
+      "artist": "Bob Marley",
+      "key": "C",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -3898,6 +4498,14 @@
       "artist": "The Beatles",
       "key": "",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "one-love",
+      "title": "One Love",
+      "artist": "Bob Marley",
+      "key": "",
+      "chordCount": 7,
       "hasChart": true
     },
     {
@@ -4045,6 +4653,14 @@
       "hasChart": true
     },
     {
+      "slug": "peggy-o",
+      "title": "Peggy O",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "penny-lane",
       "title": "Penny Lane",
       "artist": "The Beatles",
@@ -4181,12 +4797,36 @@
       "hasChart": true
     },
     {
+      "slug": "positively-4th-street",
+      "title": "Positively 4th Street",
+      "artist": "Bob Dylan",
+      "key": "F#",
+      "chordCount": 15,
+      "hasChart": true
+    },
+    {
       "slug": "positively-negative",
       "title": "Positively Negative",
       "artist": "Todd Snider",
       "key": "",
       "chordCount": 4,
       "hasChart": true
+    },
+    {
+      "slug": "powderfinger",
+      "title": "Powderfinger",
+      "artist": "Neil Young",
+      "key": "G",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "prelude",
+      "title": "Prelude",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "pretty-good",
@@ -4213,11 +4853,35 @@
       "hasChart": true
     },
     {
+      "slug": "promised-land",
+      "title": "Promised Land",
+      "artist": "Grateful Dead",
+      "key": "C",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "queen-jane",
+      "title": "Queen Jane",
+      "artist": "Bob Dylan",
+      "key": "",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
       "slug": "quiet-man",
       "title": "Quiet Man",
       "artist": "John Prine",
       "key": "",
       "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "quinn-the-eskimo",
+      "title": "Quinn the Eskimo",
+      "artist": "Bob Dylan",
+      "key": "",
+      "chordCount": 3,
       "hasChart": true
     },
     {
@@ -4293,6 +4957,14 @@
       "hasChart": true
     },
     {
+      "slug": "revolution",
+      "title": "Revolution",
+      "artist": "The Beatles",
+      "key": "A",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
       "slug": "ridgetop",
       "title": "Ridgetop",
       "artist": "Jesse Colin Young",
@@ -4306,6 +4978,14 @@
       "artist": "The Band",
       "key": "G",
       "chordCount": 18,
+      "hasChart": true
+    },
+    {
+      "slug": "ring-of-fire",
+      "title": "Ring of Fire",
+      "artist": "Johnny Cash",
+      "key": "G",
+      "chordCount": 3,
       "hasChart": true
     },
     {
@@ -4389,6 +5069,22 @@
       "hasChart": true
     },
     {
+      "slug": "rubin-and-cherise",
+      "title": "Rubin & Cherise",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "run-for-the-roses",
+      "title": "Run for the Roses",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "run-for-your-life",
       "title": "Run For Your Life",
       "artist": "The Beatles",
@@ -4435,6 +5131,14 @@
       "key": "",
       "chordCount": 3,
       "hasChart": true
+    },
+    {
+      "slug": "sage-and-spirit",
+      "title": "Sage & Spirit",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "sail-on-my-friend",
@@ -4493,6 +5197,14 @@
       "hasChart": true
     },
     {
+      "slug": "sand-castles-and-glass-camels",
+      "title": "Sand Castles & Glass Camels",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
+    },
+    {
       "slug": "sand",
       "title": "Sand",
       "artist": "Phish",
@@ -4533,12 +5245,36 @@
       "hasChart": true
     },
     {
+      "slug": "se-or",
+      "title": "Señor",
+      "artist": "Bob Dylan",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "seamus",
       "title": "Seamus",
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 4,
       "hasChart": true
+    },
+    {
+      "slug": "second-that-emotion",
+      "title": "Second That Emotion",
+      "artist": "Smokey Robinson and The Miracles",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "serengetti",
+      "title": "Serengetti",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "set-the-controls-for-the-heart-of-the-sun",
@@ -4586,6 +5322,14 @@
       "artist": "Phish",
       "key": "",
       "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "shady-grove",
+      "title": "Shady Grove",
+      "artist": "Jerry Garcia",
+      "key": "",
+      "chordCount": 2,
       "hasChart": true
     },
     {
@@ -4666,6 +5410,14 @@
       "artist": "Pink Floyd",
       "key": "Gm",
       "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "shining-star",
+      "title": "Shining Star",
+      "artist": "Jerry Garcia Band",
+      "key": "D",
+      "chordCount": 11,
       "hasChart": true
     },
     {
@@ -4765,6 +5517,22 @@
       "hasChart": true
     },
     {
+      "slug": "simon-father-and-daughter",
+      "title": "Simon - Father & Daughter",
+      "artist": "Paul Simon",
+      "key": "F",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "simple-twist-of-fate",
+      "title": "Simple Twist of Fate",
+      "artist": "Bob Dylan",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "sing-monica",
       "title": "Sing Monica",
       "artist": "Phish",
@@ -4821,6 +5589,14 @@
       "hasChart": true
     },
     {
+      "slug": "slipknot",
+      "title": "Slipknot!",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
+    },
+    {
       "slug": "slow-boat-to-china",
       "title": "Slow Boat To China",
       "artist": "John Prine",
@@ -4834,6 +5610,22 @@
       "artist": "The Band",
       "key": "",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "so-many-roads",
+      "title": "So Many Roads",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
+      "slug": "so-much-trouble-in-the-world",
+      "title": "So Much Trouble in the World",
+      "artist": "Bob Marley",
+      "key": "",
+      "chordCount": 7,
       "hasChart": true
     },
     {
@@ -4885,11 +5677,27 @@
       "hasChart": true
     },
     {
+      "slug": "somewhere",
+      "title": "Somewhere",
+      "artist": "Doc Watson",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
+    },
+    {
       "slug": "sorrow",
       "title": "Sorrow",
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 11,
+      "hasChart": true
+    },
+    {
+      "slug": "soul-shine",
+      "title": "Soul Shine",
+      "artist": "Gov't Mule",
+      "key": "",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -4933,6 +5741,14 @@
       "hasChart": true
     },
     {
+      "slug": "space",
+      "title": "Space",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
+    },
+    {
       "slug": "spanish-pipedream",
       "title": "Spanish Pipedream",
       "artist": "John Prine",
@@ -4957,6 +5773,14 @@
       "hasChart": true
     },
     {
+      "slug": "st-annes-reel",
+      "title": "St. Anne's Reel",
+      "artist": "Traditional",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
+    },
+    {
       "slug": "stage-fright",
       "title": "Stage Fright",
       "artist": "The Band",
@@ -4970,6 +5794,14 @@
       "artist": "The Allman Brothers Band",
       "key": "",
       "chordCount": 14,
+      "hasChart": true
+    },
+    {
+      "slug": "stand-by-me",
+      "title": "Stand By Me",
+      "artist": "Ben E. King",
+      "key": "A",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -5005,6 +5837,14 @@
       "hasChart": true
     },
     {
+      "slug": "stop-that-train",
+      "title": "Stop That Train",
+      "artist": "Bob Marley",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "storm-windows",
       "title": "Storm Windows",
       "artist": "John Prine",
@@ -5021,6 +5861,14 @@
       "hasChart": true
     },
     {
+      "slug": "strange-design",
+      "title": "Strange Design",
+      "artist": "Phish",
+      "key": "",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
       "slug": "strawberry-fields-forever",
       "title": "Strawberry Fields Forever",
       "artist": "The Beatles",
@@ -5034,6 +5882,14 @@
       "artist": "The Band",
       "key": "E",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "sugaree",
+      "title": "Sugaree",
+      "artist": "Grateful Dead",
+      "key": "E",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -5093,6 +5949,14 @@
       "hasChart": true
     },
     {
+      "slug": "sympathy-for-the-devil",
+      "title": "Sympathy for the Devil",
+      "artist": "The Rolling Stones",
+      "key": "E",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "take-a-look-at-my-heart",
       "title": "Take A Look At My Heart",
       "artist": "John Prine",
@@ -5149,6 +6013,14 @@
       "hasChart": true
     },
     {
+      "slug": "tangled-up-in-blue",
+      "title": "Tangled Up in Blue",
+      "artist": "Bob Dylan",
+      "key": "A",
+      "chordCount": 8,
+      "hasChart": true
+    },
+    {
       "slug": "taste",
       "title": "Taste",
       "artist": "Phish",
@@ -5162,6 +6034,14 @@
       "artist": "The Beatles",
       "key": "",
       "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "teach-your-children",
+      "title": "Teach Your Children",
+      "artist": "Crosby, Stills, Nash & Young",
+      "key": "D",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -5453,6 +6333,14 @@
       "hasChart": true
     },
     {
+      "slug": "the-joker",
+      "title": "The Joker",
+      "artist": "Steve Miller Band",
+      "key": "",
+      "chordCount": 3,
+      "hasChart": true
+    },
+    {
       "slug": "the-late-john-garfield-blues",
       "title": "The Late John Garfield Blues",
       "artist": "John Prine",
@@ -5477,11 +6365,27 @@
       "hasChart": true
     },
     {
+      "slug": "the-man-in-me",
+      "title": "The Man in Me",
+      "artist": "Bob Dylan",
+      "key": "",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "the-mango-song",
       "title": "The Mango Song",
       "artist": "Phish",
       "key": "",
       "chordCount": 18,
+      "hasChart": true
+    },
+    {
+      "slug": "the-mighty-quinn",
+      "title": "The Mighty Quinn",
+      "artist": "Manfred Mann",
+      "key": "",
+      "chordCount": 3,
       "hasChart": true
     },
     {
@@ -5637,6 +6541,14 @@
       "hasChart": true
     },
     {
+      "slug": "the-thrill-is-gone",
+      "title": "The Thrill Is Gone",
+      "artist": "B.B. King",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "the-torch-singer",
       "title": "The Torch Singer",
       "artist": "John Prine",
@@ -5685,6 +6597,14 @@
       "hasChart": true
     },
     {
+      "slug": "the-way-you-do-the-things-you-do",
+      "title": "The Way You Do the Things You Do",
+      "artist": "The Temptations",
+      "key": "Eb",
+      "chordCount": 11,
+      "hasChart": true
+    },
+    {
       "slug": "the-wedge",
       "title": "The Wedge",
       "artist": "Phish",
@@ -5698,6 +6618,22 @@
       "artist": "The Band",
       "key": "A",
       "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "the-wheel",
+      "title": "The Wheel",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "the-wind-cries-mary",
+      "title": "The Wind Cries Mary",
+      "artist": "Jimi Hendrix",
+      "key": "",
+      "chordCount": 15,
       "hasChart": true
     },
     {
@@ -5725,6 +6661,14 @@
       "hasChart": true
     },
     {
+      "slug": "there-comes-a-time",
+      "title": "There Comes a Time",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
+    },
+    {
       "slug": "there-she-goes",
       "title": "There She Goes",
       "artist": "John Prine",
@@ -5738,6 +6682,14 @@
       "artist": "The Beatles",
       "key": "A",
       "chordCount": 20,
+      "hasChart": true
+    },
+    {
+      "slug": "they-love-each-other",
+      "title": "They Love Each Other",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -5773,9 +6725,17 @@
       "hasChart": true
     },
     {
+      "slug": "think",
+      "title": "Think",
+      "artist": "Aretha Franklin",
+      "key": "Bb",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "this-heart-of-mine",
       "title": "This Heart of Mine",
-      "artist": "Jerry Garcia",
+      "artist": "Hank Williams",
       "key": "",
       "chordCount": 0,
       "hasChart": false
@@ -5933,6 +6893,14 @@
       "hasChart": true
     },
     {
+      "slug": "trenchtown-rock",
+      "title": "Trenchtown Rock",
+      "artist": "Bob Marley",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "trouble-no-more",
       "title": "Trouble No More",
       "artist": "The Allman Brothers Band",
@@ -6021,12 +6989,28 @@
       "hasChart": true
     },
     {
+      "slug": "unknown-legend",
+      "title": "Unknown Legend",
+      "artist": "Neil Young",
+      "key": "",
+      "chordCount": 2,
+      "hasChart": true
+    },
+    {
       "slug": "unlonely",
       "title": "Unlonely",
       "artist": "John Prine",
       "key": "E",
       "chordCount": 5,
       "hasChart": true
+    },
+    {
+      "slug": "unusual-occurrences-in-the-desert",
+      "title": "Unusual Occurrences in the Desert",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "unwed-fathers",
@@ -6093,6 +7077,14 @@
       "hasChart": true
     },
     {
+      "slug": "wagon-wheel",
+      "title": "Wagon Wheel",
+      "artist": "Old Crow Medicine Show",
+      "key": "A",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
       "slug": "wait",
       "title": "Wait",
       "artist": "The Beatles",
@@ -6109,11 +7101,27 @@
       "hasChart": true
     },
     {
+      "slug": "waiting-for-a-miracle",
+      "title": "Waiting for a Miracle",
+      "artist": "Jerry Garcia",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "waiting-for-the-worms",
       "title": "Waiting For The Worms",
       "artist": "Pink Floyd",
       "key": "",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "walking-blues",
+      "title": "Walking Blues",
+      "artist": "Robert Johnson",
+      "key": "",
+      "chordCount": 5,
       "hasChart": true
     },
     {
@@ -6293,6 +7301,14 @@
       "hasChart": true
     },
     {
+      "slug": "what-a-wonderful-world",
+      "title": "What a Wonderful World",
+      "artist": "Sam Cooke",
+      "key": "",
+      "chordCount": 6,
+      "hasChart": true
+    },
+    {
       "slug": "what-do-you-want-from-me",
       "title": "What Do You Want From Me",
       "artist": "Pink Floyd",
@@ -6307,6 +7323,14 @@
       "key": "D",
       "chordCount": 14,
       "hasChart": true
+    },
+    {
+      "slug": "whats-become-of-the-baby",
+      "title": "What's Become of the Baby",
+      "artist": "Grateful Dead",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "whats-wrong-with-you",
@@ -6453,6 +7477,22 @@
       "hasChart": true
     },
     {
+      "slug": "wild-horses",
+      "title": "Wild Horses",
+      "artist": "The Rolling Stones",
+      "key": "G",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
+      "slug": "wild-world",
+      "title": "Wild World",
+      "artist": "Cat Stevens (Yusuf Islam)",
+      "key": "Am",
+      "chordCount": 23,
+      "hasChart": true
+    },
+    {
       "slug": "willin",
       "title": "Willin",
       "artist": "Little Feat",
@@ -6515,6 +7555,14 @@
       "key": "C",
       "chordCount": 5,
       "hasChart": true
+    },
+    {
+      "slug": "women-are-smarter",
+      "title": "Women Are Smarter",
+      "artist": "",
+      "key": "",
+      "chordCount": 0,
+      "hasChart": false
     },
     {
       "slug": "wooden-ships",
@@ -6658,6 +7706,14 @@
       "artist": "The Beatles",
       "key": "",
       "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "you-wreck-me",
+      "title": "You Wreck Me",
+      "artist": "Tom Petty",
+      "key": "F",
+      "chordCount": 6,
       "hasChart": true
     },
     {

@@ -1,0 +1,27 @@
+{
+  "slug": "shining-star",
+  "title": "Shining Star",
+  "sourceTitle": "Shining Star",
+  "artist": "Jerry Garcia Band",
+  "year": null,
+  "key": "D",
+  "instrumental": false,
+  "chords": [
+    "B",
+    "Emaj7",
+    "A",
+    "E",
+    "F#",
+    "G#",
+    "F#7#5",
+    "G7",
+    "F#7",
+    "C",
+    "Fmaj7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/jerry-garcia-band/shining-star-chords-2993741",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (84 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

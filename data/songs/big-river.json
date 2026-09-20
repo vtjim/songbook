@@ -1,0 +1,21 @@
+{
+  "slug": "big-river",
+  "title": "Big River",
+  "sourceTitle": "Big River",
+  "artist": "Johnny Cash",
+  "year": null,
+  "key": "F",
+  "instrumental": false,
+  "chords": [
+    "E",
+    "F#",
+    "B7",
+    "A",
+    "E7"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/johnny-cash/big-river-chords-698970",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (41 chord marks, 5 distinct). Source chart uses a capo at fret 1. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

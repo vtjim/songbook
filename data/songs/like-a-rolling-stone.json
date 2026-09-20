@@ -1,0 +1,22 @@
+{
+  "slug": "like-a-rolling-stone",
+  "title": "Like a Rolling Stone",
+  "sourceTitle": "Like A Rolling Stone",
+  "artist": "Bob Dylan",
+  "year": null,
+  "key": "C",
+  "instrumental": false,
+  "chords": [
+    "Fmaj7/C",
+    "Dm7",
+    "C",
+    "Em",
+    "F",
+    "G"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/bob-dylan/like-a-rolling-stone-chords-371756",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (191 chord marks, 6 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "positively-4th-street",
+  "title": "Positively 4th Street",
+  "sourceTitle": "Positively 4Th Street",
+  "artist": "Bob Dylan",
+  "year": null,
+  "key": "F#",
+  "instrumental": false,
+  "chords": [
+    "D",
+    "A",
+    "Em",
+    "G",
+    "Bm",
+    "F",
+    "Gm",
+    "Bb",
+    "C",
+    "Dm",
+    "E",
+    "F#m",
+    "B",
+    "C#m",
+    "Am"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/bob-dylan/positively-4th-street-chords-1051374",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (240 chord marks, 15 distinct). Source chart uses a capo at fret 4. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

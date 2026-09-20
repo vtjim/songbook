@@ -1,0 +1,27 @@
+{
+  "slug": "revolution",
+  "title": "Revolution",
+  "sourceTitle": "Revolution",
+  "artist": "The Beatles",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "A",
+    "D",
+    "E7",
+    "E",
+    "Bm",
+    "G",
+    "F#",
+    "C",
+    "D7",
+    "Am",
+    "F"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/the-beatles/revolution-chords-1051645",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (68 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}

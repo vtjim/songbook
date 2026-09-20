@@ -1,0 +1,21 @@
+{
+  "slug": "sugaree",
+  "title": "Sugaree",
+  "sourceTitle": "Sugaree",
+  "artist": "Grateful Dead",
+  "year": null,
+  "key": "E",
+  "instrumental": false,
+  "chords": [
+    "B",
+    "A",
+    "F#m",
+    "C#m",
+    "E"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/grateful-dead/sugaree-chords-419950",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (143 chord marks, 5 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}
