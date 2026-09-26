@@ -1,0 +1,26 @@
+{
+  "slug": "these-days",
+  "title": "These Days",
+  "sourceTitle": "These Days",
+  "artist": "Jackson Browne",
+  "year": null,
+  "key": "F",
+  "instrumental": false,
+  "chords": [
+    "C",
+    "G/B",
+    "Am7",
+    "G",
+    "Fmaj9",
+    "F",
+    "E7/G#",
+    "Am",
+    "E/G#",
+    "Em"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/jackson-browne/these-days-chords-62678",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (94 chord marks, 10 distinct). Source chart uses a capo at fret 5. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}
