@@ -2,7 +2,7 @@
   "site": "Green Mountain Songbook",
   "description": "Standalone songs — verified charts for material outside the Grateful Dead album catalog. Same rules as the album data: every chord checked against a real tab source, with the URL actually read recorded in chordSource, and no lyrics reproduced.",
   "generated": "2026-09-26",
-  "count": 973,
+  "count": 975,
   "songs": [
     {
       "slug": "24-hours-a-day",
@@ -2917,6 +2917,14 @@
       "hasChart": true
     },
     {
+      "slug": "if-not-for-you",
+      "title": "If Not For You",
+      "artist": "Bob Dylan",
+      "key": "E",
+      "chordCount": 7,
+      "hasChart": true
+    },
+    {
       "slug": "if-she-were-you",
       "title": "If She Were You",
       "artist": "John Prine",
@@ -5738,6 +5746,14 @@
       "artist": "The Allman Brothers Band",
       "key": "F",
       "chordCount": 6,
+      "hasChart": true
+    },
+    {
+      "slug": "southern-cross",
+      "title": "Southern Cross",
+      "artist": "Crosby, Stills & Nash",
+      "key": "A",
+      "chordCount": 12,
       "hasChart": true
     },
     {

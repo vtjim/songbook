@@ -1,0 +1,28 @@
+{
+  "slug": "southern-cross",
+  "title": "Southern Cross",
+  "sourceTitle": "Southern Cross",
+  "artist": "Crosby, Stills & Nash",
+  "year": null,
+  "key": "A",
+  "instrumental": false,
+  "chords": [
+    "G",
+    "F",
+    "C",
+    "Am",
+    "A",
+    "D",
+    "Bm",
+    "E",
+    "F#m",
+    "Em",
+    "Bb",
+    "Dm"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/crosby-stills-nash/southern-cross-chords-1053305",
+  "bass": null,
+  "notes": "Chords as printed in the source chart (229 chord marks, 12 distinct). Source chart uses a capo at fret 2. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}
