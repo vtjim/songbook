@@ -1,8 +1,8 @@
 {
   "site": "Green Mountain Songbook",
   "description": "Standalone songs — verified charts for material outside the Grateful Dead album catalog. Same rules as the album data: every chord checked against a real tab source, with the URL actually read recorded in chordSource, and no lyrics reproduced.",
-  "generated": "2026-09-26",
-  "count": 976,
+  "generated": "2026-09-28",
+  "count": 980,
   "songs": [
     {
       "slug": "24-hours-a-day",
@@ -805,6 +805,14 @@
       "hasChart": true
     },
     {
+      "slug": "black-hole-sun",
+      "title": "Black Hole Sun",
+      "artist": "Soundgarden",
+      "key": "Ab",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "blackbird",
       "title": "Blackbird",
       "artist": "The Beatles",
@@ -1210,6 +1218,14 @@
       "artist": "Todd Snider",
       "key": "",
       "chordCount": 9,
+      "hasChart": true
+    },
+    {
+      "slug": "closer-to-fine",
+      "title": "Closer to Fine",
+      "artist": "Indigo Girls",
+      "key": "A",
+      "chordCount": 8,
       "hasChart": true
     },
     {
@@ -3538,6 +3554,14 @@
       "artist": "Eric Clapton",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "layla",
+      "title": "Layla",
+      "artist": "Derek and the Dominos",
+      "key": "Dm",
+      "chordCount": 11,
       "hasChart": true
     },
     {
@@ -7482,6 +7506,14 @@
       "artist": "The Band",
       "key": "",
       "chordCount": 19,
+      "hasChart": true
+    },
+    {
+      "slug": "white-rabbit",
+      "title": "White Rabbit",
+      "artist": "Jefferson Airplane",
+      "key": "Gb",
+      "chordCount": 6,
       "hasChart": true
     },
     {

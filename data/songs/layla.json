@@ -1,0 +1,27 @@
+{
+  "slug": "layla",
+  "title": "Layla",
+  "sourceTitle": "Layla",
+  "artist": "Derek and the Dominos",
+  "year": null,
+  "key": "Dm",
+  "instrumental": false,
+  "chords": [
+    "Dm",
+    "Bb",
+    "C",
+    "A",
+    "C#m7",
+    "G#7",
+    "D",
+    "E",
+    "E7",
+    "F#m",
+    "B"
+  ],
+  "numbers": [],
+  "links": {},
+  "chordSource": "https://tabs.ultimate-guitar.com/tab/eric-clapton/layla-chords-971970",
+  "bass": null,
+  "notes": "Chart filed on Ultimate Guitar under Eric Clapton rather than Derek and the Dominos; verified as the same song from the lyrics and the Dm-Bb-C main riff and C#m7-G#7 verse. Chords as printed in the source chart (152 chord marks, 11 distinct). Source chart states no capo. Nashville numbers not computed yet — run scripts/numbers.js. No verified bass tab recorded yet."
+}
