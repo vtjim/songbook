@@ -2,7 +2,7 @@
   "site": "Green Mountain Songbook",
   "description": "Standalone songs — verified charts for material outside the Grateful Dead album catalog. Same rules as the album data: every chord checked against a real tab source, with the URL actually read recorded in chordSource, and no lyrics reproduced.",
   "generated": "2026-10-05",
-  "count": 981,
+  "count": 984,
   "songs": [
     {
       "slug": "24-hours-a-day",
@@ -415,6 +415,14 @@
     {
       "slug": "another-brick-in-the-wall-part-3",
       "title": "Another Brick in the Wall, Part 3",
+      "artist": "Pink Floyd",
+      "key": "Dm",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "another-brick-in-the-wall",
+      "title": "Another Brick In The Wall",
       "artist": "Pink Floyd",
       "key": "Dm",
       "chordCount": 4,
@@ -2085,6 +2093,14 @@
       "hasChart": true
     },
     {
+      "slug": "forever-young",
+      "title": "Forever Young",
+      "artist": "Rod Stewart",
+      "key": "",
+      "chordCount": 5,
+      "hasChart": true
+    },
+    {
       "slug": "forty-five-miles",
       "title": "Forty Five Miles",
       "artist": "Todd Snider",
@@ -3306,6 +3322,14 @@
       "artist": "John Prine",
       "key": "",
       "chordCount": 3,
+      "hasChart": true
+    },
+    {
+      "slug": "joes-garage",
+      "title": "Joe's Garage",
+      "artist": "Frank Zappa",
+      "key": "",
+      "chordCount": 4,
       "hasChart": true
     },
     {
