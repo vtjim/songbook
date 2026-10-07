@@ -1,8 +1,8 @@
 {
   "site": "Green Mountain Songbook",
   "description": "Standalone songs — verified charts for material outside the Grateful Dead album catalog. Same rules as the album data: every chord checked against a real tab source, with the URL actually read recorded in chordSource, and no lyrics reproduced.",
-  "generated": "2026-10-05",
-  "count": 984,
+  "generated": "2026-10-07",
+  "count": 985,
   "songs": [
     {
       "slug": "24-hours-a-day",
@@ -2554,6 +2554,14 @@
       "artist": "The Beatles",
       "key": "A",
       "chordCount": 13,
+      "hasChart": true
+    },
+    {
+      "slug": "here-in-california",
+      "title": "Here In California",
+      "artist": "Kate Wolf",
+      "key": "",
+      "chordCount": 6,
       "hasChart": true
     },
     {
