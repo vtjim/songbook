@@ -1,8 +1,8 @@
 {
   "site": "Green Mountain Songbook",
   "description": "Standalone songs — verified charts for material outside the Grateful Dead album catalog. Same rules as the album data: every chord checked against a real tab source, with the URL actually read recorded in chordSource, and no lyrics reproduced.",
-  "generated": "2026-10-07",
-  "count": 985,
+  "generated": "2026-10-12",
+  "count": 990,
   "songs": [
     {
       "slug": "24-hours-a-day",
@@ -701,6 +701,14 @@
       "hasChart": true
     },
     {
+      "slug": "behind-blue-eyes",
+      "title": "Behind Blue Eyes",
+      "artist": "The Who",
+      "key": "",
+      "chordCount": 12,
+      "hasChart": true
+    },
+    {
       "slug": "being-for-the-benefit-of-mr-kite",
       "title": "Being For The Benefit Of Mr Kite",
       "artist": "The Beatles",
@@ -1018,6 +1026,14 @@
       "artist": "Van Morrison",
       "key": "G",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "brown-sugar",
+      "title": "Brown Sugar",
+      "artist": "The Rolling Stones",
+      "key": "",
+      "chordCount": 4,
       "hasChart": true
     },
     {
@@ -1786,6 +1802,14 @@
       "artist": "Grateful Dead",
       "key": "D",
       "chordCount": 5,
+      "hasChart": true
+    },
+    {
+      "slug": "elderly-woman-behind-the-counter-in-a-small-town",
+      "title": "Elderly Woman Behind the Counter in a Small Town",
+      "artist": "Pearl Jam",
+      "key": "G",
+      "chordCount": 6,
       "hasChart": true
     },
     {
@@ -5981,6 +6005,14 @@
       "hasChart": true
     },
     {
+      "slug": "stuck-inside-of-mobile-with-the-memphis-blues-again",
+      "title": "Stuck Inside of Mobile with the Memphis Blues Again",
+      "artist": "Bob Dylan",
+      "key": "E",
+      "chordCount": 9,
+      "hasChart": true
+    },
+    {
       "slug": "sugaree",
       "title": "Sugaree",
       "artist": "Grateful Dead",
@@ -6041,6 +6073,14 @@
       "title": "Swept Away",
       "artist": "Phish",
       "key": "F",
+      "chordCount": 4,
+      "hasChart": true
+    },
+    {
+      "slug": "swing-low-sweet-chariot",
+      "title": "Swing Low Sweet Chariot",
+      "artist": "Jerry Garcia Acoustic Band",
+      "key": "G",
       "chordCount": 4,
       "hasChart": true
     },
